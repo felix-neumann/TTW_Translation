@@ -9,9 +9,11 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from esm import iter_records, parse_subs  # noqa: E402
 
 
-def verify(a, b):
+def verify(a, b, added=frozenset()):
+    """added: FormIDs of records intentionally added to b (they are skipped in the comparison)."""
     st, errs = collections.Counter(), []
-    for ra, rb in itertools.zip_longest(iter_records(a), iter_records(b)):
+    rb_iter = (r for r in iter_records(b) if r[1] not in added or r[0] == 'TES4')
+    for ra, rb in itertools.zip_longest(iter_records(a), rb_iter):
         if ra is None or rb is None:
             errs.append('record count differs')
             break
@@ -24,6 +26,14 @@ def verify(a, b):
         if da == db:
             continue
         sa, sb = parse_subs(da), parse_subs(db)
+        if ta == 'TES4':
+            # only the record count in HEDR may change (added records)
+            sa = [(s, x[4:8] if s == b'HEDR' else x) for s, x in sa]
+            sb = [(s, x[4:8] if s == b'HEDR' else x) for s, x in sb]
+            if [s for s, _ in sa] != [s for s, _ in sb] or any(
+                    x != y for (s, x), (_, y) in zip(sa, sb) if s != b'HEDR'):
+                errs.append(('TES4 header changed',))
+            continue
         if [s for s, _ in sa] != [s for s, _ in sb]:
             errs.append(('subrecord list', ta, hex(fa)))
             continue

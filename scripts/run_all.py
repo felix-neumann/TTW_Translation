@@ -82,7 +82,11 @@ def main():
 
     print('3/4 Plugins und Datenbanken schreiben ...')
     translations = build_mod.load_translations(a.translations)
-    summary, missing = build_mod.build(results, os.path.join(base, 'To Translate'), out, db, translations)
+    gm = build_mod.german_only_gmsts(os.path.join(base, 'English Files', 'Fallout New Vegas', 'FalloutNV.esm'),
+                                     os.path.join(base, 'German Files', 'Fallout New Vegas', 'FalloutNV.esm'),
+                                     results)
+    inject = {'falloutnv.esm': gm}
+    summary, missing = build_mod.build(results, os.path.join(base, 'To Translate'), out, db, translations, inject)
     miss_path = os.path.join(work, 'untranslated.json')
     with open(miss_path, 'w', encoding='utf-8') as f:
         json.dump(missing, f, ensure_ascii=False, indent=1)
@@ -94,7 +98,8 @@ def main():
         print('4/4 Ausgabe prüfen ...')
         bad = 0
         for p in plugins(os.path.join(base, 'To Translate')):
-            st, errs = verify(p, os.path.join(out, os.path.basename(p)))
+            added = {x[0] for x in inject.get(os.path.basename(p).lower(), [])}
+            st, errs = verify(p, os.path.join(out, os.path.basename(p)), added)
             bad += len(errs)
             print(f'  {os.path.basename(p)}: {st["records"]} Records, {st["changed_fields"]} geändert, '
                   f'{len(errs)} Fehler {errs[:3] if errs else ""}')

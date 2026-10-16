@@ -77,11 +77,14 @@ Für jedes Textfeld gilt diese Reihenfolge:
 3. **Leicht geänderter Text:** Hat TTW/YUP den englischen Text nur korrigiert (mindestens 80 % ähnlich und gleiche Zahlen), wird die deutsche Fassung des Originals verwendet. Bei umgeschriebenen oder umfunktionierten Records (z. B. Karmatitel, geänderte Prozentwerte) passiert das bewusst nicht.
 4. **Neu:** Alle anderen Texte kommen aus `translations/claude_translations.json`.
 
+Dazu kommen **Spieleinstellungen, die es nur in der deutschen `FalloutNV.esm` gibt** (511 Stück): Hauptmenü, Tastenbelegung, Hacking-Bildschirm und Ähnliches. Die englische Version nimmt diese Texte direkt aus der EXE, die deutsche überschreibt sie über die ESM. Sie werden daher als **neue GMST-Records** in die übersetzte `FalloutNV.esm` eingefügt. Ausgenommen sind Einstellungen, die TTW oder YUP selbst setzen; die laufen über die normale Zuordnung. In der TSV stehen sie mit der Quelle `FNV-Original (nur im DE-Master, als neuer Record ergaenzt)`. In den xTranslator-XMLs fehlen sie, weil xTranslator nur vorhandene Texte übersetzt und keine Records hinzufügt.
+
 Technische Details:
 - TTW stellt den FO3-Dateien die New-Vegas-Master voran. Deshalb werden FormIDs über ihre Master-Liste auf das Ursprungs-Plugin zurückgerechnet und nicht direkt verglichen.
 - Spieleinstellungen (GMST) werden über die EditorID zugeordnet.
 - Texte sind in cp1252 kodiert. Einige Records in FalloutNV.esm haben fehlerhafte zlib-Prüfsummen und werden ohne Prüfsummenkontrolle entpackt.
 - Unveränderte Records werden Byte für Byte kopiert. Ohne Änderungen ist die Ausgabe identisch mit der Eingabe.
+- Die Prüfung am Ende stellt sicher, dass sich nur Textfelder geändert haben und außer den ergänzten GMSTs keine Records hinzugekommen sind.
 
 ## Nach einem TTW- oder YUP-Update
 

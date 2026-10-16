@@ -71,26 +71,73 @@ def build_subs(subs):
     return bytes(out)
 
 
-def rewrite(src, dst, repl):
+def raw_records(path, typ):
+    """Return {FormID: raw record bytes (header + data)} for all records of one type."""
+    typ = typ.encode()
+    out = {}
+    with open(path, 'rb') as f:
+        mm = mmap.mmap(f.fileno(), 0, access=mmap.ACCESS_READ)
+
+    def walk(pos, end):
+        while pos < end:
+            t = mm[pos:pos + 4]
+            size, = struct.unpack_from('<I', mm, pos + 4)
+            if t == b'GRUP':
+                walk(pos + 24, pos + size)
+                pos += size
+                continue
+            if t == typ:
+                fid, = struct.unpack_from('<I', mm, pos + 12)
+                out[fid] = bytes(mm[pos:pos + 24 + size])
+            pos += 24 + size
+
+    walk(0, len(mm))
+    mm.close()
+    return out
+
+
+def rewrite(src, dst, repl, append=None):
     """Copy src to dst, replacing subrecord payloads.
 
     repl: {raw FormID: {(signature str, occurrence index): new text bytes without null}}
+    append: {top-level group label, e.g. 'GMST': [raw record bytes]} - records added at the
+            end of that group (record count in the TES4 header is updated).
     Unchanged records are copied byte for byte; GRUP sizes are patched as needed.
     Returns a Counter with the number of changed records and fields.
     """
     st = collections.Counter()
+    append = {k.encode(): v for k, v in (append or {}).items() if v}
     with open(src, 'rb') as f:
         mm = mmap.mmap(f.fileno(), 0, access=mmap.ACCESS_READ)
     out = open(dst, 'wb')
 
-    def walk(pos, end):
+    def write_header(pos, rec_end):
+        subs = parse_subs(mm[pos + 24:rec_end])
+        added = sum(len(v) for v in append.values())
+        for s in subs:
+            if s[0] == b'HEDR':
+                ver, num, nxt = struct.unpack('<fII', s[1][:12])
+                s[1] = struct.pack('<fII', ver, num + added, nxt) + s[1][12:]
+        nd = build_subs(subs)
+        out.write(mm[pos:pos + 4] + struct.pack('<I', len(nd)) + mm[pos + 8:pos + 24] + nd)
+
+    def walk(pos, end, top=False):
         while pos < end:
             typ = mm[pos:pos + 4]
             size, = struct.unpack_from('<I', mm, pos + 4)
+            if typ == b'TES4' and append:
+                write_header(pos, pos + 24 + size)
+                pos += 24 + size
+                continue
             if typ == b'GRUP':
                 hdr_at = out.tell()
                 out.write(mm[pos:pos + 24])
                 walk(pos + 24, pos + size)
+                label, gtype = mm[pos + 8:pos + 12], struct.unpack_from('<i', mm, pos + 12)[0]
+                if top and gtype == 0 and label in append:
+                    for raw in append[label]:
+                        out.write(raw)
+                    st['added_records'] += len(append[label])
                 new_size = out.tell() - hdr_at
                 if new_size != size:
                     cur = out.tell()
@@ -136,7 +183,7 @@ def rewrite(src, dst, repl):
             out.write(typ + struct.pack('<I', len(nd)) + mm[pos + 8:pos + 24] + nd)
             pos = rec_end
 
-    walk(0, len(mm))
+    walk(0, len(mm), top=True)
     out.close()
     mm.close()
     return st
