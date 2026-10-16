@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<SSTXMLRessources>
+  <Params>
+    <Addon>TribalPack</Addon>
+    <Source>english</Source>
+    <Dest>german</Dest>
+    <Version>2</Version>
+  </Params>
+  <Content>
+    <String List="0">
+      <EDID>PreordArmorTribalRaiding</EDID>
+      <REC>ARMO:FULL</REC>
+      <Source>Tribal Raiding Armor</Source>
+      <Dest>Stammes Überfall-Rüstung</Dest>
+    </String>
+    <String List="0">
+      <EDID>WeapPreordMachete</EDID>
+      <REC>WEAP:FULL</REC>
+      <Source>Broad Machete</Source>
+      <Dest>Weite Machete</Dest>
+    </String>
+    <String List="0">
+      <EDID>PreorderMessageInventoryTribal</EDID>
+      <REC>MESG:DESC</REC>
+      <Source>Tribal Pack items added to inventory.</Source>
+      <Dest>Stammes Erweiterungspaket zum Inventar hinzugefügt.</Dest>
+    </String>
+    <String List="0">
+      <EDID>PreorderMessageInventoryTribal</EDID>
+      <REC>MESG:FULL</REC>
+      <Source>Tribal Pack</Source>
+      <Dest>Stammes Erweiterungspaket</Dest>
+    </String>
+  </Content>
+</SSTXMLRessources>

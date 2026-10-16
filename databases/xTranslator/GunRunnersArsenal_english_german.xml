@@ -1,0 +1,2169 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<SSTXMLRessources>
+  <Params>
+    <Addon>GunRunnersArsenal</Addon>
+    <Source>english</Source>
+    <Dest>german</Dest>
+    <Version>2</Version>
+  </Params>
+  <Content>
+    <String List="0">
+      <EDID>NVDLC05VendortronFaction</EDID>
+      <REC>FACT:FULL</REC>
+      <Source>Gun Runner Vendortron Faction</Source>
+      <Dest>Waffenschieber-Verkaufotron-Fraktion</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05EstherBaseEffectName</EDID>
+      <REC>MGEF:FULL</REC>
+      <Source>+10 DT, +25 Rad. Resist</Source>
+      <Dest>+10 SW, +25 Strahlungsresistenz</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05TwoStepGoodbyeEffect</EDID>
+      <REC>MGEF:FULL</REC>
+      <Source>Two-Step Goodbye</Source>
+      <Dest>Zwei-Phasen-Auf-Wiedersehen</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05DummyNVRedCriticalDamage</EDID>
+      <REC>MGEF:FULL</REC>
+      <Source>Reduced Critical Damage</Source>
+      <Dest>Reduzierter kritischer Schaden</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05DummyNVTwoStepExplosion</EDID>
+      <REC>MGEF:FULL</REC>
+      <Source>Crit Kill = Boom!</Source>
+      <Dest>Krit. Abschuss = Bumm!</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05DummyNVIgnoresDRDT</EDID>
+      <REC>MGEF:FULL</REC>
+      <Source>Ignores DR/DT</Source>
+      <Dest>Ignoriert SR/SW</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05DummyNVFasterAttack</EDID>
+      <REC>MGEF:FULL</REC>
+      <Source>Faster Attack</Source>
+      <Dest>Schnellerer Angriff</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05DummyKatana</EDID>
+      <REC>ENCH:FULL</REC>
+      <Source>Katana Dummy Effect</Source>
+      <Dest>Katana – Dummyeffekt</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05EnchCleansingFlameEffect</EDID>
+      <REC>ENCH:FULL</REC>
+      <Source>Cleansing Flame</Source>
+      <Dest>Brennende reinigende Flamme</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05EMP40mm</EDID>
+      <REC>ENCH:FULL</REC>
+      <Source>40mm Electromagnetic Pulse</Source>
+      <Dest>40 mm – Elektromagnetischer Impuls</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05EMP25mm</EDID>
+      <REC>ENCH:FULL</REC>
+      <Source>25mm Electromagnetic Pulse</Source>
+      <Dest>25 mm – Elektromagnetischer Impuls</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05DummyEsther</EDID>
+      <REC>ENCH:FULL</REC>
+      <Source>Esther Dummy Effect</Source>
+      <Dest>Esther-Dummyeffekt</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05DummyTwoStepGoodbye</EDID>
+      <REC>ENCH:FULL</REC>
+      <Source>Two-Step Goodbye Dummy Effect</Source>
+      <Dest>Zwei-Phasen-Auf-Wiedersehen: Dummyeffekt</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05DummyChainsaw</EDID>
+      <REC>ENCH:FULL</REC>
+      <Source>Chainsaw Dummy Effect</Source>
+      <Dest>Kettensäge: Dummyeffekt</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05DummyPowerFistUnique</EDID>
+      <REC>ENCH:FULL</REC>
+      <Source>Greased Lightning Dummy Effect</Source>
+      <Dest>Geölter Blitz – Dummyeffekt</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05DummyNukaBreaker</EDID>
+      <REC>ENCH:FULL</REC>
+      <Source>Nuka-Breaker Dummy Effect</Source>
+      <Dest>Nuka-Brecher-Dummy-Effekt</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05EnchGehennaEffect</EDID>
+      <REC>ENCH:FULL</REC>
+      <Source>Burning</Source>
+      <Dest>Brennen</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05EstherBonusActorEffect</EDID>
+      <REC>SPEL:FULL</REC>
+      <Source>Esther Bonuses</Source>
+      <Dest>Esther-Boni</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05TwoStepGoodbyeFXSpell</EDID>
+      <REC>SPEL:FULL</REC>
+      <Source>Explosion Death</Source>
+      <Dest>Explosionstod</Dest>
+    </String>
+    <String List="0">
+      <EDID>WeapBaseballBat</EDID>
+      <REC>WEAP:FULL</REC>
+      <Source>Baseball Bat (GRA)</Source>
+      <Dest>Baseballschläger (ADW)</Dest>
+    </String>
+    <String List="0">
+      <EDID>WeapGrenadeFrag</EDID>
+      <REC>WEAP:FULL</REC>
+      <Source>Frag Grenade</Source>
+      <Dest>Splittergranate</Dest>
+    </String>
+    <String List="0">
+      <EDID>WeapPlasmaPistol</EDID>
+      <REC>WEAP:FULL</REC>
+      <Source>Plasma Pistol</Source>
+      <Dest>Plasmapistole</Dest>
+    </String>
+    <String List="0">
+      <EDID>WeapPowerFist</EDID>
+      <REC>WEAP:FULL</REC>
+      <Source>Power Fist (GRA)</Source>
+      <Dest>Powerfaust (ADW)</Dest>
+    </String>
+    <String List="0">
+      <EDID>WeapRipper</EDID>
+      <REC>WEAP:FULL</REC>
+      <Source>Ripper (GRA)</Source>
+      <Dest>Trennmesser (ADW)</Dest>
+    </String>
+    <String List="0">
+      <EDID>Weap10mmPistol</EDID>
+      <REC>WEAP:FULL</REC>
+      <Source>10mm Pistol</Source>
+      <Dest>10-mm-Pistole</Dest>
+    </String>
+    <String List="0">
+      <EDID>WeapNVHuntingRevolver</EDID>
+      <REC>WEAP:FULL</REC>
+      <Source>Hunting Revolver (GRA)</Source>
+      <Dest>Jagdrevolver (ADW)</Dest>
+    </String>
+    <String List="0">
+      <EDID>WeapNVAntiMaterielRifle</EDID>
+      <REC>WEAP:FULL</REC>
+      <Source>Anti-Materiel Rifle (GRA)</Source>
+      <Dest>Panzerbüchse (ADW)</Dest>
+    </String>
+    <String List="0">
+      <EDID>WeapNVAssaultCarbine</EDID>
+      <REC>WEAP:FULL</REC>
+      <Source>Assault Carbine (GRA)</Source>
+      <Dest>Sturmkarabiner (ADW)</Dest>
+    </String>
+    <String List="0">
+      <EDID>WeapNVTriBeamLaserRifle</EDID>
+      <REC>WEAP:FULL</REC>
+      <Source>Tri-beam Laser Rifle (GRA)</Source>
+      <Dest>Tristrahl-Lasergewehr (ADW)</Dest>
+    </String>
+    <String List="0">
+      <EDID>WeapNVRechargerRifle</EDID>
+      <REC>WEAP:FULL</REC>
+      <Source>Recharger Rifle</Source>
+      <Dest>Akkugewehr</Dest>
+    </String>
+    <String List="0">
+      <EDID>WeapNV127mmSubmachineGun</EDID>
+      <REC>WEAP:FULL</REC>
+      <Source>12.7mm Submachine Gun (GRA)</Source>
+      <Dest>12,7-mm-Maschinenpistole (ADW)</Dest>
+    </String>
+    <String List="0">
+      <EDID>WeapNVChainsaw</EDID>
+      <REC>WEAP:FULL</REC>
+      <Source>Chainsaw (GRA)</Source>
+      <Dest>Kettensäge (ADW)</Dest>
+    </String>
+    <String List="0">
+      <EDID>WeapNVDLC05Faderator</EDID>
+      <REC>WEAP:FULL</REC>
+      <Source>The Faderator</Source>
+      <Dest>Der Ausblender</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05WeapNVRechargerPistolUnique</EDID>
+      <REC>WEAP:FULL</REC>
+      <Source>MF Hyperbreeder Alpha (GRA)</Source>
+      <Dest>MF-Hyperzüchter Alpha (ADW)</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05WeapGatlingLaserUnique</EDID>
+      <REC>WEAP:FULL</REC>
+      <Source>Sprtel-Wood 9700 (GRA)</Source>
+      <Dest>Sprtel-Holz 9700 (ADW)</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05WeapFatmanUnique</EDID>
+      <REC>WEAP:FULL</REC>
+      <Source>Esther (GRA)</Source>
+      <Dest>Esther (ADW)</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05WeapNV127mmPistolUnique</EDID>
+      <REC>WEAP:FULL</REC>
+      <Source>Li'l Devil (GRA)</Source>
+      <Dest>Kleiner Teufel (ADW)</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05WeapNVLightMachineGunUnique</EDID>
+      <REC>WEAP:FULL</REC>
+      <Source>Bozar (GRA)</Source>
+      <Dest>Bozar (ADW)</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05WeapNVRebarClubUnique</EDID>
+      <REC>WEAP:FULL</REC>
+      <Source>Nuka-Breaker (GRA)</Source>
+      <Dest>Nuka-Brecher (ADW)</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05WeapNVMantisGauntletUnique</EDID>
+      <REC>WEAP:FULL</REC>
+      <Source>Embrace of the Mantis King! (GRA)</Source>
+      <Dest>Umarmung des Schreckenkönigs! (ADW)</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05WeapNVBallisticFistUnique</EDID>
+      <REC>WEAP:FULL</REC>
+      <Source>Two-Step Goodbye (GRA)</Source>
+      <Dest>Zwei-Phasen-Auf-Wiedersehen (ADW)</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05WeapNVPlasmaCasterUnique</EDID>
+      <REC>WEAP:FULL</REC>
+      <Source>The Smitty Special (GRA)</Source>
+      <Dest>Der Spezialschmied (ADW)</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05WeapFlamerUnique</EDID>
+      <REC>WEAP:FULL</REC>
+      <Source>Cleansing Flame (GRA)</Source>
+      <Dest>Reinigende Flamme (ADW)</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05WeapHuntingRifleUnique</EDID>
+      <REC>WEAP:FULL</REC>
+      <Source>Paciencia (GRA)</Source>
+      <Dest>Paciencia (ADW)</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05Weap10mmSubmachineGunUnique</EDID>
+      <REC>WEAP:FULL</REC>
+      <Source>Sleepytyme (GRA)</Source>
+      <Dest>Zeit-fürs-Schläfchen (ADW)</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05WeapNVBrushGunUnique</EDID>
+      <REC>WEAP:FULL</REC>
+      <Source>Medicine Stick (GRA)</Source>
+      <Dest>Medizinstick (ADW)</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05WeapShishkebabUnique</EDID>
+      <REC>WEAP:FULL</REC>
+      <Source>Gehenna (GRA)</Source>
+      <Dest>Gehenna (ADW)</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05WeapPowerFistUnique</EDID>
+      <REC>WEAP:FULL</REC>
+      <Source>Greased Lightning (GRA)</Source>
+      <Dest>Geölter Blitz (ADW)</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05WeapNVTimeBombCustom</EDID>
+      <REC>WEAP:FULL</REC>
+      <Source>Time Bomb, High Yield (Mad Bomber) (GRA)</Source>
+      <Dest>Zeitbombe, hoher Ertrag (ADW)</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05WeapNVBattleRifleCustom</EDID>
+      <REC>WEAP:FULL</REC>
+      <Source>Battle Rifle (GRA)</Source>
+      <Dest>Kampfgewehr (ADW)</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05WeapNV556mmPistolCustom</EDID>
+      <REC>WEAP:FULL</REC>
+      <Source>5.56mm Pistol (GRA)</Source>
+      <Dest>5,56-mm-Pistole (ADW)</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05WeapGrenadeTin</EDID>
+      <REC>WEAP:FULL</REC>
+      <Source>Tin Grenade (Mad Bomber) (GRA)</Source>
+      <Dest>Blechgranate (Verrückter Bomber) (ADW)</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05WeapMineFat</EDID>
+      <REC>WEAP:FULL</REC>
+      <Source>Fat Mine (Mad Bomber) (GRA)</Source>
+      <Dest>Fatmine (Verrückter Bomber) (ADW)</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05WeapKatanaCustom</EDID>
+      <REC>WEAP:FULL</REC>
+      <Source>Katana (GRA)</Source>
+      <Dest>Katana (ADW)</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05WeapGrenadeNuka</EDID>
+      <REC>WEAP:FULL</REC>
+      <Source>Nuka-Grenade (Mad Bomber) (GRA)</Source>
+      <Dest>Nuka-Granate (Verrückter Bomber) (ADW)</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05Weap25mmGrenadeAPWCustom</EDID>
+      <REC>WEAP:FULL</REC>
+      <Source>25mm Grenade APW (GRA)</Source>
+      <Dest>25-mm-Granaten-APW (ADW)</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05WeapBaseballBatCustom</EDID>
+      <REC>WEAP:FULL</REC>
+      <Source>Baseball Bat (GRA)</Source>
+      <Dest>Baseballschläger (ADW)</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05WeapLaserPistolCustom</EDID>
+      <REC>WEAP:FULL</REC>
+      <Source>Laser Pistol (GRA)</Source>
+      <Dest>Laserpistole (ADW)</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05WeapNV127mmSubmachineGunCustom</EDID>
+      <REC>WEAP:FULL</REC>
+      <Source>12.7mm Submachine Gun (GRA)</Source>
+      <Dest>12,7-mm-Maschinenpistole (ADW)</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05WeapNVAntiMaterielRifleCustom</EDID>
+      <REC>WEAP:FULL</REC>
+      <Source>Anti-Materiel Rifle (GRA)</Source>
+      <Dest>Panzerbüchse (ADW)</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05WeapNVAssaultCarbineCustom</EDID>
+      <REC>WEAP:FULL</REC>
+      <Source>Assault Carbine (GRA)</Source>
+      <Dest>Sturmkarabiner (ADW)</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05WeapNVChainsawCustom</EDID>
+      <REC>WEAP:FULL</REC>
+      <Source>Chainsaw (GRA)</Source>
+      <Dest>Kettensäge (ADW)</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05WeapNVHuntingRevolverCustom</EDID>
+      <REC>WEAP:FULL</REC>
+      <Source>Hunting Revolver (GRA)</Source>
+      <Dest>Jagdrevolver (ADW)</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05WeapNVPlasmaDefenderCustom</EDID>
+      <REC>WEAP:FULL</REC>
+      <Source>Plasma Defender (GRA)</Source>
+      <Dest>Plasma-Defender: Spezial (ADW)</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05WeapNVTriBeamLaserRifleCustom</EDID>
+      <REC>WEAP:FULL</REC>
+      <Source>Tri-beam Laser Rifle (GRA)</Source>
+      <Dest>Tristrahl-Lasergewehr (ADW)</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05WeapPlasmaPistolCustom</EDID>
+      <REC>WEAP:FULL</REC>
+      <Source>Plasma Pistol (GRA)</Source>
+      <Dest>Plasmapistole (ADW)</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05WeapPowerFistCustom</EDID>
+      <REC>WEAP:FULL</REC>
+      <Source>Power Fist (GRA)</Source>
+      <Dest>Powerfaust (ADW)</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05WeapRipperCustom</EDID>
+      <REC>WEAP:FULL</REC>
+      <Source>Ripper (GRA)</Source>
+      <Dest>Trennmesser (ADW)</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05WeapGrenadeMFC</EDID>
+      <REC>WEAP:FULL</REC>
+      <Source>MFC Grenade (Mad Bomber) (GRA)</Source>
+      <Dest>MFZ-Granate (Verrückter Bomber) (ADW)</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05WeapMineMFCCluster</EDID>
+      <REC>WEAP:FULL</REC>
+      <Source>MFC Cluster (Mad Bomber) (GRA)</Source>
+      <Dest>MFZ-Cluster (Verrückter Bomber) (ADW)</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05Ammo127mmJHPHandLoad</EDID>
+      <REC>AMMO:FULL</REC>
+      <Source>12.7mm Round (Hand Load) (GRA)</Source>
+      <Dest>12,7-mm-Magazin (Eigenbau) (ADW)</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05Ammo127mmJHPHandLoad</EDID>
+      <REC>AMMO:ONAM</REC>
+      <Source>12.7mm JHP</Source>
+      <Dest>12,7 mm SG</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05AmmoFatMansTinyTots</EDID>
+      <REC>AMMO:FULL</REC>
+      <Source>Mini Nuke, Tiny Tots (GRA)</Source>
+      <Dest>Mini-Atombombe, Kleine Knirpse (ADW)</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05AmmoFatMansTinyTots</EDID>
+      <REC>AMMO:ONAM</REC>
+      <Source>Mini Nuke, TT</Source>
+      <Dest>Mini-Atombombe, KK</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05AmmoFlamerFuelOptimized</EDID>
+      <REC>AMMO:FULL</REC>
+      <Source>Flamer Fuel, Optimized (Vigilant Recycler) (GRA)</Source>
+      <Dest>Brennstoff für den Flammenwerfer, optimiert (Begeisterter Wiederverwerter) (ADW)</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05AmmoFlamerFuelOptimized</EDID>
+      <REC>AMMO:ONAM</REC>
+      <Source>Fuel, Opt.</Source>
+      <Dest>Treibstoff, Opt.</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05AmmoElectronChargePackOptimized</EDID>
+      <REC>AMMO:FULL</REC>
+      <Source>Electron Charge Pack, Optimized (Vigilant Recycler) (GRA)</Source>
+      <Dest>Elektronenladeteil, optimiert (Begeisterter Wiederverwerter) (ADW)</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05AmmoElectronChargePackOptimized</EDID>
+      <REC>AMMO:ONAM</REC>
+      <Source>EC Pack, Opt.</Source>
+      <Dest>EC-Pack, Opt.</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05AmmoMicroFusionCellOptimized</EDID>
+      <REC>AMMO:FULL</REC>
+      <Source>Microfusion Cell, Optimized (Vigilant Recycler) (GRA)</Source>
+      <Dest>Mikrofusionszelle, optimiert (Begeisterter Wiederverwerter) (ADW)</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05AmmoMicroFusionCellOptimized</EDID>
+      <REC>AMMO:ONAM</REC>
+      <Source>MF Cell, Opt.</Source>
+      <Dest>MF-Zelle, Opt.</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05AmmoSmallEnergyCellOptimized</EDID>
+      <REC>AMMO:FULL</REC>
+      <Source>Energy Cell, Optimized (Vigilant Recycler) (GRA)</Source>
+      <Dest>Energiezelle, optimiert (Begeisterter Wiederverwerter) (ADW)</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05AmmoSmallEnergyCellOptimized</EDID>
+      <REC>AMMO:ONAM</REC>
+      <Source>E Cell, Opt.</Source>
+      <Dest>E-Zelle, Opt.</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05Ammo5mmJSPHandLoad</EDID>
+      <REC>AMMO:FULL</REC>
+      <Source>5mm, JSP (Hand Load) (GRA)</Source>
+      <Dest>5 mm, TMS (Eigenbau) (ADW)</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05Ammo5mmJSPHandLoad</EDID>
+      <REC>AMMO:ONAM</REC>
+      <Source>5mm JSP</Source>
+      <Dest>5 mm TMS</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05Ammo9mmJHPHandLoad</EDID>
+      <REC>AMMO:FULL</REC>
+      <Source>9mm, JHP (Hand Load) (GRA)</Source>
+      <Dest>9 mm, SG (Eigenbau) (ADW)</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05Ammo9mmJHPHandLoad</EDID>
+      <REC>AMMO:ONAM</REC>
+      <Source>9mm JHP</Source>
+      <Dest>9 mm SG</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05Ammo556mmMatchHandLoad</EDID>
+      <REC>AMMO:FULL</REC>
+      <Source>5.56mm, Match (Hand Load) (GRA)</Source>
+      <Dest>5,56 mm, Match (Eigenbau) (ADW)</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05Ammo556mmMatchHandLoad</EDID>
+      <REC>AMMO:ONAM</REC>
+      <Source>5.56mm M</Source>
+      <Dest>5,56 mm M</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05Ammo40mmGrenadePlasma</EDID>
+      <REC>AMMO:FULL</REC>
+      <Source>40mm Grenade, Plasma (GRA)</Source>
+      <Dest>40-mm-Granate, Plasma (ADW)</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05Ammo40mmGrenadePlasma</EDID>
+      <REC>AMMO:ONAM</REC>
+      <Source>40mm Grenade, Pla.</Source>
+      <Dest>40 mm Granate, Plas.</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05Ammo40mmGrenadePulse</EDID>
+      <REC>AMMO:FULL</REC>
+      <Source>40mm Grenade, Pulse (GRA)</Source>
+      <Dest>40-mm-Granate, Impuls (ADW)</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05Ammo40mmGrenadePulse</EDID>
+      <REC>AMMO:ONAM</REC>
+      <Source>40mm Grenade, Pul.</Source>
+      <Dest>40 mm Granate, Imp.</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05Ammo25mmGrenadePlasma</EDID>
+      <REC>AMMO:FULL</REC>
+      <Source>25mm Grenade, Plasma (GRA)</Source>
+      <Dest>25-mm-Granate, Plasma (ADW)</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05Ammo25mmGrenadePlasma</EDID>
+      <REC>AMMO:ONAM</REC>
+      <Source>25mmG, Pla.</Source>
+      <Dest>25 mm G, Plas.</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05Ammo25mmGrenadePulse</EDID>
+      <REC>AMMO:FULL</REC>
+      <Source>25mm Grenade, Pulse (GRA)</Source>
+      <Dest>25-mm-Granate, Impuls (ADW)</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05Ammo25mmGrenadePulse</EDID>
+      <REC>AMMO:ONAM</REC>
+      <Source>25mmG, Pul.</Source>
+      <Dest>25 mm G, Imp.</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05Ammo25mmGrenadeTimed</EDID>
+      <REC>AMMO:FULL</REC>
+      <Source>25mm Grenade, Timed (GRA)</Source>
+      <Dest>25-mm-Granate, Zeitzünder (ADW)</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05Ammo25mmGrenadeTimed</EDID>
+      <REC>AMMO:ONAM</REC>
+      <Source>25mmG, Tim.</Source>
+      <Dest>25 mm G, Zeitz.</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05AmmoFatMansBigKid</EDID>
+      <REC>AMMO:FULL</REC>
+      <Source>Mini Nuke, Big Kid (GRA)</Source>
+      <Dest>Mini-Atombombe, Riesenbaby (ADW)</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05AmmoFatMansBigKid</EDID>
+      <REC>AMMO:ONAM</REC>
+      <Source>Mini Nuke, BK</Source>
+      <Dest>Mini-Atombombe, RB</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05AmmoFatMansTimed</EDID>
+      <REC>AMMO:FULL</REC>
+      <Source>Mini Nuke, Timed (GRA)</Source>
+      <Dest>Mini-Atombombe, Zeitzünder (ADW)</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05AmmoFatMansTimed</EDID>
+      <REC>AMMO:ONAM</REC>
+      <Source>Mini Nuke, Tim.</Source>
+      <Dest>Mini-Atombombe, Zeitz.</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05AmmoFatMansLowYield</EDID>
+      <REC>AMMO:FULL</REC>
+      <Source>Mini Nuke, Low Yield (GRA)</Source>
+      <Dest>Mini-Atombombe, geringer Ertrag (ADW)</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05AmmoFatMansLowYield</EDID>
+      <REC>AMMO:ONAM</REC>
+      <Source>Mini Nuke, LY</Source>
+      <Dest>Mini-Atombombe, NE</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05AmmoMissileHive</EDID>
+      <REC>AMMO:FULL</REC>
+      <Source>Missile, Hive (GRA)</Source>
+      <Dest>Rakete, Hive (ADW)</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05AmmoMissileHive</EDID>
+      <REC>AMMO:ONAM</REC>
+      <Source>Missile, Hive</Source>
+      <Dest>Rakete, Hive</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05Ammo20Ga30BuckMagnum</EDID>
+      <REC>AMMO:FULL</REC>
+      <Source>20 Gauge, 3/0 Buck Mag. (Hand Loader) (GRA)</Source>
+      <Dest>Kaliber 20, 3/0 Schrot-Mag. (Eigenbau) (ADW)</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05Ammo20Ga30BuckMagnum</EDID>
+      <REC>AMMO:ONAM</REC>
+      <Source>20ga 3/0BM</Source>
+      <Dest>Kaliber 20 3/0 SM</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05Ammo20Ga30BuckMagnum</EDID>
+      <REC>AMMO:QNAM</REC>
+      <Source>3BM</Source>
+      <Dest>3/0BM</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05Ammo12Ga40BuckMagnum</EDID>
+      <REC>AMMO:FULL</REC>
+      <Source>12 Gauge, 4/0 Buck Mag. (Hand Loader) (GRA)</Source>
+      <Dest>Kaliber 12, 4/0 Schrot-Mag. (Eigenbau) (ADW)</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05Ammo12Ga40BuckMagnum</EDID>
+      <REC>AMMO:ONAM</REC>
+      <Source>12ga 4/0BM</Source>
+      <Dest>Kaliber 12 4/0 SM</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05Ammo12Ga40BuckMagnum</EDID>
+      <REC>AMMO:QNAM</REC>
+      <Source>4BM</Source>
+      <Dest>4/0BM</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05Ammo12Ga40Buck</EDID>
+      <REC>AMMO:FULL</REC>
+      <Source>12 Gauge, 4/0 Buck (GRA)</Source>
+      <Dest>Kaliber 12, 4/0 Schrot (ADW)</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05Ammo12Ga40Buck</EDID>
+      <REC>AMMO:ONAM</REC>
+      <Source>12ga 4/0B</Source>
+      <Dest>Kaliber 12 4/0 S</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05Ammo20Ga30Buck</EDID>
+      <REC>AMMO:FULL</REC>
+      <Source>20 Gauge, 3/0 Buck (GRA)</Source>
+      <Dest>Kaliber 20, 3/0 Schrot (ADW)</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05Ammo20Ga30Buck</EDID>
+      <REC>AMMO:ONAM</REC>
+      <Source>20ga 3/0B</Source>
+      <Dest>Kaliber 20 3/0 S</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05Ammo12GaDragonsBreath</EDID>
+      <REC>AMMO:FULL</REC>
+      <Source>12 Gauge, Dragon's Breath (GRA)</Source>
+      <Dest>Kaliber 12, Drachenatem (ADW)</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05Ammo12GaDragonsBreath</EDID>
+      <REC>AMMO:ONAM</REC>
+      <Source>12ga DB</Source>
+      <Dest>Kaliber 12 DA</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05Ammo12GaFlechette</EDID>
+      <REC>AMMO:FULL</REC>
+      <Source>12 Gauge, Flechette (GRA)</Source>
+      <Dest>Kaliber 12, Pfeilgeschoss (ADW)</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05Ammo12GaFlechette</EDID>
+      <REC>AMMO:ONAM</REC>
+      <Source>12ga F</Source>
+      <Dest>Kaliber 12 PF</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05Ammo12GaPulseSlug</EDID>
+      <REC>AMMO:FULL</REC>
+      <Source>12 Gauge, Pulse Slug (GRA)</Source>
+      <Dest>Kaliber 12, Impulskugel (ADW)</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05Ammo12GaPulseSlug</EDID>
+      <REC>AMMO:ONAM</REC>
+      <Source>12ga PS</Source>
+      <Dest>Kaliber 12 PS</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05Ammo20GaPulseSlug</EDID>
+      <REC>AMMO:FULL</REC>
+      <Source>20 Gauge, Pulse Slug (GRA)</Source>
+      <Dest>Kaliber 20, Impulskugel (ADW)</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05Ammo20GaPulseSlug</EDID>
+      <REC>AMMO:ONAM</REC>
+      <Source>20ga PS</Source>
+      <Dest>Kaliber 20 IK</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05Ammo50MGExplosive</EDID>
+      <REC>AMMO:FULL</REC>
+      <Source>.50 MG, Explosive (GRA)</Source>
+      <Dest>.50 MG, Sprengstoff (ADW)</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05Ammo50MGExplosive</EDID>
+      <REC>AMMO:ONAM</REC>
+      <Source>.50MG E</Source>
+      <Dest>Kaliber .50 MG E</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05MFCMineClusterProjectile2</EDID>
+      <REC>PROJ:FULL</REC>
+      <Source>MFC Cluster Mine</Source>
+      <Dest>MFZ-Clustermine</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05FatManTinyTots</EDID>
+      <REC>PROJ:FULL</REC>
+      <Source>Mini Nuke, Tiny Tots</Source>
+      <Dest>Mini-Atombombe, Kleine Knirpse</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC0512GaFlechetteProjectile</EDID>
+      <REC>PROJ:FULL</REC>
+      <Source>12 Ga. Flechette</Source>
+      <Dest>Kaliber-12-Pfeilgeschoss</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC0520GaPulseSlugProjectile</EDID>
+      <REC>PROJ:FULL</REC>
+      <Source>20 Ga. Pulse Slug</Source>
+      <Dest>Kaliber-20-Impulskugel</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC0512GaPulseSlugProjectile</EDID>
+      <REC>PROJ:FULL</REC>
+      <Source>12 Ga. Pulse Slug</Source>
+      <Dest>Kaliber-12-Impulskugel</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05MissileProjectileHive</EDID>
+      <REC>PROJ:FULL</REC>
+      <Source>Missile, Hive</Source>
+      <Dest>Rakete, Hive</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05FatManLowYield</EDID>
+      <REC>PROJ:FULL</REC>
+      <Source>Mini Nuke, Low Yield</Source>
+      <Dest>Mini-Atombombe, geringer Ertrag</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05FatManBigKid</EDID>
+      <REC>PROJ:FULL</REC>
+      <Source>Mini Nuke, Big Kid</Source>
+      <Dest>Mini-Atombombe, Riesenbaby</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC0550MGExplosivetProjectile</EDID>
+      <REC>PROJ:FULL</REC>
+      <Source>.50MG Explosive</Source>
+      <Dest>.50 MG – Sprengstoff</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05FatManProjectileTimed</EDID>
+      <REC>PROJ:FULL</REC>
+      <Source>Mini Nuke, Timed</Source>
+      <Dest>Mini-Atombombe, Zeitzünder</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC0525mmGrenadeProjectileTimed</EDID>
+      <REC>PROJ:FULL</REC>
+      <Source>25mm Grenade, Timed</Source>
+      <Dest>25-mm-Granate, Zeitzünder</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC0525mmGrenadeProjectilePulse</EDID>
+      <REC>PROJ:FULL</REC>
+      <Source>25mm Grenade, Pulse</Source>
+      <Dest>25-mm-Granate, Impuls</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC0540mmGrenadeProjectilePulse</EDID>
+      <REC>PROJ:FULL</REC>
+      <Source>40mm Grenade, Pulse</Source>
+      <Dest>40-mm-Granate, Impuls</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC0540mmGrenadeProjectilePlasma</EDID>
+      <REC>PROJ:FULL</REC>
+      <Source>40mm Grenade, Plasma</Source>
+      <Dest>40-mm-Granate, Plasma</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC0525mmGrenadeProjectilePlasma</EDID>
+      <REC>PROJ:FULL</REC>
+      <Source>25mm Grenade, Plasma</Source>
+      <Dest>25-mm-Granate, Plasma</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05DragonsBreathBBProjectile</EDID>
+      <REC>PROJ:FULL</REC>
+      <Source>Dragon's Breath BB Pellet</Source>
+      <Dest>Drachenatem: Luftgewehr-Kugel</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05TinGrenadeProjectile</EDID>
+      <REC>PROJ:FULL</REC>
+      <Source>Tin Grenade</Source>
+      <Dest>Blechgranate</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05FatMineProjectile</EDID>
+      <REC>PROJ:FULL</REC>
+      <Source>Fat Mine</Source>
+      <Dest>Fatmine</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05CleansingFlameProjectile</EDID>
+      <REC>PROJ:FULL</REC>
+      <Source>Cleansing Flame</Source>
+      <Dest>Reinigende Flamme</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05MFCGrenadeProjectile</EDID>
+      <REC>PROJ:FULL</REC>
+      <Source>MFC Grenade</Source>
+      <Dest>MFZ-Granate</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05GrenadeNukaProjectile</EDID>
+      <REC>PROJ:FULL</REC>
+      <Source>Nuka Grenade</Source>
+      <Dest>Nuka-Granate</Dest>
+    </String>
+    <String List="0">
+      <EDID>CliffBriscoeOpenStore</EDID>
+      <REC>DIAL:FULL</REC>
+      <Source>I'd like to see what you've got for sale.</Source>
+      <Dest>Ich würde mir gern mal anschauen, was Sie zu verkaufen haben.</Dest>
+    </String>
+    <String List="0">
+      <EDID>[0008D08B]</EDID>
+      <REC>INFO:NAM1</REC>
+      <Source>Sure thing. Have a look.</Source>
+      <Dest>Sicher, schauen Sie sich ruhig um.</Dest>
+    </String>
+    <String List="0">
+      <EDID>[0014F170]</EDID>
+      <REC>INFO:NAM1</REC>
+      <Source>Take a look.</Source>
+      <Dest>Schauen Sie sich um.</Dest>
+    </String>
+    <String List="0">
+      <EDID>[0014F170]</EDID>
+      <REC>INFO:RNAM</REC>
+      <Source>Let me see what you have for sale.</Source>
+      <Dest>Sehen wir mal, was es im Angebot gibt.</Dest>
+    </String>
+    <String List="0">
+      <EDID>VDialogueEastVegas1EGunRunnerProtectronTopic001</EDID>
+      <REC>DIAL:FULL</REC>
+      <Source>Show me what you have for sale.</Source>
+      <Dest>Zeigen Sie mir mal Ihr Angebot.</Dest>
+    </String>
+    <String List="0">
+      <EDID>[000EE4FB]</EDID>
+      <REC>INFO:NAM1</REC>
+      <Source>I am ready to process our transaction.</Source>
+      <Dest>Ich bin bereit für eine Transaktion.</Dest>
+    </String>
+    <String List="0">
+      <EDID>VFreeformFreesideVFSMickTopic000</EDID>
+      <REC>DIAL:FULL</REC>
+      <Source>What guns do you have for sale?</Source>
+      <Dest>Welche Schusswaffen verkaufen Sie?</Dest>
+    </String>
+    <String List="0">
+      <EDID>[00113205]</EDID>
+      <REC>INFO:NAM1</REC>
+      <Source>Have a look.</Source>
+      <Dest>Riskieren Sie mal einen Blick.</Dest>
+    </String>
+    <String List="0">
+      <EDID>VFreeformFreesideVFSRalphTopic000</EDID>
+      <REC>DIAL:FULL</REC>
+      <Source>What do you have in stock?</Source>
+      <Dest>Was haben Sie denn auf Lager?</Dest>
+    </String>
+    <String List="0">
+      <EDID>[001131FC]</EDID>
+      <REC>INFO:NAM1</REC>
+      <Source>Take a gander.</Source>
+      <Dest>Werfen Sie mal einen Blick drauf.</Dest>
+    </String>
+    <String List="0">
+      <EDID>VFreeformFreesideVFSGloriaVanGraffTopic000</EDID>
+      <REC>DIAL:FULL</REC>
+      <Source>I'd like to see what you have for sale.</Source>
+      <Dest>Ich würde mir gerne Ihr Angebot ansehen.</Dest>
+    </String>
+    <String List="0">
+      <EDID>[0011A28B]</EDID>
+      <REC>INFO:NAM1</REC>
+      <Source>Of course.</Source>
+      <Dest>Sehr gern.</Dest>
+    </String>
+    <String List="0">
+      <EDID>VFreeformFreesideVFSMickTopic008</EDID>
+      <REC>DIAL:FULL</REC>
+      <Source>Could you repair some things for me?</Source>
+      <Dest>Können Sie ein paar Sachen für mich reparieren?</Dest>
+    </String>
+    <String List="0">
+      <EDID>[0011BCA6]</EDID>
+      <REC>INFO:NAM1</REC>
+      <Source>Sure, let's see what you've got.</Source>
+      <Dest>Klar. Dann schauen wir uns doch mal an, was Sie da haben.</Dest>
+    </String>
+    <String List="0">
+      <EDID>VFreeformFreesideVFSMickTopic020</EDID>
+      <REC>DIAL:FULL</REC>
+      <Source>I'd like to browse your special inventory.</Source>
+      <Dest>Ich möchte mir gerne die besonderen Gegenstände ansehen.</Dest>
+    </String>
+    <String List="0">
+      <EDID>[0012790F]</EDID>
+      <REC>INFO:NAM1</REC>
+      <Source>Like I always say, a polite society is an armed society.</Source>
+      <Dest>Wie gesagt: Nur bewaffnete Gesellschaft ist gute Gesellschaft.</Dest>
+    </String>
+    <String List="0">
+      <EDID>VDialogueHiddenValleyHVTorresTopic000</EDID>
+      <REC>DIAL:FULL</REC>
+      <Source>Show me what you have for sale.</Source>
+      <Dest>Zeigen Sie mir mal Ihr Angebot.</Dest>
+    </String>
+    <String List="0">
+      <EDID>[0015FD06]</EDID>
+      <REC>INFO:NAM1</REC>
+      <Source>Our patrols are always bringing more stuff in. Take a look.</Source>
+      <Dest>Unser Patrouillen schleppen immer mehr Kram an. Schauen Sie ihn sich mal an.</Dest>
+    </String>
+    <String List="0">
+      <EDID>VFreeformNellisTopic003</EDID>
+      <REC>DIAL:FULL</REC>
+      <Source>Could I buy some spare munitions?</Source>
+      <Dest>Kann ich etwas überzählige Munition kaufen?</Dest>
+    </String>
+    <String List="0">
+      <EDID>[001602B2]</EDID>
+      <REC>INFO:NAM1</REC>
+      <Source>Sure. Pearl gave the green light. Take a look at the manifest.</Source>
+      <Dest>Klar. Pearl hat ihr Okay gegeben. Schauen Sie sich die Liste an.</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05MQ00</EDID>
+      <REC>QUST:FULL</REC>
+      <Source>Quest to Set-Up Gun Runner's Arsenal</Source>
+      <Dest>Aufgabe zur Einrichtung des Arsenals der Waffenschieber</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05MineMFCClusterExplosion2</EDID>
+      <REC>EXPL:FULL</REC>
+      <Source>MFC Explosion</Source>
+      <Dest>MFZ-Explosion</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05MineMFCGrenaderExplosion</EDID>
+      <REC>EXPL:FULL</REC>
+      <Source>MFC Explosion</Source>
+      <Dest>MFZ-Explosion</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05TwoStepGoodbyeExplosion</EDID>
+      <REC>EXPL:FULL</REC>
+      <Source>Two-Step Goodbye Explosion</Source>
+      <Dest>Zwei-Phasen-Auf-Wiedersehen: Explosion</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05FatManTinyTotsExplosion</EDID>
+      <REC>EXPL:FULL</REC>
+      <Source>Tiny Tots Nuke Explosion</Source>
+      <Dest>Kleine Knirpse: Nuklearexplosion</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05GrenadeTinExplosion</EDID>
+      <REC>EXPL:FULL</REC>
+      <Source>Tin Grenade Explosion</Source>
+      <Dest>Blechgranatenexplosion</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05MissileExplosionHive</EDID>
+      <REC>EXPL:FULL</REC>
+      <Source>Missile Explosion, Hive</Source>
+      <Dest>Raketenexplosion, Hive</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05FatManLowYieldExplosion</EDID>
+      <REC>EXPL:FULL</REC>
+      <Source>Low Yield Nuke Explosion</Source>
+      <Dest>Nuklearexplosion mit niedrigem Ertrag</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05FatManBigKidExplosion</EDID>
+      <REC>EXPL:FULL</REC>
+      <Source>Big Kid Nuke Explosion</Source>
+      <Dest>Riesenbaby-Nuklearexplosion</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC0550MGExplosiveExplosion</EDID>
+      <REC>EXPL:FULL</REC>
+      <Source>.50 MG Explosive Explosion</Source>
+      <Dest>.50 MG – Sprengstoffexplosion</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC0525mmGrenadeExplosionPulse</EDID>
+      <REC>EXPL:FULL</REC>
+      <Source>25mm Grenade Explosion, Pulse</Source>
+      <Dest>25-mm-Granatenexplosion, Impuls</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC0540mmGrenadeExplosionPulse</EDID>
+      <REC>EXPL:FULL</REC>
+      <Source>40mm Grenade Explosion, Pulse</Source>
+      <Dest>40-mm-Granatenexplosion, Impuls</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC0540mmGrenadeExplosionPlasma</EDID>
+      <REC>EXPL:FULL</REC>
+      <Source>40mm Grenade Explosion, Plasma</Source>
+      <Dest>40-mm-Granatenexplosion, Plasma</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC0525mmGrenadeExplosionPlasma</EDID>
+      <REC>EXPL:FULL</REC>
+      <Source>25mm Grenade Explosion, Plasma</Source>
+      <Dest>25-mm-Granatenexplosion, Plasma</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05FatMineExplosion</EDID>
+      <REC>EXPL:FULL</REC>
+      <Source>Fat Mine Explosion</Source>
+      <Dest>Fatminen-Explosion</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05MadBomber</EDID>
+      <REC>PERK:FULL</REC>
+      <Source>Mad Bomber</Source>
+      <Dest>Verrückter Bomber</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05MadBomber</EDID>
+      <REC>PERK:DESC</REC>
+      <Source>Your intimate knowledge of gadgets and explosives have combined to make you... the Mad Bomber! At Workbenches, you have special Explosives recipes unlocked for use.</Source>
+      <Dest>Ihre präzisen Kenntnisse von Apparaten und Sprengstoffen haben Sie zum ... Verrückten Bomber gemacht! An Werkbänken stehen Ihnen jetzt spezielle Sprengstoffrezepte zur Verfügung.</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05LoadMessage01</EDID>
+      <REC>MESG:DESC</REC>
+      <Source>The ongoing conflict in the Mojave Wasteland has kicked weapon manufacturers into high gear! All major and minor weapon dealers in the region are rolling in new weapons, ammunition types, and modifications. Head to your nearest participating vendor to peruse the merchandise!</Source>
+      <Dest>Der aktuelle Konflikt im Mojave-Ödland hat dazu geführt, dass Waffenhersteller unter Volldampf produzieren! Alle großen und kleinen Waffenhändler der Gegend bieten neue Waffen, Munitionstypen und Modifikationen an. Gehen Sie zum nächsten teilnehmenden Händler, um die neuen Waren zu begutachten!</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05LoadMessage01</EDID>
+      <REC>MESG:FULL</REC>
+      <Source>Gun Runners' Arsenal</Source>
+      <Dest>Arsenal der Waffenschieber</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05LoadMessage02</EDID>
+      <REC>MESG:DESC</REC>
+      <Source>Gun Runners' Arsenal has been loaded.</Source>
+      <Dest>Arsenal der Waffenschieber wurde geladen.</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05LoadMessage02</EDID>
+      <REC>MESG:FULL</REC>
+      <Source>Gun Runners' Arsenal</Source>
+      <Dest>Arsenal der Waffenschieber</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05ModNV127mmSMGLaserSight</EDID>
+      <REC>IMOD:FULL</REC>
+      <Source>12.7mm SMG Laser Sight</Source>
+      <Dest>12,7-mm-MP: Ziellaser</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05ModNV127mmSMGLaserSight</EDID>
+      <REC>IMOD:DESC</REC>
+      <Source>(Gun Runners' Arsenal)
+Decreases spread.
+</Source>
+      <Dest>(Arsenal der Waffenschieber)
+Reduziert Streuung.
+</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05ModNV127mmSMGStackedMagazine</EDID>
+      <REC>IMOD:FULL</REC>
+      <Source>12.7mm SMG Stacked Magazine</Source>
+      <Dest>12,7-mm-MP Stapelmagazin</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05ModNV127mmSMGStackedMagazine</EDID>
+      <REC>IMOD:DESC</REC>
+      <Source>(Gun Runners' Arsenal)
+Increases ammunition capacity (+6).</Source>
+      <Dest>(Arsenal der Waffenschieber)
+Erhöht Munitionskapazität (+6).</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05ModNV127mmSMGSuppressor</EDID>
+      <REC>IMOD:FULL</REC>
+      <Source>12.7mm SMG Suppressor</Source>
+      <Dest>12,7-mm-MP-Schalldämpfer</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05ModNV127mmSMGSuppressor</EDID>
+      <REC>IMOD:DESC</REC>
+      <Source>(Gun Runners' Arsenal)
+Silences the weapon.</Source>
+      <Dest>(Arsenal der Waffenschieber)
+Schalldämpfer für die Waffe.</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05ModNV25mmGrenadeAPWExpandedDrum</EDID>
+      <REC>IMOD:FULL</REC>
+      <Source>25mm G. APW Exp. Drum</Source>
+      <Dest>25-mm-G.-APW: erweiterte Trommel</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05ModNV25mmGrenadeAPWExpandedDrum</EDID>
+      <REC>IMOD:DESC</REC>
+      <Source>(Gun Runners' Arsenal)
+Increases ammunition capacity (+2).</Source>
+      <Dest>(Arsenal der Waffenschieber)
+Erhöht Munitionskapazität (+2).</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05ModNV25mmGrenadeAPWLongBarrel</EDID>
+      <REC>IMOD:FULL</REC>
+      <Source>25mm G. APW Long Barrel</Source>
+      <Dest>25-mm-G.-APW: langer Lauf</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05ModNV25mmGrenadeAPWLongBarrel</EDID>
+      <REC>IMOD:DESC</REC>
+      <Source>(Gun Runners' Arsenal)
+Increases projectile velocity (+100%).</Source>
+      <Dest>(Arsenal der Waffenschieber)
+Erhöht Projektilgeschwindigkeit (+100 %).</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05ModNV25mmGrenadeAPWUpgradedInternals</EDID>
+      <REC>IMOD:FULL</REC>
+      <Source>25mm G. APW Upgraded Int.</Source>
+      <Dest>25-mm-G.-APW: Verbesserte Int.</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05ModNV25mmGrenadeAPWUpgradedInternals</EDID>
+      <REC>IMOD:DESC</REC>
+      <Source>(Gun Runners' Arsenal)
+Increases rate of fire.</Source>
+      <Dest>(Arsenal der Waffenschieber)
+Erhöht Feuerrate.</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05ModNVAntiMaterielRifleCarbonFiberParts</EDID>
+      <REC>IMOD:FULL</REC>
+      <Source>Anti-Mat. Rifle CF Parts</Source>
+      <Dest>Panzerbüchse: CF-Teile</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05ModNVAntiMaterielRifleCarbonFiberParts</EDID>
+      <REC>IMOD:DESC</REC>
+      <Source>(Gun Runners' Arsenal)
+Decreases weight (-7).</Source>
+      <Dest>(Arsenal der Waffenschieber)
+Reduziert Gewicht (-7).</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05ModNVAntiMaterielRifleCustomBolt</EDID>
+      <REC>IMOD:FULL</REC>
+      <Source>Anti-Mat. Rifle Custom Bolt</Source>
+      <Dest>Panzerbüchse: Spezialbolzen</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05ModNVAntiMaterielRifleCustomBolt</EDID>
+      <REC>IMOD:DESC</REC>
+      <Source>(Gun Runners' Arsenal)
+Increases rate of fire.</Source>
+      <Dest>(Arsenal der Waffenschieber)
+Erhöht Feuerrate.</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05ModNVAntiMaterielRifleSuppressor</EDID>
+      <REC>IMOD:FULL</REC>
+      <Source>Anti-Mat. Rifle Suppressor</Source>
+      <Dest>Panzerbüchse: Schalldämpfer</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05ModNVAntiMaterielRifleSuppressor</EDID>
+      <REC>IMOD:DESC</REC>
+      <Source>(Gun Runners' Arsenal)
+Reduces weapon noise.</Source>
+      <Dest>(Arsenal der Waffenschieber)
+Reduziert Waffenlärm.</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05ModNVAssaultCarbineExtendedMags</EDID>
+      <REC>IMOD:FULL</REC>
+      <Source>Assault Carb. Ext. Mags</Source>
+      <Dest>Sturmkarabiner: Erweitertes Magazin</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05ModNVAssaultCarbineExtendedMags</EDID>
+      <REC>IMOD:DESC</REC>
+      <Source>(Gun Runners' Arsenal)
+Increases ammunition capacity (+6).</Source>
+      <Dest>(Arsenal der Waffenschieber)
+Erhöht Munitionskapazität (+6).</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05ModNVAssaultCarbineForgedReceiver</EDID>
+      <REC>IMOD:FULL</REC>
+      <Source>Assault Carb. Forged Receiver</Source>
+      <Dest>Sturmkarabiner: Schmiedeverschluss</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05ModNVAssaultCarbineForgedReceiver</EDID>
+      <REC>IMOD:DESC</REC>
+      <Source>(Gun Runners' Arsenal)
+Increases condition (+33%).</Source>
+      <Dest>(Arsenal der Waffenschieber)
+Erhöht Zustand (+33 %).</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05ModNVAssaultCarbineLightBolt</EDID>
+      <REC>IMOD:FULL</REC>
+      <Source>Assault Carb. Light Bolt</Source>
+      <Dest>Sturmkarabiner: Leichtverschluss</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05ModNVAssaultCarbineLightBolt</EDID>
+      <REC>IMOD:DESC</REC>
+      <Source>(Gun Runners' Arsenal)
+Increases rate of fire.</Source>
+      <Dest>(Arsenal der Waffenschieber)
+Erhöht Feuerrate.</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05ModNVBaseballBatCorkCore</EDID>
+      <REC>IMOD:FULL</REC>
+      <Source>Baseball Bat Cork Core</Source>
+      <Dest>Baseballschläger: Korkkern</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05ModNVBaseballBatCorkCore</EDID>
+      <REC>IMOD:DESC</REC>
+      <Source>(Gun Runners' Arsenal)
+Increases attack speed.</Source>
+      <Dest>(Arsenal der Waffenschieber)
+Erhöht Angriffsgeschwindigkeit.</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05ModNVBaseballBatMapleBody</EDID>
+      <REC>IMOD:FULL</REC>
+      <Source>Baseball Bat Maple Body</Source>
+      <Dest>Baseballschläger: Ahornholz</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05ModNVBaseballBatMapleBody</EDID>
+      <REC>IMOD:DESC</REC>
+      <Source>(Gun Runners' Arsenal)
+Increases condition (+50%).</Source>
+      <Dest>(Arsenal der Waffenschieber)
+Erhöht Zustand (+50 %).</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05ModNVBaseballBatNails</EDID>
+      <REC>IMOD:FULL</REC>
+      <Source>Baseball Bat Nails</Source>
+      <Dest>Baseballschläger: Nägel</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05ModNVBaseballBatNails</EDID>
+      <REC>IMOD:DESC</REC>
+      <Source>(Gun Runners' Arsenal)
+Increases damage (+6).</Source>
+      <Dest>(Arsenal der Waffenschieber)
+Erhöht Schaden (+6).</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05ModNVChainsawAlloyFrame</EDID>
+      <REC>IMOD:FULL</REC>
+      <Source>Chainsaw Alloy Frame</Source>
+      <Dest>Kettensäge: Metallgehäuse</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05ModNVChainsawAlloyFrame</EDID>
+      <REC>IMOD:DESC</REC>
+      <Source>(Gun Runners' Arsenal)
+Decreases weight (-8).</Source>
+      <Dest>(Arsenal der Waffenschieber)
+Reduziert Gewicht (-8).</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05ModNVChainsawCarbideTeeth</EDID>
+      <REC>IMOD:FULL</REC>
+      <Source>Chainsaw Carbide Teeth</Source>
+      <Dest>Kettensäge: Hartmetallzähne</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05ModNVChainsawCarbideTeeth</EDID>
+      <REC>IMOD:DESC</REC>
+      <Source>(Gun Runners' Arsenal)
+Increases damage (+15).</Source>
+      <Dest>(Arsenal der Waffenschieber)
+Erhöht Schaden (+15).</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05ModNVChainsawHeavyDutyChain</EDID>
+      <REC>IMOD:FULL</REC>
+      <Source>Chainsaw HD Chain</Source>
+      <Dest>Kettensäge: HD-Kette</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05ModNVChainsawHeavyDutyChain</EDID>
+      <REC>IMOD:DESC</REC>
+      <Source>(Gun Runners' Arsenal)
+Increases condition (+50%).</Source>
+      <Dest>(Arsenal der Waffenschieber)
+Erhöht Zustand (+50 %).</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05ModNVHuntingRevolverMatchBarrel</EDID>
+      <REC>IMOD:FULL</REC>
+      <Source>Hunting Rev. Match Barrel</Source>
+      <Dest>Jagdrevolver: Match-Trommel</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05ModNVHuntingRevolverMatchBarrel</EDID>
+      <REC>IMOD:DESC</REC>
+      <Source>(Gun Runners' Arsenal)
+Decreases spread.</Source>
+      <Dest>(Arsenal der Waffenschieber)
+Reduziert Streuung.</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05ModNVHuntingRevolverSixShotCylinder</EDID>
+      <REC>IMOD:FULL</REC>
+      <Source>Hunting Rev. 6-Shot Cylinder</Source>
+      <Dest>Jagdrevolver: 6-Schuss-Trommel</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05ModNVHuntingRevolverSixShotCylinder</EDID>
+      <REC>IMOD:DESC</REC>
+      <Source>(Gun Runners' Arsenal)
+Increases ammunition capacity (+1).</Source>
+      <Dest>(Arsenal der Waffenschieber)
+Erhöht Munitionskapazität (+1).</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05ModNVKatanaAuthenticBlade</EDID>
+      <REC>IMOD:FULL</REC>
+      <Source>Katana Authentic Blade</Source>
+      <Dest>Authentische Katana-Klinge</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05ModNVKatanaAuthenticBlade</EDID>
+      <REC>IMOD:DESC</REC>
+      <Source>(Gun Runners' Arsenal)
+Increases damage (+5).</Source>
+      <Dest>(Arsenal der Waffenschieber)
+Erhöht Schaden (+5).</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05ModNVKatanaBalancedGrip</EDID>
+      <REC>IMOD:FULL</REC>
+      <Source>Katana Balanced Grip</Source>
+      <Dest>Ausbalanciertes Katana-Heft</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05ModNVKatanaBalancedGrip</EDID>
+      <REC>IMOD:DESC</REC>
+      <Source>(Gun Runners' Arsenal)
+Increases attack speed.</Source>
+      <Dest>(Arsenal der Waffenschieber)
+Erhöht Angriffsgeschwindigkeit.</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05ModNVKatanaProtectiveSheath</EDID>
+      <REC>IMOD:FULL</REC>
+      <Source>Katana Protective Sheath</Source>
+      <Dest>Katana-Schutzscheide</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05ModNVKatanaProtectiveSheath</EDID>
+      <REC>IMOD:DESC</REC>
+      <Source>(Gun Runners' Arsenal)
+Increases condition (+50%).</Source>
+      <Dest>(Arsenal der Waffenschieber)
+Erhöht Zustand (+50 %).</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05ModNVLaserPistolCombatSights</EDID>
+      <REC>IMOD:FULL</REC>
+      <Source>Laser Pistol Combat Sights</Source>
+      <Dest>Laserpistole: Kampfvisier</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05ModNVLaserPistolCombatSights</EDID>
+      <REC>IMOD:DESC</REC>
+      <Source>(Gun Runners' Arsenal)
+Adds usable iron sights.</Source>
+      <Dest>(Arsenal der Waffenschieber)
+Fügt Visier hinzu.</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05ModNVLaserPistolFocusOptics</EDID>
+      <REC>IMOD:FULL</REC>
+      <Source>Laser Pistol Focus Optics</Source>
+      <Dest>Laserpistole: Fokussieroptik</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05ModNVLaserPistolFocusOptics</EDID>
+      <REC>IMOD:DESC</REC>
+      <Source>(Gun Runners' Arsenal)
+Increases damage (+3).</Source>
+      <Dest>(Arsenal der Waffenschieber)
+Erhöht Schaden (+3).</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05ModNVLaserPistolRecycler</EDID>
+      <REC>IMOD:FULL</REC>
+      <Source>Laser Pistol Recycler</Source>
+      <Dest>Laserpistole: Rückgewinner</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05ModNVLaserPistolRecycler</EDID>
+      <REC>IMOD:DESC</REC>
+      <Source>(Gun Runners' Arsenal)
+Replenishes ammunition (1/4 shots).</Source>
+      <Dest>(Arsenal der Waffenschieber)
+Füllt Munition auf (1/4 Schüsse).</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05ModNVPlasmaDefenderHighCapTerminal</EDID>
+      <REC>IMOD:FULL</REC>
+      <Source>Plasma Def. Hi-Cap Terminal</Source>
+      <Dest>Plasma-Defender: Hochkapazitätsterminal</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05ModNVPlasmaDefenderHighCapTerminal</EDID>
+      <REC>IMOD:DESC</REC>
+      <Source>(Gun Runners' Arsenal)
+Increases ammunition capacity (+32).</Source>
+      <Dest>(Arsenal der Waffenschieber)
+Erhöht Munitionskapazität (+32).</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05ModNVPlasmaDefenderScope</EDID>
+      <REC>IMOD:FULL</REC>
+      <Source>Plasma Def. Scope</Source>
+      <Dest>Plasma-Defender: Visier</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05ModNVPlasmaDefenderScope</EDID>
+      <REC>IMOD:DESC</REC>
+      <Source>(Gun Runners' Arsenal)
+Adds short-range scope.</Source>
+      <Dest>(Arsenal der Waffenschieber)
+Fügt Nahvisier hinzu.</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05ModNVPlasmaDefenderSheathStabilizer</EDID>
+      <REC>IMOD:FULL</REC>
+      <Source>Plasma Def. Sheath Stabilizer</Source>
+      <Dest>Plasma-Defender: Scheidenstabilisierer</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05ModNVPlasmaDefenderSheathStabilizer</EDID>
+      <REC>IMOD:DESC</REC>
+      <Source>(Gun Runners' Arsenal)
+Decreases spread.</Source>
+      <Dest>(Arsenal der Waffenschieber)
+Reduziert Streuung.</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05ModNVPlasmaPistolHighEnergyIonizer</EDID>
+      <REC>IMOD:FULL</REC>
+      <Source>Plas. Pistol Hi-Energy Ionizer</Source>
+      <Dest>Plasmapistole: Hochenergie-Ionisierer</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05ModNVPlasmaPistolHighEnergyIonizer</EDID>
+      <REC>IMOD:DESC</REC>
+      <Source>(Gun Runners' Arsenal)
+Increases damage (+7).</Source>
+      <Dest>(Arsenal der Waffenschieber)
+Erhöht Schaden (+7).</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05ModNVPlasmaPistolMagneticAccelerator</EDID>
+      <REC>IMOD:FULL</REC>
+      <Source>Plas. Pistol Mag. Accelerator</Source>
+      <Dest>Plasmapistole: Magazinbeschleuniger</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05ModNVPlasmaPistolMagneticAccelerator</EDID>
+      <REC>IMOD:DESC</REC>
+      <Source>(Gun Runners' Arsenal)
+Increases speed of plasma projectile.</Source>
+      <Dest>(Arsenal der Waffenschieber)
+Erhöht Geschwindigkeit von Plasmaprojektilen.</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05ModNVPlasmaPistolRecycler</EDID>
+      <REC>IMOD:FULL</REC>
+      <Source>Plas. Pistol Recycler</Source>
+      <Dest>Plasmapistole: Rückgewinner</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05ModNVPlasmaPistolRecycler</EDID>
+      <REC>IMOD:DESC</REC>
+      <Source>(Gun Runners' Arsenal)
+Replenishes ammunition (1/4 shots).</Source>
+      <Dest>(Arsenal der Waffenschieber)
+Füllt Munition auf (1/4 Schüsse).</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05ModNVPowerFistChromedTubes</EDID>
+      <REC>IMOD:FULL</REC>
+      <Source>Power Fist Chromed Tubes</Source>
+      <Dest>Powerfaust: verchromte Röhren</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05ModNVPowerFistChromedTubes</EDID>
+      <REC>IMOD:DESC</REC>
+      <Source>(Gun Runners' Arsenal)
+Increases condition (+100%).</Source>
+      <Dest>(Arsenal der Waffenschieber)
+Erhöht Zustand (+100 %).</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05ModNVPowerFistHighCapValves</EDID>
+      <REC>IMOD:FULL</REC>
+      <Source>Power Fist Hi-Cap Valves</Source>
+      <Dest>Powerfaust: Hochkapazitätsventile</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05ModNVPowerFistHighCapValves</EDID>
+      <REC>IMOD:DESC</REC>
+      <Source>(Gun Runners' Arsenal)
+Increases damage (+8).</Source>
+      <Dest>(Arsenal der Waffenschieber)
+Erhöht Schaden (+8).</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05ModNVPowerFistPortedChambers</EDID>
+      <REC>IMOD:FULL</REC>
+      <Source>Power Fist Ported Chambers</Source>
+      <Dest>Powerfaust: portierte Kammern</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05ModNVPowerFistPortedChambers</EDID>
+      <REC>IMOD:DESC</REC>
+      <Source>(Gun Runners' Arsenal)
+Increases attack speed.</Source>
+      <Dest>(Arsenal der Waffenschieber)
+Erhöht Angriffsgeschwindigkeit.</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05ModNVRipperCarbideTeeth</EDID>
+      <REC>IMOD:FULL</REC>
+      <Source>Ripper Carbide Teeth</Source>
+      <Dest>Trennmesser: Hartmetallzähne</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05ModNVRipperCarbideTeeth</EDID>
+      <REC>IMOD:DESC</REC>
+      <Source>(Gun Runners' Arsenal)
+Increases damage (+10).</Source>
+      <Dest>(Arsenal der Waffenschieber)
+Erhöht Schaden (+10).</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05ModNVRipperHeavyDutyChain</EDID>
+      <REC>IMOD:FULL</REC>
+      <Source>Ripper HD Chain</Source>
+      <Dest>Trennmesser: HD-Kette</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05ModNVRipperHeavyDutyChain</EDID>
+      <REC>IMOD:DESC</REC>
+      <Source>(Gun Runners' Arsenal)
+Increases condition (+50%).</Source>
+      <Dest>(Arsenal der Waffenschieber)
+Erhöht Zustand (+50 %).</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05ModNVTriBeamLaserRifleFocusOptics</EDID>
+      <REC>IMOD:FULL</REC>
+      <Source>Tri-beam LR Focus Optics</Source>
+      <Dest>Tristrahl-LG: Fokussierungsoptik</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05ModNVTriBeamLaserRifleFocusOptics</EDID>
+      <REC>IMOD:DESC</REC>
+      <Source>(Gun Runners' Arsenal)
+Increases damage (+9).</Source>
+      <Dest>(Arsenal der Waffenschieber)
+Erhöht Schaden (+9).</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05ModNVTriBeamLaserRifleHDCapacitors</EDID>
+      <REC>IMOD:FULL</REC>
+      <Source>Tri-beam LR HD Caps</Source>
+      <Dest>Tristrahl-LG: HD-Caps</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05ModNVTriBeamLaserRifleHDCapacitors</EDID>
+      <REC>IMOD:DESC</REC>
+      <Source>(Gun Runners' Arsenal)
+Increases condition (+200%).</Source>
+      <Dest>(Arsenal der Waffenschieber)
+Erhöht Zustand (+200 %).</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05ModNVTriBeamLaserRifleHighCapTerminal</EDID>
+      <REC>IMOD:FULL</REC>
+      <Source>Tri-beam LR Hi-Cap Terminal</Source>
+      <Dest>Tristrahl-LG: Hochkapazitätsterminal</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05ModNVTriBeamLaserRifleHighCapTerminal</EDID>
+      <REC>IMOD:DESC</REC>
+      <Source>(Gun Runners' Arsenal)
+Increases ammunition capacity (+24).</Source>
+      <Dest>(Arsenal der Waffenschieber)
+Erhöht Munitionskapazität (+24).</Dest>
+    </String>
+    <String List="0">
+      <EDID>ModTestSuppress</EDID>
+      <REC>IMOD:FULL</REC>
+      <Source>Mod Test Supress</Source>
+      <Dest>Mod-Test-Unterdrückung</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05Recipe127mmHandLoad</EDID>
+      <REC>RCPE:FULL</REC>
+      <Source>12.7mm, JHP Hand Load (GRA)</Source>
+      <Dest>12,7 mm, SG Eigenbau</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05Recipe12Ga40BuckMagnum</EDID>
+      <REC>RCPE:FULL</REC>
+      <Source>12 Ga., 4/0 Buck Mag. Hand Load (GRA)</Source>
+      <Dest>Kaliber-12 4/0-Schrot-Mag. Eigenbau</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05Recipe20Ga30BuckMagnum</EDID>
+      <REC>RCPE:FULL</REC>
+      <Source>20 Ga., 3/0 Buck Mag. Hand Load (GRA)</Source>
+      <Dest>Kaliber-20-3/0-Schrot-Mag. Eigenbau</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05RecipeTinGrenade</EDID>
+      <REC>RCPE:FULL</REC>
+      <Source>Tin Grenade (GRA)</Source>
+      <Dest>Blechgranate</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05RecipeBottlecapMineEfficient</EDID>
+      <REC>RCPE:FULL</REC>
+      <Source>Bottlecap Mine, Efficient (GRA)</Source>
+      <Dest>Kronkorkenmine, effizient</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05RecipePowderChargeEfficient</EDID>
+      <REC>RCPE:FULL</REC>
+      <Source>Powder Charge, Efficient (GRA)</Source>
+      <Dest>Treibmittel, effizient</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05RecipeTimeBombHighYield</EDID>
+      <REC>RCPE:FULL</REC>
+      <Source>Time Bomb, High Yield (GRA)</Source>
+      <Dest>Zeitbombe, hoher Ertrag</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05RecipeNukaGrenade</EDID>
+      <REC>RCPE:FULL</REC>
+      <Source>Nuka-Grenade (GRA)</Source>
+      <Dest>Nuka-Granate</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05RecipeMFCCluster</EDID>
+      <REC>RCPE:FULL</REC>
+      <Source>MFC Cluster (GRA)</Source>
+      <Dest>MFZ-Cluster</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05RecipeMFCGrenade</EDID>
+      <REC>RCPE:FULL</REC>
+      <Source>MFC Grenade (GRA)</Source>
+      <Dest>MFZ-Granate</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05RecipeFatMine</EDID>
+      <REC>RCPE:FULL</REC>
+      <Source>Fat Mine (GRA)</Source>
+      <Dest>Fatmine</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05Recipe5mmHandLoad</EDID>
+      <REC>RCPE:FULL</REC>
+      <Source>5mm, JSP Hand Load (GRA)</Source>
+      <Dest>5 mm, TMS-Eigenbau</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05Recipe9mmHandLoad</EDID>
+      <REC>RCPE:FULL</REC>
+      <Source>9mm, JHP Hand Load (GRA)</Source>
+      <Dest>9 mm, SG-Eigenbau</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05Recipe556mmHandLoad</EDID>
+      <REC>RCPE:FULL</REC>
+      <Source>5.56mm, Match Hand Load (GRA)</Source>
+      <Dest>5,56 mm, Match-Eigenbau</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05RecipeFlamerFuelOptimized</EDID>
+      <REC>RCPE:FULL</REC>
+      <Source>Flamer Fuel, Optimized (GRA)</Source>
+      <Dest>Brennstoff für den Flammenwerfer, optimiert</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05RecipeSmallEnergyCellOptimized</EDID>
+      <REC>RCPE:FULL</REC>
+      <Source>Energy Cell, Optimized (GRA)</Source>
+      <Dest>Energiezelle, optimiert</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05RecipeMicroFusionCellOptimized</EDID>
+      <REC>RCPE:FULL</REC>
+      <Source>Microfusion Cell, Optimized (GRA)</Source>
+      <Dest>Mikrofusionszelle, optimiert</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05RecipeElectronChargePackOptimized</EDID>
+      <REC>RCPE:FULL</REC>
+      <Source>Electron Charge Pack, Optimized (GRA)</Source>
+      <Dest>Elektronenladeteil, optimiert</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05ChallengeDyinAintMuchOfALiving</EDID>
+      <REC>CHAL:FULL</REC>
+      <Source>(GRA) Dyin' Ain't Much of a Living **</Source>
+      <Dest>(ADW) Vom Sterben kann man nicht leben **</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05ChallengeDyinAintMuchOfALiving</EDID>
+      <REC>CHAL:DESC</REC>
+      <Source>Kill members of NCR or Legion hit squads with weapons affected by the Cowboy perk.</Source>
+      <Dest>Töten Sie Mitglieder der RNK- oder Legions-Killerkommandos mit Waffen, auf die das Extra 'Cowboy' wirkt.</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05ChallengeEvenAGodKingCanBleed</EDID>
+      <REC>CHAL:FULL</REC>
+      <Source>(GRA) Even a God-King Can Bleed **</Source>
+      <Dest>(ADW) Sogar ein Gottkönig kann bluten **</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05ChallengeEvenAGodKingCanBleed</EDID>
+      <REC>CHAL:DESC</REC>
+      <Source>Cripple Caesar's head with Throwing Spears.</Source>
+      <Dest>Zerstören Sie Caesars Kopf mit Wurfspeeren.</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05ChallengeSicSemperTyrannis</EDID>
+      <REC>CHAL:FULL</REC>
+      <Source>(GRA) Sic Semper Tyrannis **</Source>
+      <Dest>(ADW) Sic Semper Tyrannis **</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05ChallengeSicSemperTyrannis</EDID>
+      <REC>CHAL:DESC</REC>
+      <Source>Kill President Kimball with any One-Handed Pistol.</Source>
+      <Dest>Töten Sie Präsident Kimball mir einer beliebigen einhändigen Pistole.</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05ChallengeBenefitOrAHazard</EDID>
+      <REC>CHAL:FULL</REC>
+      <Source>(GRA) Benefit Or a Hazard *</Source>
+      <Dest>(ADW) Vorteil oder Wagnis *</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05ChallengeBenefitOrAHazard</EDID>
+      <REC>CHAL:DESC</REC>
+      <Source>Kill Robots with 5.56mm Pistols.</Source>
+      <Dest>Töten Sie Roboter mit 5,56-mm-Pistolen.</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05ChallengeVault13sRevenge</EDID>
+      <REC>CHAL:FULL</REC>
+      <Source>(GRA) Vault 13's Revenge **</Source>
+      <Dest>(ADW) Die Rache von Vault 13 **</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05ChallengeVault13sRevenge</EDID>
+      <REC>CHAL:DESC</REC>
+      <Source>Kill Super Mutants with 5.56mm Pistols, Plasma Defenders, Plasma Grenades, Power Fists, Rippers, or the Bozar.</Source>
+      <Dest>Töten Sie Supermutanten mit 5,56-mm-Pistolen, Plasma-Defendern, Plasmagranaten, Powerfäusten, Trennmessern oder dem Bozar.</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05ChallengeManMachineInterface</EDID>
+      <REC>CHAL:FULL</REC>
+      <Source>(GRA) Man-Machine Interface ***</Source>
+      <Dest>(ADW) Mensch-Maschinen-Schnittstelle ***</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05ChallengeManMachineInterface</EDID>
+      <REC>CHAL:DESC</REC>
+      <Source>Kill Mojave Wasteland Mr. Gutsys and Sentry Bots with Brass Knuckles, Spiked Knuckles, Tire Irons, and Lead Pipes.</Source>
+      <Dest>Töten Sie Mojave-Ödland-Wachbots des Typs 'Mr. Gutsy' mit Schlagringen, Nagelschlagringen, Kreuzschlüsseln und Bleirohren.</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05ChallengeCrackerjackTiming</EDID>
+      <REC>CHAL:FULL</REC>
+      <Source>(GRA) Crackerjack Timing ***</Source>
+      <Dest>(ADW) Kanonen-Timing ***</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05ChallengeCrackerjackTiming</EDID>
+      <REC>CHAL:DESC</REC>
+      <Source>Kill Mojave Wasteland Cazadores with Tin Grenades, Long Fuse Dynamite, and Time Bombs.</Source>
+      <Dest>Töten Sie Mojave-Ödland-Cazadore mit Blechgranaten, Dynamit mit langer Lunte und Zeitbomben.</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05ChallengeTheSameCouldBeSaid</EDID>
+      <REC>CHAL:FULL</REC>
+      <Source>(GRA) The Same Could Be Said of All Religious Weapons *</Source>
+      <Dest>(ADW) Dasselbe könnte man über alle religiösen Waffen sagen *</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05ChallengeTheSameCouldBeSaid</EDID>
+      <REC>CHAL:DESC</REC>
+      <Source>Kill Feral Ghouls with Maria, Gehenna, and Holy Frag Grenades.</Source>
+      <Dest>Töten Sie Wilde Ghule mit Maria, Gehenna und heiligen Splittergranaten.</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05ChallengeASlaveObeys</EDID>
+      <REC>CHAL:FULL</REC>
+      <Source>(GRA) A Slave Obeys *</Source>
+      <Dest>(ADW) Ein Sklave gehorcht *</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05ChallengeASlaveObeys</EDID>
+      <REC>CHAL:DESC</REC>
+      <Source>Kill Mr. House with a 9 Iron or Nephi's Golf Driver.</Source>
+      <Dest>Töten Sie Mr. House mit einem 9er-Eisen oder mit Nephis Golfschläger.</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05ChallengeArmedForBear</EDID>
+      <REC>CHAL:FULL</REC>
+      <Source>(GRA) Armed For Bear ***</Source>
+      <Dest>(ADW) Bewaffnet für den Bären ***</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05ChallengeArmedForBear</EDID>
+      <REC>CHAL:DESC</REC>
+      <Source>Kill any named NCR Ranger or commissioned officer (Lieutenant, Captain, Major, Colonel, General) with Machetes, Rippers, Chainsaws, Throwing Spears, or Ballistic Fists.</Source>
+      <Dest>Töten Sie benannte RNK-Ranger oder Offiziere (Lieutenant, Captain, Major, Colonel, General) mit Macheten, Trennmessern, Kettensägen, Wurfspeeren oder ballistischen Fäusten.</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05ChallengeAgainstAllTyrants</EDID>
+      <REC>CHAL:FULL</REC>
+      <Source>(GRA) Against All Tyrants ***</Source>
+      <Dest>(ADW) Gegen alle Tyrannen ***</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05ChallengeAgainstAllTyrants</EDID>
+      <REC>CHAL:DESC</REC>
+      <Source>Kill any named Legion members with Hunting Revolvers, Ranger Sequoias, Brush Guns, Service Rifles, Hunting Rifles, or Cowboy Repeaters.</Source>
+      <Dest>Töten Sie benannte Legionsmitglieder mit Jagdrevolvern, Ranger-Sequoias, Buschbüchsen, Dienstgewehren, Jagdflinten oder Cowboy-Repetierern.</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05ChallengeCuriosAndRelics</EDID>
+      <REC>CHAL:FULL</REC>
+      <Source>(GRA) Curios and Relics</Source>
+      <Dest>(ADW) Kuriositäten und Relikte</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05ChallengeCuriosAndRelics</EDID>
+      <REC>CHAL:DESC</REC>
+      <Source>Cause damage with unique Mojave Wasteland weapons.</Source>
+      <Dest>Verursachen Sie Schaden mit speziellen Mojave-Ödlandwaffen.</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05ChallengeNeNeNeNe</EDID>
+      <REC>CHAL:FULL</REC>
+      <Source>(GRA) Ne Ne Ne Ne... *</Source>
+      <Dest>(ADW) Ne Ne Ne Ne ... *</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05ChallengeNeNeNeNe</EDID>
+      <REC>CHAL:DESC</REC>
+      <Source>Cripple Right Arms with Shotguns.</Source>
+      <Dest>Zerstören Sie rechte Arme mit Schrotflinten.</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05ChallengeYouDontBelong</EDID>
+      <REC>CHAL:FULL</REC>
+      <Source>(GRA) You Don't Belong In This World! *</Source>
+      <Dest>(ADW) Du gehörst nicht in diese Welt! *</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05ChallengeYouDontBelong</EDID>
+      <REC>CHAL:DESC</REC>
+      <Source>Kill Abominations with Katanas, Dynamite, Machetes, Throwing Spears, Throwing Knives, and Throwing Hatchets.</Source>
+      <Dest>Töten Sie Abscheulichkeiten mit Katanas, Dynamit, Macheten, Wurfspeeren, Wurfmessern und Wurfäxten.</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05ChallengeOverkill</EDID>
+      <REC>CHAL:FULL</REC>
+      <Source>(GRA) Overkill *</Source>
+      <Dest>(ADW) Des Guten zu viel *</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05ChallengeOverkill</EDID>
+      <REC>CHAL:DESC</REC>
+      <Source>Kill Animals with any Fat Man or Fat Mines.</Source>
+      <Dest>Töten Sie Tiere mit Fatmans oder Fatminen.</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05ChallengeWhiteLineNightmare</EDID>
+      <REC>CHAL:FULL</REC>
+      <Source>(GRA) White Line Nightmare **</Source>
+      <Dest>(ADW) Mittelstreifen-Albtraum **</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05ChallengeWhiteLineNightmare</EDID>
+      <REC>CHAL:DESC</REC>
+      <Source>Kill Fiends, Vipers, or Jackals with Tire Irons, Baseball Bats, Lead Pipes, Machetes, .44 Magnum Revolvers, or Sawed-Off Shotguns.</Source>
+      <Dest>Töten Sie Unholde, Vipern oder Schakale mit Kreuzschlüsseln, Baseballschlägern, Bleirohren, Macheten, .44-Magnum-Revolvern oder abgesägten Schrotflinten.</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05ChallengeTalkAboutOwned</EDID>
+      <REC>CHAL:FULL</REC>
+      <Source>(GRA) Talk About Owned **</Source>
+      <Dest>(ADW) Das nennt man überlegen **</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05ChallengeTalkAboutOwned</EDID>
+      <REC>CHAL:DESC</REC>
+      <Source>Kill Benny with his own gun, Maria.</Source>
+      <Dest>Töten Sie Benny mit seinem eigenen Gewehr, Maria.</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05ChallengeDeathclawProHunter</EDID>
+      <REC>CHAL:FULL</REC>
+      <Source>(GRA) Deathclaw Pro Hunter ***</Source>
+      <Dest>(ADW) Todeskrallen-Pro-Jäger ***</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05ChallengeDeathclawProHunter</EDID>
+      <REC>CHAL:DESC</REC>
+      <Source>Kill adult Mojave Wasteland Deathclaws with .22 Pistols, Switchblades, Boxing Tape, Recharger Rifles, or Dynamite.</Source>
+      <Dest>Töten Sie ausgewachsene Mojave-Ödland-Todeskrallen mit Kaliber-.22-Pistolen, Springmessern, Boxbandagen, Akkugewehren oder Dynamit.</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05ChallengeHistoricalPropriety</EDID>
+      <REC>CHAL:FULL</REC>
+      <Source>(GRA) Historical Propriety **</Source>
+      <Dest>(ADW) Historische Korrektheit **</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05ChallengeHistoricalPropriety</EDID>
+      <REC>CHAL:DESC</REC>
+      <Source>Kill Caesar with a Knife or Combat Knife.</Source>
+      <Dest>Töten Sie Caesar mit einem Messer oder Kampfmesser.</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05ChallengeNyahSee</EDID>
+      <REC>CHAL:FULL</REC>
+      <Source>(GRA) Nyah! See? **</Source>
+      <Dest>(ADW) Nyah! Okay? **</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05ChallengeNyahSee</EDID>
+      <REC>CHAL:DESC</REC>
+      <Source>Kill Chairmen, White Gloves, or Omertas with any submachine gun, light machine gun, or minigun.</Source>
+      <Dest>Töten Sie Vorsitzende, Feinschmecker oder Omertas mit einer Maschinenpistole, einem leichten MG oder einer Minigun.</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05ChallengeMasterOfTheArsenal</EDID>
+      <REC>CHAL:FULL</REC>
+      <Source>(GRA) Master of the Arsenal</Source>
+      <Dest>(ADW) Meister des Arsenals</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05ChallengeMasterOfTheArsenal</EDID>
+      <REC>CHAL:DESC</REC>
+      <Source>Do damage with Gun Runners' Arsenal (GRA) Weapons.</Source>
+      <Dest>Verursachen Sie Schaden mit den Waffen des Arsenals der Waffenschieber.</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05AmmoEffectMissileHiveSpreadIncrease</EDID>
+      <REC>AMEF:FULL</REC>
+      <Source>Hive Missile Spread Increase</Source>
+      <Dest>Hive-Rakete – Streuungserhöhung</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05AmmoEffectFatMansTinyTotsSpreadIncrease</EDID>
+      <REC>AMEF:FULL</REC>
+      <Source>Tiny Tots Spread Increase</Source>
+      <Dest>Kleine Knirpse: Streuungserhöhung</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05AmmoEffectJSPDTReduction</EDID>
+      <REC>AMEF:FULL</REC>
+      <Source>Dam. Thresh. Reduction</Source>
+      <Dest>Scha.-Schw.-Reduktion</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05AmmoEffectOptimizedDTBypass</EDID>
+      <REC>AMEF:FULL</REC>
+      <Source>DT Bypass</Source>
+      <Dest>SW-Umgehung</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05AmmoEffectOptimizedDamageBonus</EDID>
+      <REC>AMEF:FULL</REC>
+      <Source>Damage Bonus</Source>
+      <Dest>Schadensbonus</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05AmmoEffectOptimizedConditionPenalty</EDID>
+      <REC>AMEF:FULL</REC>
+      <Source>COND Decay Increase</Source>
+      <Dest>ZST-Abnahme-Erhöhung</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05AmmoEffectJHPDTPenalty</EDID>
+      <REC>AMEF:FULL</REC>
+      <Source>Dam. Thresh. Increase</Source>
+      <Dest>Scha.-Schw.-Erhöhung</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05AmmoEffectJHPDamageBonus</EDID>
+      <REC>AMEF:FULL</REC>
+      <Source>Damage Bonus</Source>
+      <Dest>Schadensbonus</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05AmmoEffectJSPDamageBonus</EDID>
+      <REC>AMEF:FULL</REC>
+      <Source>Damage Bonus</Source>
+      <Dest>Schadensbonus</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05AmmoEffectJSPConditionPenalty</EDID>
+      <REC>AMEF:FULL</REC>
+      <Source>COND Decay Increase</Source>
+      <Dest>ZST-Abnahme-Erhöhung</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05AmmoEffectMatchSpreadReduction</EDID>
+      <REC>AMEF:FULL</REC>
+      <Source>Spread Reduction</Source>
+      <Dest>Streuungsreduktion</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05AmmoEffectMatchDamageBonus</EDID>
+      <REC>AMEF:FULL</REC>
+      <Source>Damage Bonus</Source>
+      <Dest>Schadensbonus</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05AmmoEffectMagnumConditionPenalty</EDID>
+      <REC>AMEF:FULL</REC>
+      <Source>Magnum COND Penalty</Source>
+      <Dest>Magnum-ZST-Abzug</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05AmmoEffectMagnumDamageBonus</EDID>
+      <REC>AMEF:FULL</REC>
+      <Source>Magnum Damage Bonus</Source>
+      <Dest>Magnum-Schadensbonus</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05AmmoEffectMagnumDTReduction</EDID>
+      <REC>AMEF:FULL</REC>
+      <Source>Dam. Thresh. Reduction</Source>
+      <Dest>Scha.-Schw.-Reduktion</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05AmmoEffectFlechetteDTReduction</EDID>
+      <REC>AMEF:FULL</REC>
+      <Source>Flechette DT Reduction</Source>
+      <Dest>Pfeilgeschoss-SW-Reduzierung</Dest>
+    </String>
+    <String List="0">
+      <EDID>TestMentats</EDID>
+      <REC>CELL:FULL</REC>
+      <Source>Mentats Test Level</Source>
+      <Dest>Mentats-Teststufen</Dest>
+    </String>
+  </Content>
+</SSTXMLRessources>

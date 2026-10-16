@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<SSTXMLRessources>
+  <Params>
+    <Addon>ClassicPack</Addon>
+    <Source>english</Source>
+    <Dest>german</Dest>
+    <Version>2</Version>
+  </Params>
+  <Content>
+    <String List="0">
+      <EDID>PreordVault13CanteenHeal</EDID>
+      <REC>SPEL:FULL</REC>
+      <Source>Vault 13 Canteen Effect</Source>
+      <Dest>Vault 13 Kantinen-Effekt</Dest>
+    </String>
+    <String List="0">
+      <EDID>PreordArmorVault13Armored</EDID>
+      <REC>ARMO:FULL</REC>
+      <Source>Armored Vault 13 Jumpsuit</Source>
+      <Dest>Gepanzerter Vault-13-Overall</Dest>
+    </String>
+    <String List="0">
+      <EDID>PreordVaultCanteen</EDID>
+      <REC>MISC:FULL</REC>
+      <Source>Vault 13 Canteen</Source>
+      <Dest>Vault 13 Kantine</Dest>
+    </String>
+    <String List="0">
+      <EDID>WeapPreord10mmPistol</EDID>
+      <REC>WEAP:FULL</REC>
+      <Source>Weathered 10mm Pistol</Source>
+      <Dest>verwitterte 10mm Pistole</Dest>
+    </String>
+    <String List="0">
+      <EDID>PreorderMessageInventoryClassic</EDID>
+      <REC>MESG:DESC</REC>
+      <Source>Classic Pack items added to inventory.</Source>
+      <Dest>Klassisches Erweiterungpaket zum Inventar hinzugefügt.</Dest>
+    </String>
+    <String List="0">
+      <EDID>PreorderMessageInventoryClassic</EDID>
+      <REC>MESG:FULL</REC>
+      <Source>Classic Pack</Source>
+      <Dest>Klassisches Erweiterungpaket</Dest>
+    </String>
+    <String List="0">
+      <EDID>PreordVault13Canteen</EDID>
+      <REC>MESG:DESC</REC>
+      <Source>You take a sip from your trusty Vault 13 canteen...</Source>
+      <Dest>Nehmen Sie ein Schlückchen aus ihrer vertrauensvollen Vault 13 Kantine…</Dest>
+    </String>
+  </Content>
+</SSTXMLRessources>

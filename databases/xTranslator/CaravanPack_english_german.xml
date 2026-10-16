@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<SSTXMLRessources>
+  <Params>
+    <Addon>CaravanPack</Addon>
+    <Source>english</Source>
+    <Dest>german</Dest>
+    <Version>2</Version>
+  </Params>
+  <Content>
+    <String List="0">
+      <EDID>PreordArmorLeather</EDID>
+      <REC>ARMO:FULL</REC>
+      <Source>Lightweight Leather Armor</Source>
+      <Dest>Leichte Leder-Rüstung</Dest>
+    </String>
+    <String List="0">
+      <EDID>WeapPreordCaravanShotgun</EDID>
+      <REC>WEAP:FULL</REC>
+      <Source>Sturdy Caravan Shotgun</Source>
+      <Dest>Robuste Karawan-Flinte</Dest>
+    </String>
+    <String List="0">
+      <EDID>PreorderMessageInventoryCaravan</EDID>
+      <REC>MESG:DESC</REC>
+      <Source>Caravan Pack items added to inventory.</Source>
+      <Dest>Karawane Erweiterunspaket zum Inventar hinzugefügt.</Dest>
+    </String>
+    <String List="0">
+      <EDID>PreorderMessageInventoryCaravan</EDID>
+      <REC>MESG:FULL</REC>
+      <Source>Caravan Pack</Source>
+      <Dest>Karawane Erweiterunspaket</Dest>
+    </String>
+  </Content>
+</SSTXMLRessources>

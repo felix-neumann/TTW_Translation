@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<SSTXMLRessources>
+  <Params>
+    <Addon>MercenaryPack</Addon>
+    <Source>english</Source>
+    <Dest>german</Dest>
+    <Version>2</Version>
+  </Params>
+  <Content>
+    <String List="0">
+      <EDID>PreordArmorMetal</EDID>
+      <REC>ARMO:FULL</REC>
+      <Source>Lightweight Metal Armor</Source>
+      <Dest>Leichte Metall-Rüstung</Dest>
+    </String>
+    <String List="0">
+      <EDID>WeapPreordGrenadeRifle</EDID>
+      <REC>WEAP:FULL</REC>
+      <Source>Mercenary's Grenade Rifle</Source>
+      <Dest>Söldner Granatengewehr</Dest>
+    </String>
+    <String List="0">
+      <EDID>PreorderMessageInventoryMercenary</EDID>
+      <REC>MESG:DESC</REC>
+      <Source>Mercenary Pack items added to inventory.</Source>
+      <Dest>Söldner Erweiterungspaket zum Inventar hinzugefügt.</Dest>
+    </String>
+    <String List="0">
+      <EDID>PreorderMessageInventoryMercenary</EDID>
+      <REC>MESG:FULL</REC>
+      <Source>Mercenary Pack</Source>
+      <Dest>Söldner Erweiterungspaket</Dest>
+    </String>
+  </Content>
+</SSTXMLRessources>
