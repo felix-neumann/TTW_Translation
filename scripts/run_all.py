@@ -82,9 +82,12 @@ def main():
 
     print('3/4 Plugins und Datenbanken schreiben ...')
     translations = build_mod.load_translations(a.translations)
-    gm = build_mod.german_only_gmsts(os.path.join(base, 'English Files', 'Fallout New Vegas', 'FalloutNV.esm'),
-                                     os.path.join(base, 'German Files', 'Fallout New Vegas', 'FalloutNV.esm'),
-                                     results)
+    gm = build_mod.german_only_gmsts(
+        [os.path.join(base, 'English Files', 'Fallout New Vegas', 'FalloutNV.esm'),
+         os.path.join(base, 'English Files', 'Fallout 3', 'Fallout3.esm')],
+        [os.path.join(base, 'German Files', 'Fallout New Vegas', 'FalloutNV.esm'),
+         os.path.join(base, 'German Files', 'Fallout 3', 'Fallout3.esm')],
+        os.path.join(base, 'To Translate', 'FalloutNV.esm'), results)
     inject = {'falloutnv.esm': gm}
     summary, missing = build_mod.build(results, os.path.join(base, 'To Translate'), out, db, translations, inject)
     miss_path = os.path.join(work, 'untranslated.json')

@@ -2,6 +2,7 @@
 import collections
 import csv
 import json
+import struct
 import os
 import sys
 import xml.etree.ElementTree as ET
@@ -26,25 +27,62 @@ def nl(s):
     return s.replace('\r\n', '\n')
 
 
-def german_only_gmsts(en_master, de_master, results):
-    """String game settings that exist only in the German master.
+NEW_FORMID_BASE = 0x180000  # above every FalloutNV.esm FormID used by EN, DE and TTW
+
+
+def german_only_gmsts(en_masters, de_masters, ttw_master, results):
+    """String game settings that exist only in the German masters (matched by EditorID).
 
     The English game takes these texts (main menu, controls, hacking, ...) from the EXE;
-    the German master overrides them. They are added as new records unless a TTW plugin
+    the German masters override them. They are added as new records unless a TTW plugin
     already sets the same EditorID (those are translated through the normal mapping).
+    de_masters[0] is the German FalloutNV.esm; further masters (German Fallout3.esm) only
+    contribute EditorIDs not found in any earlier one. Their records always get a fresh
+    FormID and the FNV record header version. Many German FNV GMSTs also reuse FormIDs that
+    the English/TTW master assigns to other records; those get a fresh FormID as well
+    (the engine looks game settings up by EditorID).
     Returns [(formid, edid, german text, raw record bytes)].
     """
-    en_ids = {fid for t, fid, fl, d in iter_records(en_master)}
+    def gmst_edids(path):
+        ids, edids = set(), set()
+        for t, fid, fl, data in iter_records(path):
+            ids.add(fid)
+            if t == 'GMST':
+                edids.add(next(v for k, v in parse_subs(data) if k == b'EDID')[:-1].decode('cp1252'))
+        return ids, edids
+
+    en_ids, en_edids = gmst_edids(en_masters[0])
+    for p in en_masters[1:]:
+        en_edids |= gmst_edids(p)[1]
+    ttw_ids, _ = gmst_edids(ttw_master)
+    used = en_ids | ttw_ids
     ttw_edids = {e[4] for v in results.values() for e, _, _ in v['res'] if e[0] == 'GMST'}
-    raw = raw_records(de_master, 'GMST')
-    out = []
-    for t, fid, fl, data in iter_records(de_master):
-        if t != 'GMST' or fid in en_ids:
-            continue
-        s = {k.decode(): v for k, v in parse_subs(data)}
-        edid = s['EDID'][:-1].decode('cp1252')
-        if edid.startswith('s') and edid not in ttw_edids:
-            out.append((fid, edid, s['DATA'].rstrip(b'\0').decode('cp1252'), raw[fid]))
+    out, seen, next_id, header_tail = [], set(), NEW_FORMID_BASE, None
+    for n, de_master in enumerate(de_masters):
+        raw = raw_records(de_master, 'GMST')
+        if n == 0:
+            header_tail = next(iter(raw.values()))[16:24]  # vc info + form version of FNV records
+        found = []
+        for t, fid, fl, data in iter_records(de_master):
+            if t != 'GMST':
+                continue
+            s = {k.decode(): v for k, v in parse_subs(data)}
+            edid = s['EDID'][:-1].decode('cp1252')
+            if edid.startswith('s') and edid not in en_edids | ttw_edids | seen:
+                found.append((fid, edid, s['DATA'].rstrip(b'\0').decode('cp1252')))
+        for fid, edid, de in sorted(found, key=lambda x: x[1]):
+            rec = raw[fid]
+            if n > 0:
+                rec = rec[:16] + header_tail + rec[24:]
+            if n > 0 or fid in used:
+                while next_id in used:
+                    next_id += 1
+                fid = next_id
+                next_id += 1
+                rec = rec[:12] + struct.pack('<I', fid) + rec[16:]
+            used.add(fid)
+            seen.add(edid)
+            out.append((fid, edid, de, rec))
     return out
 
 
@@ -104,7 +142,7 @@ def build(results, src_dir, out_dir, db_dir, translations, inject=None, log=prin
                 + (f', {st["added_records"]} deutsche Spieleinstellungen ergänzt' if extra else ''))
             for fid, edid, de, _ in extra:
                 w.writerow([fname, '%08X' % fid, edid, 'GMST', 'DATA', 0, '', esc(de),
-                            'FNV-Original (nur im DE-Master, als neuer Record ergaenzt)'])
+                            'DE-Original (nur im DE-Master, als neuer Record ergaenzt)'])
 
             root = ET.Element('SSTXMLRessources')
             p = ET.SubElement(root, 'Params')
