@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<SSTXMLRessources>
+  <Params>
+    <Addon>VanGraffHostilityQuestFix</Addon>
+    <Source>english</Source>
+    <Dest>german</Dest>
+    <Version>2</Version>
+  </Params>
+  <Content>
+    <String List="0">
+      <EDID>vMojavevMORangerJacksonTopic018</EDID>
+      <REC>DIAL:FULL</REC>
+      <Source>You're welcome.</Source>
+      <Dest>Keine Ursache.</Dest>
+    </String>
+    <String List="0">
+      <EDID>[0015DAFE]</EDID>
+      <REC>INFO:NAM1</REC>
+      <Source>I'll do what I can - and those folks that got killed need to be answered for.</Source>
+      <Dest>Ich tue, was ich kann - und jemand muss zur Rechenschaft gezogen werden für all jene, die gestorben sind.</Dest>
+    </String>
+  </Content>
+</SSTXMLRessources>

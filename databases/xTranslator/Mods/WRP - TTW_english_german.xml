@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<SSTXMLRessources>
+  <Params>
+    <Addon>WRP - TTW</Addon>
+    <Source>english</Source>
+    <Dest>german</Dest>
+    <Version>2</Version>
+  </Params>
+  <Content>
+    <String List="0">
+      <EDID>Weap10mmPistol</EDID>
+      <REC>WEAP:FULL</REC>
+      <Source>10mm Pistol</Source>
+      <Dest>10-mm-Pistole</Dest>
+    </String>
+    <String List="0">
+      <EDID>WeapNVVarmintRifle</EDID>
+      <REC>WEAP:FULL</REC>
+      <Source>Varmint Rifle</Source>
+      <Dest>Kleinkalibergewehr</Dest>
+    </String>
+    <String List="0">
+      <EDID>WeapNV357Revolver</EDID>
+      <REC>WEAP:FULL</REC>
+      <Source>.357 Magnum Revolver</Source>
+      <Dest>.357-Magnum-Revolver</Dest>
+    </String>
+    <String List="0">
+      <EDID>WeapNV357RevolverUnique</EDID>
+      <REC>WEAP:FULL</REC>
+      <Source>Lucky</Source>
+      <Dest>Glücksgriff</Dest>
+    </String>
+    <String List="0">
+      <EDID>WeapNVVarmintRifleUnique</EDID>
+      <REC>WEAP:FULL</REC>
+      <Source>Ratslayer</Source>
+      <Dest>Rattentöter</Dest>
+    </String>
+    <String List="0">
+      <EDID>WeapNVGrenadeRifleUnique</EDID>
+      <REC>WEAP:FULL</REC>
+      <Source>Thump-Thump</Source>
+      <Dest>Rums-Bums</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05WeapNV127mmSubmachineGunCustom</EDID>
+      <REC>WEAP:FULL</REC>
+      <Source>12.7mm Submachine Gun</Source>
+      <Dest>12,7-mm-Maschinenpistole</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05WeapNVAntiMaterielRifleCustom</EDID>
+      <REC>WEAP:FULL</REC>
+      <Source>Anti-Materiel Rifle (GRA)</Source>
+      <Dest>Panzerbüchse (ADW)</Dest>
+    </String>
+    <String List="0">
+      <EDID>Weap10mmPistolSilenced</EDID>
+      <REC>WEAP:FULL</REC>
+      <Source>Silenced 10mm Pistol</Source>
+      <Dest>10-mm-Pistole mit Schalldämpfer</Dest>
+    </String>
+    <String List="0">
+      <EDID>FollowersButch10mmPistol</EDID>
+      <REC>WEAP:FULL</REC>
+      <Source>Butch's 10mm Pistol</Source>
+      <Dest>Butchs 10-mm-Pistole</Dest>
+    </String>
+    <String List="0">
+      <EDID>TTWWeapPreord10mmPistol</EDID>
+      <REC>WEAP:FULL</REC>
+      <Source>Weathered 10mm Pistol</Source>
+      <Dest>verwitterte 10mm Pistole</Dest>
+    </String>
+  </Content>
+</SSTXMLRessources>

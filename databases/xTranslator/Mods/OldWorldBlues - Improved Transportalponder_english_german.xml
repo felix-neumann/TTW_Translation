@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<SSTXMLRessources>
+  <Params>
+    <Addon>OldWorldBlues - Improved Transportalponder</Addon>
+    <Source>english</Source>
+    <Dest>german</Dest>
+    <Version>2</Version>
+  </Params>
+  <Content>
+    <String List="0">
+      <EDID>WastelandNV</EDID>
+      <REC>WRLD:FULL</REC>
+      <Source>Mojave Wasteland</Source>
+      <Dest>Mojave-Ödland</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC03TeleporterAcquiredMsg</EDID>
+      <REC>MESG:DESC</REC>
+      <Source>You've acquired the Big Mountain Transportalponder! It's capable of transporting you between the Mojave Wasteland and Big MT.
+
+To return to the Mojave (or go back to Big MT from the Mojave), simply equip the Transportalponder! as you would any weapon, pull the trigger, and away you'll go. Note that it won't work in interiors or in combat situations, and is totally incapable of harming your enemies.</Source>
+      <Dest>Sie haben den Big Mountain-Transportalponder erhalten! Er kann Sie - und nur Sie allein - zwischen dem Mojave-Ödland und dem Big MT hin und her transportieren.
+
+Um zur Mojave zurückzukehren (oder um von der Mojave zum Big MT zurückzukehren), rüsten Sie sich einfach mit dem Transportalponder aus wie mit einer Waffe, drücken den Abzug und los geht's! Beachten Sie bitte, dass er in Innenräumen oder Kampfsituationen nicht funktionieren wird und völlig außer Stande ist, Ihre Gegner zu verletzen.</Dest>
+    </String>
+  </Content>
+</SSTXMLRessources>

@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<SSTXMLRessources>
+  <Params>
+    <Addon>Zan_AutoPurge_SmartAgro_NV</Addon>
+    <Source>english</Source>
+    <Dest>german</Dest>
+    <Version>2</Version>
+  </Params>
+  <Content>
+    <String List="0" Partial="1">
+      <EDID>zAutoPCBToken</EDID>
+      <REC>MISC:FULL</REC>
+      <Source>Purge Cell Buffers</Source>
+      <Dest>Zellpuffer leeren</Dest>
+    </String>
+    <String List="0" Partial="1">
+      <EDID>zAutoPCBMessage</EDID>
+      <REC>MESG:DESC</REC>
+      <Source>ZAPCP is purging the cell buffers...</Source>
+      <Dest>ZAPCP leert die Zellpuffer ...</Dest>
+    </String>
+    <String List="0" Partial="1">
+      <EDID>zAutoPCBInit</EDID>
+      <REC>MESG:DESC</REC>
+      <Source>Zan AutoPurge Crash Protector initialized.</Source>
+      <Dest>Zan AutoPurge Crash Protector initialisiert.</Dest>
+    </String>
+  </Content>
+</SSTXMLRessources>

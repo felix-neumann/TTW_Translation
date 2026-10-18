@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<SSTXMLRessources>
+  <Params>
+    <Addon>CASM with MCM</Addon>
+    <Source>english</Source>
+    <Dest>german</Dest>
+    <Version>2</Version>
+  </Params>
+  <Content>
+    <String List="0" Partial="1">
+      <EDID>CASMQuicksaveQuest</EDID>
+      <REC>QUST:FULL</REC>
+      <Source>CASM Quicksave Quest</Source>
+      <Dest>CASM-Schnellspeicher-Quest</Dest>
+    </String>
+    <String List="0" Partial="1">
+      <EDID>CASMWorker</EDID>
+      <REC>QUST:FULL</REC>
+      <Source>CASM Autosave Quest</Source>
+      <Dest>CASM-Autospeicher-Quest</Dest>
+    </String>
+    <String List="0" Partial="1">
+      <EDID>CASMNVSEVersionError</EDID>
+      <REC>MESG:DESC</REC>
+      <Source>CASM has detected that you are not using the proper version of NVSE. CASM needs version 4 or greater, you have version %.2f. Please upgrade NVSE.</Source>
+      <Dest>CASM hat festgestellt, dass Sie nicht die richtige NVSE-Version verwenden. CASM benötigt Version 4 oder höher, Sie haben Version %.2f. Bitte aktualisieren Sie NVSE.</Dest>
+    </String>
+    <String List="0" Partial="1">
+      <EDID>CASMNVSEVersionError</EDID>
+      <REC>MESG:FULL</REC>
+      <Source>CASM - Error</Source>
+      <Dest>CASM - Fehler</Dest>
+    </String>
+    <String List="0" Partial="1">
+      <EDID>CASMJIPVersionError</EDID>
+      <REC>MESG:DESC</REC>
+      <Source>CASM has detected that you are not using the proper version of Lutana NVSE Plugin. CASM needs version 4 or greater, you have version %.0f. Please upgrade Lutana NVSE Plugin.</Source>
+      <Dest>CASM hat festgestellt, dass Sie nicht die richtige Version des Lutana NVSE Plugins verwenden. CASM benötigt Version 4 oder höher, Sie haben Version %.0f. Bitte aktualisieren Sie das Lutana NVSE Plugin.</Dest>
+    </String>
+    <String List="0" Partial="1">
+      <EDID>CASMJIPVersionError</EDID>
+      <REC>MESG:FULL</REC>
+      <Source>CASM - Error</Source>
+      <Dest>CASM - Fehler</Dest>
+    </String>
+    <String List="0" Partial="1">
+      <EDID>CASMAutosavingMessage</EDID>
+      <REC>MESG:DESC</REC>
+      <Source>CASM is saving...</Source>
+      <Dest>CASM speichert ...</Dest>
+    </String>
+    <String List="0" Partial="1">
+      <EDID>CASMAutosavingMessage</EDID>
+      <REC>MESG:FULL</REC>
+      <Source>CASM is saving</Source>
+      <Dest>CASM speichert</Dest>
+    </String>
+  </Content>
+</SSTXMLRessources>

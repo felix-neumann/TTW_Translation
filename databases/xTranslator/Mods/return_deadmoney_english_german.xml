@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<SSTXMLRessources>
+  <Params>
+    <Addon>return_deadmoney</Addon>
+    <Source>english</Source>
+    <Dest>german</Dest>
+    <Version>2</Version>
+  </Params>
+  <Content>
+    <String List="0">
+      <EDID>aaMojaveGateTrigg</EDID>
+      <REC>ACTI:FULL</REC>
+      <Source>Gas Valve</Source>
+      <Dest>Gasventil</Dest>
+    </String>
+    <String List="0">
+      <EDID>aaFakeBunkerReturnDoor</EDID>
+      <REC>DOOR:FULL</REC>
+      <Source>Door</Source>
+      <Dest>Tür</Dest>
+    </String>
+    <String List="0">
+      <EDID>aaNVDLC01SMGateMojave</EDID>
+      <REC>DOOR:FULL</REC>
+      <Source>Gate</Source>
+      <Dest>Tor</Dest>
+    </String>
+    <String List="0">
+      <EDID>SLBoSBunkerINT</EDID>
+      <REC>CELL:FULL</REC>
+      <Source>Brotherhood of Steel Bunker</Source>
+      <Dest>Bunker der stählernen Brudersch.</Dest>
+    </String>
+    <String List="0" Partial="1">
+      <EDID>aaMojaveDoorREF</EDID>
+      <REC>REFR:XATO</REC>
+      <Source>Travel to Sierra Madre</Source>
+      <Dest>Zum Sierra Madre reisen</Dest>
+    </String>
+    <String List="0">
+      <EDID>[001556C4]</EDID>
+      <REC>REFR:XATO</REC>
+      <Source>Climb Ladder to Mojave Wasteland</Source>
+      <Dest>Auf Leiter zum Mojave-Ödland steigen</Dest>
+    </String>
+    <String List="0">
+      <EDID>aaMojaveGateREF</EDID>
+      <REC>REFR:XATO</REC>
+      <Source>Travel to Mojave Wasteland</Source>
+      <Dest>Ins Mojave-Ödland reisen</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC01MojaveGateRef</EDID>
+      <REC>REFR:XATO</REC>
+      <Source>Travel to Mojave Wasteland</Source>
+      <Dest>Ins Mojave-Ödland reisen</Dest>
+    </String>
+  </Content>
+</SSTXMLRessources>

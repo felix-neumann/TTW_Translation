@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<SSTXMLRessources>
+  <Params>
+    <Addon>Honest Hearts Weight Check</Addon>
+    <Source>english</Source>
+    <Dest>german</Dest>
+    <Version>2</Version>
+  </Params>
+  <Content>
+    <String List="0">
+      <EDID>NVDLC02DialogueCaravanMasterNVDLC02CaravanMasterTopic000</EDID>
+      <REC>DIAL:FULL</REC>
+      <Source>I'm ready to go to Zion.</Source>
+      <Dest>Ich bin bereit, nach Zion zu gehen.</Dest>
+    </String>
+    <String List="0">
+      <EDID>[01009EB4]</EDID>
+      <REC>INFO:NAM1</REC>
+      <Source>{Player isn't alone - 2 companions}I bet you are, but we only got room for one more on this expedition. You'll have to leave your friends behind.</Source>
+      <Dest>{Player isn't alone - 2 companions}Darauf wette ich, aber wir haben hier nur noch Platz für einen. Ihre Freunde müssen Sie leider zurücklassen.</Dest>
+    </String>
+    <String List="0">
+      <EDID>[01009EB4]</EDID>
+      <REC>INFO:RNAM</REC>
+      <Source>We're all ready to get going.</Source>
+      <Dest>Wir sind alle bereit, aufzubrechen.</Dest>
+    </String>
+    <String List="0">
+      <EDID>[01009EB5]</EDID>
+      <REC>INFO:NAM1</REC>
+      <Source>{Player isn't alone - 1 companion}I bet you are, but we only got room for one more on this expedition. You'll have to leave your friend behind.</Source>
+      <Dest>{Player isn't alone - 1 companions}Darauf wette ich, aber wir haben hier nur noch Platz für einen. Ihren Freund müssen Sie leider zurücklassen.</Dest>
+    </String>
+    <String List="0">
+      <EDID>[01009EB5]</EDID>
+      <REC>INFO:RNAM</REC>
+      <Source>We're both set. Let's go.</Source>
+      <Dest>Wir sind beide bereit. Los geht's.</Dest>
+    </String>
+    <String List="0">
+      <EDID>[01009EB6]</EDID>
+      <REC>INFO:NAM1</REC>
+      <Source>{Player is carrying more than 50 lbs}I bet you are, but you ain't going nowhere loaded down like a pack brahmin.</Source>
+      <Dest>{Player is carrying more than 50 lbs}Darauf wette ich, aber so beladen wie ein Pack-Brahmin nehmen wir Sie nirgendwo mit hin.</Dest>
+    </String>
+    <String List="0">
+      <EDID>[01011525]</EDID>
+      <REC>INFO:NAM1</REC>
+      <Source>{Player is carrying more than 50 lbs}I bet you are, but you ain't going nowhere loaded down like a pack brahmin.</Source>
+      <Dest>{Player is carrying more than 50 lbs}Darauf wette ich, aber so beladen wie ein Pack-Brahmin nehmen wir Sie nirgendwo mit hin.</Dest>
+    </String>
+  </Content>
+</SSTXMLRessources>

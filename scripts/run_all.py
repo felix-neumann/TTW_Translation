@@ -11,6 +11,7 @@ The base folder must contain:
     To Translate/*.esm|*.esp               the TTW plugins to translate
 """
 import argparse
+import glob
 import json
 import os
 import pickle
@@ -33,6 +34,10 @@ def plugins(folder):
                   if n.lower().endswith(('.esm', '.esp')))
 
 
+def mods_dir(base):
+    return os.path.join(base, 'To Translate', 'Mods')
+
+
 def stage_extract(base, exdir, jobs):
     tasks = []
     for lang, folder in (('en', 'English Files'), ('de', 'German Files')):
@@ -40,9 +45,13 @@ def stage_extract(base, exdir, jobs):
         for prefix, game in GAMES:
             for p in plugins(os.path.join(base, folder, game)):
                 tasks.append((p, os.path.join(exdir, lang, f'{prefix}_{os.path.basename(p)}.pkl')))
-    os.makedirs(os.path.join(exdir, 'ttw'), exist_ok=True)
-    for p in plugins(os.path.join(base, 'To Translate')):
-        tasks.append((p, os.path.join(exdir, 'ttw', os.path.basename(p) + '.pkl')))
+    for sub, folder in (('ttw', os.path.join(base, 'To Translate')), ('mods', mods_dir(base))):
+        os.makedirs(os.path.join(exdir, sub), exist_ok=True)
+        for f in glob.glob(os.path.join(exdir, sub, '*.pkl')):
+            os.remove(f)  # removed plugins must not linger
+        if os.path.isdir(folder):
+            for p in plugins(folder):
+                tasks.append((p, os.path.join(exdir, sub, os.path.basename(p) + '.pkl')))
     with ProcessPoolExecutor(jobs) as ex:
         for name, n in ex.map(extract_to, *zip(*tasks)):
             print(f'  {name}: {n} Textfelder')
@@ -80,8 +89,16 @@ def main():
             stats[m] = stats.get(m, 0) + 1
     print('  ', stats)
 
-    print('3/4 Plugins und Datenbanken schreiben ...')
     translations = build_mod.load_translations(a.translations)
+    mod_results, _ = mapper.build_mods(exdir, results, translations)
+    if mod_results:
+        mstats = {}
+        for v in mod_results.values():
+            for _, _, m in v['res']:
+                mstats[m] = mstats.get(m, 0) + 1
+        print('   Mods:', mstats)
+
+    print('3/4 Plugins und Datenbanken schreiben ...')
     gm = build_mod.german_only_gmsts(
         [os.path.join(base, 'English Files', 'Fallout New Vegas', 'FalloutNV.esm'),
          os.path.join(base, 'English Files', 'Fallout 3', 'Fallout3.esm')],
@@ -89,7 +106,12 @@ def main():
          os.path.join(base, 'German Files', 'Fallout 3', 'Fallout3.esm')],
         os.path.join(base, 'To Translate', 'FalloutNV.esm'), results)
     inject = {'falloutnv.esm': gm}
-    summary, missing = build_mod.build(results, os.path.join(base, 'To Translate'), out, db, translations, inject)
+    groups = [dict(results=results, src_dir=os.path.join(base, 'To Translate'), out_dir=out,
+                   xml_dir=os.path.join(db, 'xTranslator'))]
+    if mod_results:
+        groups.append(dict(results=mod_results, src_dir=mods_dir(base), out_dir=os.path.join(out, 'Mods'),
+                           xml_dir=os.path.join(db, 'xTranslator', 'Mods'), prefix='Mods/'))
+    summary, missing = build_mod.build(groups, db, translations, inject)
     miss_path = os.path.join(work, 'untranslated.json')
     with open(miss_path, 'w', encoding='utf-8') as f:
         json.dump(missing, f, ensure_ascii=False, indent=1)
@@ -100,11 +122,14 @@ def main():
     if not a.no_verify:
         print('4/4 Ausgabe prüfen ...')
         bad = 0
-        for p in plugins(os.path.join(base, 'To Translate')):
-            added = {x[0] for x in inject.get(os.path.basename(p).lower(), [])}
-            st, errs = verify(p, os.path.join(out, os.path.basename(p)), added)
+        checks = [(p, os.path.join(out, os.path.basename(p)), '') for p in plugins(os.path.join(base, 'To Translate'))]
+        if mod_results:
+            checks += [(p, os.path.join(out, 'Mods', os.path.basename(p)), 'Mods/') for p in plugins(mods_dir(base))]
+        for p, o, prefix in checks:
+            added = {x[0] for x in inject.get(os.path.basename(p).lower(), [])} if not prefix else set()
+            st, errs = verify(p, o, added)
             bad += len(errs)
-            print(f'  {os.path.basename(p)}: {st["records"]} Records, {st["changed_fields"]} geändert, '
+            print(f'  {prefix}{os.path.basename(p)}: {st["records"]} Records, {st["changed_fields"]} geändert, '
                   f'{len(errs)} Fehler {errs[:3] if errs else ""}')
         if bad:
             sys.exit('Prüfung fehlgeschlagen!')

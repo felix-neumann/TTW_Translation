@@ -42,6 +42,8 @@ Projekt/
 
 Wichtig: In `To Translate` gehören die **von TTW installierten** Versionen der Dateien, nicht die Originale. TTW verändert auch die Master-Dateien der Spiele.
 
+**Weitere Mods (optional):** Plugins anderer Mods kommen nach `To Translate/Mods/`. Sie werden nach den TTW-Dateien übersetzt und landen in `Output/Mods/`. Für sie gilt dieselbe Reihenfolge wie unten beschrieben, ergänzt um unsere TTW-Übersetzung. Ändert eine Mod einen TTW-Record, bekommt sie dieselbe deutsche Fassung wie TTW selbst. Mods, die auf anderen Mods aufbauen (z. B. `WRP - TTW.esp` auf `Weapon Retexture Project.esp`), werden nach ihren Mastern verarbeitet und übernehmen deren Übersetzung. Bereits deutsche Texte in Mods werden in `claude_translations.json` mit `"de": null` markiert und bleiben unverändert.
+
 ## Benutzung
 
 ```bash
@@ -51,6 +53,7 @@ python scripts/run_all.py --base "C:/Pfad/zum/Projekt"
 Das dauert etwa eine Minute. Ergebnis:
 
 - `Projekt/Output/`: die übersetzten Plugins. Sie ersetzen die gleichnamigen TTW-Dateien im Mod-Manager.
+- `Projekt/Output/Mods/`: die übersetzten Mod-Plugins (falls `To Translate/Mods` existiert). Die XMLs dazu liegen in `databases/xTranslator/Mods/`.
 - `databases/`: aktualisierte xTranslator-XMLs und TSV.
 - `Projekt/work/`: Zwischendaten. Mit `--skip-extract` werden sie bei weiteren Läufen wiederverwendet, das spart Zeit.
 - `Projekt/work/untranslated.json`: neue englische Texte ohne Übersetzung (siehe unten).

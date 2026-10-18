@@ -15178,5 +15178,509 @@
    "TERM:ITXT"
   ],
   "editor_id": "TTWUnStnSenateParkTerminal"
+ },
+ {
+  "en": "CASM",
+  "de": null,
+  "context": [
+   "MISC:FULL"
+  ],
+  "editor_id": "CASMMCMMenuToken"
+ },
+ {
+  "en": "CASM Quicksave Quest",
+  "de": "CASM-Schnellspeicher-Quest",
+  "context": [
+   "QUST:FULL"
+  ],
+  "editor_id": "CASMQuicksaveQuest"
+ },
+ {
+  "en": "CASM Autosave Quest",
+  "de": "CASM-Autospeicher-Quest",
+  "context": [
+   "QUST:FULL"
+  ],
+  "editor_id": "CASMWorker"
+ },
+ {
+  "en": "CASM has detected that you are not using the proper version of NVSE. CASM needs version 4 or greater, you have version %.2f. Please upgrade NVSE.",
+  "de": "CASM hat festgestellt, dass Sie nicht die richtige NVSE-Version verwenden. CASM benötigt Version 4 oder höher, Sie haben Version %.2f. Bitte aktualisieren Sie NVSE.",
+  "context": [
+   "MESG:DESC"
+  ],
+  "editor_id": "CASMNVSEVersionError"
+ },
+ {
+  "en": "CASM - Error",
+  "de": "CASM - Fehler",
+  "context": [
+   "MESG:FULL"
+  ],
+  "editor_id": "CASMNVSEVersionError"
+ },
+ {
+  "en": "CASM has detected that you are not using the proper version of Lutana NVSE Plugin. CASM needs version 4 or greater, you have version %.0f. Please upgrade Lutana NVSE Plugin.",
+  "de": "CASM hat festgestellt, dass Sie nicht die richtige Version des Lutana NVSE Plugins verwenden. CASM benötigt Version 4 oder höher, Sie haben Version %.0f. Bitte aktualisieren Sie das Lutana NVSE Plugin.",
+  "context": [
+   "MESG:DESC"
+  ],
+  "editor_id": "CASMJIPVersionError"
+ },
+ {
+  "en": "CASM is saving...",
+  "de": "CASM speichert ...",
+  "context": [
+   "MESG:DESC"
+  ],
+  "editor_id": "CASMAutosavingMessage"
+ },
+ {
+  "en": "CASM is saving",
+  "de": "CASM speichert",
+  "context": [
+   "MESG:FULL"
+  ],
+  "editor_id": "CASMAutosavingMessage"
+ },
+ {
+  "en": "Das sehe ich anders. 5000 Kronkorken ist ein fairer Preis und ich bestehe darauf.",
+  "de": null,
+  "context": [
+   "INFO:NAM1"
+  ],
+  "editor_id": ""
+ },
+ {
+  "en": "Netter Versuch. Genug rumgealbert jetzt? Gut!",
+  "de": null,
+  "context": [
+   "INFO:NAM1"
+  ],
+  "editor_id": ""
+ },
+ {
+  "en": "BuyTenpennySuite1",
+  "de": null,
+  "context": [
+   "DIAL:FULL"
+  ],
+  "editor_id": "BuyTenpennySuite"
+ },
+ {
+  "en": "Die gibt es zufällig. Alistair gab mir den Auftrag die Suite für 7500 Kronkorken zu verkaufen. Aber Ihnen würde ich sie für 5000 anbieten.",
+  "de": null,
+  "context": [
+   "INFO:NAM1"
+  ],
+  "editor_id": ""
+ },
+ {
+  "en": "Gibt es eine Möglichkeit die leere Suite im oberen Flur zu erwerben ?",
+  "de": null,
+  "context": [
+   "INFO:RNAM"
+  ],
+  "editor_id": ""
+ },
+ {
+  "en": "Gerne. Nach allem was Sie für uns getan haben, wäre es schön sie als Bewohner zu bekommen. Es kostet lediglich die Kleinigkeit von 5000 Kronkorken.",
+  "de": null,
+  "context": [
+   "INFO:NAM1"
+  ],
+  "editor_id": ""
+ },
+ {
+  "en": "Kann man die leere Suite im Obergeschoss kaufen?",
+  "de": null,
+  "context": [
+   "INFO:RNAM"
+  ],
+  "editor_id": ""
+ },
+ {
+  "en": "BuyTenpennySuite2",
+  "de": null,
+  "context": [
+   "DIAL:FULL"
+  ],
+  "editor_id": "BuyTenpennySuite2"
+ },
+ {
+  "en": "Sehr gut! Hier, der Schlüssel zur Suit. Wenn Sie sonst noch was für ihre Suit benötigen, bin ich die Person die sie ansprechen sollten!",
+  "de": null,
+  "context": [
+   "INFO:NAM1"
+  ],
+  "editor_id": ""
+ },
+ {
+  "en": "Ich nehme die Suite!",
+  "de": null,
+  "context": [
+   "INFO:RNAM"
+  ],
+  "editor_id": ""
+ },
+ {
+  "en": "Danke. Hier ist der Schlüssel. Sollte eine neue Einrichtung benötigt werden, einfach fragen. Ich werde dann sehen was ich tun kann.",
+  "de": null,
+  "context": [
+   "INFO:NAM1"
+  ],
+  "editor_id": ""
+ },
+ {
+  "en": "BuyTenpennySuite3",
+  "de": null,
+  "context": [
+   "DIAL:FULL"
+  ],
+  "editor_id": "BuyTenpennySuite3"
+ },
+ {
+  "en": "Mhhh, also gut. Es gibt wirklich etwas bei dem ich vieleicht bald ihre Fähigkeiten brauchen könnte!",
+  "de": null,
+  "context": [
+   "INFO:NAM1"
+  ],
+  "editor_id": ""
+ },
+ {
+  "en": "Wie wäre es, wenn Sie mir die Suite schenken und dafür bei evtl.Problemen helfe?",
+  "de": null,
+  "context": [
+   "INFO:RNAM"
+  ],
+  "editor_id": ""
+ },
+ {
+  "en": "Wissen sie was?! Sie haben recht. Hier die Schlüssel. Viel Spass mit der neuen Suite.",
+  "de": null,
+  "context": [
+   "INFO:NAM1"
+  ],
+  "editor_id": ""
+ },
+ {
+  "en": "Obwohl ich soviel für Sie getan habe? Ich sollte die Suite umsonst bekommen!",
+  "de": null,
+  "context": [
+   "INFO:RNAM"
+  ],
+  "editor_id": ""
+ },
+ {
+  "en": "BuyTenpennySuite4",
+  "de": null,
+  "context": [
+   "DIAL:FULL"
+  ],
+  "editor_id": "BuyTenpennySuite4"
+ },
+ {
+  "en": "Natürlich. Sie können jederzeit wieder fragen, sollten Sie ihre Meinung ändern.",
+  "de": null,
+  "context": [
+   "INFO:NAM1"
+  ],
+  "editor_id": ""
+ },
+ {
+  "en": "Ich werde erstmal über das Angebot nachdenken.",
+  "de": null,
+  "context": [
+   "INFO:RNAM"
+  ],
+  "editor_id": ""
+ },
+ {
+  "en": "Ok. Wenn Sie es sich anders überlegen, ich bin hier.",
+  "de": null,
+  "context": [
+   "INFO:NAM1"
+  ],
+  "editor_id": ""
+ },
+ {
+  "en": "Ich bin mir noch nicht sicher, ob ich die Suit kaufen will.",
+  "de": null,
+  "context": [
+   "INFO:RNAM"
+  ],
+  "editor_id": ""
+ },
+ {
+  "en": "BuyTenpennySuiteMain",
+  "de": null,
+  "context": [
+   "DIAL:FULL"
+  ],
+  "editor_id": "BuyTenpennySuiteMain"
+ },
+ {
+  "en": "Aber gerne doch!",
+  "de": null,
+  "context": [
+   "INFO:NAM1"
+  ],
+  "editor_id": ""
+ },
+ {
+  "en": "Ich würde gerne über die leere Suite im Obergeschoss reden.",
+  "de": null,
+  "context": [
+   "INFO:RNAM"
+  ],
+  "editor_id": ""
+ },
+ {
+  "en": "Aber sicher.",
+  "de": null,
+  "context": [
+   "INFO:NAM1"
+  ],
+  "editor_id": ""
+ },
+ {
+  "en": "Können wir über die leere Suit im Obergeschoss reden?",
+  "de": null,
+  "context": [
+   "INFO:RNAM"
+  ],
+  "editor_id": ""
+ },
+ {
+  "en": "Travel to Sierra Madre",
+  "de": "Zum Sierra Madre reisen",
+  "context": [
+   "REFR:XATO"
+  ],
+  "editor_id": "aaMojaveDoorREF"
+ },
+ {
+  "en": "Ende",
+  "de": null,
+  "context": [
+   "GMST:DATA"
+  ],
+  "editor_id": "sCancel"
+ },
+ {
+  "en": "Ja",
+  "de": null,
+  "context": [
+   "GMST:DATA"
+  ],
+  "editor_id": "sAcceptText"
+ },
+ {
+  "en": "MCMContainer",
+  "de": null,
+  "context": [
+   "CONT:FULL"
+  ],
+  "editor_id": "MCMContainer"
+ },
+ {
+  "en": "MCM",
+  "de": null,
+  "context": [
+   "QUST:FULL"
+  ],
+  "editor_id": "MCM"
+ },
+ {
+  "en": "MCMModList",
+  "de": null,
+  "context": [
+   "QUST:FULL"
+  ],
+  "editor_id": "MCMModList"
+ },
+ {
+  "en": "MCMNavigate",
+  "de": null,
+  "context": [
+   "QUST:FULL"
+  ],
+  "editor_id": "MCMNavigate"
+ },
+ {
+  "en": "MCMScale",
+  "de": null,
+  "context": [
+   "QUST:FULL"
+  ],
+  "editor_id": "MCMScale"
+ },
+ {
+  "en": "MCMList",
+  "de": null,
+  "context": [
+   "QUST:FULL"
+  ],
+  "editor_id": "MCMList"
+ },
+ {
+  "en": "Das Mod Configurations Menu (MCM) wurde installiert.",
+  "de": null,
+  "context": [
+   "MESG:DESC"
+  ],
+  "editor_id": "MCMInitial"
+ },
+ {
+  "en": "Das Mod Configurations Menu",
+  "de": null,
+  "context": [
+   "MESG:FULL"
+  ],
+  "editor_id": "MCMInitial"
+ },
+ {
+  "en": "Navigieren Sie die Liste auf der linken Seite mit &sXBDPadUp; und &sXBDPadDown;. Wählen Sie eine Mod zum Konfigurieren mit &sXBABtn; aus.\n\nDrücken Sie &sXBDPadRight; um zu den Optionen der ausgewählten Mod zu gelangen. Drücken Sie &sXBDPadLeft; um zur Mod-Liste zurückzukehren.",
+  "de": null,
+  "context": [
+   "MESG:DESC"
+  ],
+  "editor_id": "MCMTutorial1X"
+ },
+ {
+  "en": "Navigieren Sie die Liste mit &sXBDPadUp; und &sXBDPadDown;. Treffen Sie Ihre Auswahl mit &sXBABtn;.",
+  "de": null,
+  "context": [
+   "MESG:DESC"
+  ],
+  "editor_id": "MCMTutorial2X"
+ },
+ {
+  "en": "Bewegen Sie den Indikator mit &sXBDPadLeft; oder &sXBDPadRight; um den Wert zu verringern/erhöhen.\n\nDrücken von &sXBLBumper; wird den Indikator zur nächsten Markierung auf der linken Seite bewegen, während &sXBRBumper; den Indikator zur nächsten Markierung auf der rechten Seite bewegt.",
+  "de": null,
+  "context": [
+   "MESG:DESC"
+  ],
+  "editor_id": "MCMTutorial3X"
+ },
+ {
+  "en": "Wählen Sie einen Wert zum Veränderung mit &sXBDPadUp; oder &sXBDPadDown; aus.\n\nBewegen Sie den Indikator für den ausgewählten Wert mit &sXBDPadLeft; oder &sXBDPadRight; um die Wertigkeit zu verringern/erhöhen.\n\nDrucken von &sXBLBumper; wird den Indikator zur nächsten Markierung auf der linken Seite verschieben, während &sXBRBumper; den Indikator zur nächsten Markierung auf der rechten Seite verschieben wird.",
+  "de": null,
+  "context": [
+   "MESG:DESC"
+  ],
+  "editor_id": "MCMTutorial4X"
+ },
+ {
+  "en": "NVSE kann derzeit keinerlei gedrückte Controllerknöpfe ausmachen. Sie werden ein Programm (zB.: XPadder) benutzen müssen, um Keyboard/Maus-Knöpfe simulieren zu können, damit Ihr Controller mit den neuen Hotkeys funktioniert.\n\nDrücken Sie &sXBBBtn; um abzubrechen.",
+  "de": null,
+  "context": [
+   "MESG:DESC"
+  ],
+  "editor_id": "MCMTutorial5X"
+ },
+ {
+  "en": "Das Mod Configurations Menu  kann nicht auf dessen Menüdateien zugreifen. Entweder fehlen die Dateien, ein Fehler mit dem NVSE Plugin trat auf oder eine Firewall/UAC verbietet den Zugriff.\n\nSie werden die Mod neu installieren, Ihr 32-bit Visual C++ 2010 Redistributable Package updaten oder ihre Einstellungen bezüglich Firewall/UAC ändern müssen.",
+  "de": null,
+  "context": [
+   "MESG:DESC"
+  ],
+  "editor_id": "MCMXMLMissing"
+ },
+ {
+  "en": "FEHLER",
+  "de": null,
+  "context": [
+   "MESG:FULL"
+  ],
+  "editor_id": "MCMXMLMissing"
+ },
+ {
+  "en": "Das Mod Configurations Menu hat mehrere Menüdateien einer unbekannten Version entdeckt. Sie werden MCM neu installieren und alle vorhandenen Dateien überschreiben müssen.",
+  "de": null,
+  "context": [
+   "MESG:DESC"
+  ],
+  "editor_id": "MCMXMLVersion"
+ },
+ {
+  "en": "Das Mod Configurations Menu-Plugin wurde umbenannt. Diese Mod und die Mods welche es verwenden, werden nicht funktionieren.",
+  "de": null,
+  "context": [
+   "MESG:DESC"
+  ],
+  "editor_id": "MCMRenamed"
+ },
+ {
+  "en": "Das Mod Configurations Menu hat eine ältere Version von NVSE erkannt. NVSE Version 2.0 beta 12 oder höher wird benötigt.",
+  "de": null,
+  "context": [
+   "MESG:DESC"
+  ],
+  "editor_id": "MCMNVSEVersion"
+ },
+ {
+  "en": "Das Mod Configurations Menu hat mehrere Menueinträge für MCM ausgemacht. Die Mod wird zwar nach wie vor funktionieren, aber die Ladezeit des Pausenmenü wird sich erhöhen.\n\nSuchen Sie im FAQ-Bereich des Readmes eine Lösung.",
+  "de": null,
+  "context": [
+   "MESG:DESC"
+  ],
+  "editor_id": "MCMXMLMultiple"
+ },
+ {
+  "en": "Warnung",
+  "de": null,
+  "context": [
+   "MESG:FULL"
+  ],
+  "editor_id": "MCMXMLMultiple"
+ },
+ {
+  "en": "DarNified UI wurde im HUD, aber nicht im Start Menu erkannt. Sie müssen DarNified UI reparieren oder es komplett entfernen, damit das Mod Configurations Menu korrekt angezeigt wird.",
+  "de": null,
+  "context": [
+   "MESG:DESC"
+  ],
+  "editor_id": "MCMDarNMissing"
+ },
+ {
+  "en": "Ödland der Hauptstadt",
+  "de": null,
+  "context": [
+   "WRLD:FULL"
+  ],
+  "editor_id": "Wasteland"
+ },
+ {
+  "en": "Purge Cell Buffers",
+  "de": "Zellpuffer leeren",
+  "context": [
+   "MISC:FULL"
+  ],
+  "editor_id": "zAutoPCBToken"
+ },
+ {
+  "en": "zAutoPCBQuest",
+  "de": null,
+  "context": [
+   "QUST:FULL"
+  ],
+  "editor_id": "zAutoPCBQuest"
+ },
+ {
+  "en": "ZAPCP is purging the cell buffers...",
+  "de": "ZAPCP leert die Zellpuffer ...",
+  "context": [
+   "MESG:DESC"
+  ],
+  "editor_id": "zAutoPCBMessage"
+ },
+ {
+  "en": "Zan AutoPurge Crash Protector initialized.",
+  "de": "Zan AutoPurge Crash Protector initialisiert.",
+  "context": [
+   "MESG:DESC"
+  ],
+  "editor_id": "zAutoPCBInit"
  }
 ]

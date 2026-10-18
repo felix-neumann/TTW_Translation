@@ -1,0 +1,179 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<SSTXMLRessources>
+  <Params>
+    <Addon>Weapon Retexture Project</Addon>
+    <Source>english</Source>
+    <Dest>german</Dest>
+    <Version>2</Version>
+  </Params>
+  <Content>
+    <String List="0">
+      <EDID>Weap10mmPistol</EDID>
+      <REC>WEAP:FULL</REC>
+      <Source>10mm Pistol</Source>
+      <Dest>10-mm-Pistole</Dest>
+    </String>
+    <String List="0">
+      <EDID>WeapSniperRifle</EDID>
+      <REC>WEAP:FULL</REC>
+      <Source>Sniper Rifle</Source>
+      <Dest>Präzisionsgewehr</Dest>
+    </String>
+    <String List="0">
+      <EDID>WeapNVVarmintRifle</EDID>
+      <REC>WEAP:FULL</REC>
+      <Source>Varmint Rifle</Source>
+      <Dest>Kleinkalibergewehr</Dest>
+    </String>
+    <String List="0">
+      <EDID>WeapNV127mmPistol</EDID>
+      <REC>WEAP:FULL</REC>
+      <Source>12.7mm Pistol</Source>
+      <Dest>12,7-mm-Pistole</Dest>
+    </String>
+    <String List="0">
+      <EDID>WeapNVHuntingRevolver</EDID>
+      <REC>WEAP:FULL</REC>
+      <Source>Hunting Revolver</Source>
+      <Dest>Jagdrevolver</Dest>
+    </String>
+    <String List="0">
+      <EDID>WeapNV44Revolver</EDID>
+      <REC>WEAP:FULL</REC>
+      <Source>.44 Magnum Revolver</Source>
+      <Dest>.44-Magnum-Revolver</Dest>
+    </String>
+    <String List="0">
+      <EDID>WeapNV357Revolver</EDID>
+      <REC>WEAP:FULL</REC>
+      <Source>.357 Magnum Revolver</Source>
+      <Dest>.357-Magnum-Revolver</Dest>
+    </String>
+    <String List="0">
+      <EDID>WeapNVAntiMaterielRifle</EDID>
+      <REC>WEAP:FULL</REC>
+      <Source>Anti-Materiel Rifle</Source>
+      <Dest>Panzerbüchse</Dest>
+    </String>
+    <String List="0">
+      <EDID>WeapNV357RevolverUnique</EDID>
+      <REC>WEAP:FULL</REC>
+      <Source>Lucky</Source>
+      <Dest>Glücksgriff</Dest>
+    </String>
+    <String List="0">
+      <EDID>WeapNVSingleShotgun</EDID>
+      <REC>WEAP:FULL</REC>
+      <Source>Single Shotgun</Source>
+      <Dest>Ein-Schuss-Flinte</Dest>
+    </String>
+    <String List="0">
+      <EDID>WeapNVVarmintRifleUnique</EDID>
+      <REC>WEAP:FULL</REC>
+      <Source>Ratslayer</Source>
+      <Dest>Rattentöter</Dest>
+    </String>
+    <String List="0">
+      <EDID>WeapNVGrenadeRifle</EDID>
+      <REC>WEAP:FULL</REC>
+      <Source>Grenade Rifle</Source>
+      <Dest>Granatengewehr</Dest>
+    </String>
+    <String List="0">
+      <EDID>WeapNV44RevolverUnique</EDID>
+      <REC>WEAP:FULL</REC>
+      <Source>Mysterious Magnum</Source>
+      <Dest>Mysteriöse Magnum</Dest>
+    </String>
+    <String List="0">
+      <EDID>WeapNVThatGun</EDID>
+      <REC>WEAP:FULL</REC>
+      <Source>That Gun</Source>
+      <Dest>Die Knarre</Dest>
+    </String>
+    <String List="0">
+      <EDID>WeapNV127mmSubmachineGun</EDID>
+      <REC>WEAP:FULL</REC>
+      <Source>12.7mm Submachine Gun</Source>
+      <Dest>12,7-mm-Maschinenpistole</Dest>
+    </String>
+    <String List="0">
+      <EDID>WeapNVSniperRifleUnique</EDID>
+      <REC>WEAP:FULL</REC>
+      <Source>Gobi Campaign Scout Rifle</Source>
+      <Dest>Gobi-Kampagne-Spähergewehr</Dest>
+    </String>
+    <String List="0">
+      <EDID>WeapNVGrenadeRifleUnique</EDID>
+      <REC>WEAP:FULL</REC>
+      <Source>Thump-Thump</Source>
+      <Dest>Rums-Bums</Dest>
+    </String>
+    <String List="0">
+      <EDID>VHDOliverSniperAntiMaterielRifle</EDID>
+      <REC>WEAP:FULL</REC>
+      <Source>Anti-Materiel Rifle</Source>
+      <Dest>Panzerbüchse</Dest>
+    </String>
+    <String List="0">
+      <EDID>WeapPreord10mmPistol</EDID>
+      <REC>WEAP:FULL</REC>
+      <Source>Weathered 10mm Pistol</Source>
+      <Dest>verwitterte 10mm Pistole</Dest>
+    </String>
+    <String List="0">
+      <EDID>WeapPreordGrenadeRifle</EDID>
+      <REC>WEAP:FULL</REC>
+      <Source>Mercenary's Grenade Rifle</Source>
+      <Dest>Söldner Granatengewehr</Dest>
+    </String>
+    <String List="0">
+      <EDID>Weap10mmPistolVeronica</EDID>
+      <REC>WEAP:FULL</REC>
+      <Source>Veronica's 10mm Pistol</Source>
+      <Dest>Veronicas 10-mm-Pistole</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC01WeapPolicePistol</EDID>
+      <REC>WEAP:FULL</REC>
+      <Source>Police Pistol</Source>
+      <Dest>Polizeipistole</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC03WeapSniperRifleUniqueChristine</EDID>
+      <REC>WEAP:FULL</REC>
+      <Source>Christine's COS Silencer Rifle</Source>
+      <Dest>Christines COS-Schalldämpfergewehr</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05WeapNV556mmPistolCustom</EDID>
+      <REC>WEAP:FULL</REC>
+      <Source>5.56mm Pistol (GRA)</Source>
+      <Dest>5,56-mm-Pistole (ADW)</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05WeapNV127mmSubmachineGunCustom</EDID>
+      <REC>WEAP:FULL</REC>
+      <Source>12.7mm Submachine Gun (GRA)</Source>
+      <Dest>12,7-mm-Maschinenpistole (ADW)</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05WeapNVAntiMaterielRifleCustom</EDID>
+      <REC>WEAP:FULL</REC>
+      <Source>Anti-Materiel Rifle (GRA)</Source>
+      <Dest>Panzerbüchse (ADW)</Dest>
+    </String>
+    <String List="0">
+      <EDID>NVDLC05WeapNVHuntingRevolverCustom</EDID>
+      <REC>WEAP:FULL</REC>
+      <Source>Hunting Revolver (GRA)</Source>
+      <Dest>Jagdrevolver (ADW)</Dest>
+    </String>
+    <String List="0">
+      <EDID>WRPNVDLC05WeapNV127mmPistolUnique</EDID>
+      <REC>WEAP:FULL</REC>
+      <Source>Li'l Devil (GRA)</Source>
+      <Dest>Kleiner Teufel (ADW)</Dest>
+    </String>
+  </Content>
+</SSTXMLRessources>

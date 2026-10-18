@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<SSTXMLRessources>
+  <Params>
+    <Addon>NukaCola-Ojo</Addon>
+    <Source>english</Source>
+    <Dest>german</Dest>
+    <Version>2</Version>
+  </Params>
+  <Content>
+    <String List="0">
+      <EDID>NukaVendingMachine</EDID>
+      <REC>CONT:FULL</REC>
+      <Source>Vending Machine</Source>
+      <Dest>Verkaufsautomat</Dest>
+    </String>
+    <String List="0">
+      <EDID>GSDocMitchellHouse</EDID>
+      <REC>CELL:FULL</REC>
+      <Source>Doc Mitchell's House</Source>
+      <Dest>Doc Mitchells Haus</Dest>
+    </String>
+    <String List="0">
+      <EDID>WastelandNV</EDID>
+      <REC>WRLD:FULL</REC>
+      <Source>Mojave Wasteland</Source>
+      <Dest>Mojave-Ödland</Dest>
+    </String>
+  </Content>
+</SSTXMLRessources>

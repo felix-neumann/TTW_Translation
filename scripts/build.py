@@ -19,6 +19,8 @@ LABEL = {
     'changed_FO3': 'FO3-Original (EN-Text von TTW/YUP leicht geaendert)',
     'gmst_changed_FNV': 'FNV-Original (EN-Text von TTW/YUP leicht geaendert)',
     'gmst_changed_FO3': 'FO3-Original (EN-Text von TTW/YUP leicht geaendert)',
+    'record_TTW': 'TTW-Uebersetzung', 'dict_TTW': 'TTW-Uebersetzung (Woerterbuch)',
+    'changed_TTW': 'TTW-Uebersetzung (EN-Text vom Mod leicht geaendert)',
     'new': 'Neu uebersetzt (Claude)',
 }
 
@@ -92,14 +94,33 @@ def load_translations(path):
         return {nl(x['en']): x['de'] for x in json.load(f)}
 
 
-def build(results, src_dir, out_dir, db_dir, translations, inject=None, log=print):
-    """inject: {lower-case plugin name: [(formid, edid, german, raw record)]} - GMSTs to add."""
+def resolve(e, de, m, translations):
+    """Final German text for one entry (None = keep as is) and whether it is missing."""
+    t, o, oid, fid, edid, s, i, txt = e
+    if m == 'new':
+        key = nl(txt)
+        if key not in translations:
+            return None, True
+        de = translations[key]
+        if de is None:
+            return None, False  # intentionally kept English (IDs, binary data)
+        if '\r\n' in txt:
+            de = nl(de).replace('\n', '\r\n')
+    if de is None or de == txt:
+        return None, False
+    if t == 'NOTE' and s == 'TNAM' and len(txt.encode('cp1252')) == 3:
+        return None, False  # FormID of an audio holotape, not text
+    return de, False
+
+
+def build(groups, db_dir, translations, inject=None, log=print):
+    """groups: [dict(results=..., src_dir=..., out_dir=..., xml_dir=..., prefix='')]
+    inject: {lower-case plugin name: [(formid, edid, german, raw record)]} - GMSTs to add
+    (applies to the first group only)."""
     inject = inject or {}
-    os.makedirs(out_dir, exist_ok=True)
-    os.makedirs(os.path.join(db_dir, 'xTranslator'), exist_ok=True)
-    names = {n.lower(): n for n in os.listdir(src_dir) if n.lower().endswith(('.esm', '.esp'))}
     missing = collections.OrderedDict()
     summary = {}
+    os.makedirs(db_dir, exist_ok=True)
     tsv_path = os.path.join(db_dir, 'TTW_Deutsch_alle_Texte.tsv')
     with open(tsv_path, 'w', encoding='utf-8-sig', newline='') as tsv:
         w = csv.writer(tsv, delimiter='\t', lineterminator='\n')
@@ -108,63 +129,60 @@ def build(results, src_dir, out_dir, db_dir, translations, inject=None, log=prin
         def esc(s):
             return nl(s).replace('\n', '\\n').replace('\t', '\\t')
 
-        for lname, v in sorted(results.items()):
-            fname = names[lname]
-            repl = collections.defaultdict(dict)
-            rows = []
-            count = collections.Counter((e[3], e[5]) for e, _, _ in v['res'])
-            for e, de, m in v['res']:
-                t, o, oid, fid, edid, s, i, txt = e
-                if m == 'new':
-                    key = nl(txt)
-                    if key not in translations:
+        for gi, g in enumerate(groups):
+            src_dir, out_dir, xml_dir, prefix = g['src_dir'], g['out_dir'], g['xml_dir'], g.get('prefix', '')
+            os.makedirs(out_dir, exist_ok=True)
+            os.makedirs(xml_dir, exist_ok=True)
+            names = {n.lower(): n for n in os.listdir(src_dir) if n.lower().endswith(('.esm', '.esp'))}
+            for lname, v in sorted(g['results'].items()):
+                fname = names[lname]
+                repl = collections.defaultdict(dict)
+                rows = []
+                count = collections.Counter((e[3], e[5]) for e, _, _ in v['res'])
+                for e, de, m in v['res']:
+                    t, o, oid, fid, edid, s, i, txt = e
+                    de, miss = resolve(e, de, m, translations)
+                    if miss:
+                        key = nl(txt)
                         missing.setdefault(key, {'en': key, 'de': None, 'context': [], 'editor_id': edid})
                         ctx = f'{t}:{s}'
                         if ctx not in missing[key]['context']:
                             missing[key]['context'].append(ctx)
-                        continue
-                    de = translations[key]
                     if de is None:
-                        continue  # intentionally kept English (IDs, binary data)
-                    if '\r\n' in txt:
-                        de = nl(de).replace('\n', '\r\n')
-                if de is None or de == txt:
-                    continue
-                if t == 'NOTE' and s == 'TNAM' and len(txt.encode('cp1252')) == 3:
-                    continue  # FormID of an audio holotape, not text
-                repl[fid][(s, i)] = de.encode('cp1252')
-                rows.append((fid, edid, t, s, i, count[(fid, s)] - 1, txt, de, m))
-            extra = inject.get(lname, [])
-            st = rewrite(os.path.join(src_dir, fname), os.path.join(out_dir, fname), repl,
-                         append={'GMST': [x[3] for x in extra]})
-            summary[fname] = dict(st, entries=len(rows))
-            log(f'  {fname}: {st["records"]} Records, {st["fields"]} Textfelder ersetzt'
-                + (f', {st["added_records"]} deutsche Spieleinstellungen ergänzt' if extra else ''))
-            for fid, edid, de, _ in extra:
-                w.writerow([fname, '%08X' % fid, edid, 'GMST', 'DATA', 0, '', esc(de),
-                            'DE-Original (nur im DE-Master, als neuer Record ergaenzt)'])
+                        continue
+                    repl[fid][(s, i)] = de.encode('cp1252')
+                    rows.append((fid, edid, t, s, i, count[(fid, s)] - 1, txt, de, m))
+                extra = inject.get(lname, []) if gi == 0 else []
+                st = rewrite(os.path.join(src_dir, fname), os.path.join(out_dir, fname), repl,
+                             append={'GMST': [x[3] for x in extra]})
+                summary[prefix + fname] = dict(st, entries=len(rows))
+                log(f'  {prefix}{fname}: {st["records"]} Records, {st["fields"]} Textfelder ersetzt'
+                    + (f', {st["added_records"]} deutsche Spieleinstellungen ergänzt' if extra else ''))
+                for fid, edid, de, _ in extra:
+                    w.writerow([prefix + fname, '%08X' % fid, edid, 'GMST', 'DATA', 0, '', esc(de),
+                                'DE-Original (nur im DE-Master, als neuer Record ergaenzt)'])
 
-            root = ET.Element('SSTXMLRessources')
-            p = ET.SubElement(root, 'Params')
-            for k, val in (('Addon', os.path.splitext(fname)[0]), ('Source', 'english'),
-                           ('Dest', 'german'), ('Version', '2')):
-                ET.SubElement(p, k).text = val
-            c = ET.SubElement(root, 'Content')
-            for fid, edid, t, s, i, imax, en, de, m in rows:
-                node = ET.SubElement(c, 'String', List='0')
-                if m == 'new':
-                    node.set('Partial', '1')  # shown as "incomplete" in xTranslator -> easy to review
-                ET.SubElement(node, 'EDID').text = edid if edid else '[%08X]' % fid
-                rec = ET.SubElement(node, 'REC')
-                rec.text = f'{t}:{s}'
-                if imax > 0:
-                    rec.set('id', str(i))
-                    rec.set('idMax', str(imax))
-                ET.SubElement(node, 'Source').text = en
-                ET.SubElement(node, 'Dest').text = de
-                w.writerow([fname, '%08X' % fid, edid, t, s, i, esc(en), esc(de), LABEL[m]])
-            ET.indent(root)
-            ET.ElementTree(root).write(
-                os.path.join(db_dir, 'xTranslator', f'{os.path.splitext(fname)[0]}_english_german.xml'),
-                encoding='UTF-8', xml_declaration=True)
+                root = ET.Element('SSTXMLRessources')
+                p = ET.SubElement(root, 'Params')
+                for k, val in (('Addon', os.path.splitext(fname)[0]), ('Source', 'english'),
+                               ('Dest', 'german'), ('Version', '2')):
+                    ET.SubElement(p, k).text = val
+                c = ET.SubElement(root, 'Content')
+                for fid, edid, t, s, i, imax, en, de, m in rows:
+                    node = ET.SubElement(c, 'String', List='0')
+                    if m == 'new':
+                        node.set('Partial', '1')  # shown as "incomplete" in xTranslator -> easy to review
+                    ET.SubElement(node, 'EDID').text = edid if edid else '[%08X]' % fid
+                    rec = ET.SubElement(node, 'REC')
+                    rec.text = f'{t}:{s}'
+                    if imax > 0:
+                        rec.set('id', str(i))
+                        rec.set('idMax', str(imax))
+                    ET.SubElement(node, 'Source').text = en
+                    ET.SubElement(node, 'Dest').text = de
+                    w.writerow([prefix + fname, '%08X' % fid, edid, t, s, i, esc(en), esc(de), LABEL[m]])
+                ET.indent(root)
+                ET.ElementTree(root).write(
+                    os.path.join(xml_dir, f'{os.path.splitext(fname)[0]}_english_german.xml'),
+                    encoding='UTF-8', xml_declaration=True)
     return summary, list(missing.values())

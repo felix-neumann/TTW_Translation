@@ -181631,3 +181631,75 @@ Zeta.esm	0B009C70	DLC05TestJeffB02	CELL	FULL	0	Cargo Hold	Frachtraum	FO3-Origina
 Zeta.esm	0B002FCF	DLC05ExLab01	CELL	FULL	0	Observation Deck	Observierungsdeck	FO3-Original
 Zeta.esm	0607EA1F	Wasteland	WRLD	FULL	0	Wasteland	Ödland	FO3-Woerterbuch
 Zeta.esm	0B00A77C	DLC05PodMapMarker	REFR	FULL	0	Alien Homing Beacon	Funkleitstrahl der Aliens	FO3-Original
+Mods/CASM with MCM.esp	00000809	CASMQuicksaveQuest	QUST	FULL	0	CASM Quicksave Quest	CASM-Schnellspeicher-Quest	Neu uebersetzt (Claude)
+Mods/CASM with MCM.esp	00000850	CASMWorker	QUST	FULL	0	CASM Autosave Quest	CASM-Autospeicher-Quest	Neu uebersetzt (Claude)
+Mods/CASM with MCM.esp	00000811	CASMNVSEVersionError	MESG	DESC	0	CASM has detected that you are not using the proper version of NVSE. CASM needs version 4 or greater, you have version %.2f. Please upgrade NVSE.	CASM hat festgestellt, dass Sie nicht die richtige NVSE-Version verwenden. CASM benötigt Version 4 oder höher, Sie haben Version %.2f. Bitte aktualisieren Sie NVSE.	Neu uebersetzt (Claude)
+Mods/CASM with MCM.esp	00000811	CASMNVSEVersionError	MESG	FULL	0	CASM - Error	CASM - Fehler	Neu uebersetzt (Claude)
+Mods/CASM with MCM.esp	00000826	CASMJIPVersionError	MESG	DESC	0	CASM has detected that you are not using the proper version of Lutana NVSE Plugin. CASM needs version 4 or greater, you have version %.0f. Please upgrade Lutana NVSE Plugin.	CASM hat festgestellt, dass Sie nicht die richtige Version des Lutana NVSE Plugins verwenden. CASM benötigt Version 4 oder höher, Sie haben Version %.0f. Bitte aktualisieren Sie das Lutana NVSE Plugin.	Neu uebersetzt (Claude)
+Mods/CASM with MCM.esp	00000826	CASMJIPVersionError	MESG	FULL	0	CASM - Error	CASM - Fehler	Neu uebersetzt (Claude)
+Mods/CASM with MCM.esp	0000084D	CASMAutosavingMessage	MESG	DESC	0	CASM is saving...	CASM speichert ...	Neu uebersetzt (Claude)
+Mods/CASM with MCM.esp	0000084D	CASMAutosavingMessage	MESG	FULL	0	CASM is saving	CASM speichert	Neu uebersetzt (Claude)
+Mods/Honest Hearts Weight Check.esp	01009655	NVDLC02DialogueCaravanMasterNVDLC02CaravanMasterTopic000	DIAL	FULL	0	I'm ready to go to Zion.	Ich bin bereit, nach Zion zu gehen.	FNV-Original
+Mods/Honest Hearts Weight Check.esp	01009EB4		INFO	NAM1	0	{Player isn't alone - 2 companions}I bet you are, but we only got room for one more on this expedition. You'll have to leave your friends behind.	{Player isn't alone - 2 companions}Darauf wette ich, aber wir haben hier nur noch Platz für einen. Ihre Freunde müssen Sie leider zurücklassen.	FNV-Original
+Mods/Honest Hearts Weight Check.esp	01009EB4		INFO	RNAM	0	We're all ready to get going.	Wir sind alle bereit, aufzubrechen.	FNV-Original
+Mods/Honest Hearts Weight Check.esp	01009EB5		INFO	NAM1	0	{Player isn't alone - 1 companion}I bet you are, but we only got room for one more on this expedition. You'll have to leave your friend behind.	{Player isn't alone - 1 companions}Darauf wette ich, aber wir haben hier nur noch Platz für einen. Ihren Freund müssen Sie leider zurücklassen.	FNV-Original
+Mods/Honest Hearts Weight Check.esp	01009EB5		INFO	RNAM	0	We're both set. Let's go.	Wir sind beide bereit. Los geht's.	FNV-Original
+Mods/Honest Hearts Weight Check.esp	01009EB6		INFO	NAM1	0	{Player is carrying more than 50 lbs}I bet you are, but you ain't going nowhere loaded down like a pack brahmin.	{Player is carrying more than 50 lbs}Darauf wette ich, aber so beladen wie ein Pack-Brahmin nehmen wir Sie nirgendwo mit hin.	FNV-Original
+Mods/Honest Hearts Weight Check.esp	01011525		INFO	NAM1	0	{Player is carrying more than 50 lbs}I bet you are, but you ain't going nowhere loaded down like a pack brahmin.	{Player is carrying more than 50 lbs}Darauf wette ich, aber so beladen wie ein Pack-Brahmin nehmen wir Sie nirgendwo mit hin.	FNV-Original
+Mods/NukaCola-Ojo.esp	00020525	NukaVendingMachine	CONT	FULL	0	Vending Machine	Verkaufsautomat	FNV-Original
+Mods/NukaCola-Ojo.esp	00103DF9	GSDocMitchellHouse	CELL	FULL	0	Doc Mitchell's House	Doc Mitchells Haus	FNV-Original
+Mods/NukaCola-Ojo.esp	000DA726	WastelandNV	WRLD	FULL	0	Mojave Wasteland	Mojave-Ödland	FNV-Original
+Mods/OldWorldBlues - Improved Transportalponder.esp	000DA726	WastelandNV	WRLD	FULL	0	Mojave Wasteland	Mojave-Ödland	FNV-Original
+Mods/OldWorldBlues - Improved Transportalponder.esp	010154FA	NVDLC03TeleporterAcquiredMsg	MESG	DESC	0	You've acquired the Big Mountain Transportalponder! It's capable of transporting you between the Mojave Wasteland and Big MT.\n\nTo return to the Mojave (or go back to Big MT from the Mojave), simply equip the Transportalponder! as you would any weapon, pull the trigger, and away you'll go. Note that it won't work in interiors or in combat situations, and is totally incapable of harming your enemies.	Sie haben den Big Mountain-Transportalponder erhalten! Er kann Sie - und nur Sie allein - zwischen dem Mojave-Ödland und dem Big MT hin und her transportieren.\n\nUm zur Mojave zurückzukehren (oder um von der Mojave zum Big MT zurückzukehren), rüsten Sie sich einfach mit dem Transportalponder aus wie mit einer Waffe, drücken den Abzug und los geht's! Beachten Sie bitte, dass er in Innenräumen oder Kampfsituationen nicht funktionieren wird und völlig außer Stande ist, Ihre Gegner zu verletzen.	FNV-Original (EN-Text von TTW/YUP leicht geaendert)
+Mods/return_deadmoney.esp	0200245E	aaMojaveGateTrigg	ACTI	FULL	0	Gas Valve	Gasventil	FNV-Woerterbuch
+Mods/return_deadmoney.esp	02001AE8	aaFakeBunkerReturnDoor	DOOR	FULL	0	Door	Tür	FNV-Woerterbuch
+Mods/return_deadmoney.esp	0200328B	aaNVDLC01SMGateMojave	DOOR	FULL	0	Gate	Tor	FNV-Woerterbuch
+Mods/return_deadmoney.esp	001555FD	SLBoSBunkerINT	CELL	FULL	0	Brotherhood of Steel Bunker	Bunker der stählernen Brudersch.	FNV-Original
+Mods/return_deadmoney.esp	02001AE7	aaMojaveDoorREF	REFR	XATO	0	Travel to Sierra Madre	Zum Sierra Madre reisen	Neu uebersetzt (Claude)
+Mods/return_deadmoney.esp	001556C4		REFR	XATO	0	Climb Ladder to Mojave Wasteland	Auf Leiter zum Mojave-Ödland steigen	FNV-Original
+Mods/return_deadmoney.esp	02001AE6	aaMojaveGateREF	REFR	XATO	0	Travel to Mojave Wasteland	Ins Mojave-Ödland reisen	FNV-Woerterbuch
+Mods/return_deadmoney.esp	0100D5AD	NVDLC01MojaveGateRef	REFR	XATO	0	Travel to Mojave Wasteland	Ins Mojave-Ödland reisen	FNV-Original
+Mods/VanGraffHostilityQuestFix.esp	0015DA97	vMojavevMORangerJacksonTopic018	DIAL	FULL	0	You're welcome.	Keine Ursache.	FNV-Original
+Mods/VanGraffHostilityQuestFix.esp	0015DAFE		INFO	NAM1	0	I'll do what I can - and those folks that got killed need to be answered for.	Ich tue, was ich kann - und jemand muss zur Rechenschaft gezogen werden für all jene, die gestorben sind.	FNV-Original
+Mods/Weapon Retexture Project.esp	0000434F	Weap10mmPistol	WEAP	FULL	0	10mm Pistol	10-mm-Pistole	FNV-Original
+Mods/Weapon Retexture Project.esp	00004353	WeapSniperRifle	WEAP	FULL	0	Sniper Rifle	Präzisionsgewehr	FNV-Original
+Mods/Weapon Retexture Project.esp	0007EA24	WeapNVVarmintRifle	WEAP	FULL	0	Varmint Rifle	Kleinkalibergewehr	FNV-Original
+Mods/Weapon Retexture Project.esp	0008F213	WeapNV127mmPistol	WEAP	FULL	0	12.7mm Pistol	12,7-mm-Pistole	FNV-Original
+Mods/Weapon Retexture Project.esp	0008F214	WeapNVHuntingRevolver	WEAP	FULL	0	Hunting Revolver	Jagdrevolver	FNV-Original
+Mods/Weapon Retexture Project.esp	0008F215	WeapNV44Revolver	WEAP	FULL	0	.44 Magnum Revolver	.44-Magnum-Revolver	FNV-Original
+Mods/Weapon Retexture Project.esp	0008F216	WeapNV357Revolver	WEAP	FULL	0	.357 Magnum Revolver	.357-Magnum-Revolver	FNV-Original
+Mods/Weapon Retexture Project.esp	0008F21C	WeapNVAntiMaterielRifle	WEAP	FULL	0	Anti-Materiel Rifle	Panzerbüchse	FNV-Original
+Mods/Weapon Retexture Project.esp	000E2C86	WeapNV357RevolverUnique	WEAP	FULL	0	Lucky	Glücksgriff	FNV-Original
+Mods/Weapon Retexture Project.esp	000E393B	WeapNVSingleShotgun	WEAP	FULL	0	Single Shotgun	Ein-Schuss-Flinte	FNV-Original
+Mods/Weapon Retexture Project.esp	000E5B17	WeapNVVarmintRifleUnique	WEAP	FULL	0	Ratslayer	Rattentöter	FNV-Original
+Mods/Weapon Retexture Project.esp	000FF576	WeapNVGrenadeRifle	WEAP	FULL	0	Grenade Rifle	Granatengewehr	FNV-Original
+Mods/Weapon Retexture Project.esp	00127C6C	WeapNV44RevolverUnique	WEAP	FULL	0	Mysterious Magnum	Mysteriöse Magnum	FNV-Original
+Mods/Weapon Retexture Project.esp	00133058	WeapNVThatGun	WEAP	FULL	0	That Gun	Die Knarre	FNV-Original
+Mods/Weapon Retexture Project.esp	001429D1	WeapNV127mmSubmachineGun	WEAP	FULL	0	12.7mm Submachine Gun	12,7-mm-Maschinenpistole	FNV-Original
+Mods/Weapon Retexture Project.esp	001429E1	WeapNVSniperRifleUnique	WEAP	FULL	0	Gobi Campaign Scout Rifle	Gobi-Kampagne-Spähergewehr	FNV-Original
+Mods/Weapon Retexture Project.esp	001429E2	WeapNVGrenadeRifleUnique	WEAP	FULL	0	Thump-Thump	Rums-Bums	FNV-Original
+Mods/Weapon Retexture Project.esp	001724F2	VHDOliverSniperAntiMaterielRifle	WEAP	FULL	0	Anti-Materiel Rifle	Panzerbüchse	FNV-Original
+Mods/Weapon Retexture Project.esp	001735D4	WeapPreord10mmPistol	WEAP	FULL	0	Weathered 10mm Pistol	verwitterte 10mm Pistole	FNV-Original
+Mods/Weapon Retexture Project.esp	001735E4	WeapPreordGrenadeRifle	WEAP	FULL	0	Mercenary's Grenade Rifle	Söldner Granatengewehr	FNV-Original
+Mods/Weapon Retexture Project.esp	00176E5B	Weap10mmPistolVeronica	WEAP	FULL	0	Veronica's 10mm Pistol	Veronicas 10-mm-Pistole	TTW-Uebersetzung
+Mods/Weapon Retexture Project.esp	0100BBC2	NVDLC01WeapPolicePistol	WEAP	FULL	0	Police Pistol	Polizeipistole	FNV-Original
+Mods/Weapon Retexture Project.esp	020112BA	NVDLC03WeapSniperRifleUniqueChristine	WEAP	FULL	0	Christine's COS Silencer Rifle	Christines COS-Schalldämpfergewehr	FNV-Original
+Mods/Weapon Retexture Project.esp	03000813	NVDLC05WeapNV556mmPistolCustom	WEAP	FULL	0	5.56mm Pistol (GRA)	5,56-mm-Pistole (ADW)	FNV-Original
+Mods/Weapon Retexture Project.esp	0300084E	NVDLC05WeapNV127mmSubmachineGunCustom	WEAP	FULL	0	12.7mm Submachine Gun (GRA)	12,7-mm-Maschinenpistole (ADW)	FNV-Original
+Mods/Weapon Retexture Project.esp	0300084F	NVDLC05WeapNVAntiMaterielRifleCustom	WEAP	FULL	0	Anti-Materiel Rifle (GRA)	Panzerbüchse (ADW)	FNV-Original
+Mods/Weapon Retexture Project.esp	03000852	NVDLC05WeapNVHuntingRevolverCustom	WEAP	FULL	0	Hunting Revolver (GRA)	Jagdrevolver (ADW)	FNV-Original
+Mods/Weapon Retexture Project.esp	04000B3D	WRPNVDLC05WeapNV127mmPistolUnique	WEAP	FULL	0	Li'l Devil (GRA)	Kleiner Teufel (ADW)	FNV-Woerterbuch
+Mods/WRP - TTW.esp	0000434F	Weap10mmPistol	WEAP	FULL	0	10mm Pistol	10-mm-Pistole	FNV-Original
+Mods/WRP - TTW.esp	0007EA24	WeapNVVarmintRifle	WEAP	FULL	0	Varmint Rifle	Kleinkalibergewehr	FNV-Original
+Mods/WRP - TTW.esp	0008F216	WeapNV357Revolver	WEAP	FULL	0	.357 Magnum Revolver	.357-Magnum-Revolver	FNV-Original
+Mods/WRP - TTW.esp	000E2C86	WeapNV357RevolverUnique	WEAP	FULL	0	Lucky	Glücksgriff	FNV-Original
+Mods/WRP - TTW.esp	000E5B17	WeapNVVarmintRifleUnique	WEAP	FULL	0	Ratslayer	Rattentöter	FNV-Original
+Mods/WRP - TTW.esp	001429E2	WeapNVGrenadeRifleUnique	WEAP	FULL	0	Thump-Thump	Rums-Bums	FNV-Original
+Mods/WRP - TTW.esp	0500084E	NVDLC05WeapNV127mmSubmachineGunCustom	WEAP	FULL	0	12.7mm Submachine Gun	12,7-mm-Maschinenpistole	FNV-Woerterbuch
+Mods/WRP - TTW.esp	0500084F	NVDLC05WeapNVAntiMaterielRifleCustom	WEAP	FULL	0	Anti-Materiel Rifle (GRA)	Panzerbüchse (ADW)	FNV-Original
+Mods/WRP - TTW.esp	06004350	Weap10mmPistolSilenced	WEAP	FULL	0	Silenced 10mm Pistol	10-mm-Pistole mit Schalldämpfer	FO3-Original
+Mods/WRP - TTW.esp	0601A334	FollowersButch10mmPistol	WEAP	FULL	0	Butch's 10mm Pistol	Butchs 10-mm-Pistole	TTW-Uebersetzung
+Mods/WRP - TTW.esp	0C008340	TTWWeapPreord10mmPistol	WEAP	FULL	0	Weathered 10mm Pistol	verwitterte 10mm Pistole	FNV-Woerterbuch
+Mods/Zan_AutoPurge_SmartAgro_NV.esp	010021C9	zAutoPCBToken	MISC	FULL	0	Purge Cell Buffers	Zellpuffer leeren	Neu uebersetzt (Claude)
+Mods/Zan_AutoPurge_SmartAgro_NV.esp	01003E6F	zAutoPCBMessage	MESG	DESC	0	ZAPCP is purging the cell buffers...	ZAPCP leert die Zellpuffer ...	Neu uebersetzt (Claude)
+Mods/Zan_AutoPurge_SmartAgro_NV.esp	01003E70	zAutoPCBInit	MESG	DESC	0	Zan AutoPurge Crash Protector initialized.	Zan AutoPurge Crash Protector initialisiert.	Neu uebersetzt (Claude)
