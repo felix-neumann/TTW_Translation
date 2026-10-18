@@ -159,6 +159,16 @@ python scripts/set_load_order.py --loadorder ... --data ... --check    # nur pr�
 
 Nach dem Kopieren auf ein anderes Gerät mit `--check` prüfen, ob die Daten erhalten geblieben sind.
 
+## Konvertierte Fallout-3-Plugins: Header-Version
+
+TTW meldet beim Start "Nicht konvertierte Mod!", sobald ein geladenes Plugin eine Header-Version unter 1.3 hat. Fallout-3-Plugins haben 0.94. Die Konvertierung mit FNVEdit (TTW-Master hinzufügen, TTW-Konvertierungsskript) ändert diesen Wert nicht, deshalb lösen auch korrekt konvertierte Plugins die Meldung aus. `scripts/set_header_version.py` setzt die Version auf 1.34. Geändert werden nur die 4 Bytes im Header, Dateigröße und Datum bleiben gleich:
+
+```bash
+python scripts/set_header_version.py --backup "<Sicherungsordner>" "<Pfad>/MeinPlugin.esp"
+```
+
+Alternativ in FNVEdit vor dem Speichern `File Header → HEDR → Version` auf 1.34 setzen.
+
 ## Nicht abgedeckt
 
 - Sprachausgabe und Lippensynchronisation
