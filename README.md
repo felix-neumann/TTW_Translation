@@ -114,25 +114,39 @@ Technische Details:
 
 In der TSV-Datei zeigt die Spalte `Quelle`, woher jeder Text stammt: `FNV-Original`, `FO3-Original`, `FNV-Woerterbuch`, `FO3-Woerterbuch`, `… (EN-Text von TTW/YUP leicht geaendert)` oder `Neu uebersetzt (Claude)`. Zeilenumbrüche stehen dort als `\n`.
 
-## Deutsche Sprach-Effekte in der Sound-BSA
+## Deutsche Audiodateien außerhalb der Sprach-Archive
 
-Ein paar deutsche Sprachaufnahmen liegen nicht unter `sound\voice\`, sondern als Effekte in der FO3-`Fallout - Sound.bsa`. Tools, die nur Sprachdateien austauschen, übersehen sie:
+Einige deutsche Aufnahmen übersehen Tools, die nur `sound\voice\` in den Sprach-Archiven austauschen:
 
-| Was | Pfad |
-|---|---|
-| Intro-Übergänge in Vault 101 ("10 Jahre später" ...) | `sound\fx\qst\qst_fadetowhite_a`–`d.wav` |
-| Notrufsignal im Radio | `sound\fx\voc\radio\voc_radio_distresssignal_*.wav` |
-| Liberty Prime | `sound\fx\voc\robotlibertyprime\combat\*.wav` |
+| Archiv (TTW) | Was | Pfad | Dateien |
+|---|---|---|---|
+| `Fallout3 - Sound.bsa` | Intro-Übergänge in Vault 101 ("10 Jahre später" ...) | `sound\fx\qst\qst_fadetowhite_a`–`d.wav` | 4 |
+| `Fallout3 - Sound.bsa` | Notrufsignal im Radio | `sound\fx\voc\radio\` | 3 |
+| `Fallout3 - Sound.bsa` | Liberty Prime | `sound\fx\voc\robotlibertyprime\combat\` | 32 |
+| `BrokenSteel - Sounds.bsa` | Liberty Prime, Übergang | `sound\fx\voc\robotlibertyprime\dlc03\`, `qst_fadetowhite_e.wav` | 11 |
+| `PointLookout - Sounds.bsa` | Laute des Kindes | `sound\fx\voc\dlc04malechild\` | 4 |
+| `YUPTTW - Sounds.bsa` | von YUP durch englische Aufnahmen ersetzte FNV-Sprachzeilen | `sound\voice\falloutnv.esm\...` | 36 |
 
-`scripts/sound_fix.py` vergleicht die deutsche FO3-BSA mit der TTW-BSA. Jede Datei, die in beiden vorkommt, aber unterschiedlich ist, wird durch die deutsche ersetzt. Bei FO3 sind das genau 39 Dateien, alle anderen sind identisch. Das Skript packt eine neue `Fallout3 - Sound.bsa` mit denselben Flags und prüft sie anschließend Datei für Datei:
+Zwei Skripte decken das ab. Benötigt wird [BSArch](https://www.nexusmods.com/newvegas/mods/64745).
+
+**1. Analyse:** `scripts/sound_analyze.py` vergleicht alle Dateien unter `sound\` in den TTW-Archiven mit den deutschen Original-Archiven des jeweiligen Spiels. Bei TTW-eigenen Archiven wird in beiden Spielen gesucht. Ergebnis pro Archiv: identisch, unterschiedlich oder nicht im deutschen Original.
 
 ```bash
-python scripts/sound_fix.py --de "<DE Fallout 3>/Data/Fallout - Sound.bsa" ^
-                            --ttw "<TTW>/Fallout3 - Sound.bsa" ^
-                            --bsarch "<Pfad>/BSArch.exe" --out "<Ausgabeordner>"
+python scripts/sound_analyze.py --de "<Ordner mit deutschen BSAs>" --ttw "<Ordner mit TTW-BSAs>" --out report.json
 ```
 
-Benötigt wird [BSArch](https://www.nexusmods.com/newvegas/mods/64745). Die neue BSA ersetzt in MO2 die gleichnamige TTW-BSA: Mod mit der BSA unter TTW bzw. unter deinen Sprach-Mod setzen.
+"Unterschiedlich" heißt nicht automatisch englisch, denn Sprach-Tools kodieren deutsche Dateien oft neu. `scripts/audio_info.py` liefert die Laufzeit von WAV/OGG. Neu kodiertes Deutsch ist genauso lang wie das Original, englische Aufnahmen weichen ab. TTW legt FO3-Stimmtypen zusätzlich als `...dc`-Ordner an (z. B. `femaleadult04dc`); deren deutsches Gegenstück liegt im Ordner ohne `dc`.
+
+**2. Ersetzen:** `scripts/sound_fix.py` übernimmt die deutschen Fassungen in ein TTW-Archiv: Jede Datei, die in beiden vorkommt und sich unterscheidet, optional gefiltert per `--include`/`--exclude` (reguläre Ausdrücke, Kleinschreibung, `/`). Danach wird das Archiv mit denselben Flags neu gepackt und Datei für Datei geprüft.
+
+```bash
+python scripts/sound_fix.py --de "<DE FO3>/Fallout - Sound.bsa" --ttw "<TTW>/Fallout3 - Sound.bsa" --bsarch BSArch.exe --out Audio
+python scripts/sound_fix.py --de "<DE FO3>/BrokenSteel - Sounds.bsa" --ttw "<TTW>/BrokenSteel - Sounds.bsa" --bsarch BSArch.exe --out Audio --exclude "^sound/fx/amb/"
+python scripts/sound_fix.py --de "<DE FO3>/PointLookout - Sounds.bsa" --ttw "<TTW>/PointLookout - Sounds.bsa" --bsarch BSArch.exe --out Audio
+python scripts/sound_fix.py --de "<DE FNV>/Fallout - Voices1.bsa" --ttw "<YUP>/YUPTTW - Sounds.bsa" --bsarch BSArch.exe --out Audio --include "^sound/voice/"
+```
+
+Bewusst **nicht** ersetzt: Geräusche ohne Sprache, die TTW/YUP nur neu kodiert oder absichtlich getauscht hat (Wasser, Türen, Endgame-Musik, Waffen, Todesschreie). Die neuen BSAs ersetzen in MO2 die gleichnamigen Archive: Mod mit den BSAs **unter** TTW, YUP und deinen Sprach-Mod setzen.
 
 ## Nicht abgedeckt
 
