@@ -17,8 +17,15 @@ Getestet mit **TTW 3.4** und **YUPTTW 13.9.1**. Benötigt wird nur **Python 3.10
 | `scripts/build.py` | Schreibt die übersetzten Plugins und die Datenbanken |
 | `scripts/verify.py` | Prüft, dass sich im Ausgabe-Plugin nur Textfelder geändert haben |
 | `scripts/tools.py` | Hilfen für neue Übersetzungen: Glossar, Prüfung, Zusammenführen |
+| `scripts/bsa.py`, `scripts/audio_info.py` | Lesen von BSA-Archiven, Laufzeit von WAV/OGG |
+| `scripts/sound_analyze.py`, `scripts/sound_fix.py` | Deutsche Audiodateien außerhalb der Sprach-Archive finden und übernehmen |
+| `scripts/set_load_order.py` | Plugin-Zeitstempel gemäß Ladereihenfolge setzen (Spielen ohne MO2) |
+| `scripts/set_header_version.py` | Header-Version konvertierter Fallout-3-Plugins auf 1.34 setzen |
+| `scripts/check_gamedir.py` | Spielverzeichnis ohne MO2 prüfen (INIs, Invalidierung, Ladereihenfolge, Header) |
+| `scripts/pack_check.py` | Texture-Pack-Mods auf Konflikte und vermischte Mesh-/Texturquellen prüfen |
 | `translations/claude_translations.json` | Übersetzungen der Texte, die es nur in TTW/YUP gibt |
 | `databases/xTranslator/*.xml` | Übersetzung pro Plugin im xTranslator-XML-Format |
+| `databases/xTranslator/Mods/*.xml` | Dasselbe für zusätzliche Mod-Plugins |
 | `databases/TTW_Deutsch_alle_Texte.tsv` | Alle Texte in einer Tabelle (Englisch, Deutsch, Quelle) |
 
 Spiel-Plugins (`.esm`/`.esp`) sind **nicht** im Repo enthalten.
