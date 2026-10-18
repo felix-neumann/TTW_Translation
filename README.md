@@ -148,6 +148,17 @@ python scripts/sound_fix.py --de "<DE FNV>/Fallout - Voices1.bsa" --ttw "<YUP>/Y
 
 Bewusst **nicht** ersetzt: Geräusche ohne Sprache, die TTW/YUP nur neu kodiert oder absichtlich getauscht hat (Wasser, Türen, Endgame-Musik, Waffen, Todesschreie). Die neuen BSAs ersetzen in MO2 die gleichnamigen Archive: Mod mit den BSAs **unter** TTW, YUP und deinen Sprach-Mod setzen.
 
+## Ladereihenfolge in einem manuell gepflegten Spielverzeichnis
+
+Fallout 3 und New Vegas ignorieren die Reihenfolge in `plugins.txt`/`loadorder.txt` und sortieren Plugins nach dem **Änderungsdatum** der Dateien (ESM vor ESP). MO2 setzt die Daten in seinem virtuellen Data-Ordner passend zur LOOT-Reihenfolge. Kopierst du Dateien in ein eigenes Spielverzeichnis, z. B. für ein Steam Deck, oder schreibt die Pipeline neue Plugins, stimmen die Daten dort nicht mehr. `scripts/set_load_order.py` setzt sie wie MO2: 01.01.2000 plus ein Tag je Position. Das Skript ändert nur das Datum, nie den Inhalt, und läuft auch unter Linux.
+
+```bash
+python scripts/set_load_order.py --loadorder "<MO2>/profiles/Default/loadorder.txt" --data "<Spiel>/Data"
+python scripts/set_load_order.py --loadorder ... --data ... --check    # nur prüfen
+```
+
+Nach dem Kopieren auf ein anderes Gerät mit `--check` prüfen, ob die Daten erhalten geblieben sind.
+
 ## Nicht abgedeckt
 
 - Sprachausgabe und Lippensynchronisation
