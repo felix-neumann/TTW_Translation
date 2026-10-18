@@ -114,6 +114,26 @@ Technische Details:
 
 In der TSV-Datei zeigt die Spalte `Quelle`, woher jeder Text stammt: `FNV-Original`, `FO3-Original`, `FNV-Woerterbuch`, `FO3-Woerterbuch`, `… (EN-Text von TTW/YUP leicht geaendert)` oder `Neu uebersetzt (Claude)`. Zeilenumbrüche stehen dort als `\n`.
 
+## Deutsche Sprach-Effekte in der Sound-BSA
+
+Ein paar deutsche Sprachaufnahmen liegen nicht unter `sound\voice\`, sondern als Effekte in der FO3-`Fallout - Sound.bsa`. Tools, die nur Sprachdateien austauschen, übersehen sie:
+
+| Was | Pfad |
+|---|---|
+| Intro-Übergänge in Vault 101 ("10 Jahre später" ...) | `sound\fx\qst\qst_fadetowhite_a`–`d.wav` |
+| Notrufsignal im Radio | `sound\fx\voc\radio\voc_radio_distresssignal_*.wav` |
+| Liberty Prime | `sound\fx\voc\robotlibertyprime\combat\*.wav` |
+
+`scripts/sound_fix.py` vergleicht die deutsche FO3-BSA mit der TTW-BSA. Jede Datei, die in beiden vorkommt, aber unterschiedlich ist, wird durch die deutsche ersetzt. Bei FO3 sind das genau 39 Dateien, alle anderen sind identisch. Das Skript packt eine neue `Fallout3 - Sound.bsa` mit denselben Flags und prüft sie anschließend Datei für Datei:
+
+```bash
+python scripts/sound_fix.py --de "<DE Fallout 3>/Data/Fallout - Sound.bsa" ^
+                            --ttw "<TTW>/Fallout3 - Sound.bsa" ^
+                            --bsarch "<Pfad>/BSArch.exe" --out "<Ausgabeordner>"
+```
+
+Benötigt wird [BSArch](https://www.nexusmods.com/newvegas/mods/64745). Die neue BSA ersetzt in MO2 die gleichnamige TTW-BSA: Mod mit der BSA unter TTW bzw. unter deinen Sprach-Mod setzen.
+
 ## Nicht abgedeckt
 
 - Sprachausgabe und Lippensynchronisation
