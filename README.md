@@ -169,6 +169,47 @@ python scripts/set_header_version.py --backup "<Sicherungsordner>" "<Pfad>/MeinP
 
 Alternativ in FNVEdit vor dem Speichern `File Header → HEDR → Version` auf 1.34 setzen.
 
+## Spielen ohne MO2 (z. B. auf dem Steam Deck)
+
+Wer das Setup aus MO2 in ein eigenes Spielverzeichnis kopiert, etwa um es auf ein Steam Deck zu übertragen, verliert ein paar Dinge, die MO2 im Hintergrund erledigt. Die folgenden Punkte haben wir in der Praxis gefunden. `scripts/check_gamedir.py` prüft sie alle.
+
+```bash
+python scripts/check_gamedir.py --game "<...>/Fallout New Vegas" --inis "<...>/My Games/FalloutNV" ^
+                                --loadorder "<MO2>/profiles/Default/loadorder.txt"
+```
+
+**1. Archiv-Invalidierung.** Mit `bInvalidateOlderFiles=1` gewinnen lose Dateien gegen ein Archiv nur, wenn sie **neuer** sind als das Archiv. Kopierte Archive tragen das Kopierdatum, Mod-Dateien ihr altes Originaldatum. Ohne Invalidierungs-BSA verlieren deshalb Hunderte Mod-Dateien still gegen die Archive. Bei uns waren es 692 aus WRP, TTW Texture Merge, Bueno, NoScopeWobble, Litter Fix und MCM. Ein Symptom waren rote Ausrufezeichen statt Granaten. MO2 trägt die Invalidierungs-BSA selbst ein. Ohne MO2 muss sie in der `Fallout.ini` **und** der `FalloutPrefs.ini` stehen:
+
+```ini
+[Archive]
+SInvalidationFile=
+bInvalidateOlderFiles=1
+SArchiveList=Fallout - Invalidation.bsa, Fallout - Textures.bsa, Fallout - Textures2.bsa, Fallout - Meshes.bsa, Fallout - Voices1.bsa, Fallout - Sound.bsa, Fallout - Misc.bsa
+```
+
+`Fallout - Invalidation.bsa` (von MO2 angelegt) bzw. `Fallout - AII-FNV!.bsa` muss im `Data`-Ordner liegen und **in der Liste stehen**. Liegt sie nur im Ordner, ist sie wirkungslos. Eine `ArchiveInvalidation.txt` wird damit nicht gebraucht.
+
+**2. Wo die INIs liegen.** Das Spiel liest die INIs nicht aus dem Spielordner:
+
+| Datei | Windows | Steam Deck (Proton) |
+|---|---|---|
+| `Fallout.ini`, `FalloutPrefs.ini`, `FalloutCustom.ini` | `Dokumente\My Games\FalloutNV\` | `…/compatdata/<ID>/pfx/drive_c/users/steamuser/Documents/My Games/FalloutNV/` |
+| `plugins.txt` | `%LOCALAPPDATA%\FalloutNV\` | `…/compatdata/<ID>/pfx/drive_c/users/steamuser/AppData/Local/FalloutNV/` |
+
+Die INIs aus dem MO2-Profil lassen sich übernehmen, mit einer Ausnahme: `SLocalSavePath=__MO_Saves\` ist MO2-intern und muss `Saves\` werden.
+
+**3. Schreibgeschützte `Fallout.ini`.** Fehlt die `Fallout.ini`, erzeugt das Spiel sie als Kopie der `Fallout_default.ini`, teils schreibgeschützt. Darüber kopierte INIs kommen dann nicht an, ohne dass es auffällt: Das Spiel läuft mit Standardwerten, `sLanguage=ENGLISH` und ohne Invalidierungs-BSA.
+
+**4. Vorlagen im Installationsordner absichern.** Damit neu erzeugte INIs gleich stimmen, z. B. bei einem neuen Proton-Ordner oder nach dem Zurücksetzen im Launcher:
+- `Fallout_default.ini`: `sLanguage=GERMAN` und den `[Archive]`-Block von oben setzen.
+- `low.ini`, `medium.ini`, `high.ini`, `VeryHigh.ini`: Aus ihnen schreibt der Launcher die `FalloutPrefs.ini`. Den `[Archive]`-Block ergänzen und `iTexMipMapSkip=0` setzen, sonst lädt "Niedrig" alle Texturen in halber Auflösung.
+
+**5. Ladereihenfolge.** Plugins werden nach Dateidatum geladen, siehe `set_load_order.py`. Nach jedem Kopieren von Plugins erneut ausführen bzw. mit `--check` prüfen.
+
+**6. Kopieren aufs Deck.** Linux unterscheidet Groß- und Kleinschreibung. Kopiert man über eine bestehende Installation, können doppelte Ordner entstehen (`Meshes` neben `meshes`), außerdem bleiben alte Dateien liegen. Am sichersten kopiert man das Verzeichnis einmal in einen **leeren** Ordner.
+
+**Texture-Packs prüfen:** `scripts/pack_check.py` zeigt für eigene Pack-Mods in MO2, ob Dateien mehrfach geliefert werden, ob Meshes Texturen aus anderen Packs bekommen, ob Texturen fehlen und welche Pack-Dateien gegen `.override`-Archive verlieren.
+
 ## Nicht abgedeckt
 
 - Sprachausgabe und Lippensynchronisation
