@@ -2454,6 +2454,7 @@ BrokenSteel.esm	0900887A	DLC03CrlLoadDoorExt01	DOOR	FULL	0	Door	Tür	FO3-Origina
 BrokenSteel.esm	090095C4	DLC03zCitadelArmoryDoor	DOOR	FULL	0	Armory Door	Tür des Waffenhauses	FO3-Original
 BrokenSteel.esm	09009B87	DLC03MargotDoor	DOOR	FULL	0	Door	Tür	FO3-Original
 BrokenSteel.esm	0900BE00	DLC03PowerworksSewerLidExit01	DOOR	FULL	0	Manhole	Kontrollschacht	FO3-Original
+BrokenSteel.esm	0900C74C	DLC03PresMetroBackDoor	DOOR	FULL	0	Door	Tür	Korrektur (offiziell englisch gelassen/fehlerhaft, Claude)
 BrokenSteel.esm	09002E8E	DLC03SenateID	MISC	FULL	0	Senate Employee ID	Senatsmitarbeiter-ID	FO3-Original
 BrokenSteel.esm	0900641E	DLC03PresMetroFuse	MISC	FULL	0	Main Fuse	Hauptsicherung	FO3-Original
 BrokenSteel.esm	09006530	DLC03SignalScrambler	MISC	FULL	0	Deathclaw Control Scrambler	Todeskrallenkontrollstörsender	FO3-Original
@@ -2480,6 +2481,7 @@ BrokenSteel.esm	090091B3	DLC03UniqueFlamer02	WEAP	FULL	0	Slo-Burn Flamer	Langbra
 BrokenSteel.esm	0900A502	testPhilDemoWeapShotgunCombat	WEAP	FULL	0	Combat Shotgun	Kampfflinte	FO3-Original
 BrokenSteel.esm	0900ADC8	testPhilGrenadeLauncher	WEAP	FULL	0	Grenade Launcher	Granatenwerfer	FO3-Original
 BrokenSteel.esm	0900B806	DLC03WeapUniqueCallahansMagnum	WEAP	FULL	0	Callahan's Magnum	Callahans Magnum	FO3-Original
+BrokenSteel.esm	0900D4FF	DLC03WeapSuperSledge	WEAP	FULL	0	Super Sledge	Superhammer	Korrektur (offiziell englisch gelassen/fehlerhaft, Claude)
 BrokenSteel.esm	060156E4	ElderLyons	NPC_	FULL	0	Elder Lyons	Ältester Lyons	FO3-Original
 BrokenSteel.esm	060156E5	StarPaladinCross	NPC_	FULL	0	Star Paladin Cross	Sternpaladin Cross	FO3-Original
 BrokenSteel.esm	060156EA	ScribeRothchild	NPC_	FULL	0	Scribe Rothchild	Gelehrter Rothchild	FO3-Original
@@ -2546,9 +2548,15 @@ BrokenSteel.esm	09002786	DLC03Enclave4NapalmCF	NPC_	FULL	0	Enclave Soldier	Solda
 BrokenSteel.esm	09002787	DLC03Enclave4NapalmCM	NPC_	FULL	0	Enclave Soldier	Soldat der Enklave	FO3-Original
 BrokenSteel.esm	09002788	DLC03Enclave4NapalmHF	NPC_	FULL	0	Enclave Soldier	Soldat der Enklave	FO3-Original
 BrokenSteel.esm	09002789	DLC03Enclave4NapalmHM	NPC_	FULL	0	Enclave Soldier	Soldat der Enklave	FO3-Original
+BrokenSteel.esm	0900292D	DLC03AFBEnclaveMissileFodder03	NPC_	FULL	0	Enclave Soldier	Soldat der Enklave	Korrektur (offiziell englisch gelassen/fehlerhaft, Claude)
 BrokenSteel.esm	0900292E	DLC03AFBBoSMinigunFodder01	NPC_	FULL	0	Brotherhood of Steel Paladin	Paladin der stählernen Bruderschaft	FO3-Original
+BrokenSteel.esm	0900292F	DLC03AFBEnclaveGatlingFodder01	NPC_	FULL	0	Enclave Soldier	Soldat der Enklave	Korrektur (offiziell englisch gelassen/fehlerhaft, Claude)
+BrokenSteel.esm	09002930	DLC03AFBEnclaveGatlingFodder02	NPC_	FULL	0	Enclave Soldier	Soldat der Enklave	Korrektur (offiziell englisch gelassen/fehlerhaft, Claude)
+BrokenSteel.esm	09002931	DLC03AFBEnclaveGatlingFodder03	NPC_	FULL	0	Enclave Soldier	Soldat der Enklave	Korrektur (offiziell englisch gelassen/fehlerhaft, Claude)
 BrokenSteel.esm	09002932	DLC03AFBBoSMinigunFodder02	NPC_	FULL	0	Brotherhood of Steel Paladin	Paladin der stählernen Bruderschaft	FO3-Original
 BrokenSteel.esm	09002933	DLC03AFBBoSMinigunFodder03	NPC_	FULL	0	Brotherhood of Steel Paladin	Paladin der stählernen Bruderschaft	FO3-Original
+BrokenSteel.esm	09002937	DLC03AFBEnclaveMissileFodder01	NPC_	FULL	0	Enclave Soldier	Soldat der Enklave	Korrektur (offiziell englisch gelassen/fehlerhaft, Claude)
+BrokenSteel.esm	09002938	DLC03AFBEnclaveMissileFodder02	NPC_	FULL	0	Enclave Soldier	Soldat der Enklave	Korrektur (offiziell englisch gelassen/fehlerhaft, Claude)
 BrokenSteel.esm	09002DC0	DLC03BS1KnightGuard1	NPC_	FULL	0	Brotherhood of Steel Knight	Ritter der stählernen Bruderschaft	FO3-Original
 BrokenSteel.esm	09002E07	DLC03EncounterFBBrotherhoodB01	NPC_	FULL	0	Brotherhood of Steel Knight	Ritter der stählernen Bruderschaft	FO3-Original
 BrokenSteel.esm	09002E08	DLC03EncounterFBBrotherhoodB02	NPC_	FULL	0	Brotherhood of Steel Paladin	Paladin der stählernen Bruderschaft	FO3-Original
@@ -2556,6 +2564,7 @@ BrokenSteel.esm	09002E09	DLC03EncounterFBBrotherhoodB03	NPC_	FULL	0	Brotherhood 
 BrokenSteel.esm	09002E0B	DLC03EncounterFBBrotherhoodA01	NPC_	FULL	0	Brotherhood of Steel Knight	Ritter der stählernen Bruderschaft	FO3-Original
 BrokenSteel.esm	09002E0C	DLC03EncounterFBBrotherhoodA02	NPC_	FULL	0	Brotherhood of Steel Paladin	Paladin der stählernen Bruderschaft	FO3-Original
 BrokenSteel.esm	09002E0D	DLC03EncounterFBBrotherhoodA03	NPC_	FULL	0	Brotherhood of Steel Paladin	Paladin der stählernen Bruderschaft	FO3-Original
+BrokenSteel.esm	090031FF	DLC03EncounterEMTrapCorpse	NPC_	FULL	0	Wastelander	Ödländer	Korrektur (offiziell englisch gelassen/fehlerhaft, Claude)
 BrokenSteel.esm	0900341A	DLC03EncounterBTSecurity01	NPC_	FULL	0	Rivet City Security	Sicherheitspersonal von Rivet City	FO3-Original
 BrokenSteel.esm	0900341B	DLC03EncounterBTSecurity02	NPC_	FULL	0	Rivet City Security	Sicherheitspersonal von Rivet City	FO3-Original
 BrokenSteel.esm	0900341F	DLC03EncounterBTScavenger	NPC_	FULL	0	Scavenger	Sammler	FO3-Original
@@ -2585,6 +2594,12 @@ BrokenSteel.esm	09005C1A	DLC03WQ02GhoulC	NPC_	FULL	0	Underworld Resident	Underwo
 BrokenSteel.esm	09005C1B	DLC03WQ02GhoulD	NPC_	FULL	0	Underworld Resident	Underworld-Ansässiger	FO3-Original
 BrokenSteel.esm	09005C1C	DLC03WQ02GhoulA	NPC_	FULL	0	Underworld Resident	Underworld-Ansässiger	FO3-Original
 BrokenSteel.esm	09005C1D	DLC03WQ02GhoulB	NPC_	FULL	0	Underworld Resident	Underworld-Ansässiger	FO3-Original
+BrokenSteel.esm	09005C49	DLC03AFBFight02EnclaveMissileFodder01	NPC_	FULL	0	Enclave Soldier	Soldat der Enklave	Korrektur (offiziell englisch gelassen/fehlerhaft, Claude)
+BrokenSteel.esm	09005C4A	DLC03AFBFight02EnclaveMissileFodder02	NPC_	FULL	0	Enclave Soldier	Soldat der Enklave	Korrektur (offiziell englisch gelassen/fehlerhaft, Claude)
+BrokenSteel.esm	09005C4B	DLC03AFBFight02EnclaveMissileFodder03	NPC_	FULL	0	Enclave Soldier	Soldat der Enklave	Korrektur (offiziell englisch gelassen/fehlerhaft, Claude)
+BrokenSteel.esm	09005C4C	DLC03AFBFight02EnclaveGatlingFodder01	NPC_	FULL	0	Enclave Soldier	Soldat der Enklave	Korrektur (offiziell englisch gelassen/fehlerhaft, Claude)
+BrokenSteel.esm	09005C4D	DLC03AFBFight02EnclaveGatlingFodder02	NPC_	FULL	0	Enclave Soldier	Soldat der Enklave	Korrektur (offiziell englisch gelassen/fehlerhaft, Claude)
+BrokenSteel.esm	09005C4E	DLC03AFBFight02EnclaveGatlingFodder03	NPC_	FULL	0	Enclave Soldier	Soldat der Enklave	Korrektur (offiziell englisch gelassen/fehlerhaft, Claude)
 BrokenSteel.esm	09005C53	DLC03AFBFight02BoSMinigunFodder01	NPC_	FULL	0	Brotherhood of Steel Paladin	Paladin der stählernen Bruderschaft	FO3-Original
 BrokenSteel.esm	09005C54	DLC03AFBFight02BoSMissileFodder01	NPC_	FULL	0	Brotherhood of Steel Paladin	Paladin der stählernen Bruderschaft	FO3-Original
 BrokenSteel.esm	09005C56	DLC03AFBFight02BoSMinigunFodder02	NPC_	FULL	0	Brotherhood of Steel Paladin	Paladin der stählernen Bruderschaft	FO3-Original
@@ -2592,6 +2607,9 @@ BrokenSteel.esm	09005C57	DLC03AFBFight02BoSMinigunFodder03	NPC_	FULL	0	Brotherho
 BrokenSteel.esm	09005C58	DLC03AFBFight02BoSMissileFodder02	NPC_	FULL	0	Brotherhood of Steel Paladin	Paladin der stählernen Bruderschaft	FO3-Original
 BrokenSteel.esm	09005C59	DLC03AFBFight02BoSMissileFodder03	NPC_	FULL	0	Brotherhood of Steel Paladin	Paladin der stählernen Bruderschaft	FO3-Original
 BrokenSteel.esm	09006517	DLC03WQ03WaterBeggar01	NPC_	FULL	0	Water Beggar	Wasserbettler	FO3-Original
+BrokenSteel.esm	0900671A	DLC03WastelanderAAF3	NPC_	FULL	0	Wastelander	Ödländerin	Korrektur (offiziell englisch gelassen/fehlerhaft, Claude)
+BrokenSteel.esm	0900671B	DLC03WastelanderCF3	NPC_	FULL	0	Wastelander	Ödländerin	Korrektur (offiziell englisch gelassen/fehlerhaft, Claude)
+BrokenSteel.esm	0900671C	DLC03WastelanderAF	NPC_	FULL	0	Wastelander	Ödländerin	Korrektur (offiziell englisch gelassen/fehlerhaft, Claude)
 BrokenSteel.esm	0900671D	DLC03FemaleVoice3	NPC_	FULL	0	Wastelander	Ödländer	FO3-Original
 BrokenSteel.esm	0900671E	DLC03FemaleVoice2	NPC_	FULL	0	Wastelander	Ödländer	FO3-Original
 BrokenSteel.esm	0900671F	DLC03FemaleVoice1	NPC_	FULL	0	Wastelander	Ödländer	FO3-Original
@@ -2627,12 +2645,35 @@ BrokenSteel.esm	0900B823	DLC03WQ03BrotherGerardGhoul	NPC_	FULL	0	Brother Gerard	
 BrokenSteel.esm	0900B958	DLC03AudioVoiceNN	NPC_	FULL	0	Audio Only NPC	Reiner Audio-NSC	FO3-Original
 BrokenSteel.esm	0900BB31	DLC03WQWaterDriverA	NPC_	FULL	0	Water Caravan Driver	Wasserkarawanenführer	FO3-Original
 BrokenSteel.esm	0900BB32	DLC03WQWaterDriverB	NPC_	FULL	0	Water Caravan Driver	Wasserkarawanenführer	FO3-Original
+BrokenSteel.esm	0900BBB2	DLC03FEVUnderworldGhoulA	NPC_	FULL	0	Underworld Resident	Underworld-Ansässige	Korrektur (offiziell englisch gelassen/fehlerhaft, Claude)
 BrokenSteel.esm	0900BBB4	DLC03FEVUnderworldGhoulB	NPC_	FULL	0	Underworld Resident	Underworld-Ansässiger	FO3-Original
 BrokenSteel.esm	0900BBB6	DLC03FEVUnderworldGhoulC	NPC_	FULL	0	Underworld Resident	Underworld-Ansässiger	FO3-Original
 BrokenSteel.esm	0900BBBB	DLC03FEVUnderworldGhoulD	NPC_	FULL	0	Underworld Resident	Underworld-Ansässiger	FO3-Original
 BrokenSteel.esm	0900BCA8	DLC03FEVMegatonSettlerA	NPC_	FULL	0	Megaton Settler	Megaton-Siedler	FO3-Original
 BrokenSteel.esm	0900BCA9	DLC03FEVMegatonSettlerB	NPC_	FULL	0	Megaton Settler	Megaton-Siedler	FO3-Original
 BrokenSteel.esm	0900BCAA	DLC03FEVMegatonSettlerC	NPC_	FULL	0	Megaton Settler	Megaton-Siedler	FO3-Original
+BrokenSteel.esm	0900C915	DLC03EnclavePlatformDead	NPC_	FULL	0	Enclave Soldier	Soldat der Enklave	Korrektur (offiziell englisch gelassen/fehlerhaft, Claude)
+BrokenSteel.esm	0900CF2F	DLC03ZCarTunnelScribeB	NPC_	FULL	0	Brotherhood of Steel Scribe	Gelehrter der stählernen Bruderschaft	Korrektur (offiziell englisch gelassen/fehlerhaft, Claude)
+BrokenSteel.esm	0900CF30	DLC03EnclaveCarTunnelDead1	NPC_	FULL	0	Enclave Soldier	Soldat der Enklave	Korrektur (offiziell englisch gelassen/fehlerhaft, Claude)
+BrokenSteel.esm	0900CF31	DLC03EnclaveCarTunnelDead2	NPC_	FULL	0	Enclave Soldier	Soldat der Enklave	Korrektur (offiziell englisch gelassen/fehlerhaft, Claude)
+BrokenSteel.esm	0900CF32	DLC03ZCarTunnelScribeC	NPC_	FULL	0	Brotherhood of Steel Scribe	Gelehrte der stählernen Bruderschaft	Korrektur (offiziell englisch gelassen/fehlerhaft, Claude)
+BrokenSteel.esm	0900CF33	DLC03EnclaveCarTunnelDeadLooted1	NPC_	FULL	0	Enclave Soldier	Soldat der Enklave	Korrektur (offiziell englisch gelassen/fehlerhaft, Claude)
+BrokenSteel.esm	0900CF34	DLC03EnclaveCarTunnelDeadLooted2	NPC_	FULL	0	Enclave Soldier	Soldat der Enklave	Korrektur (offiziell englisch gelassen/fehlerhaft, Claude)
+BrokenSteel.esm	0900CF35	DLC03EnclaveCarTunnelDeadWorkBench	NPC_	FULL	0	Enclave Soldier	Soldat der Enklave	Korrektur (offiziell englisch gelassen/fehlerhaft, Claude)
+BrokenSteel.esm	0900CF36	DLC03ZCarTunnelScribeA	NPC_	FULL	0	Brotherhood of Steel Scribe	Gelehrter der stählernen Bruderschaft	Korrektur (offiziell englisch gelassen/fehlerhaft, Claude)
+BrokenSteel.esm	0900D416	DLC03AFBFight02BoSTeslaFodder01	NPC_	FULL	0	Brotherhood of Steel Paladin	Paladin der stählernen Bruderschaft	Korrektur (offiziell englisch gelassen/fehlerhaft, Claude)
+BrokenSteel.esm	0900D417	DLC03AFBFight02BoSTeslaFodder02	NPC_	FULL	0	Brotherhood of Steel Paladin	Paladin der stählernen Bruderschaft	Korrektur (offiziell englisch gelassen/fehlerhaft, Claude)
+BrokenSteel.esm	0900D418	DLC03AFBFight02BoSTeslaFodder03	NPC_	FULL	0	Brotherhood of Steel Paladin	Paladin der stählernen Bruderschaft	Korrektur (offiziell englisch gelassen/fehlerhaft, Claude)
+BrokenSteel.esm	0900D419	DLC03AFBBoSTeslaFodder01	NPC_	FULL	0	Brotherhood of Steel Paladin	Paladin der stählernen Bruderschaft	Korrektur (offiziell englisch gelassen/fehlerhaft, Claude)
+BrokenSteel.esm	0900D41A	DLC03AFBBoSTeslaFodder02	NPC_	FULL	0	Brotherhood of Steel Paladin	Paladin der stählernen Bruderschaft	Korrektur (offiziell englisch gelassen/fehlerhaft, Claude)
+BrokenSteel.esm	0900D41B	DLC03AFBBoSTeslaFodder03	NPC_	FULL	0	Brotherhood of Steel Paladin	Paladin der stählernen Bruderschaft	Korrektur (offiziell englisch gelassen/fehlerhaft, Claude)
+BrokenSteel.esm	0900D42F	DLC03RelayStatNoRespawnEnclave2FlamerVar	NPC_	FULL	0	Enclave Soldier	Soldat der Enklave	Korrektur (offiziell englisch gelassen/fehlerhaft, Claude)
+BrokenSteel.esm	0900D434	DLC03AFBEnclaveNapalmFodder01	NPC_	FULL	0	Enclave Hellfire Trooper	Höllenfeuer-Soldat der Enklave	Korrektur (offiziell englisch gelassen/fehlerhaft, Claude)
+BrokenSteel.esm	0900D435	DLC03AFBFight02EnclaveNapalmFodder01	NPC_	FULL	0	Enclave Hellfire Trooper	Höllenfeuer-Soldat der Enklave	Korrektur (offiziell englisch gelassen/fehlerhaft, Claude)
+BrokenSteel.esm	0900D436	DLC03AFBFight02EnclaveNapalmFodder02	NPC_	FULL	0	Enclave Hellfire Trooper	Höllenfeuer-Soldat der Enklave	Korrektur (offiziell englisch gelassen/fehlerhaft, Claude)
+BrokenSteel.esm	0900D437	DLC03AFBFight02EnclaveNapalmFodder03	NPC_	FULL	0	Enclave Hellfire Trooper	Höllenfeuer-Soldat der Enklave	Korrektur (offiziell englisch gelassen/fehlerhaft, Claude)
+BrokenSteel.esm	0900D438	DLC03AFBEnclaveNapalmFodder02	NPC_	FULL	0	Enclave Hellfire Trooper	Höllenfeuer-Soldat der Enklave	Korrektur (offiziell englisch gelassen/fehlerhaft, Claude)
+BrokenSteel.esm	0900D439	DLC03AFBEnclaveNapalmFodder03	NPC_	FULL	0	Enclave Hellfire Trooper	Höllenfeuer-Soldat der Enklave	Korrektur (offiziell englisch gelassen/fehlerhaft, Claude)
 BrokenSteel.esm	0001CF72	CrDeathClawEnclave	CREA	FULL	0	Deathclaw	Todeskralle	FNV-Original
 BrokenSteel.esm	0009426E	RL3Follower	CREA	FULL	0	Sergeant RL-3	Sergeant RL3	FNV-Original
 BrokenSteel.esm	000BCC4D	CagedDeathclawEnclave	CREA	FULL	0	Deathclaw	Todeskralle	FNV-Original
@@ -2652,7 +2693,11 @@ BrokenSteel.esm	0601CF74	CrRobobrainEnclaveDC	CREA	FULL	0	Robobrain	Robohirn	FO3
 BrokenSteel.esm	0601CF75	CrSentryBotGLEnclaveDC	CREA	FULL	0	Sentry Bot	Wachbot	FO3-Original
 BrokenSteel.esm	0601CF8B	CrProtectronEnclaveDC	CREA	FULL	0	Protectron	Protektron	FO3-Original
 BrokenSteel.esm	0605F9D1	CrSentryBotMGEnclaveDC	CREA	FULL	0	Sentry Bot	Wachbot	FO3-Original
+BrokenSteel.esm	0900223C	DLC03CrDeathClaw	CREA	FULL	0	Deathclaw	Todeskralle	Korrektur (offiziell englisch gelassen/fehlerhaft, Claude)
+BrokenSteel.esm	09003894	DLC03CagedDeathclawEnclave	CREA	FULL	0	Deathclaw	Todeskralle	Korrektur (offiziell englisch gelassen/fehlerhaft, Claude)
+BrokenSteel.esm	09003A3D	dlc03testghoul	CREA	FULL	0	Feral Ghoul	Wilder Ghul	Korrektur (offiziell englisch gelassen/fehlerhaft, Claude)
 BrokenSteel.esm	09004C16	DLC03EncounterADOutcastA1	CREA	FULL	0	Sentry Bot	Wachbot	FO3-Original
+BrokenSteel.esm	090064A3	DLC03PresMetroGhoul01DEAD	CREA	FULL	0	Feral Ghoul	Wilder Ghul	Korrektur (offiziell englisch gelassen/fehlerhaft, Claude)
 BrokenSteel.esm	090064A5	DLC03PresMetroGhoul02DEAD	CREA	FULL	0	Feral Ghoul	Wilder Ghul	FO3-Original
 BrokenSteel.esm	090064D6	DLC03PresMetroLvlRobotBoss	CREA	FULL	0	Presidential Metro Sentinal Unit	Präsidentenmetrowacheinheit	FO3-Original
 BrokenSteel.esm	09006520	DLC03WQ03SunOfAtom	CREA	FULL	0	Atom's Champion	Champion des Atoms	FO3-Original
@@ -2663,6 +2708,7 @@ BrokenSteel.esm	09008CCF	DLC03CrTurret04EnclaveMB	CREA	FULL	0	Mark VIII Turret	G
 BrokenSteel.esm	0900946B	DLC03DeathClawEnclaveBase	CREA	FULL	0	Deathclaw	Todeskralle	FO3-Original
 BrokenSteel.esm	0900AD89	DLC03CrRadscorpion3Albino	CREA	FULL	0	Albino Radscorpion	Albino-RAD-Skorpion	FO3-Original
 BrokenSteel.esm	0900B81E	DLC03WQ03MotherCurieGhoul	CREA	FULL	0	Mother Curie III	Mutter Curie III	FO3-Original
+BrokenSteel.esm	0900CF37	DLC03zCarTunnelTurretDC	CREA	FULL	0	Mark VI Turret	Mark VI-Geschützturm	Korrektur (offiziell englisch gelassen/fehlerhaft, Claude)
 BrokenSteel.esm	09001D2D	DLC03EncounterRCKey	KEYM	FULL	0	Water Crate Key	Wasserkistenschlüssel	FO3-Original
 BrokenSteel.esm	090071E6	DLC03WQ03MonasteryKey	KEYM	FULL	0	Monastery Key	Klosterschlüssel	FO3-Original
 BrokenSteel.esm	090081E2	DLC03AFBCrateKey01	KEYM	FULL	0	Fuel Stash Conatiner Key	Schlüssel des Brennstoffvorratsbehälters	FO3-Original
@@ -12896,10 +12942,19 @@ Fallout3.esm	06058823	MegCratersideSupplyTerminal	TERM	ITXT	6	Survival Guide Pro
 Fallout3.esm	06058823	MegCratersideSupplyTerminal	TERM	RNAM	6	Editing in progress	Wird redigiert.	FO3-Original
 Fallout3.esm	06058C3C	ComputerGermantown911A	TERM	FULL	0	911 Terminal	Notruf-Terminal	FO3-Original
 Fallout3.esm	06058C3C	ComputerGermantown911A	TERM	DESC	0	Thank you for calling the Germantown 911 Call Center, What is the nature of your emergency?	Danke für Ihren Anruf in der Notrufzentrale von Germantown. Welcher Notfall liegt vor?\n\n\n	FO3-Original
+Fallout3.esm	06058C3C	ComputerGermantown911A	TERM	ITXT	0	911 Call Log <Most Recent>	Notruf-Protokoll <Neueste>	Korrektur (offiziell englisch gelassen/fehlerhaft, Claude)
+Fallout3.esm	06058C3C	ComputerGermantown911A	TERM	RNAM	0	Loading...	Lade ...	Korrektur (offiziell englisch gelassen/fehlerhaft, Claude)
+Fallout3.esm	06058C3C	ComputerGermantown911A	TERM	RNAM	1	Initiating...	Initialisieren ...	Korrektur (offiziell englisch gelassen/fehlerhaft, Claude)
 Fallout3.esm	06058C42	ComputerGermantown911B	TERM	FULL	0	911 Terminal	Notruf-Terminal	FO3-Original
 Fallout3.esm	06058C42	ComputerGermantown911B	TERM	DESC	0	Thank you for calling the Germantown 911 Call Center, What is the nature of your emergency?	Danke für Ihren Anruf in der Notrufzentrale von Germantown. Welcher Notfall liegt vor?\n\n\n	FO3-Original
+Fallout3.esm	06058C42	ComputerGermantown911B	TERM	ITXT	0	911 Call Log <Most Recent>	Notruf-Protokoll <Neueste>	Korrektur (offiziell englisch gelassen/fehlerhaft, Claude)
+Fallout3.esm	06058C42	ComputerGermantown911B	TERM	RNAM	0	Loading...	Lade ...	Korrektur (offiziell englisch gelassen/fehlerhaft, Claude)
+Fallout3.esm	06058C42	ComputerGermantown911B	TERM	RNAM	1	Initiating...	Initialisieren ...	Korrektur (offiziell englisch gelassen/fehlerhaft, Claude)
 Fallout3.esm	06058C44	ComputerGermantown911C	TERM	FULL	0	911 Terminal	Notruf-Terminal	FO3-Original
 Fallout3.esm	06058C44	ComputerGermantown911C	TERM	DESC	0	Thank you for calling the Germantown 911 Call Center, What is the nature of your emergency?	Danke für Ihren Anruf in der Notrufzentrale von Germantown. Welcher Notfall liegt vor?\n\n\n	FO3-Original
+Fallout3.esm	06058C44	ComputerGermantown911C	TERM	ITXT	0	911 Call Log <Most Recent>	Notruf-Protokoll <Neueste>	Korrektur (offiziell englisch gelassen/fehlerhaft, Claude)
+Fallout3.esm	06058C44	ComputerGermantown911C	TERM	RNAM	0	Loading...	Lade ...	Korrektur (offiziell englisch gelassen/fehlerhaft, Claude)
+Fallout3.esm	06058C44	ComputerGermantown911C	TERM	RNAM	1	Initiating...	Initialisieren ...	Korrektur (offiziell englisch gelassen/fehlerhaft, Claude)
 Fallout3.esm	0605A5A5	UnderworldWinthropTerminal	TERM	FULL	0	Winthrop's Terminal	Winthrops Terminal	FO3-Original
 Fallout3.esm	0605A5A5	UnderworldWinthropTerminal	TERM	DESC	0	Welcome, Winthrop.	Willkommen, Winthrop\n\n\n\n	FO3-Original
 Fallout3.esm	0605A5A5	UnderworldWinthropTerminal	TERM	ITXT	0	Notes on the electrical system.	Notizen über den Stromkreis	FO3-Original
@@ -14553,6 +14608,7 @@ Fallout3.esm	06079060	RavenRockExteriorDoor	DOOR	FULL	0	Door	Tür	FO3-Original
 Fallout3.esm	060790F9	MS11FollowerEscapeHatch	DOOR	FULL	0	Drainage Grate	Abflussgitter	FO3-Original
 Fallout3.esm	060790FC	CLPFallsGate01	DOOR	FULL	0	Gate	Tor	FO3-Original
 Fallout3.esm	060791EE	TLLastResortDoor	DOOR	FULL	0	Door	Tür	FO3-Original
+Fallout3.esm	060792C1	CLFacadeExGate01	DOOR	FULL	0	Gate	Tor	Korrektur (offiziell englisch gelassen/fehlerhaft, Claude)
 Fallout3.esm	06079F0C	MQ08GECKPlatform	DOOR	FULL	0	GECK Container	G.E.E.K.-Koffer	FO3-Original
 Fallout3.esm	0607B6A3	ParadiseFallsExitDoor01	DOOR	FULL	0	Door	Tür	FO3-Original
 Fallout3.esm	0607C612	PPDoorToRotunda01	DOOR	FULL	0	Door	Tür	FO3-Original
@@ -14713,10 +14769,12 @@ Fallout3.esm	0603C07A	MS06LincolnsRifle	WEAP	FULL	0	Lincoln's Repeater	Lincolns 
 Fallout3.esm	06040840	FollowersJerichoChineseAssaultRifle	WEAP	FULL	0	Chinese Assault Rifle	Chinesisches Sturmgewehr	FO3-Original
 Fallout3.esm	06060C2C	WeapUniqueZhuRongChinesePistol	WEAP	FULL	0	Zhu-Rong v418 Chinese Pistol	Chinesische Pistole Zhu-Rong v418	FO3-Original
 Fallout3.esm	06061793	WeapUniqueWazerWifle	WEAP	FULL	0	Wazer Wifle	Wazergewehr	FO3-Original
+Fallout3.esm	06063E8A	FollowersCrossLaserPistol	WEAP	FULL	0	Laser Pistol	Laserpistole	Korrektur (offiziell englisch gelassen/fehlerhaft, Claude)
 Fallout3.esm	06063FA2	FollowersFawkesSledgehammer	WEAP	FULL	0	Sledgehammer	Holzhammer	FO3-Original
 Fallout3.esm	06063FDC	FollowersJerichoNailBoard	WEAP	FULL	0	Nail Board	Nagelbrett	FO3-Original
 Fallout3.esm	0606407F	FollowersButchSwitchblade	WEAP	FULL	0	Switchblade	Springmesser	FO3-Original
 Fallout3.esm	06064093	FollowersCharonCombatKnife	WEAP	FULL	0	Combat Knife	Kampfmesser	FO3-Original
+Fallout3.esm	0606415D	FollowersCloverChineseOfficerSword	WEAP	FULL	0	Chinese Officer's Sword	Chinesisches Offiziersschwert	Korrektur (offiziell englisch gelassen/fehlerhaft, Claude)
 Fallout3.esm	06066346	WeapUniqueSydneys10mmSubGunFollwerVersion	WEAP	FULL	0	"Sydney's 10mm ""Ultra"" SMG"	"Sydneys 10mm ""Ultra"" SMG"	FO3-Original
 Fallout3.esm	06066C76	WeapUniqueOlPainless	WEAP	FULL	0	Ol' Painless	Harrystutzen	FO3-Original
 Fallout3.esm	06066C77	WeapUniqueTheBreak	WEAP	FULL	0	The Break	Carambolage	FO3-Original
@@ -14729,11 +14787,14 @@ Fallout3.esm	0606B539	WeapUniqueA321PlasmaRifle	WEAP	FULL	0	A3-21's Plasma Rifle
 Fallout3.esm	0606B53A	WeapUniqueKneecapper	WEAP	FULL	0	The Kneecapper	Der Kniekracher	FO3-Original
 Fallout3.esm	0606E7CC	WeapUniqueSydneys10mmSubGun	WEAP	FULL	0	"Sydney's 10mm ""Ultra"" SMG"	"Sydneys 10mm ""Ultra"" SMG"	FO3-Original
 Fallout3.esm	0606F210	SonoraCruzWeap10mmPistol	WEAP	FULL	0	10mm Pistol	10-mm-Pistole	FO3-Original
+Fallout3.esm	06074795	DemoLaserRifle	WEAP	FULL	0	Laser Rifle	Lasergewehr	Korrektur (offiziell englisch gelassen/fehlerhaft, Claude)
 Fallout3.esm	0607843D	WeapUniqueOGradysPoliceBaton	WEAP	FULL	0	O'Grady's Peacemaker	O'Gradys Friedensstifter	FO3-Original
 Fallout3.esm	0607843F	WeapUniqueFawkesSuperSledge	WEAP	FULL	0	Fawkes' Super Sledge	Fawkes' Superhammer	FO3-Original
 Fallout3.esm	06078440	WeapUniqueButchToothpick	WEAP	FULL	0	Butch's Toothpick	Butchs Zahnstocher	FO3-Original
 Fallout3.esm	06078441	WeapUniqueVancesChineseSword	WEAP	FULL	0	Vampire's Edge	Vampirklinge	FO3-Original
 Fallout3.esm	06078442	WeapUniqueHighwaymansFriendTireIron	WEAP	FULL	0	Highwayman's Friend	Wegelagerers Freund	FO3-Original
+Fallout3.esm	0607C10B	FollowerRL3Flamer2HL	WEAP	FULL	0	Flamer	Flammenwerfer	Korrektur (offiziell englisch gelassen/fehlerhaft, Claude)
+Fallout3.esm	0607C10C	FollowerRL3Plasma1HP	WEAP	FULL	0	Plasma Gun	Plasmawaffe	Korrektur (offiziell englisch gelassen/fehlerhaft, Claude)
 Fallout3.esm	0607F598	MirelurkSonic2HL	WEAP	FULL	0	Shriek	Schrei	FO3-Original
 Fallout3.esm	06092966	WeapUniqueReservistsRifle	WEAP	FULL	0	Reservist's Rifle	Reservistengewehr	FO3-Original
 Fallout3.esm	060A874B	WeapUniqueTenderizer	WEAP	FULL	0	The Tenderizer	Der Zartmacher	FO3-Original
@@ -14765,6 +14826,7 @@ Fallout3.esm	0602936E	AmmoDart	AMMO	FULL	0	Dart	Pfeil	FO3-Original
 Fallout3.esm	0602936E	AmmoDart	AMMO	ONAM	0	Dart	Pfeil	FO3-Original
 Fallout3.esm	06029384	AmmoRailwaySpikes	AMMO	FULL	0	Railway Spikes	Gleisnägel	FO3-Original
 Fallout3.esm	06029384	AmmoRailwaySpikes	AMMO	ONAM	0	Spikes	Nägel	FO3-Original
+Fallout3.esm	0604C5F9	AmmoShotgunShellRobot	AMMO	FULL	0	Shotgun Shell	Schrotpatrone	Korrektur (offiziell englisch gelassen/fehlerhaft, Claude)
 Fallout3.esm	0604C5F9	AmmoShotgunShellRobot	AMMO	ONAM	0	Shell	Schrotpatrone	FO3-Original
 Fallout3.esm	000156F0	DoctorBarrows	NPC_	FULL	0	Doctor Barrows	Doktor Barrows	FNV-Original
 Fallout3.esm	000210DF	CitadelJourneymanScribeArchives01	NPC_	FULL	0	Brotherhood of Steel Scribe	Gelehrter der Bruderschaft	FNV-Original
@@ -15107,6 +15169,7 @@ Fallout3.esm	0602E2A2	WastelanderHFDC	NPC_	FULL	0	Wastelander	Ödländer	FO3-Ori
 Fallout3.esm	0602EA46	CG01Dad	NPC_	FULL	0	Dad	Papa	FO3-Original
 Fallout3.esm	0602F565	LvlSlave	NPC_	FULL	0	Slave	Sklave	FO3-Original
 Fallout3.esm	0602F566	FFER55Slave	NPC_	FULL	0	Slave	Sklave	FO3-Original
+Fallout3.esm	0602F7A0	FFER55Slaver	NPC_	FULL	0	Slaver	Sklavenhändler	Korrektur (offiziell englisch gelassen/fehlerhaft, Claude)
 Fallout3.esm	0602FA28	FFER56Slave	NPC_	FULL	0	Slave	Sklave	FO3-Original
 Fallout3.esm	0602FB18	FFER57Slave	NPC_	FULL	0	Escaped Slave	Entflohener Sklave	FO3-Original
 Fallout3.esm	0602FDCF	CG02Dad	NPC_	FULL	0	Dad	Papa	FO3-Original
@@ -15318,6 +15381,7 @@ Fallout3.esm	0607D425	Enclave4OfficerCMDC	NPC_	FULL	0	Enclave Officer	Offizier d
 Fallout3.esm	0607D426	Enclave4OfficerCFDC	NPC_	FULL	0	Enclave Officer	Offizier der Enklave	FO3-Original
 Fallout3.esm	0607D427	Enclave4OfficerHMDC	NPC_	FULL	0	Enclave Officer	Offizier der Enklave	FO3-Original
 Fallout3.esm	0607D428	Enclave4OfficerHFDC	NPC_	FULL	0	Enclave Officer	Offizier der Enklave	FO3-Original
+Fallout3.esm	0607D782	BrotherhoodOfSteel1GunMorphineArmorDEAD	NPC_	FULL	0	Brotherhood of Steel Initiate	Anwärter der stählernen Bruderschaft	Korrektur (offiziell englisch gelassen/fehlerhaft, Claude)
 Fallout3.esm	0607E40A	LvlSlaveMale	NPC_	FULL	0	Slave	Sklave	FO3-Original
 Fallout3.esm	0607E40D	LvlHunterMale	NPC_	FULL	0	Hunter	Jäger	FO3-Original
 Fallout3.esm	0607E947	Regulator1GunAAMTEMPLATE	NPC_	FULL	0	Talon Company Merc	Söldner der Talon Company	FO3-Original
@@ -15433,6 +15497,9 @@ Fallout3.esm	060AE66C	DeadSlaveFemaleDC	NPC_	FULL	0	Dead Slave	Toter Sklave	FO3-
 Fallout3.esm	060AE66D	DeadSlaveMaleDC	NPC_	FULL	0	Dead Slave	Toter Sklave	FO3-Original
 Fallout3.esm	060B02E0	EnclaveScientistAAFTEMPLATE	NPC_	FULL	0	Enclave Scientist	Enklavenwissenschaftler	FO3-Original
 Fallout3.esm	060B05E7	LvlWastelanderDISMEMBER	NPC_	FULL	0	Wastelander	Ödländer	FO3-Original
+Fallout3.esm	060B060F	DeadEnclaveCamp13Gun01	NPC_	FULL	0	Enclave Soldier	Soldat der Enklave	Korrektur (offiziell englisch gelassen/fehlerhaft, Claude)
+Fallout3.esm	060B0610	DeadEnclaveCamp13Gun02	NPC_	FULL	0	Enclave Soldier	Soldat der Enklave	Korrektur (offiziell englisch gelassen/fehlerhaft, Claude)
+Fallout3.esm	060B0611	DeadEnclaveCamp13Ripper01	NPC_	FULL	0	Enclave Soldier	Soldat der Enklave	Korrektur (offiziell englisch gelassen/fehlerhaft, Claude)
 Fallout3.esm	060B22C3	EnclaveScientistAAM	NPC_	FULL	0	Enclave Scientist	Enklavenwissenschaftler	FO3-Original
 Fallout3.esm	060B22C4	EnclaveScientistAM	NPC_	FULL	0	Enclave Scientist	Enklavenwissenschaftler	FO3-Original
 Fallout3.esm	060B22C5	EnclaveScientistCM	NPC_	FULL	0	Enclave Scientist	Enklavenwissenschaftler	FO3-Original
@@ -15489,6 +15556,9 @@ Fallout3.esm	060C4F40	Willow	NPC_	FULL	0	Willow	Weide	FO3-Original
 Fallout3.esm	060C5D07	FFEU21EnclaveOfficer	NPC_	FULL	0	Enclave Officer	Offizier der Enklave	FO3-Original
 Fallout3.esm	060C6E5C	UniqueEnclave4OfficerJackTheRipper	NPC_	FULL	0	Enclave Officer	Offizier der Enklave	FO3-Original
 Fallout3.esm	060C72D1	TakomaArtilleryCorpse	NPC_	FULL	0	Mercenary	Söldner	FO3-Original
+Fallout3.esm	060C7D36	DeadEnclaveCamp33Gun02	NPC_	FULL	0	Enclave Soldier	Soldat der Enklave	Korrektur (offiziell englisch gelassen/fehlerhaft, Claude)
+Fallout3.esm	060C7D38	DeadEnclaveCamp33Gun01	NPC_	FULL	0	Enclave Officer	Offizierin der Enklave	Korrektur (offiziell englisch gelassen/fehlerhaft, Claude)
+Fallout3.esm	060C7D39	DeadEnclaveCamp33Ripper01	NPC_	FULL	0	Enclave Soldier	Soldat der Enklave	Korrektur (offiziell englisch gelassen/fehlerhaft, Claude)
 Fallout3.esm	060C825B	wastelandWanderer	NPC_	FULL	0	A Wanderer	Ein Umherziehender	FO3-Original
 Fallout3.esm	060C9390	TownRuins02Scavenger	NPC_	FULL	0	Scavenger	Sammler	FO3-Original
 Fallout3.esm	060C942C	FFChurchSniper	NPC_	FULL	0	Drifter	Gammler	FO3-Original
@@ -15630,6 +15700,7 @@ Fallout3.esm	06027FB4	MS06SuperMutantGunDEAD	CREA	FULL	0	Super Mutant	Supermutan
 Fallout3.esm	06027FB6	MS06SuperMutantMeleeDEAD	CREA	FULL	0	Super Mutant Brute	Supermutant	FO3-Original
 Fallout3.esm	0602AB96	MS01KitchenSuperMutant	CREA	FULL	0	Super Mutant	Supermutant	FO3-Original
 Fallout3.esm	0602B8EA	Cerberus	CREA	FULL	0	Cerberus	Zerberus	FO3-Original
+Fallout3.esm	0602C11A	MS01RobotDefender1	CREA	FULL	0	Sentry Bot	Wachbot	Korrektur (offiziell englisch gelassen/fehlerhaft, Claude)
 Fallout3.esm	0602D3BD	MS03MirelurkKing	CREA	FULL	0	Mirelurk King	Mirelurk-König	FO3-Original
 Fallout3.esm	0602D509	MS18WreckedProtectron01	CREA	FULL	0	Maintenance Protectron	Service-Protektron	FO3-Original
 Fallout3.esm	0602DB93	MS01BigTownSuperMutant1	CREA	FULL	0	Super Mutant	Supermutant	FO3-Original
@@ -15653,6 +15724,7 @@ Fallout3.esm	060500B8	MQ03Robobrain2	CREA	FULL	0	Robobrain	Robohirn	FO3-Original
 Fallout3.esm	060513EE	DeadSuperMutant1GunDC	CREA	FULL	0	Super Mutant	Supermutant	FO3-Original
 Fallout3.esm	060513F1	DeadSuperMutant2MeleeDC	CREA	FULL	0	Super Mutant Brute	Supermutant	FO3-Original
 Fallout3.esm	06052B9A	MS12FeralGhoulAttack1A	CREA	FULL	0	Feral Ghoul	Wilder Ghul	FO3-Original
+Fallout3.esm	0605AC77	MS01RobotDefender2	CREA	FULL	0	Protectron	Protektron	Korrektur (offiziell englisch gelassen/fehlerhaft, Claude)
 Fallout3.esm	0605C342	MS12FeralGhoulCorpseBasement	CREA	FULL	0	Feral Ghoul	Wilder Ghul	FO3-Original
 Fallout3.esm	0605F9CA	CrSentryBotMGDC	CREA	FULL	0	Sentry Bot	Wachbot	FO3-Original
 Fallout3.esm	0605F9CB	CrSentryBotMGOutcastDC	CREA	FULL	0	Sentry Bot	Wachbot	FO3-Original
@@ -15744,6 +15816,7 @@ Fallout3.esm	0002B8DA	MS14TedsKey	KEYM	FULL	0	Ted Strayer's Special Key	Ted Stra
 Fallout3.esm	0002B8DB	MS14DukovsKey	KEYM	FULL	0	Dukov's Special Key	Dukovs Spezialschlüssel	FNV-Original
 Fallout3.esm	0002BF5A	MS14DavesKey	KEYM	FULL	0	Dave's Special Key	Daves Spezialschlüssel	FNV-Original
 Fallout3.esm	0603404D	MirelurkCakes	ALCH	FULL	0	Mirelurk Cakes	Mirelurk-Kuchen	FO3-Original
+Fallout3.esm	0001A7EA	CGDadSafeNote	NOTE	FULL	0	Home Sweet Home	Trautes Heim, Glück allein	Korrektur (offiziell englisch gelassen/fehlerhaft, Claude)
 Fallout3.esm	00029FA7	FFRaiderCamp07holoObject	NOTE	FULL	0	partial CB Radio backup	Teilaufnahme CB-Funkspruch	FNV-Original
 Fallout3.esm	000300BE	JaimesHolo01	NOTE	FULL	0	Jaime's Personal Journal: Entry 01	Jaimes Tagebuch: Eintrag 01	FNV-Original
 Fallout3.esm	000300BF	JaimesHolo02	NOTE	FULL	0	Jaime's Personal Journal: Entry 02	Jaimes Tagebuch: Eintrag 02	FNV-Original
@@ -52228,7 +52301,9 @@ Fallout3.esm	060A18F6	FeralGlowingOneBodyPartDataDC	BPTD	BPTN	2	Left Leg	Linkes 
 Fallout3.esm	060A18F6	FeralGlowingOneBodyPartDataDC	BPTD	BPTN	3	Left Arm	Linker Arm\t	FO3-Original
 Fallout3.esm	060A18F6	FeralGlowingOneBodyPartDataDC	BPTD	BPTN	4	Torso	Rumpf\t	FO3-Original
 Fallout3.esm	060A18F6	FeralGlowingOneBodyPartDataDC	BPTD	BPTN	5	Head	Kopf\t	FO3-Original
+Fallout3.esm	000004B1	AVBigGuns	AVIF	FULL	0	Big Guns	Große Waffen	Korrektur (offiziell englisch gelassen/fehlerhaft, Claude)
 Fallout3.esm	000004B1	AVBigGuns	AVIF	DESC	0	The Big Guns skill determines your combat effectiveness with all oversized weapons such as the Fat Man, Missile Launcher, Flamer, Minigun and Gatling Laser.  	Die Fertigkeit 'Große Waffen' bestimmt Ihre Kampfeffektivität mit allen überdimensionierten Waffen: Fatman, Raketenwerfer, Flammenwerfer, Minigun und Gatling-Laser.  	FO3-Woerterbuch
+Fallout3.esm	000004B1	AVBigGuns	AVIF	ANAM	0	Big Guns	Große Waffen	Korrektur (offiziell englisch gelassen/fehlerhaft, Claude)
 Fallout3.esm	060388AC	MS18RangersDeadMsg	MESG	DESC	0	All of Reilly's Rangers have died.	Alle Mitglieder von Reillys Rangern sind gestorben.	FO3-Original
 Fallout3.esm	060A53F7	FollowerMessageLeaveStarPaladinCross	MESG	DESC	0	Star Paladin Cross has returned to the Citadel.	Sternpaladin Cross ist zur Zitadelle zurückgekehrt.	FO3-Original
 Fallout3.esm	060A53F8	FollowerMessageLeaveCharon	MESG	DESC	0	Charon has returned to the Ninth Circle.	Charon ist nach Ninth Circle zurückgekehrt.	FO3-Original
@@ -53970,6 +54045,7 @@ FalloutNV.esm	0017B37C	sPoisonNoWeaponMessage	GMST	DATA	0	You must first equip a
 FalloutNV.esm	0017B362	sSleepDeprevationNotSick	GMST	DATA	0	You no longer have Sleep Deprivation sickness	Sie leiden nicht länger unter Schlafentzug.	FNV-Original
 FalloutNV.esm	0017B361	sSleepDeprevationIncrease	GMST	DATA	0	Your Sleep Deprivation level has increased	Ihr Schlafentzug hat zugenommen.	FNV-Original
 FalloutNV.esm	0017B360	sSleepDeprevationDecrease	GMST	DATA	0	Your Sleep Deprivation level has decreased	Ihr Schlafentzug hat abgenommen.	FNV-Original
+FalloutNV.esm	00174778	sKBCapital	GMST	DATA	0	Caps Lock	Feststelltaste	Korrektur (offiziell englisch gelassen/fehlerhaft, Claude)
 FalloutNV.esm	00174427	sNoFastTravelScriptBlock	GMST	DATA	0	Fast travel is currently unavailable from this location.	Ein schnelles Vorankommen ist von hier aus derzeit nicht möglich.	FNV-Original
 FalloutNV.esm	00173F92	sTraitMenuTitleText	GMST	DATA	0	CHOOSE UP TO %d TRAITS (OR NONE)	BIS ZU %d EIGENSCHAFTEN WÄHLEN	FNV-Original
 FalloutNV.esm	00173F91	sRestartBecauseContentRemoved	GMST	DATA	0	A storage device which contains downloadable content has been removed. Returning to the title screen.	Ein Speichergerät mit Inhalten zum Herunterladen wurde entfernt. Sie werden jetzt zum Titelbildschirm zurückgeleitet.	FNV-Original
@@ -53994,6 +54070,7 @@ FalloutNV.esm	001690FA	sRepPositiveLoss	GMST	DATA	0	Fame Reduced	Positiven Ruf v
 FalloutNV.esm	00161FE8	sDehydrationNotSick	GMST	DATA	0	You no longer have dehydration sickness.	Sie leiden nicht länger unter Dehydration.	FNV-Original
 FalloutNV.esm	00161FE7	sDehydrationIncrease	GMST	DATA	0	Your dehydration level has increased.	Ihre Dehydration hat zugenommen.	FNV-Original
 FalloutNV.esm	00161FE6	sDehydrationDecrease	GMST	DATA	0	Your dehydration level has decreased.	Ihre Dehydration hat abgenommen.	FNV-Original
+FalloutNV.esm	0012716B	sCWheelUseStimPack	GMST	DATA	0	Use StimPak	Stimpak benutzen	Korrektur (offiziell englisch gelassen/fehlerhaft, Claude)
 FalloutNV.esm	0011EC24	sKarmicTitleNeutral30	GMST	DATA	0	True Mortal	Wahrhafter Sterblicher	FNV-Original
 FalloutNV.esm	0011EC23	sKarmicTitleGood30	GMST	DATA	0	Messiah	Messias	FNV-Original
 FalloutNV.esm	0011EC22	sKarmicTitleEvil30	GMST	DATA	0	Devil	Teufel	FNV-Original
@@ -54971,6 +55048,11 @@ FalloutNV.esm	0016747E	DamageCharisma	MGEF	FULL	0	Damage Charisma	Schaden-Charis
 FalloutNV.esm	0016747F	DamageIntelligence	MGEF	FULL	0	Damage Intelligence	Schaden-Intelligenz	FNV-Original
 FalloutNV.esm	00167480	DamageAgility	MGEF	FULL	0	Damage Agility	Schaden-Beweglichkeit	FNV-Original
 FalloutNV.esm	00167481	DamageLuck	MGEF	FULL	0	Damage Luck	Schaden-Glück	FNV-Original
+FalloutNV.esm	00167482	DamageSkillGuns	MGEF	FULL	0	Damage Guns	Schaden-Schusswaffen	Korrektur (offiziell englisch gelassen/fehlerhaft, Claude)
+FalloutNV.esm	00167483	DamageSkillExplosives	MGEF	FULL	0	Damage Explosives	Schaden-Sprengstoffe	Korrektur (offiziell englisch gelassen/fehlerhaft, Claude)
+FalloutNV.esm	00167484	DamageSkillEnergyWeapons	MGEF	FULL	0	Damage Energy Weapons	Schaden-Energiewaffen	Korrektur (offiziell englisch gelassen/fehlerhaft, Claude)
+FalloutNV.esm	00167485	DamageSkillMeleeWeapons	MGEF	FULL	0	Damage Melee Weapons	Schaden-Nahkampfwaffen	Korrektur (offiziell englisch gelassen/fehlerhaft, Claude)
+FalloutNV.esm	00167486	DamageSkillUnarmed	MGEF	FULL	0	Damage Unarmed	Schaden-Waffenlos	Korrektur (offiziell englisch gelassen/fehlerhaft, Claude)
 FalloutNV.esm	0016771F	CalmHeartAbilityEffect	MGEF	FULL	0	Calm Heart	Ruhiges Herz	FNV-Original
 FalloutNV.esm	00168A6D	DummyNVFatigueDamage	MGEF	FULL	0	Inflicts Fatigue Damage (KO)	Verursacht Ermüdungsschaden (KO)	FNV-Original
 FalloutNV.esm	0016951D	DummyNVSalvagedPowerArmor	MGEF	FULL	0	No Power Armor Training Required	Kein Powerrüstung-Training nötig	FNV-Original
@@ -55351,6 +55433,7 @@ FalloutNV.esm	00164BE6	VDisplacerGloveSelfEffect	SPEL	FULL	0	Flash Me	Blitz auf 
 FalloutNV.esm	0016517E	FerociousLoyaltyEffect	SPEL	FULL	0	Ferocious Loyalty	Beschützerinstinkt	FNV-Original
 FalloutNV.esm	00167722	CalmHeartScriptAbility	SPEL	FULL	0	Calm Heart	Ruhiges Herz	FNV-Original
 FalloutNV.esm	001682A4	VRexSonarActorEffect	SPEL	FULL	0	Rex's Rat Sonar	Rex' Rattensonar	FNV-Original
+FalloutNV.esm	00172091	DoctorLimbRestoration	SPEL	FULL	0	Limb Restoration	Gliedmaßen-Wiederherstellung	Korrektur (offiziell englisch gelassen/fehlerhaft, Claude)
 FalloutNV.esm	00174092	PreordVault13CanteenHeal	SPEL	FULL	0	Vault 13 Canteen Effect	Vault 13 Kantinen-Effekt	FNV-Original
 FalloutNV.esm	00175D6D	WithdrawalTurbo	SPEL	FULL	0	Turbo Withdrawal	Turbo-Entzug	FNV-Original
 FalloutNV.esm	00175D6E	WithdrawalRebound	SPEL	FULL	0	Rebound Withdrawal	Rebound-Entzug	FNV-Original
@@ -56571,6 +56654,8 @@ FalloutNV.esm	0008D37E	NCRPrisonTerminal	TERM	ITXT	0	Reset administrator passwor
 FalloutNV.esm	0008D37E	NCRPrisonTerminal	TERM	RNAM	0	Password reset.	Passw. gelöscht. Geschützturm-Zieldaten zurücksetzen.	FNV-Original
 FalloutNV.esm	0008D37E	NCRPrisonTerminal	TERM	ITXT	1	Reset turret targeting data.	Abriegelungsprotokoll aktivieren.	FNV-Original
 FalloutNV.esm	0008D37E	NCRPrisonTerminal	TERM	RNAM	1	Warning: Turret target priorities reset!	Abriegelungsprotokoll in Kraft.	FNV-Original
+FalloutNV.esm	0008D37E	NCRPrisonTerminal	TERM	ITXT	2	Activate lockdown protocol.	Abriegelungsprotokoll aktivieren.	Korrektur (offiziell englisch gelassen/fehlerhaft, Claude)
+FalloutNV.esm	0008D37E	NCRPrisonTerminal	TERM	RNAM	2	Lockdown protocol in effect.	Abriegelungsprotokoll ist aktiv.	Korrektur (offiziell englisch gelassen/fehlerhaft, Claude)
 FalloutNV.esm	0008E662	REPCONSabotageTerminal	TERM	FULL	0	Navigation Computer	Navigationscomputer	FNV-Original
 FalloutNV.esm	0008E662	REPCONSabotageTerminal	TERM	DESC	0	"      Navitron, Inc\n""Steering You Right""\n>\ Welcome, USER\n\nCurrent coordinates for rocket 1: 689.7, 457.3, 598.1\nCurrent coordinates for rocket 2: 709.7, 459.3, 598.1\nCurrent coordinates for rocket 3: 729.7, 461.3, 598.1\n\nAlter coordinates?"	      Navitron, Inc.\nWir weisen den Weg\n>\ Willkommen, BENUTZER\n\nAktuelle Koordinaten für Rakete 1: 689,7, 457,3, 598,1\nAktuelle Koordinaten für Rakete 2: 709,7, 459,3, 598,1\nAktuelle Koordinaten für Rakete 3: 729,7, 461,3, 598,1\n\nKoordinaten ändern?\n	FNV-Original
 FalloutNV.esm	0008E662	REPCONSabotageTerminal	TERM	ITXT	0	Set rocket 1 to collide with rocket 2.	Rakete 1 so einstellen, dass sie mit Rakete 2 kollidiert.	FNV-Original
@@ -57925,6 +58010,8 @@ FalloutNV.esm	0015A157	HVDatastoreWallTerminal	TERM	ITXT	9	Access Datastore	Isol
 FalloutNV.esm	0015A157	HVDatastoreWallTerminal	TERM	RNAM	9	Accessing...	Isolation bestätigt.	FNV-Original
 FalloutNV.esm	0015A157	HVDatastoreWallTerminal	TERM	ITXT	10	Check isolation	Partition prüfen	FNV-Original
 FalloutNV.esm	0015A157	HVDatastoreWallTerminal	TERM	RNAM	10	Isolation confirmed.	Partition bestätigt.	FNV-Original
+FalloutNV.esm	0015A157	HVDatastoreWallTerminal	TERM	ITXT	11	Check partition	Auf Datenspeicher zugreifen	Korrektur (offiziell englisch gelassen/fehlerhaft, Claude)
+FalloutNV.esm	0015A157	HVDatastoreWallTerminal	TERM	RNAM	11	Partition confirmed.	Datenzugriff ...	Korrektur (offiziell englisch gelassen/fehlerhaft, Claude)
 FalloutNV.esm	0015A158	HVDatastoreVirusScreen01	TERM	DESC	0	Ha ha, suckers! Catch me if you can!	Ha ha, kommt doch! Fangt mich, wenn ihr könnt!\n	FNV-Original
 FalloutNV.esm	0015A158	HVDatastoreVirusScreen01	TERM	ITXT	0	Isolate virus	Isoliere Virus.	FNV-Original
 FalloutNV.esm	0015A158	HVDatastoreVirusScreen01	TERM	RNAM	0	Isolating...	Isoliere ...	FNV-Original
@@ -60852,6 +60939,7 @@ FalloutNV.esm	00167D96	VLootFilingCabinetBunch04Gen07	CONT	FULL	0	Filing Cabinet
 FalloutNV.esm	00167D97	VLootFilingCabinetBunch04Gen08	CONT	FULL	0	Filing Cabinets	Aktenschränke	FNV-Original
 FalloutNV.esm	00167D98	VLootFilingCabinetBunch04Gen09	CONT	FULL	0	Filing Cabinets	Aktenschränke	FNV-Original
 FalloutNV.esm	00167D99	VLootFilingCabinetBunch04Gen10	CONT	FULL	0	Filing Cabinets	Aktenschränke	FNV-Original
+FalloutNV.esm	00179B2C	NVGSCrateContainerEmpty	CONT	FULL	0	Crate	Kiste	Korrektur (offiziell englisch gelassen/fehlerhaft, Claude)
 FalloutNV.esm	0017B7A1	LootFirstAidKitFoAPO4	CONT	FULL	0	Followers First Aid Box	Erste-Hilfe-Kasten der Begleiter	Neu uebersetzt (Claude)
 FalloutNV.esm	00003A93	VDoor01	DOOR	FULL	0	Door	Tür	FNV-Original
 FalloutNV.esm	00014D51	OffDoorMetalDoor01EXTERIOR	DOOR	FULL	0	Door	Tür	FNV-Original
@@ -61647,6 +61735,7 @@ FalloutNV.esm	00168A6C	AcousticGuitar	MISC	FULL	0	Acoustic Guitar	Akustikgitarre
 FalloutNV.esm	00170F87	SSBottleEmptyNoFloat	MISC	FULL	0	Empty Sunset Sarsaparilla Bottle	Leere Sunset Sarsaparilla-Flasche	FNV-Original
 FalloutNV.esm	00173236	LegionMoney1Mangled	MISC	FULL	0	Legion Denarius, Mangled	Legionsdenarius, zerstört	FNV-Original
 FalloutNV.esm	001735D2	PreordVaultCanteen	MISC	FULL	0	Vault 13 Canteen	Vault 13 Kantine	FNV-Original
+FalloutNV.esm	00173F7E	BoxPrimersShotshell	MISC	FULL	0	Primer Box, Shotshell	Zündhütchenkiste, Schrotflinte	Korrektur (offiziell englisch gelassen/fehlerhaft, Claude)
 FalloutNV.esm	00173F81	BoxHull12Ga	MISC	FULL	0	Hull Box, 12 Ga.	Schachtel Hülsen, Kaliber 12	FNV-Original
 FalloutNV.esm	00173F82	BoxHull20Ga	MISC	FULL	0	Hull Box, 20 Ga.	Schachtel Hülsen, Kaliber 20	FNV-Original
 FalloutNV.esm	0017509C	SchematicsPowderChargeItem	MISC	FULL	0	Schematics - Powder Charge	Diagramm - Pulverladung	FNV-Original
@@ -61943,6 +62032,7 @@ FalloutNV.esm	000CD50D	WeapNVBumperSword	WEAP	FULL	0	Bumper Sword	Stoßstangensc
 FalloutNV.esm	000CD50E	WeapNVRebarClub	WEAP	FULL	0	Rebar Club	Betonstahlkeule	FNV-Original
 FalloutNV.esm	000CD539	WeapNVTrailCarbine	WEAP	FULL	0	Trail Carbine	Trapperbüchse	FNV-Original
 FalloutNV.esm	000CD53A	WeapNVCaravanShotgun	WEAP	FULL	0	Caravan Shotgun	Karawanenschrotflinte	FNV-Original
+FalloutNV.esm	000CDA5C	HVWeapPlasmaRifleWeak	WEAP	FULL	0	Plasma Rifle	Plasmagewehr	Korrektur (offiziell englisch gelassen/fehlerhaft, Claude)
 FalloutNV.esm	000CE549	WeapBooneSniperRifle	WEAP	FULL	0	Boone's Scoped Hunting Rifle	Boones Jagdgewehr+Visier	FNV-Original
 FalloutNV.esm	000D777C	HVBrokenWeapSuperSledge	WEAP	FULL	0	Malfunctioning Super Sledge	Defekter Superhammer	FNV-Original
 FalloutNV.esm	000D777D	HVBrokenWeapLaserRifle	WEAP	FULL	0	Broken Laser Rifle	Kaputtes Lasergewehr	FNV-Original
@@ -65136,6 +65226,19 @@ FalloutNV.esm	0017A2D0	VHDNCRTrooper1aHeavy	NPC_	FULL	0	NCR Heavy Trooper	RNK-St
 FalloutNV.esm	0017A2D1	VHDNCRTrooper2Heavy	NPC_	FULL	0	NCR Heavy Trooper	RNK-Sturmsoldat	FNV-Original
 FalloutNV.esm	0017A2D2	VHDNCRTrooper2aHeavy	NPC_	FULL	0	NCR Heavy Trooper	RNK-Sturmsoldat	FNV-Original
 FalloutNV.esm	0017A2D3	VHDNCRTrooper3Heavy	NPC_	FULL	0	NCR Heavy Trooper	RNK-Sturmsoldat	FNV-Original
+FalloutNV.esm	0017A2D4	VHDNCRTrooper3aHeavy	NPC_	FULL	0	NCR Heavy Trooper	Schwerer RNK-Soldat	Korrektur (offiziell englisch gelassen/fehlerhaft, Claude)
+FalloutNV.esm	0017A2D5	VHDNCRTrooper4Heavy	NPC_	FULL	0	NCR Heavy Trooper	Schwerer RNK-Soldat	Korrektur (offiziell englisch gelassen/fehlerhaft, Claude)
+FalloutNV.esm	0017A2D6	VHDNCRTrooper4aHeavy	NPC_	FULL	0	NCR Heavy Trooper	Schwerer RNK-Soldat	Korrektur (offiziell englisch gelassen/fehlerhaft, Claude)
+FalloutNV.esm	0017A2D7	VHDNCRTrooper5Heavy	NPC_	FULL	0	NCR Heavy Trooper	Schwerer RNK-Soldat	Korrektur (offiziell englisch gelassen/fehlerhaft, Claude)
+FalloutNV.esm	0017A2D8	VHDNCRTrooper5aHeavy	NPC_	FULL	0	NCR Heavy Trooper	Schwerer RNK-Soldat	Korrektur (offiziell englisch gelassen/fehlerhaft, Claude)
+FalloutNV.esm	0017A2D9	VHDNCRTrooper6Heavy	NPC_	FULL	0	NCR Heavy Trooper	Schwerer RNK-Soldat	Korrektur (offiziell englisch gelassen/fehlerhaft, Claude)
+FalloutNV.esm	0017A2DA	VHDNCRTrooper6aHeavy	NPC_	FULL	0	NCR Heavy Trooper	Schwerer RNK-Soldat	Korrektur (offiziell englisch gelassen/fehlerhaft, Claude)
+FalloutNV.esm	0017A2DB	VHDNCRTrooper7Heavy	NPC_	FULL	0	NCR Heavy Trooper	Schwerer RNK-Soldat	Korrektur (offiziell englisch gelassen/fehlerhaft, Claude)
+FalloutNV.esm	0017A2DC	VHDNCRTrooper7aHeavy	NPC_	FULL	0	NCR Heavy Trooper	Schwerer RNK-Soldat	Korrektur (offiziell englisch gelassen/fehlerhaft, Claude)
+FalloutNV.esm	0017A2DD	VHDNCRTrooper8Heavy	NPC_	FULL	0	NCR Heavy Trooper	Schwerer RNK-Soldat	Korrektur (offiziell englisch gelassen/fehlerhaft, Claude)
+FalloutNV.esm	0017A2DE	VHDNCRTrooper8aHeavy	NPC_	FULL	0	NCR Heavy Trooper	Schwerer RNK-Soldat	Korrektur (offiziell englisch gelassen/fehlerhaft, Claude)
+FalloutNV.esm	0017A2DF	VHDNCRTrooper9Heavy	NPC_	FULL	0	NCR Heavy Trooper	Schwerer RNK-Soldat	Korrektur (offiziell englisch gelassen/fehlerhaft, Claude)
+FalloutNV.esm	0017A2E0	VHDNCRTrooper9aHeavy	NPC_	FULL	0	NCR Heavy Trooper	Schwerer RNK-Soldat	Korrektur (offiziell englisch gelassen/fehlerhaft, Claude)
 FalloutNV.esm	0017A2E4	VHDNCRRanger1Veteran	NPC_	FULL	0	NCR Veteran Ranger	RNK-Ranger-Veteran	FNV-Original
 FalloutNV.esm	0017A2E5	VHDNCRRanger1aVeteran	NPC_	FULL	0	NCR Veteran Ranger	RNK-Ranger-Veteran	FNV-Original
 FalloutNV.esm	0017A2E6	VHDNCRRanger2Veteran	NPC_	FULL	0	NCR Veteran Ranger	RNK-Ranger-Veteran	FNV-Original
@@ -65143,6 +65246,17 @@ FalloutNV.esm	0017A2E7	VHDNCRRanger2aVeteran	NPC_	FULL	0	NCR Veteran Ranger	RNK-
 FalloutNV.esm	0017A2E8	VHDNCRRanger3Veteran	NPC_	FULL	0	NCR Veteran Ranger	RNK-Ranger-Veteran	FNV-Original
 FalloutNV.esm	0017A2E9	VHDNCRRanger3aVeteran	NPC_	FULL	0	NCR Veteran Ranger	RNK-Ranger-Veteran	FNV-Original
 FalloutNV.esm	0017A2EA	VHDNCRRanger4Veteran	NPC_	FULL	0	NCR Veteran Ranger	RNK-Ranger-Veteran	FNV-Original
+FalloutNV.esm	0017A2EB	VHDNCRRanger4aVeteran	NPC_	FULL	0	NCR Veteran Ranger	RNK-Ranger-Veteran	Korrektur (offiziell englisch gelassen/fehlerhaft, Claude)
+FalloutNV.esm	0017A2EC	VHDNCRRanger5Veteran	NPC_	FULL	0	NCR Veteran Ranger	RNK-Ranger-Veteran	Korrektur (offiziell englisch gelassen/fehlerhaft, Claude)
+FalloutNV.esm	0017A2ED	VHDNCRRanger5aVeteran	NPC_	FULL	0	NCR Veteran Ranger	RNK-Ranger-Veteran	Korrektur (offiziell englisch gelassen/fehlerhaft, Claude)
+FalloutNV.esm	0017A2EE	VHDNCRRanger6Veteran	NPC_	FULL	0	NCR Veteran Ranger	RNK-Ranger-Veteran	Korrektur (offiziell englisch gelassen/fehlerhaft, Claude)
+FalloutNV.esm	0017A2EF	VHDNCRRanger6aVeteran	NPC_	FULL	0	NCR Veteran Ranger	RNK-Ranger-Veteran	Korrektur (offiziell englisch gelassen/fehlerhaft, Claude)
+FalloutNV.esm	0017A2F0	VHDNCRRanger7Veteran	NPC_	FULL	0	NCR Veteran Ranger	RNK-Ranger-Veteran	Korrektur (offiziell englisch gelassen/fehlerhaft, Claude)
+FalloutNV.esm	0017A2F1	VHDNCRRanger7aVeteran	NPC_	FULL	0	NCR Veteran Ranger	RNK-Ranger-Veteran	Korrektur (offiziell englisch gelassen/fehlerhaft, Claude)
+FalloutNV.esm	0017A2F2	VHDNCRRanger8Veteran	NPC_	FULL	0	NCR Veteran Ranger	RNK-Ranger-Veteran	Korrektur (offiziell englisch gelassen/fehlerhaft, Claude)
+FalloutNV.esm	0017A2F3	VHDNCRRanger8aVeteran	NPC_	FULL	0	NCR Veteran Ranger	RNK-Ranger-Veteran	Korrektur (offiziell englisch gelassen/fehlerhaft, Claude)
+FalloutNV.esm	0017A2F4	VHDNCRRanger9Veteran	NPC_	FULL	0	NCR Veteran Ranger	RNK-Ranger-Veteran	Korrektur (offiziell englisch gelassen/fehlerhaft, Claude)
+FalloutNV.esm	0017A2F5	VHDNCRRanger9aVeteran	NPC_	FULL	0	NCR Veteran Ranger	RNK-Ranger-Veteran	Korrektur (offiziell englisch gelassen/fehlerhaft, Claude)
 FalloutNV.esm	0017A818	VSpawnSpecialLegionWreckedDecanusT3	NPC_	FULL	0	Veteran Decanus	Veterandecanus	FNV-Original
 FalloutNV.esm	0017AFDC	NVProspectorMaleDEADSLCrater02	NPC_	FULL	0	Prospector	Prospektor	FNV-Original
 FalloutNV.esm	0017AFDD	VJackalGangFemaleDEADTier2	NPC_	FULL	0	Jackal Gang Member	Mitglied der Schakale	FNV-Original
@@ -66080,6 +66194,7 @@ FalloutNV.esm	0017283A	VCrTier5FeralGhoul4A	CREA	FULL	0	Feral Ghoul Reaver	Wilde
 FalloutNV.esm	0017283C	VCrTier5NightStalkerMed	CREA	FULL	0	NightStalker	Nachtpirscher	FNV-Original
 FalloutNV.esm	0017283E	VCrGiantRatTier3RatCave	CREA	FULL	0	Giant Rat	Riesenratte	FNV-Original
 FalloutNV.esm	0017391A	VCrUniqueTier5DeathClawLarge03NRPers	CREA	FULL	0	Deathclaw Mother	Todeskrallen-Mutter	FNV-Original
+FalloutNV.esm	00173FD6	V34TurretCeiling01	CREA	FULL	0	Vault-Tec Turret	Vault-Tec-Geschützturm	Korrektur (offiziell englisch gelassen/fehlerhaft, Claude)
 FalloutNV.esm	001745E2	VSpawnSpecialTier4DeathclawMedGypsum	CREA	FULL	0	Blind Deathclaw	Blinde Todeskralle	FNV-Original
 FalloutNV.esm	001745E3	VSpawnSpecialTier4DeathclawSmallGypsum	CREA	FULL	0	Blind Deathclaw	Blinde Todeskralle	FNV-Original
 FalloutNV.esm	00174971	REPCONMrHandy2	CREA	FULL	0	Maintenance Robot	Wartungsroboter	FNV-Original
@@ -66093,7 +66208,10 @@ FalloutNV.esm	0017AF40	CrSuperMutantDeadFireGeckoNopah	CREA	FULL	0	Super Mutant 
 FalloutNV.esm	0017AF62	CrSuperMutantDeadMinigunRubyHill	CREA	FULL	0	Super Mutant Brute	Supermutantenbiest	FNV-Original
 FalloutNV.esm	0017AF94	v34GlowingGuardNoScript	CREA	FULL	0	Vault Security Officer	Vault-Sicherheitsoffizier	FNV-Original
 FalloutNV.esm	0017B060	VCrTier3FeralGhoulGlowingOneNRSewers	CREA	FULL	0	Glowing One	Leuchtender	FNV-Original
+FalloutNV.esm	00175A56	HVCollarKey	KEYM	FULL	0	Slave Collar Key	Sklavenhalsband-Schlüssel	Korrektur (offiziell englisch gelassen/fehlerhaft, Claude)
 FalloutNV.esm	00174B48	vHouseVIPKeycard	KEYM	FULL	0	Lucky 38 VIP Keycard	House VIP Key Card	FNV-Original
+FalloutNV.esm	00173720	VFSVanGraffKey	KEYM	FULL	0	Van Graff Key	Van-Graff-Schlüssel	Korrektur (offiziell englisch gelassen/fehlerhaft, Claude)
+FalloutNV.esm	0017371F	VFSSupplyKey	KEYM	FULL	0	Freeside House Key	Freeside-Hausschlüssel	Korrektur (offiziell englisch gelassen/fehlerhaft, Claude)
 FalloutNV.esm	00167E25	VOVHostetlerKey	KEYM	FULL	0	Becky Hostetler's Key	Becky Hostetlers Schlüssel	FNV-Original
 FalloutNV.esm	00167E24	VZKeyDirtyGen20	KEYM	FULL	0	Worn Key	Abgenutzter Schlüssel	FNV-Original
 FalloutNV.esm	00167E23	VZKeyDirtyGen19	KEYM	FULL	0	Worn Key	Abgenutzter Schlüssel	FNV-Original
@@ -66548,6 +66666,7 @@ FalloutNV.esm	000151DA	MegatonGenericBrassLanternPassword	NOTE	FULL	0	Brass Lant
 FalloutNV.esm	000151DA	MegatonGenericBrassLanternPassword	NOTE	TNAM	0	"The terminal access password is: ""Lhats"""	"Das Terminalkennwort ist ""Lhats"""	FNV-Original
 FalloutNV.esm	00018670	FFEncCamp08NoteORDERS	NOTE	TNAM	0	Mission Directive: Establish and enforce Enclave presence among general populace, disposal of genetic non-compliance offenders.\n\nI.\tEstablish constituency enforcement point at coordinates 39.138 x -77.070.  Monitor civilian movement in area, and debrief superior regarding any events of notable significance or regularity.\n\nII.\tDistribute purified water rations to civilians willing to submit to genetic compliance screening.  Participation in screening is compulsory for all civilians, and use of force is authorized in enforcement.\n\nIII.\tGenetic non-compliance offenders should be detained at checkpoint.  \n\nIV.\tTo conserve consumption of Enclave resources, detainees should be disposed of by flame only when withholding facility becomes overcrowded, or detainees become unmanageable, whichever comes first.\n\n\n\n	Missionsdirektive: Aufbau und Durchsetzung der Präsenz der Enklave in der allgemeinen Bevölkerung, Entsorgung genetisch inkompatibler Straftäter. \n \nI. Aufbau eines Wahlbezirk-Erzwingungspunkts bei den Koordinaten 39,138 x -77,070. Überwachen der zivilen Bewegungen in dieser Gegend und Informieren der Vorgesetzten über alle Ereignisse mit wesentlicher Bedeutung oder Regelmäßigkeit.\n\nII. Verteilen gereinigter Wasserrationen an Zivilisten, die sich freiwillig der Untersuchung auf genetische Kompatibilität unterziehen Die Teilnahme an der Untersuchung ist Pflicht für alle Zivilisten; Gewaltanwendung bei der Durchsetzung ist autorisiert.\n\nIII. Genetisch inkompatible Straftäter sollten am Kontrollpunkt verhaftet werden.\n\nIV. Um die Ressourcen der Enklave zu schonen, sollten Häftlinge nur dann durch Feuer entsorgt werden, wenn die Aufbewahrungseinrichtung überfüllt ist oder Häftlinge unzumutbar werden, je nachdem, was zuerst eintritt.\n	FNV-Original
 FalloutNV.esm	00018676	FFEncCamp08NoteREPORT	NOTE	TNAM	0	Field Report - Prepared by NCO J.Tuckman by audio dictation on behalf of PFC Matthew Scott.  PFC Scott’s voice is the only source recorded in the following text.\n\n<<BEGIN FILE>>  Sir, I encountered three Ferals on my patrol.  This was somewhere around 0300 hours, I think, and it was dark, so they saw me first.  I discharged my firearm four times, fatally striking two of the three.  My weapon jammed before I could fire on the third target, and just then I realized it wasn’t engaging.  I knew our orders were to report on anything unusual, and well -- I thought that was pretty strange.  He actually followed me back here on his own.  We put him in the trailer with the other and he's been quiet as you like.  Strangest thing I’ve ever seen.  << END FILE>>\n	Feldbericht – Erstellt von Unteroffizier J. Tuckman mittels Tondiktat für den Obergefreiten Matthew Scott. Die Stimme des Obergefreiten Scott ist die einzige im folgenden Text aufgezeichnete Quelle.\n\n> Sir, bei meiner Patrouille sind mir drei Wilde begegnet. Das war etwa um 0300 Uhr, glaube ich, und es war dunkel, daher sahen sie mich zuerst. Ich habe meine Waffe vier Mal abgefeuert, und zwei der drei Wilden tödlich getroffen. Meine Waffe klemmte, bevor ich das dritte Ziel unter Beschuss nehmen konnte, und erst da erkannte ich, dass es nicht kämpfte. Ich wusste, dass wir Befehl hatten, ungewöhnliche Vorkommnisse zu berichten und nun ... ich fand das ziemlich merkwürdig. Er folgte mir von sich aus bis hierher. Wir haben ihn mit dem anderen in den Wohnwagen gesteckt, und seither ist er völlig ruhig. Ich finde das alles höchst seltsam. >	FNV-Original
+FalloutNV.esm	0001A7EA	CGDadSafeNote	NOTE	FULL	0	Home Sweet Home	Trautes Heim, Glück allein	Korrektur (offiziell englisch gelassen/fehlerhaft, Claude)
 FalloutNV.esm	0001CEC7	GameLookROOT	NOTE	FULL	0	A text note	Eine Textnotiz	FNV-Original
 FalloutNV.esm	0001CEC7	GameLookROOT	NOTE	TNAM	0	You are standing in a wide plain.  Foothills stretch to the north, where clouds gather around an ominous peak.  A dirt path winds from a lonely chapel to the east, through the plains where you're standing, and south into a bustling town.  Wispy mists gather over marshland in the west, where a thin tower stands alone in the bog.	Sie stehen auf einer weiten Ebene. Im Norden erstrecken sich Gebirgsausläufer; Wolken sammeln sich um eine bedrohliche Bergspitze. Ein Trampelpfad schlängelt sich von einer einsamen Kapelle im Osten durch die Ebene, in der Sie stehen, und südlich zu einer geschäftigen Stadt. Nebelschwaden sammeln sich über Sumpfland im Westen, wo ein zierlicher Turm alleine im Morast steht.	FNV-Original
 FalloutNV.esm	0001F93B	DemoComputerPassword	NOTE	FULL	0	Metro Computer Password	Metro-Computerkennwort	FNV-Original
@@ -68008,6 +68127,7 @@ FalloutNV.esm	00175AAB	RecipesBrahminWellingtonNote	NOTE	FULL	0	Recipes - Brahmi
 FalloutNV.esm	00175AAB	RecipesBrahminWellingtonNote	NOTE	TNAM	0	This recipe allows you to make Brahmin Wellington.	Mit diesem Rezept können Sie Brahminfilet Wellington zubereiten.	FNV-Original
 FalloutNV.esm	00175AB0	RecipesCookCooksFiendStewNote	NOTE	FULL	0	Recipes - Cook-Cook's Fiend Stew	Rezepte - Cook-Cooks Unholdeintopf	FNV-Original
 FalloutNV.esm	00175AB0	RecipesCookCooksFiendStewNote	NOTE	TNAM	0	This recipe allows you to make Cook-Cook's Fiend Stew.	Mit diesem Rezept können Sie Cook-Cooks Unholde-Eintopf zubereiten.	FNV-Original
+FalloutNV.esm	00177875	vYesManBunkerNote	NOTE	FULL	0	About that Bunker at Fortification Hill...	Zum Bunker am Fortification Hill ...	Korrektur (offiziell englisch gelassen/fehlerhaft, Claude)
 FalloutNV.esm	00177875	vYesManBunkerNote	NOTE	TNAM	0	Have I told you lately that you’re my favorite person? You are!\n\nThe reason I gave you this print-out is I wanted to remind you about that bunker Mr. House built over at Fortification Hill. I was going to say something out loud, but then I felt self-conscious, because I feel really ANNOYING when I repeat myself! \n\nJust to clarify - anytime YOU want to repeat yourself, go right ahead! It’s only a problem when I do it!\n\nAnyway, now that you’ve installed me on the Lucky 38’s mainframe, I can peek into Mr. House’s data. And guess what? The underground facility over at the Fort is super-important!\n\nWhat Mr. House did over there was stash a HUGE number of Securitrons. Hundreds of them! \n\nImagine how powerful they’d be if you upgraded them with the Mark II OS! \n\nWhen the Legion attacks Hoover Dam, you could sic your army on them! And who deserves to have an army more than you? No one!\n\nPlus an army of upgraded Securitrons would be just the thing to show the NCR that you mean business! Go away and stay away, NCR!\n\nThe thing is - and I really HATE admitting this - I can’t upgrade the Securitrons over at the Fort from here in the Lucky 38... I can’t establish a reliable connection, and I’m sure it’s all my fault somehow. \n\nBut if you took the Platinum Chip to the Fort, you could perform the upgrade yourself. Just a suggestion!\n\nLove, \n\nYes Man\n	Habe ich Ihnen schon gesagt, dass Sie mein allerliebster Lieblingsmensch sind? Sind Sie nämlich!\n\nDiesen Ausdruck habe ich Ihnen gegeben, um Sie an den Bunker zu erinnern, den Mr. House drüben beim Fortification Hill gebaut hat. Erst wollte ich direkt etwas sagen, aber dann wurde ich ganz verlegen, denn ich finde es schrecklich NERVIG, wenn ich mich wiederholen muss! \n\nNur zur Klarstellung: SIE dürfen sich natürlich jederzeit gerne wiederholen! Nur ich wiederhole mich nicht gern!\n\nWie dem auch sei, jetzt, da Sie mich im Zentralrechner des Lucky 38 installiert haben, kann ich in Mr. Houses Daten hineinschauen. Und wissen Sie was? Die unterirdische Anlage drüben am Fort ist superwichtig!\n\nDa hat Mr. House nämlich eine RIESENMENGE Sekuritrons verstaut. Es sind wohl Hunderte! \n\nStellen Sie sich mal vor, wie mächtig die wären, wenn man das MARK II-Betriebssystem installieren würde! \n\nWenn die Legion den Hoover-Staudamm angreift, dann könnten Sie ihnen Ihre eigene Armee auf den Hals hetzen! Und wer verdient eine Armee mehr als Sie? Niemand!\n\nAußerdem wäre eine Armee von Sekuritrons mit Upgrade genau das Richtige, um der RNK zu beweisen, dass wir keine Scherze machen! Geh weg und bleib weg, RNK!\n\nDie Sache ist nur - und ich HASSE es, das zugeben zu müssen - ich kann das Upgrade der Sekuritrons drüben beim Fort nicht von hier im Lucky 38 aus durchführen ... ich kann keine verlässliche Verbindung herstellen, und das ist ganz bestimmt irgendwie mein Fehler. \n\nAber wenn Sie den Platinchip zum Fort bringen würden, dann könnten Sie das Upgrade selber durchführen. Also nur so als Vorschlag!\n\nAlles Liebe, \n\nJa-Sager	FNV-Original
 FalloutNV.esm	00001BB6	MissileProjectile	PROJ	FULL	0	Missile	Rakete	FNV-Original
 FalloutNV.esm	0000426D	556mmRifleBulletProjectile	PROJ	FULL	0	5.56mm Rifle Bullet	5,56 mm, Gewehrprojektil	FNV-Original
@@ -91127,6 +91247,7 @@ FalloutNV.esm	00159A15		INFO	NAM1	0	My judgement. 	Meine Beurteilung.  	FNV-Orig
 FalloutNV.esm	00159A15		INFO	NAM1	1	I have no interest in abusing others, just as I have no interest in legislating or otherwise dictating what people do in their private time.	Ich will niemanden missbrauchen, ebenso wie ich den Leuten nicht gesetzlich oder anderweitig vorschreiben will, was sie privat zu tun haben.	FNV-Original
 FalloutNV.esm	00159A15		INFO	NAM1	2	Nor have I any interest in being worshipped as some kind of machine god messiah. I am impervious to such corrupting ambitions.	Auch habe ich kein Interesse daran, als Maschinengott-Messias verehrt zu werden. Solcherlei korrumpierende Ambitionen sind mir fremd.	FNV-Original
 FalloutNV.esm	00159A15		INFO	NAM1	3	But autocracy? Firm control in the hands of a technological and economic visionary? Yes, that Vegas shall have.	Aber Autokratie? Entschiedene Kontrolle durch die starke Hand eines technologischen und wirtschaftlichen Visionärs? Ja, das soll Vegas haben.	FNV-Original
+FalloutNV.esm	00159A15		INFO	RNAM	0	What's to keep you from abusing your power?	Was hält Sie davon ab, Ihre Macht zu missbrauchen?	Korrektur (offiziell englisch gelassen/fehlerhaft, Claude)
 FalloutNV.esm	00118A16	VDialogueMrHouseMrHouseTopic015	DIAL	FULL	0	What's your story, Mr. House?	Erzählen Sie mir von sich, Mr. House.	FNV-Original
 FalloutNV.esm	00118A24	VDialogueMrHouseMrHouseTopic064	DIAL	FULL	0	Yes, I have some questions I want to ask.	Ja, ich hätte da einige Fragen.	FNV-Original
 FalloutNV.esm	00118A25	VDialogueMrHouseMrHouseTopic063	DIAL	FULL	0	I'll return when I have the Chip.	Ich komme zurück, wenn ich den Chip habe.	FNV-Original
@@ -115994,6 +116115,7 @@ FalloutNV.esm	00135F18	Hunter	PERK	DESC	0	In combat, you do +75% Critical Damage
 FalloutNV.esm	00135F05	Kamikaze	PERK	DESC	0	You have +10 Action Points but your reckless nature causes you to have -2 Damage Threshold.	Sie haben 10 Aktionspunkte mehr, aber durch Ihr tollkühnes Wesen erleiden Sie 15% mehr Schaden durch Angriffe.	FNV-Original
 FalloutNV.esm	00135EC9	GhastlyScavenger	PERK	FULL	0	Ghastly Scavenger	Abartiger Aasfresser	FNV-Original
 FalloutNV.esm	00135EC9	GhastlyScavenger	PERK	DESC	0	With Ghastly Scavenger, when you're in Sneak mode, you gain the option to eat a Super Mutant or Feral Ghoul corpse to regain Health. Every time you feed, you lose Karma, and if the act is witnessed, it is considered a crime against nature.	Im Schleichmodus können Sie die Leiche eines Supermutanten oder wilden Ghuls essen, um Gesundheit zurückzugewinnen. Allerdings verlieren Sie dabei Karma. Für eventuelle Beobachter ist dies ein Verbrechen gegen die Natur.	FNV-Original
+FalloutNV.esm	00135EC9	GhastlyScavenger	PERK	EPF2	0	Devour	Auffressen	Korrektur (offiziell englisch gelassen/fehlerhaft, Claude)
 FalloutNV.esm	00135EC8	TriggerDiscipline	PERK	FULL	0	Trigger Discipline	Ruhiger Finger	FNV-Original
 FalloutNV.esm	00135EC8	TriggerDiscipline	PERK	DESC	0	While using Guns and Energy Weapons, you fire 20% more slowly but are 20% more accurate.	Sie feuern Schuss- und Energiewaffen langsamer, aber genauer ab.	FNV-Original
 FalloutNV.esm	00135EC7	FastShot	PERK	FULL	0	Fast Shot	Schnellschuss	FNV-Original
@@ -116043,6 +116165,7 @@ FalloutNV.esm	00094EBD	NightPerson	PERK	FULL	0	Night Person	Nachtmensch	FNV-Orig
 FalloutNV.esm	00094EBD	NightPerson	PERK	DESC	0	"When the sun is down, a Night Person gains +2 to both Intelligence and Perception (up to a maximum of 10). This perk directly affects your ""internal clock,"" and remains active both inside and outside."	"Nach Sonnenuntergang steigen für den 'Nachtmenschen' Intelligenz und Wahrnehmung um 2 (auf maximal 10) Punkte. Dieses Extra beeinflusst direkt die ""innere Uhr"" und ist sowohl drinnen als auch draußen aktiv."	FNV-Original
 FalloutNV.esm	00094EBC	Cannibal	PERK	FULL	0	Cannibal	Kannibale	FNV-Original
 FalloutNV.esm	00094EBC	Cannibal	PERK	DESC	0	With the Cannibal perk, when you're in Sneak mode, you gain the option to eat a corpse to regain Health. But every time you feed, you lose Karma, and if the act is witnessed, it is considered a crime against nature.	Sie erhalten im Schleichmodus die Möglichkeit, eine Leiche zu essen, um Gesundheit zurückzugewinnen. Allerdings verlieren Sie dabei Karma. Für eventuelle Beobachter ist dies ein Verbrechen gegen die Natur.	FNV-Original
+FalloutNV.esm	00094EBC	Cannibal	PERK	EPF2	0	Devour	Auffressen	Korrektur (offiziell englisch gelassen/fehlerhaft, Claude)
 FalloutNV.esm	00094EBB	Gunslinger	PERK	FULL	0	Gunslinger	Revolvermann	FNV-Original
 FalloutNV.esm	00094EBB	Gunslinger	PERK	DESC	0	While using a pistol (or similar one-handed weapon), your accuracy in V.A.T.S. is significantly increased.	Wenn Sie eine Pistole (oder ähnliche Einhandwaffe) verwenden, ist Ihre Präzision in V.A.T.S. erheblich erhöht.	FNV-Original
 FalloutNV.esm	00094EBA	BloodyMess	PERK	FULL	0	Bloody Mess	Blutiger Tod	FNV-Original
@@ -116113,6 +116236,7 @@ FalloutNV.esm	00031DC4	ComputerWhiz	PERK	FULL	0	Computer Whiz	Computergenie	FNV-
 FalloutNV.esm	00031DC4	ComputerWhiz	PERK	DESC	0	Fail a hack attempt and get locked out of a computer? Not if you're a Computer Whiz! With this perk, you can attempt to re-hack any computer you were previously locked out of.	Sie können nach einem gescheiterten Hackversuch nicht mehr auf einen Computer zugreifen? Kein Problem für ein 'Computergenie'! Sie können erneut versuchen, jeden Computer zu hacken, bei dem zuvor der Zugriff gesperrt wurde.	FNV-Original
 FalloutNV.esm	00031DC2	RoboticsExpert	PERK	FULL	0	Robotics Expert	Robotikexperte	FNV-Original
 FalloutNV.esm	00031DC2	RoboticsExpert	PERK	DESC	0	With the Robotics Expert perk, you do an additional 25% damage to any robot. But, even better, sneaking up on a hostile robot undetected and activating it will put that robot into a permanent shutdown state.	Mit dem Extra 'Robotikexperte' fügen Sie jedem Roboter im Kampf 25% mehr Schaden zu. Außerdem können Sie einen feindlichen Roboter dauerhaft herunterfahren, sofern Sie sich unerkannt an ihn heranschleichen können.	FNV-Original
+FalloutNV.esm	00031DC2	RoboticsExpert	PERK	EPF2	0	Deactivate	Deaktivieren	Korrektur (offiziell englisch gelassen/fehlerhaft, Claude)
 FalloutNV.esm	00031DBD	Tag	PERK	FULL	0	Tag!	Spezial!	FNV-Original
 FalloutNV.esm	00031DBD	Tag	PERK	DESC	0	The Tag! perk allows you to select a fourth Skill to be a Tag skill, which instantly raises it by 15 points.	Mit dem Extra 'Spezial!' können Sie eine vierte Fertigkeit als Spezialfertigkeit auswählen, wodurch diese Fertigkeit sofort um 15 Punkte erhöht wird.	FNV-Original
 FalloutNV.esm	00031DBC	MysteriousStranger	PERK	FULL	0	Mysterious Stranger	Mysteriöser Fremder	FNV-Original
@@ -116134,6 +116258,7 @@ FalloutNV.esm	00031DB1	LifeGiver	PERK	FULL	0	Life Giver	Lebensspender	FNV-Origin
 FalloutNV.esm	00031DB1	LifeGiver	PERK	DESC	0	With the Life Giver perk, you gain an additional 30 Hit Points.	Mit dem Extra 'Lebensspender' erhalten Sie 30 zusätzliche Trefferpunkte.	FNV-Original
 FalloutNV.esm	00031DAD	MisterSandman	PERK	FULL	0	Mister Sandman	Sandmann	FNV-Original
 FalloutNV.esm	00031DAD	MisterSandman	PERK	DESC	0	With the Mister Sandman perk, when you're in Sneak mode, you gain the option to silently kill any human or Ghoul while they're sleeping. And, all Mister Sandman kills earn bonus XP.	Mit dem Extra 'Sandmann' können Sie im Schleichmodus mit einer speziellen Bewegung jeden schlafenden Menschen oder Ghul direkt töten. Dafür bringt Ihnen der Sandmann zusätzliche EP.	FNV-Original
+FalloutNV.esm	00031DAD	MisterSandman	PERK	EPF2	0	Murder	Ermorden	Korrektur (offiziell englisch gelassen/fehlerhaft, Claude)
 FalloutNV.esm	00031DAC	HereandNow	PERK	FULL	0	Here and Now	Hier und Jetzt	FNV-Original
 FalloutNV.esm	00031DAC	HereandNow	PERK	DESC	0	The Here and Now perk immediately grants an additional experience level, complete with all the advantages that brings.	Das Extra 'Hier und jetzt' verleiht sofort eine zusätzliche Erfahrungsstufe mit allen damit verbundenen Vorteilen.	FNV-Original
 FalloutNV.esm	00031DAB	DemolitionExpert	PERK	FULL	0	Demolition Expert	Abbruchexperte	FNV-Original
@@ -116480,7 +116605,6 @@ FalloutNV.esm	000005E4	AVRadiationRads	AVIF	FULL	0	Rads	RAD	FNV-Original
 FalloutNV.esm	000005E4	AVRadiationRads	AVIF	ANAM	0	Rads	RAD	FNV-Original
 FalloutNV.esm	000005E3	AVWaterBreathing	AVIF	ANAM	0	Wtr. Breathe.  	Untwasseratm.  	FNV-Original
 FalloutNV.esm	000005E2	AVFireResist	AVIF	ANAM	0	Fire Resis.	Feuerres.	FNV-Original
-FalloutNV.esm	000005E1	AVDetectLifeRange	AVIF	ANAM	0	Turbo	Detect Range	FNV-Original
 FalloutNV.esm	000005E0	AVNightEye	AVIF	ANAM	0	Night Sight	Nachtsicht	FNV-Original
 FalloutNV.esm	000005DF	AVChameleon	AVIF	ANAM	0	Stealth Field	Tarnfeld	FNV-Original
 FalloutNV.esm	000005DE	AVInvisibility	AVIF	ANAM	0	Invis.	Unsicht.	FNV-Original
@@ -116563,6 +116687,7 @@ FalloutNV.esm	000004B2	AVEnergyWeapons	AVIF	DESC	0	The Energy Weapons skill dete
 FalloutNV.esm	000004B2	AVEnergyWeapons	AVIF	ANAM	0	Ener. Weap.	En-Waff.	FNV-Original
 FalloutNV.esm	000004B1	AVBigGuns	AVIF	FULL	0	Big Guns - OBSOLETE	Große Waffen - VERALTET	FNV-Original
 FalloutNV.esm	000004B1	AVBigGuns	AVIF	DESC	0	-- OBSOLETE --\nPlease remove.	 -- VERALTET --\nBitte entfernen.	FNV-Original
+FalloutNV.esm	000004B1	AVBigGuns	AVIF	ANAM	0	Big Guns	Große Waffen	Korrektur (offiziell englisch gelassen/fehlerhaft, Claude)
 FalloutNV.esm	000004B0	AVBarter	AVIF	FULL	0	Barter	Feilschen	FNV-Original
 FalloutNV.esm	000004B0	AVBarter	AVIF	DESC	0	The Barter skill affects the prices you get for buying and selling items. In general, the higher your Barter skill, the lower your prices on purchased items.  	Die Fertigkeit 'Feilschen' beeinflusst die Ein- und Verkaufspreise von Gegenständen. Je stärker die Fertigkeit 'Feilschen' bei Ihnen ausgeprägt ist, desto weniger kosten im Allgemeinen die Gegenstände, die Sie kaufen möchten. 	FNV-Original
 FalloutNV.esm	000004B0	AVBarter	AVIF	ANAM	0	Barter	Feilschen	FNV-Original
@@ -118584,6 +118709,7 @@ FalloutNV.esm	0016663C	VEFR01NCREmergencyRadioMSG	MESG	ITXT	3	Call for NCR Range
 FalloutNV.esm	0016663C	VEFR01NCREmergencyRadioMSG	MESG	ITXT	4	NCR Support Exhausted - Resupply at 2400 hours	RNK-Unterstützung erschöpft - neuer Versuch ab 24:00 Uhr	FNV-Original
 FalloutNV.esm	0016663C	VEFR01NCREmergencyRadioMSG	MESG	ITXT	5	Outside NCR Operational Area - Relocate and repeat transmission	Außerhalb des RNK-Einsatzgebiets - Übertragung an anderer Position wiederholen	FNV-Original
 FalloutNV.esm	0016663C	VEFR01NCREmergencyRadioMSG	MESG	ITXT	6	Reputation with NCR too low - Support Withdrawn	RNK-Ruf zu niedrig - Unterstützung wird zurückgezogen	FNV-Original
+FalloutNV.esm	0016663C	VEFR01NCREmergencyRadioMSG	MESG	ITXT	7	Dismiss NCR Soldier	RNK-Soldat entlassen	Korrektur (offiziell englisch gelassen/fehlerhaft, Claude)
 FalloutNV.esm	0016663D	VEFR0xDebugMessage	MESG	DESC	0	iButtonVar is %.0f	iButtonVar ist %.0f	FNV-Original
 FalloutNV.esm	0016663D	VEFR0xDebugMessage	MESG	FULL	0	VEFR Debug Message	VEFR-Debug-Meldung	FNV-Original
 FalloutNV.esm	00166665	Lucky38MrhouseElevatorMessage2	MESG	FULL	0	Welcome, Mr. House.	Willkommen, Mr. House.	FNV-Original
@@ -118664,6 +118790,7 @@ FalloutNV.esm	00171C3E	FollowerMessageLeaveRaul38	MESG	DESC	0	Raul has gone to t
 FalloutNV.esm	00171C3F	FollowerMessageLeaveVeronica38	MESG	DESC	0	Veronica has returned to the Lucky 38.	Veronica ist ins Lucky 38 zurückgekehrt.	FNV-Original
 FalloutNV.esm	00171C40	FollowerMessageLeaveLily	MESG	DESC	0	Lily has returned to Jacobstown.	Lily ist nach Jacobstown zurückgekehrt.	FNV-Original
 FalloutNV.esm	00171C41	FollowerMessageLeaveLily38	MESG	DESC	0	Lily has gone to the Lucky 38.	Lily ist ins Lucky 38 zurückgekehrt.	FNV-Original
+FalloutNV.esm	00171DBF	VFSOrrisThugNameMsg	MESG	FULL	0	Orris's Thug	Orris' Schläger	Korrektur (offiziell englisch gelassen/fehlerhaft, Claude)
 FalloutNV.esm	00171DC1	VEndGameWarningMsgNCR	MESG	DESC	0	You are committing to fight with the NCR at the battle for Hoover Dam which will determine the fate of New Vegas for decades to come. \n\nIf there's anything you want to do before you enter the battle, do it now - before you cross the point of no return.\n	Sie wollen bei der Schlacht am Hoover-Staudamm für die RNK kämpfen. Diese Schlacht wird das Schicksal von New Vegas für die kommenden Jahrzehnte entscheiden. \n\nWenn Sie noch etwas tun wollen, bevor Sie sich in die Schlacht stürzen, dann tun Sie es jetzt - bevor Sie den Ort ohne Wiederkehr passieren.\n	FNV-Original
 FalloutNV.esm	00171DC1	VEndGameWarningMsgNCR	MESG	ITXT	0	I'm not ready yet.	Ich bin noch nicht so weit.	FNV-Original
 FalloutNV.esm	00171DC1	VEndGameWarningMsgNCR	MESG	ITXT	1	Let's do this!	Legen wir los!	FNV-Original
@@ -118679,6 +118806,7 @@ FalloutNV.esm	00171DC4	VEndGameWarningMsgHouse	MESG	ITXT	1	Let's do this!	Legen 
 FalloutNV.esm	00172094	HelpBlackjack	MESG	DESC	0	"Blackjack is a game played with one more standard decks of playing cards. In Fallout: New Vegas, it is played between the Courier and a casino dealer. The goal is to play a hand of two or more cards up to, but not exceeding, a combined value of 21 points. The value of each hand is determined by adding together the values of each individual card. Cards 2-10 are worth their listed value. Face cards (Jack, Queen, King) are worth 10 points. Aces are worth either 1 or 11 points, whichever is more advantageous. A hand that exceeds 21 in total value is considered a ""bust"" and immediately loses.\n\nAfter the initial bet is made, the player and dealer are both dealt two cards. Based on the Courier's current hand, the player has different options:\n\n* Hit - Add a new card to the Courier's hand. The player must accept the value of this card, though aces provide whatever value is most advantageous at any given time.\n\n* Stay - Courier's hand is effectively ""locked"" and the dealer will deal cards into his or her own hand until his or her hand is at least 17. Note: at some casinos, dealers will continue to hit on a ""soft"" 17 that contains an ace. In either case, the dealer has no decision-making process and will always follow the listed rule.\n\n* Double Down - The Courier's bet is doubled but the dealer will give the Courier's hand only a single additional card.\n\n* Split - If the Courier's initial hand is a pair, the player may double his or her bet and split the pair into two separate hands that are played individually.\n\n* Surrender - This option is only available immediately after the first cards are dealt. It offers the player the option to sacrifice half of his or her bet and immediately fold. It is typically only done when the player's hand is particularly bad and the dealer is showing a very strong hand (for example, an ace).\n\nOnce the dealer has completed dealing into his or her own hand following the player's choice to stay, the values of the Courier's hand and the dealer's hand are compared. Assuming neither party has busted (gone over 21), the higher value wins. In the case of a tie, the hand is considered a push. If the dealer has ""blackjack"" (an ace and a ten-value card), he or she automatically wins unless the Courier also has blackjack. In that case, the hand is considered a push.\n\nIndividual casinos use different numbers of card decks, pay out natural blackjack hands at different odds, and shuffle their decks with varying frequency. Pay close attention to these details to develop advanced playing strategies."	"Black Jack wird mit einem ganz normalen doppelten Satz Spielkarten gespielt. In Fallout: New Vegas spielt es der Kurier mit den Croupiers der Kasinos. Das Ziel des Spiels ist es, ein Kartenblatt von zwei oder mehr Karten zu erreichen, die maximal, aber nicht mehr als 21 Punkte wert sind. Der Gesamtwert jedes Blatts wird durch das Addieren der Werte der einzelnen Karten ermittelt. Die 2er- bis 10er-Karten haben den jeweils aufgedruckten Wert. Die Hofkarten (Bube, Dame, König) sind jeweils 10 Punkte wert. Das Ass kann entweder 1 oder 10 Punkte wert sein, je nachdem, was von größerem Vorteil ist. Wenn der Wert des Blatts 21 übersteigt, gilt das als ""Bust"" und man verliert sofort.\n\nNach dem ersten Einsatz erhalten der Croupier und der Spieler zwei Karten. Je nachdem, welches Blatt der Kurier nun hat, stehen dem Spieler verschiedene Möglichkeiten offen:\n\n* Hit - Dem Blatt des Kuriers wird eine neue Karte hinzugefügt. Der Spieler muss den Wert dieser Karte zum bisherigen Wert seines Blatts addieren, wobei der Wert eines Asses allerdings je nach besserem Nutzen frei gewählt werden kann.\n\n* Stay - Das Blatt des Kuriers wird ""geschlossen"" und der Croupier nimmt so lange Karten, bis sein Blatt einen Wert von mindestens 17 hat. Hinweis: In manchen Kasinos nehmen Croupiers weiter Karten, wenn sie eine ""soft"" 17 erreichen, die ein Ass enthält. In beiden Fällen hat der Croupier keine freie Entscheidungsgewalt, sondern muss immer dieser Regel folgen.\n\n* Double Down - Der Einsatz des Kuriers wird verdoppelt, aber der Croupier fügt dem Blatt des Kuriers nur eine einzige Karte hinzu.\n\n* Split - Wenn das erste Blatt des Kuriers ein Paar ist, kann der Spieler seinen Einsatz verdoppeln und sein Paar in zwei separate Blätter teilen, die einzeln gespielt werden.\n\n* Surrender - Diese Option steht nur zur Verfügung, nachdem die ersten Karten gegeben wurden. Der Spieler kann seinen halben Einsatz opfern und sofort aufgeben. Üblicherweise tut man dies nur, wenn die Hand des Spielers besonders schlecht oder die des Croupiers besonders stark ist (beispielsweise wegen eines Asses).\n\nSobald der Croupier entsprechend der Entscheidungen des Spielers Karten gegeben hat und sofern der Spieler im Spiel bleibt, werden der Wert des Kurier-Blatts und des Croupier-Blatts verglichen. Wenn keine der beiden Parteien einen ""Bust"" (also mehr als 21 Punkte) hat, gewinnt der höhere Wert. Bei Gleichstand tritt ein ""Push"" ein. Wenn der Croupier einen ""Black Jack"" hat (ein Ass und eine 10er-Karte), gewinnt er automatisch, sofern der Kurier nicht auch einen Black Jack hat. Im letztgenannten Fall tritt auch ein Push ein. Bei einem Push erhält der Spieler seinen Einsatz zurück.\n\nDie einzelnen Kasinos verwenden unterschiedlich viele Kartensätze für das Spiel, zahlen bei einem Black Jack unterschiedlich hohe Summen aus und mischen die Karten unterschiedlich oft. Achten Sie auf diese Details, um fortgeschrittene Spielstrategien zu entwickeln."	FNV-Original
 FalloutNV.esm	00172095	HelpRoulette	MESG	DESC	0	Roulette is a game of chance in which a ball is spun on a spinning wheel marked with 38 colored and numbered pockets. As the ball loses momentum, it eventually drops into one of the pockets. Before the ball is spun, players place bets on individual numbers or groups of numbers, the colors red or black, or whether the number will be odd or even. If the ball lands in a pocket covered by one of the player's bets, he or she receives a reward proportional to the odds of his or her bet. Player bets fall into two categories: inside bets and outside bets.\n\nInside Bets - Inside bets are placed on the numbered sections of the board or on the outside edges.\n* Straight-Up - A single number. The chip is entirely inside the square.\n* Split - Two adjoining numbers. The chip is placed on the line between the numbers.\n* Street - Three numbers in a horizontal line. The chip is placed at the edge of a line.\n* Six Line - Two adjoining streets. The chip is placed at the edge between two streets.\n* Corner - Four numbers in a square. The chip is placed at the intersection of the four numbers.\n* Basket - 0, 1, and 2; 0, 00, and 2; or 00, 2, and 3. The chip is placed at the intersection between the three numbers.\n* Top Line - 0, 00, 1, 2, and 3. The chip is placed at the corner of 0 and 1.\n\nOutside Bets - Outside bets are played off of the main numbered section of the board and never include 0 or 00.\n* 1-18, 19-36 - The first and second halves of the numbered board.\n* Red, Black - Red and black numbers.\n* Even, Odd - Even and odd numbers.\n* 1st, 2nd, 3rd Dozen - The first (1-12), second (13-24) or third (25-36) set of numbers.\n* 1st, 2nd, 3rd Column - A bet on an entire vertical column of numbers. The chip is placed at the base of the column.	Roulette ist ein Glücksspiel, bei dem eine Kugel auf ein sich drehendes Rad geworfen wird, auf dem 38 farbige und nummerierte Fächer eingelassen sind. Die Kugel verliert langsam an Schwung und landet schließlich in einem der Fächer. Bevor die Kugel geworfen wird, können Spieler auf einzelne Zahlen, Gruppen von Zahlen, die Farben Rot und Schwarz sowie auf ein gerades oder ungerades Ergebnis setzen. Wenn die Kugel in einem Fach landet, das von der Wette des Spielers abgedeckt wird, erhält er eine Auszahlung, die der Wahrscheinlichkeit seiner Wette entspricht. Die Wetten der Spieler fallen dabei in zwei Kategorien: Innenwetten und Außenwetten.\n\nInnenwetten - Diese Wetten werden auf den nummerierten Teilen des Feldes oder am äußeren Rand platziert.\n* Straight-Up - Eine einzelne Zahl. Der Chip liegt ganz im Feld.\n* Split - Zwei angrenzende Zahlen. Der Chip wird auf die Linie zwischen den Zahlen gelegt.\n* Street - Drei Zahlen in einer horizontalen Reihe. Der Chip wird an den Rand einer Linie gelegt.\n* Six Line - Zwei angrenzende Streets. Der Chip liegt auf der Grenze zwischen den Streets.\n* Corner - Vier Zahlen in einem Quadrat. Der Chip wird auf den Schnittpunkt aller vier Zahlen gelegt.\n* Basket - 0, 1 und 2; 0, 00 und 2; oder 00, 2 und 3. Der Chip wird auf den Schnittpunkt der drei Zahlen gelegt.\n* Top Line - 0, 00, 1, 2 und 3. Der Chip wird auf die Ecke zwischen 0 und 1 gelegt.\n\nAußenwetten - Diese Wetten werden abseits des nummerierten Teils des Feldes gespielt und enthalten nie 0 oder 00.\n* 1-18, 19-36 - Die erste oder die zweite Hälfte des nummerierten Feldes.\n* Red (Rot), Black (Schwarz) - Die roten oder die schwarzen Zahlen.\n* Even (Gerade), Odd (Ungerade) - Die geraden oder die ungeraden Zahlen.\n* Erstes, mittleres oder letztes Dutzend - Der erste (1-12), zweite (13-24) oder dritte (25-36) Zahlensatz.\n* 1., 2. oder 3. Kolonne - Eine Wette auf eine ganze vertikale Kolonne von Zahlen. Der Chip wird ans untere Ende der Kolonne gelegt.	FNV-Original
 FalloutNV.esm	00172096	HelpSlots	MESG	DESC	0	Slots are casino gambling machines that have three or more reels that spin when a button is pushed or lever is pulled. Each reel randomly stops on or between one of many symbols on the reel. Depending on the combination of symbols that comes up, the player will either lose his or her bet or receive a payout based on the odds of the combination coming up.\n\nDifferent slot machines have different numbers of symbols and correspondingly different payout odds. You can check the payout odds from within the game at any time.	Spielautomaten sind Spielmaschinen, die drei oder mehr Rollen zum Rotieren bringen, wenn ein Knopf gedrückt oder ein Hebel gezogen wird. Jede Rolle stoppt zufällig und zeigt dann eines von mehreren Symbolen. Je nachdem, welche Kombination von Symbolen sich ergibt, verliert der Spieler seinen Einsatz oder erhält einen Gewinn, der auf der Wahrscheinlichkeit der Kombination basiert.\n\nUnterschiedliche Spielautomaten haben unterschiedliche viele Symbole und daher auch unterschiedlich hohe Auszahlungswahrscheinlichkeiten. Diese Wahrscheinlichkeiten können jederzeit im Spiel nachgeschaut werden.	FNV-Original
+FalloutNV.esm	00172096	HelpSlots	MESG	FULL	0	Slots	Spielautomaten	Korrektur (offiziell englisch gelassen/fehlerhaft, Claude)
 FalloutNV.esm	0017370E	CGTutorialCrippleHardcore	MESG	DESC	0	You are crippled. Use a Doctor's Bag or find a doctor.	Sie sind verkrüppelt. Verwenden Sie eine Arzttasche oder suchen Sie einen Arzt auf.	FNV-Original
 FalloutNV.esm	0017370F	HelpHardcoreNeedsJosh	MESG	DESC	0	Welcome to Hardcore Mode! There are three basic needs that Hardcore Mode requires you to monitor: dehydration (H2O), starvation (FOD), and sleep deprivation (SLP). Each of these needs must be monitored and kept in check or you will suffer penalties and, in extreme cases, death.\n\nYour needs are continually ticking away and can be monitored on the Status screen of your Pip-Boy. When you start to suffer ill-effects from neglected needs, your HUD will display the corresponding code for that need. Be aware that waiting, sleeping, and Fast Travel will also affect your needs. If performing any of these activities would result in death, you will be prevented from doing so.\n\n* Dehydration (H20) - Dehydration increases at a faster pace than starvation or sleep deprivation. It can be relieved by drinking water or eating certain types of food. Some drinks, such as alcohol and soda, can increase dehydration, so be careful!\n\n* Starvation (FOD) - The onset of starvation is slower than dehydration, but quicker than sleep deprivation. It can be relieved by eating food.\n\n* Sleep Deprivation (SLP) - Sleep deprivation is the most low-maintenance of the basic needs. Though a few chems and drinks can help offset sleep deprivation, nothing beats sleep itself.	Willkommen im Hardcore-Modus! Es gibt drei Grundbedürfnisse bzw. Gefahren, auf die man im Hardcore-Modus achten muss: Verdursten (DUR), Verhungern (HUN) und Schlafentzug (MÜD). Jedes dieser Bedürfnisse muss im Auge behalten und befriedigt werden, denn sonst erleidet man Abzüge und verliert (im Extremfall) sogar das Leben.\n\nIhre Bedürfnisse werden beständig größer und können im Status-Bildschirm Ihres Pip-Boys in Augenschein genommen werden. Sobald Sie negative Effekte erleiden, weil Sie ein Bedürfnis vernachlässigt haben, wird im HUD der entsprechende Code angezeigt. Auch das Warten, das Schlafen und die Schnellreise wirken sich auf die Bedürfnisse aus. Wenn eine dieser Aktivitäten zum Tode führen würde, werden Sie daran gehindert.\n\n* Verdursten (DUR) - Der Verdursten-Wert steigt schneller als Verhungern oder Schlafentzug. Durch das Trinken von Wasser oder das Essen bestimmter Nahrung wird der Wert gesenkt. Einige Getränke (beispielsweise Alkohol und Limonade) erhöhen den Verdursten-Wert, also Vorsicht!\n\n* Verhungern (HUN) - Verhungern setzt später ein als Verdursten, aber schneller als der Schlafentzug. Man senkt den Wert durch das Essen von Nahrung.\n\n* Schlafentzug (MÜD) - Schlafentzug ist das am leichtesten zu befriedigende Bedürfnis. Auch wenn einige Medikamente und Getränke den Beginn eines Schlafentzugs hinauszögern können, ist Schlafen immer noch das beste Gegenmittel.	FNV-Original
 FalloutNV.esm	0017370F	HelpHardcoreNeedsJosh	MESG	FULL	0	Hardcore Needs	Grundbedürfnisse	FNV-Original
@@ -123762,6 +123890,7 @@ HonestHearts.esm	01009E76	NVDLC02Recipe45AutoP	RCPE	FULL	0	.45 Auto +P Round	Aut
 HonestHearts.esm	0100C988	NVDLC02RecipeCompass	RCPE	FULL	0	Compass	Kompass	FNV-Original
 HonestHearts.esm	0100CCFB	NVDLC02RecipeWeaponBindingRitual	RCPE	FULL	0	Weapon Binding Ritual	Waffenbindungs-Ritual	FNV-Original
 HonestHearts.esm	0100CCFD	NVDLC02RecipeDaturaHide	RCPE	FULL	0	Datura Hide	Datura-Haut	FNV-Original
+HonestHearts.esm	0100F400	NVDLC02RecipeConversionFissionBATtoSEC	RCPE	FULL	0	Conversion, Fission Battery to SEC	Umwandlung, Kernspaltungsbatterie zu KEZ	Korrektur (offiziell englisch gelassen/fehlerhaft, Claude)
 HonestHearts.esm	0100F707	NVDLC02RecipeMedicalSupplyKit	RCPE	FULL	0	Medical Supply Kit	Medizinisches Versorgungsset	FNV-Original
 HonestHearts.esm	01010CD9	NVDLC02RecipeBreakdown45Auto	RCPE	FULL	0	Breakdown .45 Auto	Zerlegung autom. .45	FNV-Original
 HonestHearts.esm	0101103D	NVDLC02RecipeHealingPoultice	RCPE	FULL	0	Healing Poultice	Heilumschlag	FNV-Original
@@ -123921,6 +124050,11 @@ LonesomeRoad.esm	0100949A	NVDLC04TempleBattleFaction	FACT	FULL	0	Ulysses Temple 
 LonesomeRoad.esm	01008955	NVDLC04Silo01SecurityBotFaction	FACT	FULL	0	Hopeville Silo Security Faction	Hopeville-Silo-Sicherheitsfraktion	FNV-Original
 LonesomeRoad.esm	01008954	NVDLC04Silo01SecurityTurretFaction	FACT	FULL	0	Hopeville Silo Security Faction	Hopeville-Silo-Sicherheitsfraktion	FNV-Original
 LonesomeRoad.esm	010083D7	MarkedMenGhoul	RACE	FULL	0	Ghoul	Ghul	FNV-Original
+LonesomeRoad.esm	00167482	DamageSkillGuns	MGEF	FULL	0	Damage Guns	Schaden-Schusswaffen	Korrektur (offiziell englisch gelassen/fehlerhaft, Claude)
+LonesomeRoad.esm	00167483	DamageSkillExplosives	MGEF	FULL	0	Damage Explosives	Schaden-Sprengstoffe	Korrektur (offiziell englisch gelassen/fehlerhaft, Claude)
+LonesomeRoad.esm	00167484	DamageSkillEnergyWeapons	MGEF	FULL	0	Damage Energy Weapons	Schaden-Energiewaffen	Korrektur (offiziell englisch gelassen/fehlerhaft, Claude)
+LonesomeRoad.esm	00167485	DamageSkillMeleeWeapons	MGEF	FULL	0	Damage Melee Weapons	Schaden-Nahkampfwaffen	Korrektur (offiziell englisch gelassen/fehlerhaft, Claude)
+LonesomeRoad.esm	00167486	DamageSkillUnarmed	MGEF	FULL	0	Damage Unarmed	Schaden-Waffenlos	Korrektur (offiziell englisch gelassen/fehlerhaft, Claude)
 LonesomeRoad.esm	010073E6	NVDLC04DummyFlareGunEffect	MGEF	FULL	0	Frightens Abominations	Erschreckt Abscheulichkeiten	FNV-Original
 LonesomeRoad.esm	01007499	NVDLC04DummyFlashBangEffect	MGEF	FULL	0	Stuns or Dazes Enemies	Betäubt Gegner oder macht sie benommen	FNV-Original
 LonesomeRoad.esm	0100A546	NVDLC04DummyStealthVATSBE	MGEF	FULL	0	Stealth VATS Takedown	V.A.T.S.-Ausschaltung (Schleichen)	FNV-Original
@@ -124659,6 +124793,7 @@ LonesomeRoad.esm	01009FEB	NVDLC04DyingBreathPaper	MISC	FULL	0	Note	Notiz	FNV-Ori
 LonesomeRoad.esm	0100930F	NVDLC04TunnelerHide	MISC	FULL	0	Tunneler Hide	Tunnelgräber-Haut	FNV-Original
 LonesomeRoad.esm	01004687	NVDLC04Snowglobe	MISC	FULL	0	Snow Globe - Lonesome Road	Schneekugel - Lonesome Road	FNV-Original
 LonesomeRoad.esm	00090A6A	WeapNVGrenadeMachinegun	WEAP	FULL	0	Grenade Machinegun	Granaten-MG	FNV-Original
+LonesomeRoad.esm	000CDA5C	HVWeapPlasmaRifleWeak	WEAP	FULL	0	Plasma Rifle	Plasmagewehr	Korrektur (offiziell englisch gelassen/fehlerhaft, Claude)
 LonesomeRoad.esm	01000800	WeapNVDLC04Faderator	WEAP	FULL	0	The Faderator	Der Ausblender	FNV-Original
 LonesomeRoad.esm	010046C3	NVDLC04WeapGrenadeRifleRED	WEAP	FULL	0	Red Victory Grenade Rifle	Roter Sieg - Granatengewehr	FNV-Original
 LonesomeRoad.esm	010046C4	NVDLC04WeapGrenadeRifleBLUE	WEAP	FULL	0	Great Bear Grenade Rifle	Großer-Bär-Granatengewehr	FNV-Original
@@ -124697,6 +124832,7 @@ LonesomeRoad.esm	0100A864	NVDLC04WeapUlyssesEyebotHealGun	WEAP	FULL	0	Heal Zap	H
 LonesomeRoad.esm	0100AB55	NVDLC04WeapEDEUnlockZapper	WEAP	FULL	0	ED-E Arc Welder	ED-E-Bogenschweißgerät	FNV-Original
 LonesomeRoad.esm	0100CA88	NVDLC04WeapDeathclawGauntletUniqueWildWasteland	WEAP	FULL	0	Fist of the North Rawr	Faust des Nord-Rawr	FNV-Original
 LonesomeRoad.esm	0100CA89	NVDLC04WeapDeathclawGauntletUnique	WEAP	FULL	0	Fist of Rawr	Faust des Rawr	FNV-Original
+LonesomeRoad.esm	0100E1F7	NVDLC04WeapTrailCarbineNoDrop	WEAP	FULL	0	Trail Carbine	Trapperbüchse	Korrektur (offiziell englisch gelassen/fehlerhaft, Claude)
 LonesomeRoad.esm	0100D5CF	AmmoNVDLC04NailsCustom	AMMO	FULL	0	Flechettes	Pfeilgeschosse	FNV-Original
 LonesomeRoad.esm	0100D5CF	AmmoNVDLC04NailsCustom	AMMO	ONAM	0	Flechettes	Pfeilgeschosse	FNV-Original
 LonesomeRoad.esm	0100D278	NVDLC04AmmoMissileRobot	AMMO	FULL	0	Missile	Rakete	FNV-Original
@@ -124791,6 +124927,9 @@ LonesomeRoad.esm	0100D788	NVDLC04Divide2MarkedMenRavager	NPC_	FULL	0	Marked Men 
 LonesomeRoad.esm	0100D789	NVDLC04Divide2MarkedMenMarauder	NPC_	FULL	0	Marked Men Marauder	Plünderer der Gezeichneten	FNV-Original
 LonesomeRoad.esm	0100D89F	NVDLC04NukeNCRHeavyTrooper	NPC_	FULL	0	Irradiated Heavy Trooper	Schwerer verstrahlter Soldat	FNV-Original
 LonesomeRoad.esm	0100D8FC	NVDLC04NukeNCRColonel	NPC_	FULL	0	Irradiated Heavy Trooper	Schwerer verstrahlter Soldat	FNV-Original
+LonesomeRoad.esm	0100D970	NVDLC04RoadTunnelDeadTrooper01	NPC_	FULL	0	NCR Trooper	RNK-Soldat	Korrektur (offiziell englisch gelassen/fehlerhaft, Claude)
+LonesomeRoad.esm	0100D971	NVDLC04RoadTunnelDeadTrooper02	NPC_	FULL	0	NCR Trooper	RNK-Soldat	Korrektur (offiziell englisch gelassen/fehlerhaft, Claude)
+LonesomeRoad.esm	0100D973	NVDLC04RoadTunnelDeadTrooper03	NPC_	FULL	0	NCR Ranger	RNK-Ranger	Korrektur (offiziell englisch gelassen/fehlerhaft, Claude)
 LonesomeRoad.esm	0100DAEB	NVDLC04TempleMarkedMenHunter01Weak	NPC_	FULL	0	Marked Men Hunter	Jäger der Gezeichneten	FNV-Original
 LonesomeRoad.esm	0100DAEC	NVDLC04TempleMarkedMenScout01Weak	NPC_	FULL	0	Marked Men Scout	Späher der Gezeichneten	FNV-Original
 LonesomeRoad.esm	0100DAED	NVDLC04TempleMarkedMenScout02Weak	NPC_	FULL	0	Marked Men Scout	Späher der Gezeichneten	FNV-Original
@@ -127239,6 +127378,7 @@ OldWorldBlues.esm	01013908	NVDLC03SonicTarantulaCritEffect	SPEL	FULL	0	Burning E
 OldWorldBlues.esm	01013EA5	NVDLC03HeatWeaponAE	SPEL	FULL	0	Set Target On Fire	Ziel in Brand stecken	FNV-Original
 OldWorldBlues.esm	01013F06	NVDLC03AcidWeapAE	SPEL	FULL	0	Acid Weapon Critical	Säurewaffen (kritisch)	FNV-Original
 OldWorldBlues.esm	01014963	NVDLC03RedMist	SPEL	FULL	0	Red Mist	Roter Nebel	FNV-Original
+OldWorldBlues.esm	01014B1F	NVDLC03ReinforcedSpineStrBoostAE	SPEL	FULL	0	Reinforced Spine	Verstärktes Rückgrat	Korrektur (offiziell englisch gelassen/fehlerhaft, Claude)
 OldWorldBlues.esm	0101527B	NVDLC03LegendaryBloatflyDT	SPEL	FULL	0	Legendary Bloatfly Damage Threshold	Legendäre Blähfliege - Schadensschwelle	FNV-Original
 OldWorldBlues.esm	010152F5	NVDLC03RadiationResistanceAE	SPEL	FULL	0	Radiation Resistance	Strahlungsresistenz	FNV-Original
 OldWorldBlues.esm	010155C6	NVDLC03SonicGunBloodyMess	SPEL	FULL	0	Opera Singer Bloody Mess	Opernsänger - Blutige Überreste	FNV-Original
@@ -127331,6 +127471,8 @@ OldWorldBlues.esm	0100E6FC	NVDLC03SinkLightSwitch02	TACT	FULL	0	Light Switch 02	
 OldWorldBlues.esm	0100E5CC	NVDLC03X8Intercom	TACT	FULL	0	Intercom	Sprechanlage	FNV-Original
 OldWorldBlues.esm	0100ACFC	NVDLC03PlayerBrainTank	TACT	FULL	0	Your Brain	Ihr Gehirn	FNV-Original
 OldWorldBlues.esm	01015810	NVDLC03X13DoorTerminal	TERM	DESC	0	"      SoftLock Solutions, Inc\n""Your Security is Our Security""\n>\ Welcome, USER\n"	"      SoftLock Solutions, Inc.\n""Ihre Sicherheit ist unsere Sicherheit""\n>\ Willkommen, BENUTZER\n"	FNV-Original
+OldWorldBlues.esm	01015810	NVDLC03X13DoorTerminal	TERM	ITXT	0	Disengage Lock	Schloss entriegeln	Korrektur (offiziell englisch gelassen/fehlerhaft, Claude)
+OldWorldBlues.esm	01015810	NVDLC03X13DoorTerminal	TERM	RNAM	0	Clearance granted, Unlocking...	Freigabe erteilt. Entriegeln ...	Korrektur (offiziell englisch gelassen/fehlerhaft, Claude)
 OldWorldBlues.esm	0101688F	NVDLC03X12Terminal	TERM	FULL	0	X-12 Terminal	X-12-Terminal	FNV-Original
 OldWorldBlues.esm	0101688F	NVDLC03X12Terminal	TERM	DESC	0	**** Big Mountain Research Network ****\n  X-12 Research Center	**** Big Mountain-Forschungsnetzwerk ****\n  X-12-Forschungszentrum\n	FNV-Original
 OldWorldBlues.esm	0101688F	NVDLC03X12Terminal	TERM	ITXT	0	X-12 Request for Assistance	X-12-Unterstützungsanforderung	FNV-Original
@@ -127754,6 +127896,7 @@ OldWorldBlues.esm	0100474C	NVDLC03SinkSupplyChute	CONT	FULL	0	Supply Chute	Verso
 OldWorldBlues.esm	01004749	NVDLC03SinkToolbox	CONT	FULL	0	Toolbox	Werkzeugkasten	FNV-Original
 OldWorldBlues.esm	01004746	NVDLC03PlayerTrunk	CONT	FULL	0	Trunk	Truhe	FNV-Original
 OldWorldBlues.esm	01004527	NVDLC03SinkRefrigerator	CONT	FULL	0	Refrigerator	Kühlschrank	FNV-Original
+OldWorldBlues.esm	01016A53	NVDLC03MetroGateDup	DOOR	FULL	0	Gate	Tor	Korrektur (offiziell englisch gelassen/fehlerhaft, Claude)
 OldWorldBlues.esm	01016A50	NVDLC03InvisibleDoorDup	DOOR	FULL	0	Door	Tür	FNV-Original
 OldWorldBlues.esm	0101530D	NVDLC03X13VRExitDoor	DOOR	FULL	0	Door	Tür	FNV-Original
 OldWorldBlues.esm	0101530C	NVDLC03X13VREntDoor	DOOR	FULL	0	Door	Tür	FNV-Original
@@ -131893,6 +132036,7 @@ PointLookout.esm	0A010302	CaucasianTribal	RACE	FULL	0	Caucasian	Weiß	FO3-Origin
 PointLookout.esm	0A010303	HispanicTribal	RACE	FULL	0	Hispanic	Latino	FO3-Original
 PointLookout.esm	0A00D1EB	DLC04BioGasGrenadeEffect	MGEF	FULL	0	Poison Gas Damage	Giftgasschaden	FO3-Original
 PointLookout.esm	0A00ED10	DLC04DismembererMagicEffect	MGEF	FULL	0	Dismember	Amputierer	FO3-Original
+PointLookout.esm	0A0106B3	DLC04ReaverGlowEffect	MGEF	FULL	0	Radioactive Burning	Radioaktiver Brand	Korrektur (offiziell englisch gelassen/fehlerhaft, Claude)
 PointLookout.esm	0A00D1EA	DLC04EnchBioGasCloud	ENCH	FULL	0	Poison Gas	Giftgas	FO3-Original
 PointLookout.esm	0A00D5A7	DLC04EnchFertilizerShovel	ENCH	FULL	0	Fertilizer Shovel	Düngemittelschaufel	FO3-Original
 PointLookout.esm	0A00D5BB	DLC04EnchClothingDesmondGlasses	ENCH	FULL	0	Desmond Glasses	Desmonds Brille	FO3-Original
@@ -132374,6 +132518,13 @@ PointLookout.esm	0A00ED0F	DLC04WeapUniqueDismemberer	WEAP	FULL	0	The Dismemberer
 PointLookout.esm	0A00ED14	DLC04WeapUniqueRewardRifle	WEAP	FULL	0	Backwater Rifle	Hinterwäldlergewehr	FO3-Original
 PointLookout.esm	0A0106B0	DLC04GhoulGrenade	WEAP	FULL	0	Radioactive Gore	Radioaktives Blut	FO3-Original
 PointLookout.esm	0A01098A	DLC04WeapRitualKnife	WEAP	FULL	0	Ritual Knife	Ritualmesser	FO3-Original
+PointLookout.esm	0A0125F5	DLC04WeapKnifeNonPlayable	WEAP	FULL	0	Knife	Messer	Korrektur (offiziell englisch gelassen/fehlerhaft, Claude)
+PointLookout.esm	0A0125F6	DLC04WeapKnifeCombatNonPlayable	WEAP	FULL	0	Combat Knife	Kampfmesser	Korrektur (offiziell englisch gelassen/fehlerhaft, Claude)
+PointLookout.esm	0A0125F7	DLC04WeapTireIronNonPlayable	WEAP	FULL	0	Tire Iron	Kreuzschlüssel	Korrektur (offiziell englisch gelassen/fehlerhaft, Claude)
+PointLookout.esm	0A0125F8	DLC04WeapLeadPipeNonPlayable	WEAP	FULL	0	Lead Pipe	Bleirohr	Korrektur (offiziell englisch gelassen/fehlerhaft, Claude)
+PointLookout.esm	0A0125F9	DLC04WeapHuntingRifleNonPlayable	WEAP	FULL	0	Hunting Rifle	Jagdgewehr	Korrektur (offiziell englisch gelassen/fehlerhaft, Claude)
+PointLookout.esm	0A0125FA	DLC04WeapBaseballBatNonPlayable	WEAP	FULL	0	Baseball Bat	Baseballschläger	Korrektur (offiziell englisch gelassen/fehlerhaft, Claude)
+PointLookout.esm	0A0125FB	DLC04WeapBBGunNonPlayable	WEAP	FULL	0	BB Gun	Luftgewehr	Korrektur (offiziell englisch gelassen/fehlerhaft, Claude)
 PointLookout.esm	0A00DA30	DLC04AmmoSwamplurkSpit	AMMO	FULL	0	Missile	Rakete	FO3-Original
 PointLookout.esm	0A005A39	DLC04TheBrainNPC	NPC_	FULL	0	The Brain	Das Gehirn	FO3-Original
 PointLookout.esm	0A006634	DLC04Tobar	NPC_	FULL	0	Tobar the Ferryman	Fährmann Tobar	FO3-Original
@@ -132551,24 +132702,32 @@ PointLookout.esm	0A00F8DE	DLC04BanditExecuted01	NPC_	FULL	0	Bandit	Schmuggler	FO
 PointLookout.esm	0A00F8DF	DLC04BanditExecutioner01	NPC_	FULL	0	Bandit	Schmuggler	FO3-Original
 PointLookout.esm	0A00F9F3	DLC04MisterBurke	NPC_	FULL	0	Mister Break	Mister Börk	FO3-Original
 PointLookout.esm	0A01039F	DLC04BogCorpseDeadSettler	NPC_	FULL	0	Dead Settler	Toter Siedler	FO3-Original
+PointLookout.esm	0A006BF3	DLC04CrBrainDefenseTurret	CREA	FULL	0	Mark I Turret	Mark I-Geschützturm	Korrektur (offiziell englisch gelassen/fehlerhaft, Claude)
 PointLookout.esm	0A00732E	DLC04FF05Protectron	CREA	FULL	0	Protectron	Protektron	FO3-Original
 PointLookout.esm	0A008807	DLC04CrSwampGhoul	CREA	FULL	0	Swamp Ghoul	Sumpfghul	FO3-Original
 PointLookout.esm	0A009C09	DLC04FF06GhoulPassive	CREA	FULL	0	Feral Ghoul	Sumpfghul	FO3-Original
 PointLookout.esm	0A00A56C	DLC04crSwamplurkQueen	CREA	FULL	0	Swamplurk	Sumpflurk	FO3-Original
 PointLookout.esm	0A00ADAE	DLC04LabProtectron	CREA	FULL	0	Protectron	Protektron	FO3-Original
 PointLookout.esm	0A00AE24	DLC04LabProtectronActive	CREA	FULL	0	Protectron	Protektron	FO3-Original
+PointLookout.esm	0A00B850	DLC04LabProtectronBrain	CREA	FULL	0	Protectron	Protektron	Korrektur (offiziell englisch gelassen/fehlerhaft, Claude)
 PointLookout.esm	0A00D5D7	DLC04LabRobobrainSentry	CREA	FULL	0	Robobrain Sentry	Robohirnwache	FO3-Original
 PointLookout.esm	0A00E1A1	DLC04LabRoundRoomRobobrainSentry	CREA	FULL	0	Robobrain Sentry	Robohirnwache	FO3-Original
 PointLookout.esm	0A00E76E	DLC04crSwampFolk1Ranged	CREA	FULL	0	Scrapper	Randalierer	FO3-Original
 PointLookout.esm	0A00E76F	DLC04crSwampFolk3Ranged	CREA	FULL	0	Creeper	Leisetreter	FO3-Original
 PointLookout.esm	0A00E770	DLC04crSwampFolk5Melee	CREA	FULL	0	Bruiser	Schläger	FO3-Original
 PointLookout.esm	0A00E771	DLC04crSwampFolk2Ranged	CREA	FULL	0	Brawler	Raufbold	FO3-Original
+PointLookout.esm	0A00EA7E	DLC04StoreProtectron	CREA	FULL	0	Protectron	Protektron	Korrektur (offiziell englisch gelassen/fehlerhaft, Claude)
+PointLookout.esm	0A00EA7F	DLC04CrProtectron	CREA	FULL	0	Protectron	Protektron	Korrektur (offiziell englisch gelassen/fehlerhaft, Claude)
 PointLookout.esm	0A00FAE2	DLC04BlackhallManorSwampFolk03DEAD	CREA	FULL	0	Swampfolk Creeper	Leisetreter	FO3-Original
+PointLookout.esm	0A010346	DLC04CrDogVicious	CREA	FULL	0	Vicious Dog	Bissiger Hund	Korrektur (offiziell englisch gelassen/fehlerhaft, Claude)
+PointLookout.esm	0A01034B	DLC04CrBloatFly	CREA	FULL	0	Bloatfly	Blähfliege	Korrektur (offiziell englisch gelassen/fehlerhaft, Claude)
+PointLookout.esm	0A01034D	DLC04CrMoleRat	CREA	FULL	0	Mole Rat	Maulwurfsratte	Korrektur (offiziell englisch gelassen/fehlerhaft, Claude)
 PointLookout.esm	0A0106AD	DLC04CrFeralGhoul4A	CREA	FULL	0	Feral Ghoul Reaver	Wildghul-Reaver	FO3-Original
 PointLookout.esm	0A0107B9	DLC04crSwampFolk1Melee	CREA	FULL	0	Scrapper	Randalierer	FO3-Original
 PointLookout.esm	0A0107BA	DLC04crSwampFolk2Melee	CREA	FULL	0	Brawler	Raufbold	FO3-Original
 PointLookout.esm	0A0107BB	DLC04crSwampFolk3Melee	CREA	FULL	0	Creeper	Leisetreter	FO3-Original
 PointLookout.esm	0A0107BC	DLC04crSwampFolk4Melee	CREA	FULL	0	Tracker	Fährtenleser	FO3-Original
+PointLookout.esm	0A010ADD	DLC04IntroCrDogVicious	CREA	FULL	0	Vicious Dog	Bissiger Hund	Korrektur (offiziell englisch gelassen/fehlerhaft, Claude)
 PointLookout.esm	0A011098	DLC04staticShotgunScrapper	CREA	FULL	0	Swampfolk Scrapper	Randalierer	FO3-Original
 PointLookout.esm	0A01115C	DLC04crSwampFolk1MeleeNoRespawn	CREA	FULL	0	Scrapper	Randalierer	FO3-Original
 PointLookout.esm	0A01115D	DLC04crSwampFolk1RangedNoRespawn	CREA	FULL	0	Scrapper	Randalierer	FO3-Original
@@ -132578,6 +132737,7 @@ PointLookout.esm	0A011160	DLC04crSwampFolk3MeleeNoRespawn	CREA	FULL	0	Creeper	Le
 PointLookout.esm	0A011161	DLC04crSwampFolk3RangedNoRespawn	CREA	FULL	0	Creeper	Leisetreter	FO3-Original
 PointLookout.esm	0A011162	DLC04crSwampFolk4MeleeNoRespawn	CREA	FULL	0	Tracker	Fährtenleser	FO3-Original
 PointLookout.esm	0A011163	DLC04crSwampFolk5MeleeNoRespawn	CREA	FULL	0	Bruiser	Schläger	FO3-Original
+PointLookout.esm	0A0116F6	DLC04BogHallucinationGhoul	CREA	FULL	0	Swamp Ghoul	Sumpfghul	Korrektur (offiziell englisch gelassen/fehlerhaft, Claude)
 PointLookout.esm	0A005B72	DLC04FF05LockerKey	KEYM	FULL	0	Locker Key	Spindschlüssel	FO3-Original
 PointLookout.esm	0A0072F7	DLC04DuchessGambitKey	KEYM	FULL	0	Duchess Gambit Key	Schlüssel der Herzogin Gambit	FO3-Original
 PointLookout.esm	0A00A869	DLC04SeaCaveKey	KEYM	FULL	0	Sea Cave Key	Seehöhlenschlüssel	FO3-Original
@@ -137697,6 +137857,7 @@ TaleOfTwoWastelands.esm	0B006940	DLC05SamuraiArmor	ARMO	FULL	0	Samurai Armor	Sam
 TaleOfTwoWastelands.esm	0B00A9A1	DLC05ArmorCombatMedic	ARMO	FULL	0	Winterized Medic Armor	Wintertaugliche Arztrüstung	FO3-Original
 TaleOfTwoWastelands.esm	0B00A9A2	DLC05ArmorCombatHelmet	ARMO	FULL	0	Winterized Medic Helmet	Wintertauglicher Arzthelm	FO3-Original
 TaleOfTwoWastelands.esm	0B00AB6D	DLC05GeneralChasesOvercoat	ARMO	FULL	0	General Chase's Overcoat	Mantel von General Chase	FO3-Original
+TaleOfTwoWastelands.esm	0B00BB63	DLC05SpacesuitHelmet	ARMO	FULL	0	Astronaut Helmet	Astronautenhelm	Korrektur (offiziell englisch gelassen/fehlerhaft, Claude)
 TaleOfTwoWastelands.esm	0B00C96D	DLC05GeneralCoat	ARMO	FULL	0	General Chase's Overcoat	Mantel von General Chase	FO3-Woerterbuch
 TaleOfTwoWastelands.esm	0C0028DB	ArmorPowerPinkT45d	ARMO	FULL	0	Love Machine T-45d Power Armor	Liebesmaschinen-T-45d-Powerrüstung	Neu uebersetzt (Claude)
 TaleOfTwoWastelands.esm	0C0028DC	ArmorPowerPinkT45dHelmet	ARMO	FULL	0	Love Machine T-45d Power Helmet	Liebesmaschinen-T-45d-Powerhelm	Neu uebersetzt (Claude)
@@ -138665,6 +138826,7 @@ TaleOfTwoWastelands.esm	0400A606	NVDLC04WeapBowieKnifeUnique	WEAP	FULL	0	Blood-N
 TaleOfTwoWastelands.esm	0400A864	NVDLC04WeapUlyssesEyebotHealGun	WEAP	FULL	0	Heal Zap	Heilblitz	FNV-Original
 TaleOfTwoWastelands.esm	0400CA88	NVDLC04WeapDeathclawGauntletUniqueWildWasteland	WEAP	FULL	0	Fist of the North Rawr	Faust des Nord-Rawr	FNV-Original
 TaleOfTwoWastelands.esm	0400CA89	NVDLC04WeapDeathclawGauntletUnique	WEAP	FULL	0	Fist of Rawr	Faust des Rawr	FNV-Original
+TaleOfTwoWastelands.esm	0400E1F7	NVDLC04WeapTrailCarbineNoDrop	WEAP	FULL	0	Trail Carbine	Trapperbüchse	Korrektur (offiziell englisch gelassen/fehlerhaft, Claude)
 TaleOfTwoWastelands.esm	05000802	NVDLC05WeapNVRechargerPistolUnique	WEAP	FULL	0	MF Hyperbreeder Alpha	MF-Hyperzüchter Alpha (ADW)	FNV-Original (EN-Text von TTW/YUP leicht geaendert)
 TaleOfTwoWastelands.esm	05000803	NVDLC05WeapGatlingLaserUnique	WEAP	FULL	0	Sprtel-Wood 9700	Sprtel-Holz 9700 (ADW)	FNV-Original (EN-Text von TTW/YUP leicht geaendert)
 TaleOfTwoWastelands.esm	05000805	NVDLC05WeapNV127mmPistolUnique	WEAP	FULL	0	Li'l Devil	Kleiner Teufel	Neu uebersetzt (Claude)
@@ -138824,7 +138986,13 @@ TaleOfTwoWastelands.esm	0A00ED0F	DLC04WeapUniqueDismemberer	WEAP	FULL	0	The Dism
 TaleOfTwoWastelands.esm	0A00ED14	DLC04WeapUniqueRewardRifle	WEAP	FULL	0	Backwater Rifle	Hinterwäldlergewehr	FO3-Original
 TaleOfTwoWastelands.esm	0A0106B0	DLC04GhoulGrenade	WEAP	FULL	0	Radioactive Gore	Radioaktives Blut	FO3-Original
 TaleOfTwoWastelands.esm	0A01098A	DLC04WeapRitualKnife	WEAP	FULL	0	Ritual Knife	Ritualmesser	FO3-Original
+TaleOfTwoWastelands.esm	0A0125F5	DLC04WeapKnifeNonPlayable	WEAP	FULL	0	Knife	Messer	Korrektur (offiziell englisch gelassen/fehlerhaft, Claude)
+TaleOfTwoWastelands.esm	0A0125F6	DLC04WeapKnifeCombatNonPlayable	WEAP	FULL	0	Combat Knife	Kampfmesser	Korrektur (offiziell englisch gelassen/fehlerhaft, Claude)
+TaleOfTwoWastelands.esm	0A0125F7	DLC04WeapTireIronNonPlayable	WEAP	FULL	0	Tire Iron	Kreuzschlüssel	Korrektur (offiziell englisch gelassen/fehlerhaft, Claude)
+TaleOfTwoWastelands.esm	0A0125F8	DLC04WeapLeadPipeNonPlayable	WEAP	FULL	0	Lead Pipe	Bleirohr	Korrektur (offiziell englisch gelassen/fehlerhaft, Claude)
 TaleOfTwoWastelands.esm	0A0125F9	DLC04WeapHuntingRifleNonPlayable	WEAP	FULL	0	.32 Rifle	.32-Gewehr	Neu uebersetzt (Claude)
+TaleOfTwoWastelands.esm	0A0125FA	DLC04WeapBaseballBatNonPlayable	WEAP	FULL	0	Baseball Bat	Baseballschläger	Korrektur (offiziell englisch gelassen/fehlerhaft, Claude)
+TaleOfTwoWastelands.esm	0A0125FB	DLC04WeapBBGunNonPlayable	WEAP	FULL	0	BB Gun	Luftgewehr	Korrektur (offiziell englisch gelassen/fehlerhaft, Claude)
 TaleOfTwoWastelands.esm	0B00083B	DLC05WeapSamuraiSword	WEAP	FULL	0	Samurai's Sword	Schwert des Samurai	FO3-Original
 TaleOfTwoWastelands.esm	0B00083D	DLC05WeapBaton	WEAP	FULL	0	Shock Baton	Elektroschockstab	FO3-Original
 TaleOfTwoWastelands.esm	0B00083F	DLC05WeapPistol	WEAP	FULL	0	Alien Atomizer	Alien-Atomisator	FO3-Original
@@ -139971,6 +140139,9 @@ TaleOfTwoWastelands.esm	0400D1AE	NVDLC04DeadSniper02	NPC_	FULL	0	NCR Riot Contro
 TaleOfTwoWastelands.esm	0400D312	NVDLC04Dad	NPC_	FULL	0	The Father	Der Vater	FNV-Original
 TaleOfTwoWastelands.esm	0400D313	NVDLC04Announcer	NPC_	FULL	0	Announcer	Ansager	FNV-Original
 TaleOfTwoWastelands.esm	0400D315	NVDLC04Kid	NPC_	FULL	0	The Child	Das Kind	FNV-Original
+TaleOfTwoWastelands.esm	0400D970	NVDLC04RoadTunnelDeadTrooper01	NPC_	FULL	0	NCR Trooper	RNK-Soldat	Korrektur (offiziell englisch gelassen/fehlerhaft, Claude)
+TaleOfTwoWastelands.esm	0400D971	NVDLC04RoadTunnelDeadTrooper02	NPC_	FULL	0	NCR Trooper	RNK-Soldat	Korrektur (offiziell englisch gelassen/fehlerhaft, Claude)
+TaleOfTwoWastelands.esm	0400D973	NVDLC04RoadTunnelDeadTrooper03	NPC_	FULL	0	NCR Ranger	RNK-Ranger	Korrektur (offiziell englisch gelassen/fehlerhaft, Claude)
 TaleOfTwoWastelands.esm	06000A6F	ConfessorCromwell	NPC_	FULL	0	Confessor Cromwell	Beichtvater Cromwell	FO3-Original
 TaleOfTwoWastelands.esm	06000A70	MotherMaya	NPC_	FULL	0	Mother Maya	Mutter Maya	FO3-Original
 TaleOfTwoWastelands.esm	06000A93	Outcast3GunAAFTEMPLATE	NPC_	FULL	0	Brotherhood Outcast	Brudersch.-Ausgestoßener	FO3-Original
@@ -140681,6 +140852,22 @@ TaleOfTwoWastelands.esm	0800B646	DLC01CombatSlaveAAF1TEMPLATE	NPC_	FULL	0	Pitt S
 TaleOfTwoWastelands.esm	0800B64E	DLC01CombatSlaveAAF2TEMPLATE	NPC_	FULL	0	Pitt Slave	Pitt-Sklave	FO3-Original
 TaleOfTwoWastelands.esm	0800B656	DLC01CombatSlaveAAF3TEMPLATE	NPC_	FULL	0	Pitt Slave	Pitt-Sklave	FO3-Original
 TaleOfTwoWastelands.esm	09000909	DLC03BoSKnightGreeter	NPC_	FULL	0	Brotherhood of Steel Knight	Ritter der stählernen Bruderschaft	FO3-Original
+TaleOfTwoWastelands.esm	0900101E	DLC03Enclave4GunAAFTEMPLATE	NPC_	FULL	0	Enclave Hellfire Trooper	Höllenfeuer-Soldatin der Enklave	Korrektur (offiziell englisch gelassen/fehlerhaft, Claude)
+TaleOfTwoWastelands.esm	0900101F	DLC03Enclave4GunAAM	NPC_	FULL	0	Enclave Hellfire Trooper	Höllenfeuer-Soldat der Enklave	Korrektur (offiziell englisch gelassen/fehlerhaft, Claude)
+TaleOfTwoWastelands.esm	09001020	DLC03Enclave4GunAF	NPC_	FULL	0	Enclave Hellfire Trooper	Höllenfeuer-Soldatin der Enklave	Korrektur (offiziell englisch gelassen/fehlerhaft, Claude)
+TaleOfTwoWastelands.esm	09001021	DLC03Enclave4GunAM	NPC_	FULL	0	Enclave Hellfire Trooper	Höllenfeuer-Soldat der Enklave	Korrektur (offiziell englisch gelassen/fehlerhaft, Claude)
+TaleOfTwoWastelands.esm	09001022	DLC03Enclave4GunCF	NPC_	FULL	0	Enclave Hellfire Trooper	Höllenfeuer-Soldatin der Enklave	Korrektur (offiziell englisch gelassen/fehlerhaft, Claude)
+TaleOfTwoWastelands.esm	09001023	DLC03Enclave4GunCM	NPC_	FULL	0	Enclave Hellfire Trooper	Höllenfeuer-Soldat der Enklave	Korrektur (offiziell englisch gelassen/fehlerhaft, Claude)
+TaleOfTwoWastelands.esm	09001024	DLC03Enclave4GunHF	NPC_	FULL	0	Enclave Hellfire Trooper	Höllenfeuer-Soldatin der Enklave	Korrektur (offiziell englisch gelassen/fehlerhaft, Claude)
+TaleOfTwoWastelands.esm	09001025	DLC03Enclave4GunHM	NPC_	FULL	0	Enclave Hellfire Trooper	Höllenfeuer-Soldat der Enklave	Korrektur (offiziell englisch gelassen/fehlerhaft, Claude)
+TaleOfTwoWastelands.esm	09001026	DLC03Enclave4BigGunAAFTEMPLATE	NPC_	FULL	0	Enclave Hellfire Trooper	Höllenfeuer-Soldatin der Enklave	Korrektur (offiziell englisch gelassen/fehlerhaft, Claude)
+TaleOfTwoWastelands.esm	09001027	DLC03Enclave4BigGunAAM	NPC_	FULL	0	Enclave Hellfire Trooper	Höllenfeuer-Soldat der Enklave	Korrektur (offiziell englisch gelassen/fehlerhaft, Claude)
+TaleOfTwoWastelands.esm	09001028	DLC03Enclave4BigGunAF	NPC_	FULL	0	Enclave Hellfire Trooper	Höllenfeuer-Soldatin der Enklave	Korrektur (offiziell englisch gelassen/fehlerhaft, Claude)
+TaleOfTwoWastelands.esm	09001029	DLC03Enclave4BigGunAM	NPC_	FULL	0	Enclave Hellfire Trooper	Höllenfeuer-Soldat der Enklave	Korrektur (offiziell englisch gelassen/fehlerhaft, Claude)
+TaleOfTwoWastelands.esm	0900102A	DLC03Enclave4BigGunCF	NPC_	FULL	0	Enclave Hellfire Trooper	Höllenfeuer-Soldatin der Enklave	Korrektur (offiziell englisch gelassen/fehlerhaft, Claude)
+TaleOfTwoWastelands.esm	0900102B	DLC03Enclave4BigGunCM	NPC_	FULL	0	Enclave Hellfire Trooper	Höllenfeuer-Soldat der Enklave	Korrektur (offiziell englisch gelassen/fehlerhaft, Claude)
+TaleOfTwoWastelands.esm	0900102C	DLC03Enclave4BigGunHF	NPC_	FULL	0	Enclave Hellfire Trooper	Höllenfeuer-Soldatin der Enklave	Korrektur (offiziell englisch gelassen/fehlerhaft, Claude)
+TaleOfTwoWastelands.esm	0900102D	DLC03Enclave4BigGunHM	NPC_	FULL	0	Enclave Hellfire Trooper	Höllenfeuer-Soldat der Enklave	Korrektur (offiziell englisch gelassen/fehlerhaft, Claude)
 TaleOfTwoWastelands.esm	0900102E	DLC03Talon4GunAAMTEMPLATE	NPC_	FULL	0	Talon Company Merc	Söldner der Talon Company	FO3-Original
 TaleOfTwoWastelands.esm	0900102F	DLC03Talon4GunAM	NPC_	FULL	0	Talon Company Merc	Söldner der Talon Company	FO3-Original
 TaleOfTwoWastelands.esm	09001030	DLC03Talon4GunCM	NPC_	FULL	0	Talon Company Merc	Söldner der Talon Company	FO3-Original
@@ -140703,7 +140890,17 @@ TaleOfTwoWastelands.esm	09001D3E	DLC03EncounterPPBrotherhood2	NPC_	FULL	0	Brothe
 TaleOfTwoWastelands.esm	0900264E	DLC03EncounterMegScavenger	NPC_	FULL	0	Scavenger	Sammler	FO3-Original
 TaleOfTwoWastelands.esm	09002764	DLC03EncounterTPScavenger	NPC_	FULL	0	Scavenger	Sammler	FO3-Original
 TaleOfTwoWastelands.esm	09002782	DLC03Enclave4NapalmAAFTEMPLATE	NPC_	FULL	0	Enclave Hellfire Trooper	Soldat der Enklave	FO3-Original
+TaleOfTwoWastelands.esm	09002783	DLC03Enclave4NapalmAAM	NPC_	FULL	0	Enclave Hellfire Trooper	Höllenfeuer-Soldat der Enklave	Korrektur (offiziell englisch gelassen/fehlerhaft, Claude)
+TaleOfTwoWastelands.esm	09002784	DLC03Enclave4NapalmAF	NPC_	FULL	0	Enclave Hellfire Trooper	Höllenfeuer-Soldatin der Enklave	Korrektur (offiziell englisch gelassen/fehlerhaft, Claude)
+TaleOfTwoWastelands.esm	09002785	DLC03Enclave4NapalmAM	NPC_	FULL	0	Enclave Hellfire Trooper	Höllenfeuer-Soldat der Enklave	Korrektur (offiziell englisch gelassen/fehlerhaft, Claude)
+TaleOfTwoWastelands.esm	09002786	DLC03Enclave4NapalmCF	NPC_	FULL	0	Enclave Hellfire Trooper	Höllenfeuer-Soldatin der Enklave	Korrektur (offiziell englisch gelassen/fehlerhaft, Claude)
+TaleOfTwoWastelands.esm	09002787	DLC03Enclave4NapalmCM	NPC_	FULL	0	Enclave Hellfire Trooper	Höllenfeuer-Soldat der Enklave	Korrektur (offiziell englisch gelassen/fehlerhaft, Claude)
+TaleOfTwoWastelands.esm	09002788	DLC03Enclave4NapalmHF	NPC_	FULL	0	Enclave Hellfire Trooper	Höllenfeuer-Soldatin der Enklave	Korrektur (offiziell englisch gelassen/fehlerhaft, Claude)
+TaleOfTwoWastelands.esm	09002789	DLC03Enclave4NapalmHM	NPC_	FULL	0	Enclave Hellfire Trooper	Höllenfeuer-Soldat der Enklave	Korrektur (offiziell englisch gelassen/fehlerhaft, Claude)
 TaleOfTwoWastelands.esm	0900292E	DLC03AFBBoSMinigunFodder01	NPC_	FULL	0	Brotherhood of Steel Paladin	Paladin der stählernen Bruderschaft	FO3-Original
+TaleOfTwoWastelands.esm	0900292F	DLC03AFBEnclaveGatlingFodder01	NPC_	FULL	0	Enclave Soldier	Soldat der Enklave	Korrektur (offiziell englisch gelassen/fehlerhaft, Claude)
+TaleOfTwoWastelands.esm	09002930	DLC03AFBEnclaveGatlingFodder02	NPC_	FULL	0	Enclave Soldier	Soldat der Enklave	Korrektur (offiziell englisch gelassen/fehlerhaft, Claude)
+TaleOfTwoWastelands.esm	09002931	DLC03AFBEnclaveGatlingFodder03	NPC_	FULL	0	Enclave Soldier	Soldat der Enklave	Korrektur (offiziell englisch gelassen/fehlerhaft, Claude)
 TaleOfTwoWastelands.esm	09002932	DLC03AFBBoSMinigunFodder02	NPC_	FULL	0	Brotherhood of Steel Paladin	Paladin der stählernen Bruderschaft	FO3-Original
 TaleOfTwoWastelands.esm	09002933	DLC03AFBBoSMinigunFodder03	NPC_	FULL	0	Brotherhood of Steel Paladin	Paladin der stählernen Bruderschaft	FO3-Original
 TaleOfTwoWastelands.esm	09002DC0	DLC03BS1KnightGuard1	NPC_	FULL	0	Brotherhood of Steel Knight	Ritter der stählernen Bruderschaft	FO3-Original
@@ -140727,6 +140924,9 @@ TaleOfTwoWastelands.esm	09005C1A	DLC03WQ02GhoulC	NPC_	FULL	0	Underworld Resident
 TaleOfTwoWastelands.esm	09005C1B	DLC03WQ02GhoulD	NPC_	FULL	0	Underworld Resident	Underworld-Ansässiger	FO3-Original
 TaleOfTwoWastelands.esm	09005C1C	DLC03WQ02GhoulA	NPC_	FULL	0	Underworld Resident	Underworld-Ansässiger	FO3-Original
 TaleOfTwoWastelands.esm	09005C1D	DLC03WQ02GhoulB	NPC_	FULL	0	Underworld Resident	Underworld-Ansässiger	FO3-Original
+TaleOfTwoWastelands.esm	09005C4C	DLC03AFBFight02EnclaveGatlingFodder01	NPC_	FULL	0	Enclave Soldier	Soldat der Enklave	Korrektur (offiziell englisch gelassen/fehlerhaft, Claude)
+TaleOfTwoWastelands.esm	09005C4D	DLC03AFBFight02EnclaveGatlingFodder02	NPC_	FULL	0	Enclave Soldier	Soldat der Enklave	Korrektur (offiziell englisch gelassen/fehlerhaft, Claude)
+TaleOfTwoWastelands.esm	09005C4E	DLC03AFBFight02EnclaveGatlingFodder03	NPC_	FULL	0	Enclave Soldier	Soldat der Enklave	Korrektur (offiziell englisch gelassen/fehlerhaft, Claude)
 TaleOfTwoWastelands.esm	09005C53	DLC03AFBFight02BoSMinigunFodder01	NPC_	FULL	0	Brotherhood of Steel Paladin	Paladin der stählernen Bruderschaft	FO3-Original
 TaleOfTwoWastelands.esm	09005C56	DLC03AFBFight02BoSMinigunFodder02	NPC_	FULL	0	Brotherhood of Steel Paladin	Paladin der stählernen Bruderschaft	FO3-Original
 TaleOfTwoWastelands.esm	09005C57	DLC03AFBFight02BoSMinigunFodder03	NPC_	FULL	0	Brotherhood of Steel Paladin	Paladin der stählernen Bruderschaft	FO3-Original
@@ -140750,6 +140950,11 @@ TaleOfTwoWastelands.esm	0900B823	DLC03WQ03BrotherGerardGhoul	NPC_	FULL	0	Brother
 TaleOfTwoWastelands.esm	0900BB31	DLC03WQWaterDriverA	NPC_	FULL	0	Water Caravan Driver	Wasserkarawanenführer	FO3-Original
 TaleOfTwoWastelands.esm	0900BB32	DLC03WQWaterDriverB	NPC_	FULL	0	Water Caravan Driver	Wasserkarawanenführer	FO3-Original
 TaleOfTwoWastelands.esm	0900C915	DLC03EnclavePlatformDead	NPC_	FULL	0	Dead Enclave Soldier	Enclave Soldier	FO3-Original (EN-Text von TTW/YUP leicht geaendert)
+TaleOfTwoWastelands.esm	0900CF30	DLC03EnclaveCarTunnelDead1	NPC_	FULL	0	Enclave Soldier	Soldat der Enklave	Korrektur (offiziell englisch gelassen/fehlerhaft, Claude)
+TaleOfTwoWastelands.esm	0900CF31	DLC03EnclaveCarTunnelDead2	NPC_	FULL	0	Enclave Soldier	Soldat der Enklave	Korrektur (offiziell englisch gelassen/fehlerhaft, Claude)
+TaleOfTwoWastelands.esm	0900CF33	DLC03EnclaveCarTunnelDeadLooted1	NPC_	FULL	0	Enclave Soldier	Soldat der Enklave	Korrektur (offiziell englisch gelassen/fehlerhaft, Claude)
+TaleOfTwoWastelands.esm	0900CF34	DLC03EnclaveCarTunnelDeadLooted2	NPC_	FULL	0	Enclave Soldier	Soldat der Enklave	Korrektur (offiziell englisch gelassen/fehlerhaft, Claude)
+TaleOfTwoWastelands.esm	0900CF35	DLC03EnclaveCarTunnelDeadWorkBench	NPC_	FULL	0	Enclave Soldier	Soldat der Enklave	Korrektur (offiziell englisch gelassen/fehlerhaft, Claude)
 TaleOfTwoWastelands.esm	0A005A39	DLC04TheBrainNPC	NPC_	FULL	0	The Brain	Das Gehirn	FO3-Original
 TaleOfTwoWastelands.esm	0A00B7F4	DLC04LvlManTribalCountDead	NPC_	FULL	0	Tribal	Stammesangehöriger	FO3-Woerterbuch
 TaleOfTwoWastelands.esm	0A00E27A	DLC04BogCorpseElderLyons	NPC_	FULL	0	Elder Lyons	Ältester Lyons	FO3-Original
@@ -140863,10 +141068,13 @@ TaleOfTwoWastelands.esm	0C007CF5	DLC02StrikeTeamMU1D	NPC_	FULL	0	Strike Team Mis
 TaleOfTwoWastelands.esm	0C007CF6	DLC02StrikeTeamSN1B	NPC_	FULL	0	Strike Team Sniper	Heckenschütze des Einsatzteams	FO3-Woerterbuch
 TaleOfTwoWastelands.esm	0C007CF7	DLC02StrikeTeamSN1C	NPC_	FULL	0	Strike Team Sniper	Heckenschütze des Einsatzteams	FO3-Woerterbuch
 TaleOfTwoWastelands.esm	0C007CF8	DLC02StrikeTeamSN1D	NPC_	FULL	0	Strike Team Sniper	Heckenschütze des Einsatzteams	FO3-Woerterbuch
+TaleOfTwoWastelands.esm	0C007CFB	DLC03Enclave4GunAAF	NPC_	FULL	0	Enclave Hellfire Trooper	Höllenfeuer-Soldatin der Enklave	Korrektur (offiziell englisch gelassen/fehlerhaft, Claude)
+TaleOfTwoWastelands.esm	0C007CFC	DLC03Enclave4BigGunAAF	NPC_	FULL	0	Enclave Hellfire Trooper	Höllenfeuer-Soldatin der Enklave	Korrektur (offiziell englisch gelassen/fehlerhaft, Claude)
 TaleOfTwoWastelands.esm	0C007CFD	DLC03Talon4GunAAM	NPC_	FULL	0	Talon Company Merc	Söldner der Talon Company	FO3-Woerterbuch
 TaleOfTwoWastelands.esm	0C007CFE	DLC03Talon4MeleeAAM	NPC_	FULL	0	Talon Company Merc	Söldner der Talon Company	FO3-Woerterbuch
 TaleOfTwoWastelands.esm	0C007CFF	DLC03Talon4SniperAAM	NPC_	FULL	0	Talon Company Merc	Söldner der Talon Company	FO3-Woerterbuch
 TaleOfTwoWastelands.esm	0C007D00	DLC03Talon4MissileAAM	NPC_	FULL	0	Talon Company Merc	Söldner der Talon Company	FO3-Woerterbuch
+TaleOfTwoWastelands.esm	0C007D01	DLC03Enclave4NapalmAAF	NPC_	FULL	0	Enclave Hellfire Trooper	Höllenfeuer-Soldatin der Enklave	Korrektur (offiziell englisch gelassen/fehlerhaft, Claude)
 TaleOfTwoWastelands.esm	0C007D03	DLC04TribalMelee2FA	NPC_	FULL	0	Tribal	Stammesangehöriger	FO3-Woerterbuch
 TaleOfTwoWastelands.esm	0C007D04	DLC04TribalMelee3FA	NPC_	FULL	0	Tribal	Stammesangehöriger	FO3-Woerterbuch
 TaleOfTwoWastelands.esm	0C007D05	DLC04TribalMelee4FA	NPC_	FULL	0	Tribal	Stammesangehöriger	FO3-Woerterbuch
@@ -141413,6 +141621,7 @@ TaleOfTwoWastelands.esm	0017283A	VCrTier5FeralGhoul4A	CREA	FULL	0	Feral Ghoul Re
 TaleOfTwoWastelands.esm	0017283C	VCrTier5NightStalkerMed	CREA	FULL	0	Nightstalker	Nachtpirscher	FNV-Woerterbuch
 TaleOfTwoWastelands.esm	0017283E	VCrGiantRatTier3RatCave	CREA	FULL	0	Giant Rat	Riesenratte	FNV-Original
 TaleOfTwoWastelands.esm	0017391A	VCrUniqueTier5DeathClawLarge03NRPers	CREA	FULL	0	Deathclaw Mother	Todeskrallen-Mutter	FNV-Original
+TaleOfTwoWastelands.esm	00173FD6	V34TurretCeiling01	CREA	FULL	0	Vault-Tec Turret	Vault-Tec-Geschützturm	Korrektur (offiziell englisch gelassen/fehlerhaft, Claude)
 TaleOfTwoWastelands.esm	001745E3	VSpawnSpecialTier4DeathclawSmallGypsum	CREA	FULL	0	Blind Deathclaw	Blinde Todeskralle	FNV-Original
 TaleOfTwoWastelands.esm	0017AF3F	CrSuperMutantDeadCazadorJacobstown	CREA	FULL	0	Super Mutant Master	Supermutantenanführer	FNV-Original
 TaleOfTwoWastelands.esm	0017AF40	CrSuperMutantDeadFireGeckoNopah	CREA	FULL	0	Super Mutant Master	Supermutantenanführer	FNV-Original
@@ -141843,6 +142052,7 @@ TaleOfTwoWastelands.esm	0800A84A	DLC01DeadProtectron	CREA	FULL	0	Factory Protect
 TaleOfTwoWastelands.esm	0800A93B	DLC01GenericFactoryProtectron02	CREA	FULL	0	Factory Protectron	Fabrik-Protektron	FO3-Original
 TaleOfTwoWastelands.esm	0800A93C	DLC01SteelyardProtectron	CREA	FULL	0	Factory Protectron	Fabrik-Protektron	FO3-Original
 TaleOfTwoWastelands.esm	09004C16	DLC03EncounterADOutcastA1	CREA	FULL	0	Outcast Sentry Bot	Wachbot der Ausgestoßenen	Neu uebersetzt (Claude)
+TaleOfTwoWastelands.esm	090064A3	DLC03PresMetroGhoul01DEAD	CREA	FULL	0	Feral Ghoul	Wilder Ghul	Korrektur (offiziell englisch gelassen/fehlerhaft, Claude)
 TaleOfTwoWastelands.esm	090064A5	DLC03PresMetroGhoul02DEAD	CREA	FULL	0	Feral Ghoul	Wilder Ghul	FO3-Original
 TaleOfTwoWastelands.esm	090064D6	DLC03PresMetroLvlRobotBoss	CREA	FULL	0	Presidential Metro Sentinel Unit	Präsidentenmetrowacheinheit	FO3-Original (EN-Text von TTW/YUP leicht geaendert)
 TaleOfTwoWastelands.esm	09006520	DLC03WQ03SunOfAtom	CREA	FULL	0	Atom's Champion	Champion des Atoms	FO3-Original
@@ -141852,15 +142062,20 @@ TaleOfTwoWastelands.esm	09008CBD	DLC03SentryBotGLEnclaveMB	CREA	FULL	0	Enclave S
 TaleOfTwoWastelands.esm	09008CCF	DLC03CrTurret04EnclaveMB	CREA	FULL	0	Mark VIII Turret	Geschützturm Mark VIII	FO3-Original
 TaleOfTwoWastelands.esm	0900946B	DLC03DeathClawEnclaveBase	CREA	FULL	0	Deathclaw	Todeskralle	FO3-Original
 TaleOfTwoWastelands.esm	0900AD89	DLC03CrRadscorpion3Albino	CREA	FULL	0	Albino Radscorpion	Albino-RAD-Skorpion	FO3-Original
+TaleOfTwoWastelands.esm	0900CF37	DLC03zCarTunnelTurretDC	CREA	FULL	0	Mark VI Turret	Mark VI-Geschützturm	Korrektur (offiziell englisch gelassen/fehlerhaft, Claude)
+TaleOfTwoWastelands.esm	0A006BF3	DLC04CrBrainDefenseTurret	CREA	FULL	0	Mark I Turret	Mark I-Geschützturm	Korrektur (offiziell englisch gelassen/fehlerhaft, Claude)
 TaleOfTwoWastelands.esm	0A008807	DLC04CrSwampGhoul	CREA	FULL	0	Swamp Ghoul	Sumpfghul	FO3-Original
+TaleOfTwoWastelands.esm	0A009C09	DLC04FF06GhoulPassive	CREA	FULL	0	Swamp Ghoul	Sumpfghul	Korrektur (offiziell englisch gelassen/fehlerhaft, Claude)
 TaleOfTwoWastelands.esm	0A00A56C	DLC04crSwamplurkQueen	CREA	FULL	0	Swamplurk Queen	Sumpflurk-Königin	Neu uebersetzt (Claude)
 TaleOfTwoWastelands.esm	0A00ADAE	DLC04LabProtectron	CREA	FULL	0	Protectron	Protektron	FO3-Original
+TaleOfTwoWastelands.esm	0A00B850	DLC04LabProtectronBrain	CREA	FULL	0	Protectron	Protektron	Korrektur (offiziell englisch gelassen/fehlerhaft, Claude)
 TaleOfTwoWastelands.esm	0A00D5D7	DLC04LabRobobrainSentry	CREA	FULL	0	Robobrain Sentry	Robohirnwache	FO3-Original
 TaleOfTwoWastelands.esm	0A00E1A1	DLC04LabRoundRoomRobobrainSentry	CREA	FULL	0	Robobrain Sentry	Robohirnwache	FO3-Original
 TaleOfTwoWastelands.esm	0A00E76E	DLC04crSwampFolk1Ranged	CREA	FULL	0	Scrapper	Randalierer	FO3-Original
 TaleOfTwoWastelands.esm	0A00E76F	DLC04crSwampFolk3Ranged	CREA	FULL	0	Creeper	Leisetreter	FO3-Original
 TaleOfTwoWastelands.esm	0A00E770	DLC04crSwampFolk5Melee	CREA	FULL	0	Bruiser	Schläger	FO3-Original
 TaleOfTwoWastelands.esm	0A00E771	DLC04crSwampFolk2Ranged	CREA	FULL	0	Brawler	Raufbold	FO3-Original
+TaleOfTwoWastelands.esm	0A00EA7E	DLC04StoreProtectron	CREA	FULL	0	Protectron	Protektron	Korrektur (offiziell englisch gelassen/fehlerhaft, Claude)
 TaleOfTwoWastelands.esm	0A00FAE2	DLC04BlackhallManorSwampFolk03DEAD	CREA	FULL	0	Creeper	Leisetreter	FO3-Woerterbuch
 TaleOfTwoWastelands.esm	0A0106AD	DLC04CrFeralGhoul4A	CREA	FULL	0	Feral Ghoul Reaver	Wildghul-Reaver	FO3-Original
 TaleOfTwoWastelands.esm	0A0107B9	DLC04crSwampFolk1Melee	CREA	FULL	0	Scrapper	Randalierer	FO3-Original
@@ -141868,6 +142083,7 @@ TaleOfTwoWastelands.esm	0A0107BA	DLC04crSwampFolk2Melee	CREA	FULL	0	Brawler	Rauf
 TaleOfTwoWastelands.esm	0A0107BB	DLC04crSwampFolk3Melee	CREA	FULL	0	Creeper	Leisetreter	FO3-Original
 TaleOfTwoWastelands.esm	0A0107BC	DLC04crSwampFolk4Melee	CREA	FULL	0	Tracker	Fährtenleser	FO3-Original
 TaleOfTwoWastelands.esm	0A011098	DLC04staticShotgunScrapper	CREA	FULL	0	Scrapper	Randalierer	FO3-Woerterbuch
+TaleOfTwoWastelands.esm	0A0116F6	DLC04BogHallucinationGhoul	CREA	FULL	0	Swamp Ghoul	Sumpfghul	Korrektur (offiziell englisch gelassen/fehlerhaft, Claude)
 TaleOfTwoWastelands.esm	0B0058C9	DLC05CrRobot1MeleeTemplate	CREA	FULL	0	Support Drone	Hilfsdrohne	FO3-Original
 TaleOfTwoWastelands.esm	0B0058CF	DLC05crTurret2	CREA	FULL	0	Turret	Geschützturm	FO3-Original
 TaleOfTwoWastelands.esm	0B0058D0	DLC05crTurret3	CREA	FULL	0	Turret	Geschützturm	FO3-Original
@@ -161492,12 +161708,14 @@ TaleOfTwoWastelands.esm	00044CB1	IntenseTraining	PERK	FULL	0	Intense Training	In
 TaleOfTwoWastelands.esm	00044CB1	IntenseTraining	PERK	DESC	0	With the Intense Training perk, you can put a single point into any of your S.P.E.C.I.A.L. attributes.	Mit dem Extra 'Intensives Training' können Sie eines Ihrer S.P.E.C.I.A.L.-Attribute um einen Punkt erhöhen.	FNV-Original
 TaleOfTwoWastelands.esm	00094EBC	Cannibal	PERK	FULL	0	Cannibal	Kannibale	FNV-Original
 TaleOfTwoWastelands.esm	00094EBC	Cannibal	PERK	DESC	0	With the Cannibal perk, when you're in Sneak mode, you gain the option to eat a corpse to regain Health. But every time you feed, you lose Karma, and if the act is witnessed, it is considered a crime against nature.	Sie erhalten im Schleichmodus die Möglichkeit, eine Leiche zu essen, um Gesundheit zurückzugewinnen. Allerdings verlieren Sie dabei Karma. Für eventuelle Beobachter ist dies ein Verbrechen gegen die Natur.	FNV-Original
+TaleOfTwoWastelands.esm	00094EBC	Cannibal	PERK	EPF2	0	Devour	Auffressen	Korrektur (offiziell englisch gelassen/fehlerhaft, Claude)
 TaleOfTwoWastelands.esm	00099834	GrimReaperSprint	PERK	FULL	0	Grim Reaper's Sprint	Sprint des Sensenmanns	FNV-Original
 TaleOfTwoWastelands.esm	00099834	GrimReaperSprint	PERK	DESC	0	If you kill a target in V.A.T.S., With rank one 20 Action Points are restored upon exiting V.A.T.S. With rank two all your Action Points are restored upon exiting V.A.T.S.	Wenn Sie ein Ziel im V.A.T.S.-Modus töten, werden auf Rang eins 20 Aktionspunkte wiederhergestellt, sobald Sie V.A.T.S. verlassen. Auf Rang zwei werden alle Ihre Aktionspunkte wiederhergestellt, sobald Sie V.A.T.S. verlassen.	Neu uebersetzt (Claude)
 TaleOfTwoWastelands.esm	00135EC8	TriggerDiscipline	PERK	FULL	0	Trigger Discipline	Ruhiger Finger	FNV-Original
 TaleOfTwoWastelands.esm	00135EC8	TriggerDiscipline	PERK	DESC	0	While using Guns and Energy Weapons, you fire 20% more slowly but are 20% more accurate.	Sie feuern Schuss- und Energiewaffen langsamer, aber genauer ab.	FNV-Original
 TaleOfTwoWastelands.esm	00135EC9	GhastlyScavenger	PERK	FULL	0	Ghastly Scavenger	Abartiger Aasfresser	FNV-Original
 TaleOfTwoWastelands.esm	00135EC9	GhastlyScavenger	PERK	DESC	0	With Ghastly Scavenger, when you're in Sneak mode, you gain the option to eat a Super Mutant or Feral Ghoul corpse to regain Health. Every time you feed, you lose Karma, and if the act is witnessed, it is considered a crime against nature.	Im Schleichmodus können Sie die Leiche eines Supermutanten oder wilden Ghuls essen, um Gesundheit zurückzugewinnen. Allerdings verlieren Sie dabei Karma. Für eventuelle Beobachter ist dies ein Verbrechen gegen die Natur.	FNV-Original
+TaleOfTwoWastelands.esm	00135EC9	GhastlyScavenger	PERK	EPF2	0	Devour	Auffressen	Korrektur (offiziell englisch gelassen/fehlerhaft, Claude)
 TaleOfTwoWastelands.esm	00136E14	DeathclawOmelet	PERK	FULL	0	Deathclaw Omelet	Todeskrallenomelett	FNV-Original
 TaleOfTwoWastelands.esm	00136E14	DeathclawOmelet	PERK	DESC	0	This recipe allows you to make Rose's famous Deathclaw omelet!	Mit diesem Rezept können Sie Roses berühmtes Todeskrallenomelett zubereiten!	FNV-Woerterbuch
 TaleOfTwoWastelands.esm	0014609C	HeaveHo	PERK	FULL	0	Heave, Ho!	Hau ruck!	FNV-Original
@@ -167273,6 +167491,7 @@ YUPTTW.esm	05000A34	NVDLC05EstherBonusActorEffect	SPEL	FULL	0	Esther Bonuses	Est
 YUPTTW.esm	0D000836	JustFatigued	SPEL	FULL	0	Just Fatigued	Nur erschöpft	Neu uebersetzt (Claude)
 YUPTTW.esm	0D006468	NVDLC01GhostSneak	SPEL	FULL	0	In My Footsteps	In meinen Fußstapfen	FNV-Woerterbuch
 YUPTTW.esm	0D006469	NVDLC03TraitHoarderAE2	SPEL	FULL	0	Hoarder	Hamsterer	FNV-Woerterbuch
+YUPTTW.esm	0D00646D	NVDLC03ReinforcedSpineDT	SPEL	FULL	0	Reinforced Spine	Verstärktes Rückgrat	Korrektur (offiziell englisch gelassen/fehlerhaft, Claude)
 YUPTTW.esm	0D00646E	NVDLC03AtomicDT	SPEL	FULL	0	Atomic Resilience	Atomare Widerstandskraft	Neu uebersetzt (Claude)
 YUPTTW.esm	0D00652F	NVDLC02WhiteLegsWeapRemoveSpl	SPEL	FULL	0	Switcheroo	Tausch	Neu uebersetzt (Claude)
 YUPTTW.esm	0D006673	YUPNoCrippling	SPEL	FULL	0	No Dismemberment	Keine Zerstückelung	Neu uebersetzt (Claude)
@@ -167727,6 +167946,7 @@ YUPTTW.esm	001679C1	VLootExplosivesNVCrateXXXGen13	CONT	FULL	0	Explosives Crate	
 YUPTTW.esm	001679C2	VLootExplosivesNVCrateXXXGen14	CONT	FULL	0	Explosives Crate	Sprengstoffkiste	FNV-Original
 YUPTTW.esm	001679C3	VLootExplosivesNVCrateXXXGen15	CONT	FULL	0	Explosives Crate	Sprengstoffkiste	FNV-Original
 YUPTTW.esm	00167C63	VLootWoodenCrateGen01	CONT	FULL	0	Wooden Crate	Holzkiste	FNV-Original
+YUPTTW.esm	00179B2C	NVGSCrateContainerEmpty	CONT	FULL	0	Crate	Kiste	Korrektur (offiziell englisch gelassen/fehlerhaft, Claude)
 YUPTTW.esm	0100BCD7	NVDLC01LockerPoliceStationC4	CONT	FULL	0	Locker	Spind	FNV-Original
 YUPTTW.esm	0100DDDD	NVDLC01RefrigeratorWithFoodNEWMed	CONT	FULL	0	Refrigerator	Kühlschrank	FNV-Original
 YUPTTW.esm	0100EFCB	NVDLC01PlayerEquipmentContainer	CONT	FULL	0	Equipment Storage	Ausrüstungsspeicherplatz	FNV-Original
@@ -168236,6 +168456,7 @@ YUPTTW.esm	00174CE2	NVCCLegionaryVeteranGuardAM2	NPC_	FULL	0	Prime Legionary	Leg
 YUPTTW.esm	00174CE3	NVCCLegionaryVeteranGuardAAM2	NPC_	FULL	0	Veteran Legionary	Legionsveteran	FNV-Original
 YUPTTW.esm	00174CE4	NVCCLegionaryVeteranGuardCM2	NPC_	FULL	0	Veteran Legionary	Legionsveteran	FNV-Original
 YUPTTW.esm	00179AFA	NCRRangerVeteranGhoulM	NPC_	FULL	0	NCR Veteran Ranger	RNK-Ranger-Veteran	FNV-Original
+YUPTTW.esm	0017A2DB	VHDNCRTrooper7Heavy	NPC_	FULL	0	NCR Heavy Trooper	Schwerer RNK-Soldat	Korrektur (offiziell englisch gelassen/fehlerhaft, Claude)
 YUPTTW.esm	0017AFDD	VJackalGangFemaleDEADTier2	NPC_	FULL	0	Jackal Gang Member	Mitglied der Schakale	FNV-Original
 YUPTTW.esm	01001300	NVDLC01Elijah	NPC_	FULL	0	Father Elijah	Vater Elijah	FNV-Original
 YUPTTW.esm	01006370	NVDLC01HologramCasinoMale	NPC_	FULL	0	Hologram	Hologramm	FNV-Original
@@ -168469,6 +168690,7 @@ YUPTTW.esm	00167E1B	VZKeyDirtyNiptonHallBasement	KEYM	FULL	0	Nipton Basement Key
 YUPTTW.esm	00167E1C	VZKeyDirtyRubyHill	KEYM	FULL	0	Ruby Hill Key	Ruby-Hill-Schlüssel	Neu uebersetzt (Claude)
 YUPTTW.esm	00167E1D	VZKeyDirtyECentralSewerGhoul	KEYM	FULL	0	East Central Sewer Key	Schlüssel zur östlichen zentralen Kanalisation	Neu uebersetzt (Claude)
 YUPTTW.esm	00167E1E	VZKeyDirtyBisonLvl2Dresser	KEYM	FULL	0	Bison Hotel Cabinet Key	Schrankschlüssel des Bison-Hotels	Neu uebersetzt (Claude)
+YUPTTW.esm	00175A56	HVCollarKey	KEYM	FULL	0	Slave Collar Key	Sklavenhalsband-Schlüssel	Korrektur (offiziell englisch gelassen/fehlerhaft, Claude)
 YUPTTW.esm	0100A5A1	NVDLC01CasOff	KEYM	FULL	0	Sierra Madre Office Key	Sierra Madre-Büroschlüssel	FNV-Original
 YUPTTW.esm	0100AE31	NVDLC01CashiersKey	KEYM	FULL	0	Cashier's Key	Schlüssel des Kassierers	FNV-Original
 YUPTTW.esm	0100EC9B	NVDLC01Gala02Key	KEYM	FULL	0	Ennis's Key	Ennis' Schlüssel	FNV-Original
@@ -179208,10 +179430,12 @@ YUPTTW.esm	00031DAC	HereandNow	PERK	FULL	0	Here and Now	Hier und Jetzt	FNV-Origi
 YUPTTW.esm	00031DAC	HereandNow	PERK	DESC	0	The Here and Now perk immediately grants an additional experience level, complete with all the advantages that brings.	Das Extra 'Hier und jetzt' verleiht sofort eine zusätzliche Erfahrungsstufe mit allen damit verbundenen Vorteilen.	FNV-Original
 YUPTTW.esm	00031DAD	MisterSandman	PERK	FULL	0	Mister Sandman	Sandmann	FNV-Original
 YUPTTW.esm	00031DAD	MisterSandman	PERK	DESC	0	With the Mister Sandman perk, when you're in Sneak mode, you gain the option to silently kill any human or Ghoul while they're sleeping. And, all Mister Sandman kills earn bonus XP.	Mit dem Extra 'Sandmann' können Sie im Schleichmodus mit einer speziellen Bewegung jeden schlafenden Menschen oder Ghul direkt töten. Dafür bringt Ihnen der Sandmann zusätzliche EP.	FNV-Original
+YUPTTW.esm	00031DAD	MisterSandman	PERK	EPF2	0	Murder	Ermorden	Korrektur (offiziell englisch gelassen/fehlerhaft, Claude)
 YUPTTW.esm	00031DE3	FortuneFinder	PERK	FULL	0	Fortune Finder	Schatzsucher	FNV-Original
 YUPTTW.esm	00031DE3	FortuneFinder	PERK	DESC	0	With the Fortune Finder perk, you'll find considerably more bottle caps in containers than you normally would.	Mit dem Extra 'Schatzsucher' finden Sie in Behältern wesentlich mehr Nuka Cola-Kronkorken als sonst.	FNV-Woerterbuch
 YUPTTW.esm	00094EBC	Cannibal	PERK	FULL	0	Cannibal	Kannibale	FNV-Original
 YUPTTW.esm	00094EBC	Cannibal	PERK	DESC	0	With the Cannibal perk, when you're in Sneak mode, you gain the option to eat a corpse to regain Health. But every time you feed, you lose Karma, and if the act is witnessed, it is considered a crime against nature.	Sie erhalten im Schleichmodus die Möglichkeit, eine Leiche zu essen, um Gesundheit zurückzugewinnen. Allerdings verlieren Sie dabei Karma. Für eventuelle Beobachter ist dies ein Verbrechen gegen die Natur.	FNV-Original
+YUPTTW.esm	00094EBC	Cannibal	PERK	EPF2	0	Devour	Auffressen	Korrektur (offiziell englisch gelassen/fehlerhaft, Claude)
 YUPTTW.esm	00135EC6	SmallFrame	PERK	FULL	0	Small Frame	Zarter Wuchs	FNV-Original
 YUPTTW.esm	00135EC6	SmallFrame	PERK	DESC	0	Due to your small size, you have +1 AGL but your limbs are more easily crippled.	Aufgrund Ihrer geringen Körpergröße haben Sie +1 BEW, aber Ihre Körperteile werden schneller verkrüppelt.	FNV-Original
 YUPTTW.esm	001361B4	ConfirmedBachelor	PERK	FULL	0	Confirmed Bachelor	Eingefleischter Junggeselle	FNV-Original
@@ -179504,6 +179728,7 @@ YUPTTW.esm	0016663C	VEFR01NCREmergencyRadioMSG	MESG	ITXT	3	Call for NCR Ranger S
 YUPTTW.esm	0016663C	VEFR01NCREmergencyRadioMSG	MESG	ITXT	4	NCR Support Exhausted - Resupply at 2400 hours	RNK-Unterstützung erschöpft - neuer Versuch ab 24:00 Uhr	FNV-Original
 YUPTTW.esm	0016663C	VEFR01NCREmergencyRadioMSG	MESG	ITXT	5	Outside NCR Operational Area - Relocate and repeat transmission	Außerhalb des RNK-Einsatzgebiets - Übertragung an anderer Position wiederholen	FNV-Original
 YUPTTW.esm	0016663C	VEFR01NCREmergencyRadioMSG	MESG	ITXT	6	Reputation with NCR too low - Support Withdrawn	RNK-Ruf zu niedrig - Unterstützung wird zurückgezogen	FNV-Original
+YUPTTW.esm	0016663C	VEFR01NCREmergencyRadioMSG	MESG	ITXT	7	Dismiss NCR Soldier	RNK-Soldat entlassen	Korrektur (offiziell englisch gelassen/fehlerhaft, Claude)
 YUPTTW.esm	00166B8C	V22KochFixedMsg	MESG	DESC	0	You manage to get most of the robot's systems operational, but its leg activators are beyond repair, leaving it immobile.	Sie schaffen es, die meisten Systeme des Roboters wieder in Betrieb zu setzen, aber seine Beinaktivatoren sind dauerhaft beschädigt, sodass er bewegungsunfähig bleibt.	FNV-Original (EN-Text von TTW/YUP leicht geaendert)
 YUPTTW.esm	001717D3	EDERepair04	MESG	DESC	0	It looks as though the damaged servos and gyroscopes could be replaced with the correct components (Requires 3 Pieces of Scrap Metal, 2 Sensor Modules, and some Scrap Electronics)	Es sieht aus als ob die beschädigten Servos und Gyroskope mit den richtigen Ersatzteilen ersetzt werden könnten (3 Teile Altmetall, 2 Sensormodule, und etwas Elektroschrott benötigt).	FNV-Original
 YUPTTW.esm	001717D3	EDERepair04	MESG	FULL	0	Damaged Duraframe Eyebot	Beschädigter Duraframe-Erkundungsbot	FNV-Original
@@ -179772,6 +179997,7 @@ Zeta.esm	0B006940	DLC05SamuraiArmor	ARMO	FULL	0	Samurai Armor	Samurai-Rüstung	F
 Zeta.esm	0B00A9A1	DLC05ArmorCombatMedic	ARMO	FULL	0	Winterized Medic Armor	Wintertaugliche Arztrüstung	FO3-Original
 Zeta.esm	0B00A9A2	DLC05ArmorCombatHelmet	ARMO	FULL	0	Winterized Medic Helmet	Wintertauglicher Arzthelm	FO3-Original
 Zeta.esm	0B00AB6D	DLC05GeneralChasesOvercoat	ARMO	FULL	0	General Chase's Overcoat	Mantel von General Chase	FO3-Original
+Zeta.esm	0B00BB63	DLC05SpacesuitHelmet	ARMO	FULL	0	Astronaut Helmet	Astronautenhelm	Korrektur (offiziell englisch gelassen/fehlerhaft, Claude)
 Zeta.esm	0B00C96D	DLC05GeneralCoat	ARMO	FULL	0	Colonel Autumn's Uniform	Colonel Autumns Uniform	FO3-Original
 Zeta.esm	0B00293E	DLC05PlayerContainer	CONT	FULL	0	Container	Behälter	FO3-Original
 Zeta.esm	0B005E6D	DLC05Container01	CONT	FULL	0	Container	Behälter	FO3-Original
@@ -179820,6 +180046,7 @@ Zeta.esm	0B00A850	DLC05AlienTool	MISC	FULL	0	Tool	Werkzeug	FO3-Original
 Zeta.esm	0B00A852	DLC05AlienDoodad	MISC	FULL	0	Doodad	Dingsbums	FO3-Original
 Zeta.esm	0B00A856	DLC05AlienAppliance	MISC	FULL	0	Appliance	Apparatur	FO3-Original
 Zeta.esm	0B00A85A	DLC05AlienDevice	MISC	FULL	0	Device	Gerät	FO3-Original
+Zeta.esm	0B00A85C	DLC05AlienMaterial	MISC	FULL	0	Unidentified Material	Unbekanntes Material	Korrektur (offiziell englisch gelassen/fehlerhaft, Claude)
 Zeta.esm	0B00A85E	DLC05AlienMechanism	MISC	FULL	0	Mechanism	Mechanismus	FO3-Original
 Zeta.esm	0B00A9E0	DLC05AlienGemstone	MISC	FULL	0	Gemstone	Edelstein	FO3-Original
 Zeta.esm	0B00A9E5	DLC05AlienCrystal	MISC	FULL	0	Crystal	Kristall	FO3-Original
@@ -179872,6 +180099,8 @@ Zeta.esm	0B007E4D	DLC05HoldingCellsRaider	NPC_	FULL	0	Raider	Räuber/in	FO3-Orig
 Zeta.esm	0B007E50	DLC05RCSecurity	NPC_	FULL	0	Rivet City Security	Sicherheitspersonal von Rivet City	FO3-Original
 Zeta.esm	0B00A6C7	DLC05CargoTestSubjectMale	NPC_	FULL	0	Test Subject	Versuchsobjekt	FO3-Original
 Zeta.esm	0B00A6C8	DLC05CargoTestSubjectFemale	NPC_	FULL	0	Test Subject	Versuchsobjekt	FO3-Original
+Zeta.esm	0B00B27C	DLC05CryoDeadNPC01	NPC_	FULL	0	Wastelander	Ödländer	Korrektur (offiziell englisch gelassen/fehlerhaft, Claude)
+Zeta.esm	0B00B27D	DLC05CryoDeadNPC02	NPC_	FULL	0	Wastelander	Ödländer	Korrektur (offiziell englisch gelassen/fehlerhaft, Claude)
 Zeta.esm	0B00585D	DLC05AlienMaintenanceRobot	CREA	FULL	0	Support Drone	Hilfsdrohne	FO3-Original
 Zeta.esm	0B0058C9	DLC05CrRobot1MeleeTemplate	CREA	FULL	0	Support Drone	Hilfsdrohne	FO3-Original
 Zeta.esm	0B0058CA	DLC05CrRobot2Melee	CREA	FULL	0	Support Drone	Hilfsdrohne	FO3-Original

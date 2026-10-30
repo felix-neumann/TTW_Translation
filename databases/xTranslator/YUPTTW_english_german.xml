@@ -524,6 +524,12 @@
       <Dest>Hamsterer</Dest>
     </String>
     <String List="0" Partial="1">
+      <EDID>NVDLC03ReinforcedSpineDT</EDID>
+      <REC>SPEL:FULL</REC>
+      <Source>Reinforced Spine</Source>
+      <Dest>Verstärktes Rückgrat</Dest>
+    </String>
+    <String List="0" Partial="1">
       <EDID>NVDLC03AtomicDT</EDID>
       <REC>SPEL:FULL</REC>
       <Source>Atomic Resilience</Source>
@@ -3433,6 +3439,12 @@ Willkommen, Benutzer.
       <REC>CONT:FULL</REC>
       <Source>Wooden Crate</Source>
       <Dest>Holzkiste</Dest>
+    </String>
+    <String List="0" Partial="1">
+      <EDID>NVGSCrateContainerEmpty</EDID>
+      <REC>CONT:FULL</REC>
+      <Source>Crate</Source>
+      <Dest>Kiste</Dest>
     </String>
     <String List="0">
       <EDID>NVDLC01LockerPoliceStationC4</EDID>
@@ -6488,6 +6500,12 @@ Willkommen, Benutzer.
       <Source>NCR Veteran Ranger</Source>
       <Dest>RNK-Ranger-Veteran</Dest>
     </String>
+    <String List="0" Partial="1">
+      <EDID>VHDNCRTrooper7Heavy</EDID>
+      <REC>NPC_:FULL</REC>
+      <Source>NCR Heavy Trooper</Source>
+      <Dest>Schwerer RNK-Soldat</Dest>
+    </String>
     <String List="0">
       <EDID>VJackalGangFemaleDEADTier2</EDID>
       <REC>NPC_:FULL</REC>
@@ -7885,6 +7903,12 @@ Willkommen, Benutzer.
       <REC>KEYM:FULL</REC>
       <Source>Bison Hotel Cabinet Key</Source>
       <Dest>Schrankschlüssel des Bison-Hotels</Dest>
+    </String>
+    <String List="0" Partial="1">
+      <EDID>HVCollarKey</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Slave Collar Key</Source>
+      <Dest>Sklavenhalsband-Schlüssel</Dest>
     </String>
     <String List="0">
       <EDID>NVDLC01CasOff</EDID>
@@ -72868,6 +72892,12 @@ Horace Applebaum</Dest>
       <Source>With the Mister Sandman perk, when you're in Sneak mode, you gain the option to silently kill any human or Ghoul while they're sleeping. And, all Mister Sandman kills earn bonus XP.</Source>
       <Dest>Mit dem Extra 'Sandmann' können Sie im Schleichmodus mit einer speziellen Bewegung jeden schlafenden Menschen oder Ghul direkt töten. Dafür bringt Ihnen der Sandmann zusätzliche EP.</Dest>
     </String>
+    <String List="0" Partial="1">
+      <EDID>MisterSandman</EDID>
+      <REC>PERK:EPF2</REC>
+      <Source>Murder</Source>
+      <Dest>Ermorden</Dest>
+    </String>
     <String List="0">
       <EDID>FortuneFinder</EDID>
       <REC>PERK:FULL</REC>
@@ -72891,6 +72921,12 @@ Horace Applebaum</Dest>
       <REC>PERK:DESC</REC>
       <Source>With the Cannibal perk, when you're in Sneak mode, you gain the option to eat a corpse to regain Health. But every time you feed, you lose Karma, and if the act is witnessed, it is considered a crime against nature.</Source>
       <Dest>Sie erhalten im Schleichmodus die Möglichkeit, eine Leiche zu essen, um Gesundheit zurückzugewinnen. Allerdings verlieren Sie dabei Karma. Für eventuelle Beobachter ist dies ein Verbrechen gegen die Natur.</Dest>
+    </String>
+    <String List="0" Partial="1">
+      <EDID>Cannibal</EDID>
+      <REC>PERK:EPF2</REC>
+      <Source>Devour</Source>
+      <Dest>Auffressen</Dest>
     </String>
     <String List="0">
       <EDID>SmallFrame</EDID>
@@ -74782,6 +74818,12 @@ Der Hardcore-Modus kann jederzeit im Gameplay-Menü an- oder ausgeschaltet werde
       <REC id="6" idMax="7">MESG:ITXT</REC>
       <Source>Reputation with NCR too low - Support Withdrawn</Source>
       <Dest>RNK-Ruf zu niedrig - Unterstützung wird zurückgezogen</Dest>
+    </String>
+    <String List="0" Partial="1">
+      <EDID>VEFR01NCREmergencyRadioMSG</EDID>
+      <REC id="7" idMax="7">MESG:ITXT</REC>
+      <Source>Dismiss NCR Soldier</Source>
+      <Dest>RNK-Soldat entlassen</Dest>
     </String>
     <String List="0">
       <EDID>V22KochFixedMsg</EDID>

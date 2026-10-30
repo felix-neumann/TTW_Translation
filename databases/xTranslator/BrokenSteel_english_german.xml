@@ -2797,6 +2797,12 @@ Wartungsprotokolle
       <Source>Manhole</Source>
       <Dest>Kontrollschacht</Dest>
     </String>
+    <String List="0" Partial="1">
+      <EDID>DLC03PresMetroBackDoor</EDID>
+      <REC>DOOR:FULL</REC>
+      <Source>Door</Source>
+      <Dest>Tür</Dest>
+    </String>
     <String List="0">
       <EDID>DLC03SenateID</EDID>
       <REC>MISC:FULL</REC>
@@ -2952,6 +2958,12 @@ Wartungsprotokolle
       <REC>WEAP:FULL</REC>
       <Source>Callahan's Magnum</Source>
       <Dest>Callahans Magnum</Dest>
+    </String>
+    <String List="0" Partial="1">
+      <EDID>DLC03WeapSuperSledge</EDID>
+      <REC>WEAP:FULL</REC>
+      <Source>Super Sledge</Source>
+      <Dest>Superhammer</Dest>
     </String>
     <String List="0">
       <EDID>ElderLyons</EDID>
@@ -3349,11 +3361,35 @@ Wartungsprotokolle
       <Source>Enclave Soldier</Source>
       <Dest>Soldat der Enklave</Dest>
     </String>
+    <String List="0" Partial="1">
+      <EDID>DLC03AFBEnclaveMissileFodder03</EDID>
+      <REC>NPC_:FULL</REC>
+      <Source>Enclave Soldier</Source>
+      <Dest>Soldat der Enklave</Dest>
+    </String>
     <String List="0">
       <EDID>DLC03AFBBoSMinigunFodder01</EDID>
       <REC>NPC_:FULL</REC>
       <Source>Brotherhood of Steel Paladin</Source>
       <Dest>Paladin der stählernen Bruderschaft</Dest>
+    </String>
+    <String List="0" Partial="1">
+      <EDID>DLC03AFBEnclaveGatlingFodder01</EDID>
+      <REC>NPC_:FULL</REC>
+      <Source>Enclave Soldier</Source>
+      <Dest>Soldat der Enklave</Dest>
+    </String>
+    <String List="0" Partial="1">
+      <EDID>DLC03AFBEnclaveGatlingFodder02</EDID>
+      <REC>NPC_:FULL</REC>
+      <Source>Enclave Soldier</Source>
+      <Dest>Soldat der Enklave</Dest>
+    </String>
+    <String List="0" Partial="1">
+      <EDID>DLC03AFBEnclaveGatlingFodder03</EDID>
+      <REC>NPC_:FULL</REC>
+      <Source>Enclave Soldier</Source>
+      <Dest>Soldat der Enklave</Dest>
     </String>
     <String List="0">
       <EDID>DLC03AFBBoSMinigunFodder02</EDID>
@@ -3366,6 +3402,18 @@ Wartungsprotokolle
       <REC>NPC_:FULL</REC>
       <Source>Brotherhood of Steel Paladin</Source>
       <Dest>Paladin der stählernen Bruderschaft</Dest>
+    </String>
+    <String List="0" Partial="1">
+      <EDID>DLC03AFBEnclaveMissileFodder01</EDID>
+      <REC>NPC_:FULL</REC>
+      <Source>Enclave Soldier</Source>
+      <Dest>Soldat der Enklave</Dest>
+    </String>
+    <String List="0" Partial="1">
+      <EDID>DLC03AFBEnclaveMissileFodder02</EDID>
+      <REC>NPC_:FULL</REC>
+      <Source>Enclave Soldier</Source>
+      <Dest>Soldat der Enklave</Dest>
     </String>
     <String List="0">
       <EDID>DLC03BS1KnightGuard1</EDID>
@@ -3408,6 +3456,12 @@ Wartungsprotokolle
       <REC>NPC_:FULL</REC>
       <Source>Brotherhood of Steel Paladin</Source>
       <Dest>Paladin der stählernen Bruderschaft</Dest>
+    </String>
+    <String List="0" Partial="1">
+      <EDID>DLC03EncounterEMTrapCorpse</EDID>
+      <REC>NPC_:FULL</REC>
+      <Source>Wastelander</Source>
+      <Dest>Ödländer</Dest>
     </String>
     <String List="0">
       <EDID>DLC03EncounterBTSecurity01</EDID>
@@ -3583,6 +3637,42 @@ Wartungsprotokolle
       <Source>Underworld Resident</Source>
       <Dest>Underworld-Ansässiger</Dest>
     </String>
+    <String List="0" Partial="1">
+      <EDID>DLC03AFBFight02EnclaveMissileFodder01</EDID>
+      <REC>NPC_:FULL</REC>
+      <Source>Enclave Soldier</Source>
+      <Dest>Soldat der Enklave</Dest>
+    </String>
+    <String List="0" Partial="1">
+      <EDID>DLC03AFBFight02EnclaveMissileFodder02</EDID>
+      <REC>NPC_:FULL</REC>
+      <Source>Enclave Soldier</Source>
+      <Dest>Soldat der Enklave</Dest>
+    </String>
+    <String List="0" Partial="1">
+      <EDID>DLC03AFBFight02EnclaveMissileFodder03</EDID>
+      <REC>NPC_:FULL</REC>
+      <Source>Enclave Soldier</Source>
+      <Dest>Soldat der Enklave</Dest>
+    </String>
+    <String List="0" Partial="1">
+      <EDID>DLC03AFBFight02EnclaveGatlingFodder01</EDID>
+      <REC>NPC_:FULL</REC>
+      <Source>Enclave Soldier</Source>
+      <Dest>Soldat der Enklave</Dest>
+    </String>
+    <String List="0" Partial="1">
+      <EDID>DLC03AFBFight02EnclaveGatlingFodder02</EDID>
+      <REC>NPC_:FULL</REC>
+      <Source>Enclave Soldier</Source>
+      <Dest>Soldat der Enklave</Dest>
+    </String>
+    <String List="0" Partial="1">
+      <EDID>DLC03AFBFight02EnclaveGatlingFodder03</EDID>
+      <REC>NPC_:FULL</REC>
+      <Source>Enclave Soldier</Source>
+      <Dest>Soldat der Enklave</Dest>
+    </String>
     <String List="0">
       <EDID>DLC03AFBFight02BoSMinigunFodder01</EDID>
       <REC>NPC_:FULL</REC>
@@ -3624,6 +3714,24 @@ Wartungsprotokolle
       <REC>NPC_:FULL</REC>
       <Source>Water Beggar</Source>
       <Dest>Wasserbettler</Dest>
+    </String>
+    <String List="0" Partial="1">
+      <EDID>DLC03WastelanderAAF3</EDID>
+      <REC>NPC_:FULL</REC>
+      <Source>Wastelander</Source>
+      <Dest>Ödländerin</Dest>
+    </String>
+    <String List="0" Partial="1">
+      <EDID>DLC03WastelanderCF3</EDID>
+      <REC>NPC_:FULL</REC>
+      <Source>Wastelander</Source>
+      <Dest>Ödländerin</Dest>
+    </String>
+    <String List="0" Partial="1">
+      <EDID>DLC03WastelanderAF</EDID>
+      <REC>NPC_:FULL</REC>
+      <Source>Wastelander</Source>
+      <Dest>Ödländerin</Dest>
     </String>
     <String List="0">
       <EDID>DLC03FemaleVoice3</EDID>
@@ -3835,6 +3943,12 @@ Wartungsprotokolle
       <Source>Water Caravan Driver</Source>
       <Dest>Wasserkarawanenführer</Dest>
     </String>
+    <String List="0" Partial="1">
+      <EDID>DLC03FEVUnderworldGhoulA</EDID>
+      <REC>NPC_:FULL</REC>
+      <Source>Underworld Resident</Source>
+      <Dest>Underworld-Ansässige</Dest>
+    </String>
     <String List="0">
       <EDID>DLC03FEVUnderworldGhoulB</EDID>
       <REC>NPC_:FULL</REC>
@@ -3870,6 +3984,138 @@ Wartungsprotokolle
       <REC>NPC_:FULL</REC>
       <Source>Megaton Settler</Source>
       <Dest>Megaton-Siedler</Dest>
+    </String>
+    <String List="0" Partial="1">
+      <EDID>DLC03EnclavePlatformDead</EDID>
+      <REC>NPC_:FULL</REC>
+      <Source>Enclave Soldier</Source>
+      <Dest>Soldat der Enklave</Dest>
+    </String>
+    <String List="0" Partial="1">
+      <EDID>DLC03ZCarTunnelScribeB</EDID>
+      <REC>NPC_:FULL</REC>
+      <Source>Brotherhood of Steel Scribe</Source>
+      <Dest>Gelehrter der stählernen Bruderschaft</Dest>
+    </String>
+    <String List="0" Partial="1">
+      <EDID>DLC03EnclaveCarTunnelDead1</EDID>
+      <REC>NPC_:FULL</REC>
+      <Source>Enclave Soldier</Source>
+      <Dest>Soldat der Enklave</Dest>
+    </String>
+    <String List="0" Partial="1">
+      <EDID>DLC03EnclaveCarTunnelDead2</EDID>
+      <REC>NPC_:FULL</REC>
+      <Source>Enclave Soldier</Source>
+      <Dest>Soldat der Enklave</Dest>
+    </String>
+    <String List="0" Partial="1">
+      <EDID>DLC03ZCarTunnelScribeC</EDID>
+      <REC>NPC_:FULL</REC>
+      <Source>Brotherhood of Steel Scribe</Source>
+      <Dest>Gelehrte der stählernen Bruderschaft</Dest>
+    </String>
+    <String List="0" Partial="1">
+      <EDID>DLC03EnclaveCarTunnelDeadLooted1</EDID>
+      <REC>NPC_:FULL</REC>
+      <Source>Enclave Soldier</Source>
+      <Dest>Soldat der Enklave</Dest>
+    </String>
+    <String List="0" Partial="1">
+      <EDID>DLC03EnclaveCarTunnelDeadLooted2</EDID>
+      <REC>NPC_:FULL</REC>
+      <Source>Enclave Soldier</Source>
+      <Dest>Soldat der Enklave</Dest>
+    </String>
+    <String List="0" Partial="1">
+      <EDID>DLC03EnclaveCarTunnelDeadWorkBench</EDID>
+      <REC>NPC_:FULL</REC>
+      <Source>Enclave Soldier</Source>
+      <Dest>Soldat der Enklave</Dest>
+    </String>
+    <String List="0" Partial="1">
+      <EDID>DLC03ZCarTunnelScribeA</EDID>
+      <REC>NPC_:FULL</REC>
+      <Source>Brotherhood of Steel Scribe</Source>
+      <Dest>Gelehrter der stählernen Bruderschaft</Dest>
+    </String>
+    <String List="0" Partial="1">
+      <EDID>DLC03AFBFight02BoSTeslaFodder01</EDID>
+      <REC>NPC_:FULL</REC>
+      <Source>Brotherhood of Steel Paladin</Source>
+      <Dest>Paladin der stählernen Bruderschaft</Dest>
+    </String>
+    <String List="0" Partial="1">
+      <EDID>DLC03AFBFight02BoSTeslaFodder02</EDID>
+      <REC>NPC_:FULL</REC>
+      <Source>Brotherhood of Steel Paladin</Source>
+      <Dest>Paladin der stählernen Bruderschaft</Dest>
+    </String>
+    <String List="0" Partial="1">
+      <EDID>DLC03AFBFight02BoSTeslaFodder03</EDID>
+      <REC>NPC_:FULL</REC>
+      <Source>Brotherhood of Steel Paladin</Source>
+      <Dest>Paladin der stählernen Bruderschaft</Dest>
+    </String>
+    <String List="0" Partial="1">
+      <EDID>DLC03AFBBoSTeslaFodder01</EDID>
+      <REC>NPC_:FULL</REC>
+      <Source>Brotherhood of Steel Paladin</Source>
+      <Dest>Paladin der stählernen Bruderschaft</Dest>
+    </String>
+    <String List="0" Partial="1">
+      <EDID>DLC03AFBBoSTeslaFodder02</EDID>
+      <REC>NPC_:FULL</REC>
+      <Source>Brotherhood of Steel Paladin</Source>
+      <Dest>Paladin der stählernen Bruderschaft</Dest>
+    </String>
+    <String List="0" Partial="1">
+      <EDID>DLC03AFBBoSTeslaFodder03</EDID>
+      <REC>NPC_:FULL</REC>
+      <Source>Brotherhood of Steel Paladin</Source>
+      <Dest>Paladin der stählernen Bruderschaft</Dest>
+    </String>
+    <String List="0" Partial="1">
+      <EDID>DLC03RelayStatNoRespawnEnclave2FlamerVar</EDID>
+      <REC>NPC_:FULL</REC>
+      <Source>Enclave Soldier</Source>
+      <Dest>Soldat der Enklave</Dest>
+    </String>
+    <String List="0" Partial="1">
+      <EDID>DLC03AFBEnclaveNapalmFodder01</EDID>
+      <REC>NPC_:FULL</REC>
+      <Source>Enclave Hellfire Trooper</Source>
+      <Dest>Höllenfeuer-Soldat der Enklave</Dest>
+    </String>
+    <String List="0" Partial="1">
+      <EDID>DLC03AFBFight02EnclaveNapalmFodder01</EDID>
+      <REC>NPC_:FULL</REC>
+      <Source>Enclave Hellfire Trooper</Source>
+      <Dest>Höllenfeuer-Soldat der Enklave</Dest>
+    </String>
+    <String List="0" Partial="1">
+      <EDID>DLC03AFBFight02EnclaveNapalmFodder02</EDID>
+      <REC>NPC_:FULL</REC>
+      <Source>Enclave Hellfire Trooper</Source>
+      <Dest>Höllenfeuer-Soldat der Enklave</Dest>
+    </String>
+    <String List="0" Partial="1">
+      <EDID>DLC03AFBFight02EnclaveNapalmFodder03</EDID>
+      <REC>NPC_:FULL</REC>
+      <Source>Enclave Hellfire Trooper</Source>
+      <Dest>Höllenfeuer-Soldat der Enklave</Dest>
+    </String>
+    <String List="0" Partial="1">
+      <EDID>DLC03AFBEnclaveNapalmFodder02</EDID>
+      <REC>NPC_:FULL</REC>
+      <Source>Enclave Hellfire Trooper</Source>
+      <Dest>Höllenfeuer-Soldat der Enklave</Dest>
+    </String>
+    <String List="0" Partial="1">
+      <EDID>DLC03AFBEnclaveNapalmFodder03</EDID>
+      <REC>NPC_:FULL</REC>
+      <Source>Enclave Hellfire Trooper</Source>
+      <Dest>Höllenfeuer-Soldat der Enklave</Dest>
     </String>
     <String List="0">
       <EDID>CrDeathClawEnclave</EDID>
@@ -3985,11 +4231,35 @@ Wartungsprotokolle
       <Source>Sentry Bot</Source>
       <Dest>Wachbot</Dest>
     </String>
+    <String List="0" Partial="1">
+      <EDID>DLC03CrDeathClaw</EDID>
+      <REC>CREA:FULL</REC>
+      <Source>Deathclaw</Source>
+      <Dest>Todeskralle</Dest>
+    </String>
+    <String List="0" Partial="1">
+      <EDID>DLC03CagedDeathclawEnclave</EDID>
+      <REC>CREA:FULL</REC>
+      <Source>Deathclaw</Source>
+      <Dest>Todeskralle</Dest>
+    </String>
+    <String List="0" Partial="1">
+      <EDID>dlc03testghoul</EDID>
+      <REC>CREA:FULL</REC>
+      <Source>Feral Ghoul</Source>
+      <Dest>Wilder Ghul</Dest>
+    </String>
     <String List="0">
       <EDID>DLC03EncounterADOutcastA1</EDID>
       <REC>CREA:FULL</REC>
       <Source>Sentry Bot</Source>
       <Dest>Wachbot</Dest>
+    </String>
+    <String List="0" Partial="1">
+      <EDID>DLC03PresMetroGhoul01DEAD</EDID>
+      <REC>CREA:FULL</REC>
+      <Source>Feral Ghoul</Source>
+      <Dest>Wilder Ghul</Dest>
     </String>
     <String List="0">
       <EDID>DLC03PresMetroGhoul02DEAD</EDID>
@@ -4050,6 +4320,12 @@ Wartungsprotokolle
       <REC>CREA:FULL</REC>
       <Source>Mother Curie III</Source>
       <Dest>Mutter Curie III</Dest>
+    </String>
+    <String List="0" Partial="1">
+      <EDID>DLC03zCarTunnelTurretDC</EDID>
+      <REC>CREA:FULL</REC>
+      <Source>Mark VI Turret</Source>
+      <Dest>Mark VI-Geschützturm</Dest>
     </String>
     <String List="0">
       <EDID>DLC03EncounterRCKey</EDID>

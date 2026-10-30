@@ -64,6 +64,8 @@ def main():
     ap.add_argument('--out', help='Ausgabeordner für übersetzte Plugins (Standard: <base>/Output)')
     ap.add_argument('--db', help='Ausgabeordner für XML/TSV (Standard: <repo>/databases)')
     ap.add_argument('--translations', default=os.path.join(HERE, '..', 'translations', 'claude_translations.json'))
+    ap.add_argument('--fixes', default=os.path.join(HERE, '..', 'translations', 'official_fixes.json'),
+                    help='Korrekturen für offiziell englisch gelassene Texte')
     ap.add_argument('--skip-extract', action='store_true', help='vorhandene Extrakte im Arbeitsordner wiederverwenden')
     ap.add_argument('--no-verify', action='store_true')
     ap.add_argument('--jobs', type=int, default=os.cpu_count())
@@ -111,7 +113,7 @@ def main():
     if mod_results:
         groups.append(dict(results=mod_results, src_dir=mods_dir(base), out_dir=os.path.join(out, 'Mods'),
                            xml_dir=os.path.join(db, 'xTranslator', 'Mods'), prefix='Mods/'))
-    summary, missing = build_mod.build(groups, db, translations, inject)
+    summary, missing = build_mod.build(groups, db, translations, inject, fixes=build_mod.load_fixes(a.fixes))
     miss_path = os.path.join(work, 'untranslated.json')
     with open(miss_path, 'w', encoding='utf-8') as f:
         json.dump(missing, f, ensure_ascii=False, indent=1)

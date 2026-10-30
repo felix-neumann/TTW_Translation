@@ -91,6 +91,36 @@
       <Source>Ghoul</Source>
       <Dest>Ghul</Dest>
     </String>
+    <String List="0" Partial="1">
+      <EDID>DamageSkillGuns</EDID>
+      <REC>MGEF:FULL</REC>
+      <Source>Damage Guns</Source>
+      <Dest>Schaden-Schusswaffen</Dest>
+    </String>
+    <String List="0" Partial="1">
+      <EDID>DamageSkillExplosives</EDID>
+      <REC>MGEF:FULL</REC>
+      <Source>Damage Explosives</Source>
+      <Dest>Schaden-Sprengstoffe</Dest>
+    </String>
+    <String List="0" Partial="1">
+      <EDID>DamageSkillEnergyWeapons</EDID>
+      <REC>MGEF:FULL</REC>
+      <Source>Damage Energy Weapons</Source>
+      <Dest>Schaden-Energiewaffen</Dest>
+    </String>
+    <String List="0" Partial="1">
+      <EDID>DamageSkillMeleeWeapons</EDID>
+      <REC>MGEF:FULL</REC>
+      <Source>Damage Melee Weapons</Source>
+      <Dest>Schaden-Nahkampfwaffen</Dest>
+    </String>
+    <String List="0" Partial="1">
+      <EDID>DamageSkillUnarmed</EDID>
+      <REC>MGEF:FULL</REC>
+      <Source>Damage Unarmed</Source>
+      <Dest>Schaden-Waffenlos</Dest>
+    </String>
     <String List="0">
       <EDID>NVDLC04DummyFlareGunEffect</EDID>
       <REC>MGEF:FULL</REC>
@@ -4619,6 +4649,12 @@ Willkommen, Benutzer.
       <Source>Grenade Machinegun</Source>
       <Dest>Granaten-MG</Dest>
     </String>
+    <String List="0" Partial="1">
+      <EDID>HVWeapPlasmaRifleWeak</EDID>
+      <REC>WEAP:FULL</REC>
+      <Source>Plasma Rifle</Source>
+      <Dest>Plasmagewehr</Dest>
+    </String>
     <String List="0">
       <EDID>WeapNVDLC04Faderator</EDID>
       <REC>WEAP:FULL</REC>
@@ -4846,6 +4882,12 @@ Willkommen, Benutzer.
       <REC>WEAP:FULL</REC>
       <Source>Fist of Rawr</Source>
       <Dest>Faust des Rawr</Dest>
+    </String>
+    <String List="0" Partial="1">
+      <EDID>NVDLC04WeapTrailCarbineNoDrop</EDID>
+      <REC>WEAP:FULL</REC>
+      <Source>Trail Carbine</Source>
+      <Dest>Trapperbüchse</Dest>
     </String>
     <String List="0">
       <EDID>AmmoNVDLC04NailsCustom</EDID>
@@ -5410,6 +5452,24 @@ Willkommen, Benutzer.
       <REC>NPC_:FULL</REC>
       <Source>Irradiated Heavy Trooper</Source>
       <Dest>Schwerer verstrahlter Soldat</Dest>
+    </String>
+    <String List="0" Partial="1">
+      <EDID>NVDLC04RoadTunnelDeadTrooper01</EDID>
+      <REC>NPC_:FULL</REC>
+      <Source>NCR Trooper</Source>
+      <Dest>RNK-Soldat</Dest>
+    </String>
+    <String List="0" Partial="1">
+      <EDID>NVDLC04RoadTunnelDeadTrooper02</EDID>
+      <REC>NPC_:FULL</REC>
+      <Source>NCR Trooper</Source>
+      <Dest>RNK-Soldat</Dest>
+    </String>
+    <String List="0" Partial="1">
+      <EDID>NVDLC04RoadTunnelDeadTrooper03</EDID>
+      <REC>NPC_:FULL</REC>
+      <Source>NCR Ranger</Source>
+      <Dest>RNK-Ranger</Dest>
     </String>
     <String List="0">
       <EDID>NVDLC04TempleMarkedMenHunter01Weak</EDID>

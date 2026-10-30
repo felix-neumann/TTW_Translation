@@ -16131,6 +16131,12 @@ Ihrem örtlichen Ausstellungsraum.
       <Source>General Chase's Overcoat</Source>
       <Dest>Mantel von General Chase</Dest>
     </String>
+    <String List="0" Partial="1">
+      <EDID>DLC05SpacesuitHelmet</EDID>
+      <REC>ARMO:FULL</REC>
+      <Source>Astronaut Helmet</Source>
+      <Dest>Astronautenhelm</Dest>
+    </String>
     <String List="0">
       <EDID>DLC05GeneralCoat</EDID>
       <REC>ARMO:FULL</REC>
@@ -21939,6 +21945,12 @@ Ihrem örtlichen Ausstellungsraum.
       <Source>Fist of Rawr</Source>
       <Dest>Faust des Rawr</Dest>
     </String>
+    <String List="0" Partial="1">
+      <EDID>NVDLC04WeapTrailCarbineNoDrop</EDID>
+      <REC>WEAP:FULL</REC>
+      <Source>Trail Carbine</Source>
+      <Dest>Trapperbüchse</Dest>
+    </String>
     <String List="0">
       <EDID>NVDLC05WeapNVRechargerPistolUnique</EDID>
       <REC>WEAP:FULL</REC>
@@ -22894,10 +22906,46 @@ Ihrem örtlichen Ausstellungsraum.
       <Dest>Ritualmesser</Dest>
     </String>
     <String List="0" Partial="1">
+      <EDID>DLC04WeapKnifeNonPlayable</EDID>
+      <REC>WEAP:FULL</REC>
+      <Source>Knife</Source>
+      <Dest>Messer</Dest>
+    </String>
+    <String List="0" Partial="1">
+      <EDID>DLC04WeapKnifeCombatNonPlayable</EDID>
+      <REC>WEAP:FULL</REC>
+      <Source>Combat Knife</Source>
+      <Dest>Kampfmesser</Dest>
+    </String>
+    <String List="0" Partial="1">
+      <EDID>DLC04WeapTireIronNonPlayable</EDID>
+      <REC>WEAP:FULL</REC>
+      <Source>Tire Iron</Source>
+      <Dest>Kreuzschlüssel</Dest>
+    </String>
+    <String List="0" Partial="1">
+      <EDID>DLC04WeapLeadPipeNonPlayable</EDID>
+      <REC>WEAP:FULL</REC>
+      <Source>Lead Pipe</Source>
+      <Dest>Bleirohr</Dest>
+    </String>
+    <String List="0" Partial="1">
       <EDID>DLC04WeapHuntingRifleNonPlayable</EDID>
       <REC>WEAP:FULL</REC>
       <Source>.32 Rifle</Source>
       <Dest>.32-Gewehr</Dest>
+    </String>
+    <String List="0" Partial="1">
+      <EDID>DLC04WeapBaseballBatNonPlayable</EDID>
+      <REC>WEAP:FULL</REC>
+      <Source>Baseball Bat</Source>
+      <Dest>Baseballschläger</Dest>
+    </String>
+    <String List="0" Partial="1">
+      <EDID>DLC04WeapBBGunNonPlayable</EDID>
+      <REC>WEAP:FULL</REC>
+      <Source>BB Gun</Source>
+      <Dest>Luftgewehr</Dest>
     </String>
     <String List="0">
       <EDID>DLC05WeapSamuraiSword</EDID>
@@ -29775,6 +29823,24 @@ Ihrem örtlichen Ausstellungsraum.
       <Source>The Child</Source>
       <Dest>Das Kind</Dest>
     </String>
+    <String List="0" Partial="1">
+      <EDID>NVDLC04RoadTunnelDeadTrooper01</EDID>
+      <REC>NPC_:FULL</REC>
+      <Source>NCR Trooper</Source>
+      <Dest>RNK-Soldat</Dest>
+    </String>
+    <String List="0" Partial="1">
+      <EDID>NVDLC04RoadTunnelDeadTrooper02</EDID>
+      <REC>NPC_:FULL</REC>
+      <Source>NCR Trooper</Source>
+      <Dest>RNK-Soldat</Dest>
+    </String>
+    <String List="0" Partial="1">
+      <EDID>NVDLC04RoadTunnelDeadTrooper03</EDID>
+      <REC>NPC_:FULL</REC>
+      <Source>NCR Ranger</Source>
+      <Dest>RNK-Ranger</Dest>
+    </String>
     <String List="0">
       <EDID>ConfessorCromwell</EDID>
       <REC>NPC_:FULL</REC>
@@ -34035,6 +34101,102 @@ Ihrem örtlichen Ausstellungsraum.
       <Source>Brotherhood of Steel Knight</Source>
       <Dest>Ritter der stählernen Bruderschaft</Dest>
     </String>
+    <String List="0" Partial="1">
+      <EDID>DLC03Enclave4GunAAFTEMPLATE</EDID>
+      <REC>NPC_:FULL</REC>
+      <Source>Enclave Hellfire Trooper</Source>
+      <Dest>Höllenfeuer-Soldatin der Enklave</Dest>
+    </String>
+    <String List="0" Partial="1">
+      <EDID>DLC03Enclave4GunAAM</EDID>
+      <REC>NPC_:FULL</REC>
+      <Source>Enclave Hellfire Trooper</Source>
+      <Dest>Höllenfeuer-Soldat der Enklave</Dest>
+    </String>
+    <String List="0" Partial="1">
+      <EDID>DLC03Enclave4GunAF</EDID>
+      <REC>NPC_:FULL</REC>
+      <Source>Enclave Hellfire Trooper</Source>
+      <Dest>Höllenfeuer-Soldatin der Enklave</Dest>
+    </String>
+    <String List="0" Partial="1">
+      <EDID>DLC03Enclave4GunAM</EDID>
+      <REC>NPC_:FULL</REC>
+      <Source>Enclave Hellfire Trooper</Source>
+      <Dest>Höllenfeuer-Soldat der Enklave</Dest>
+    </String>
+    <String List="0" Partial="1">
+      <EDID>DLC03Enclave4GunCF</EDID>
+      <REC>NPC_:FULL</REC>
+      <Source>Enclave Hellfire Trooper</Source>
+      <Dest>Höllenfeuer-Soldatin der Enklave</Dest>
+    </String>
+    <String List="0" Partial="1">
+      <EDID>DLC03Enclave4GunCM</EDID>
+      <REC>NPC_:FULL</REC>
+      <Source>Enclave Hellfire Trooper</Source>
+      <Dest>Höllenfeuer-Soldat der Enklave</Dest>
+    </String>
+    <String List="0" Partial="1">
+      <EDID>DLC03Enclave4GunHF</EDID>
+      <REC>NPC_:FULL</REC>
+      <Source>Enclave Hellfire Trooper</Source>
+      <Dest>Höllenfeuer-Soldatin der Enklave</Dest>
+    </String>
+    <String List="0" Partial="1">
+      <EDID>DLC03Enclave4GunHM</EDID>
+      <REC>NPC_:FULL</REC>
+      <Source>Enclave Hellfire Trooper</Source>
+      <Dest>Höllenfeuer-Soldat der Enklave</Dest>
+    </String>
+    <String List="0" Partial="1">
+      <EDID>DLC03Enclave4BigGunAAFTEMPLATE</EDID>
+      <REC>NPC_:FULL</REC>
+      <Source>Enclave Hellfire Trooper</Source>
+      <Dest>Höllenfeuer-Soldatin der Enklave</Dest>
+    </String>
+    <String List="0" Partial="1">
+      <EDID>DLC03Enclave4BigGunAAM</EDID>
+      <REC>NPC_:FULL</REC>
+      <Source>Enclave Hellfire Trooper</Source>
+      <Dest>Höllenfeuer-Soldat der Enklave</Dest>
+    </String>
+    <String List="0" Partial="1">
+      <EDID>DLC03Enclave4BigGunAF</EDID>
+      <REC>NPC_:FULL</REC>
+      <Source>Enclave Hellfire Trooper</Source>
+      <Dest>Höllenfeuer-Soldatin der Enklave</Dest>
+    </String>
+    <String List="0" Partial="1">
+      <EDID>DLC03Enclave4BigGunAM</EDID>
+      <REC>NPC_:FULL</REC>
+      <Source>Enclave Hellfire Trooper</Source>
+      <Dest>Höllenfeuer-Soldat der Enklave</Dest>
+    </String>
+    <String List="0" Partial="1">
+      <EDID>DLC03Enclave4BigGunCF</EDID>
+      <REC>NPC_:FULL</REC>
+      <Source>Enclave Hellfire Trooper</Source>
+      <Dest>Höllenfeuer-Soldatin der Enklave</Dest>
+    </String>
+    <String List="0" Partial="1">
+      <EDID>DLC03Enclave4BigGunCM</EDID>
+      <REC>NPC_:FULL</REC>
+      <Source>Enclave Hellfire Trooper</Source>
+      <Dest>Höllenfeuer-Soldat der Enklave</Dest>
+    </String>
+    <String List="0" Partial="1">
+      <EDID>DLC03Enclave4BigGunHF</EDID>
+      <REC>NPC_:FULL</REC>
+      <Source>Enclave Hellfire Trooper</Source>
+      <Dest>Höllenfeuer-Soldatin der Enklave</Dest>
+    </String>
+    <String List="0" Partial="1">
+      <EDID>DLC03Enclave4BigGunHM</EDID>
+      <REC>NPC_:FULL</REC>
+      <Source>Enclave Hellfire Trooper</Source>
+      <Dest>Höllenfeuer-Soldat der Enklave</Dest>
+    </String>
     <String List="0">
       <EDID>DLC03Talon4GunAAMTEMPLATE</EDID>
       <REC>NPC_:FULL</REC>
@@ -34167,11 +34329,71 @@ Ihrem örtlichen Ausstellungsraum.
       <Source>Enclave Hellfire Trooper</Source>
       <Dest>Soldat der Enklave</Dest>
     </String>
+    <String List="0" Partial="1">
+      <EDID>DLC03Enclave4NapalmAAM</EDID>
+      <REC>NPC_:FULL</REC>
+      <Source>Enclave Hellfire Trooper</Source>
+      <Dest>Höllenfeuer-Soldat der Enklave</Dest>
+    </String>
+    <String List="0" Partial="1">
+      <EDID>DLC03Enclave4NapalmAF</EDID>
+      <REC>NPC_:FULL</REC>
+      <Source>Enclave Hellfire Trooper</Source>
+      <Dest>Höllenfeuer-Soldatin der Enklave</Dest>
+    </String>
+    <String List="0" Partial="1">
+      <EDID>DLC03Enclave4NapalmAM</EDID>
+      <REC>NPC_:FULL</REC>
+      <Source>Enclave Hellfire Trooper</Source>
+      <Dest>Höllenfeuer-Soldat der Enklave</Dest>
+    </String>
+    <String List="0" Partial="1">
+      <EDID>DLC03Enclave4NapalmCF</EDID>
+      <REC>NPC_:FULL</REC>
+      <Source>Enclave Hellfire Trooper</Source>
+      <Dest>Höllenfeuer-Soldatin der Enklave</Dest>
+    </String>
+    <String List="0" Partial="1">
+      <EDID>DLC03Enclave4NapalmCM</EDID>
+      <REC>NPC_:FULL</REC>
+      <Source>Enclave Hellfire Trooper</Source>
+      <Dest>Höllenfeuer-Soldat der Enklave</Dest>
+    </String>
+    <String List="0" Partial="1">
+      <EDID>DLC03Enclave4NapalmHF</EDID>
+      <REC>NPC_:FULL</REC>
+      <Source>Enclave Hellfire Trooper</Source>
+      <Dest>Höllenfeuer-Soldatin der Enklave</Dest>
+    </String>
+    <String List="0" Partial="1">
+      <EDID>DLC03Enclave4NapalmHM</EDID>
+      <REC>NPC_:FULL</REC>
+      <Source>Enclave Hellfire Trooper</Source>
+      <Dest>Höllenfeuer-Soldat der Enklave</Dest>
+    </String>
     <String List="0">
       <EDID>DLC03AFBBoSMinigunFodder01</EDID>
       <REC>NPC_:FULL</REC>
       <Source>Brotherhood of Steel Paladin</Source>
       <Dest>Paladin der stählernen Bruderschaft</Dest>
+    </String>
+    <String List="0" Partial="1">
+      <EDID>DLC03AFBEnclaveGatlingFodder01</EDID>
+      <REC>NPC_:FULL</REC>
+      <Source>Enclave Soldier</Source>
+      <Dest>Soldat der Enklave</Dest>
+    </String>
+    <String List="0" Partial="1">
+      <EDID>DLC03AFBEnclaveGatlingFodder02</EDID>
+      <REC>NPC_:FULL</REC>
+      <Source>Enclave Soldier</Source>
+      <Dest>Soldat der Enklave</Dest>
+    </String>
+    <String List="0" Partial="1">
+      <EDID>DLC03AFBEnclaveGatlingFodder03</EDID>
+      <REC>NPC_:FULL</REC>
+      <Source>Enclave Soldier</Source>
+      <Dest>Soldat der Enklave</Dest>
     </String>
     <String List="0">
       <EDID>DLC03AFBBoSMinigunFodder02</EDID>
@@ -34311,6 +34533,24 @@ Ihrem örtlichen Ausstellungsraum.
       <Source>Underworld Resident</Source>
       <Dest>Underworld-Ansässiger</Dest>
     </String>
+    <String List="0" Partial="1">
+      <EDID>DLC03AFBFight02EnclaveGatlingFodder01</EDID>
+      <REC>NPC_:FULL</REC>
+      <Source>Enclave Soldier</Source>
+      <Dest>Soldat der Enklave</Dest>
+    </String>
+    <String List="0" Partial="1">
+      <EDID>DLC03AFBFight02EnclaveGatlingFodder02</EDID>
+      <REC>NPC_:FULL</REC>
+      <Source>Enclave Soldier</Source>
+      <Dest>Soldat der Enklave</Dest>
+    </String>
+    <String List="0" Partial="1">
+      <EDID>DLC03AFBFight02EnclaveGatlingFodder03</EDID>
+      <REC>NPC_:FULL</REC>
+      <Source>Enclave Soldier</Source>
+      <Dest>Soldat der Enklave</Dest>
+    </String>
     <String List="0">
       <EDID>DLC03AFBFight02BoSMinigunFodder01</EDID>
       <REC>NPC_:FULL</REC>
@@ -34448,6 +34688,36 @@ Ihrem örtlichen Ausstellungsraum.
       <REC>NPC_:FULL</REC>
       <Source>Dead Enclave Soldier</Source>
       <Dest>Enclave Soldier</Dest>
+    </String>
+    <String List="0" Partial="1">
+      <EDID>DLC03EnclaveCarTunnelDead1</EDID>
+      <REC>NPC_:FULL</REC>
+      <Source>Enclave Soldier</Source>
+      <Dest>Soldat der Enklave</Dest>
+    </String>
+    <String List="0" Partial="1">
+      <EDID>DLC03EnclaveCarTunnelDead2</EDID>
+      <REC>NPC_:FULL</REC>
+      <Source>Enclave Soldier</Source>
+      <Dest>Soldat der Enklave</Dest>
+    </String>
+    <String List="0" Partial="1">
+      <EDID>DLC03EnclaveCarTunnelDeadLooted1</EDID>
+      <REC>NPC_:FULL</REC>
+      <Source>Enclave Soldier</Source>
+      <Dest>Soldat der Enklave</Dest>
+    </String>
+    <String List="0" Partial="1">
+      <EDID>DLC03EnclaveCarTunnelDeadLooted2</EDID>
+      <REC>NPC_:FULL</REC>
+      <Source>Enclave Soldier</Source>
+      <Dest>Soldat der Enklave</Dest>
+    </String>
+    <String List="0" Partial="1">
+      <EDID>DLC03EnclaveCarTunnelDeadWorkBench</EDID>
+      <REC>NPC_:FULL</REC>
+      <Source>Enclave Soldier</Source>
+      <Dest>Soldat der Enklave</Dest>
     </String>
     <String List="0">
       <EDID>DLC04TheBrainNPC</EDID>
@@ -35127,6 +35397,18 @@ Ihrem örtlichen Ausstellungsraum.
       <Source>Strike Team Sniper</Source>
       <Dest>Heckenschütze des Einsatzteams</Dest>
     </String>
+    <String List="0" Partial="1">
+      <EDID>DLC03Enclave4GunAAF</EDID>
+      <REC>NPC_:FULL</REC>
+      <Source>Enclave Hellfire Trooper</Source>
+      <Dest>Höllenfeuer-Soldatin der Enklave</Dest>
+    </String>
+    <String List="0" Partial="1">
+      <EDID>DLC03Enclave4BigGunAAF</EDID>
+      <REC>NPC_:FULL</REC>
+      <Source>Enclave Hellfire Trooper</Source>
+      <Dest>Höllenfeuer-Soldatin der Enklave</Dest>
+    </String>
     <String List="0">
       <EDID>DLC03Talon4GunAAM</EDID>
       <REC>NPC_:FULL</REC>
@@ -35150,6 +35432,12 @@ Ihrem örtlichen Ausstellungsraum.
       <REC>NPC_:FULL</REC>
       <Source>Talon Company Merc</Source>
       <Dest>Söldner der Talon Company</Dest>
+    </String>
+    <String List="0" Partial="1">
+      <EDID>DLC03Enclave4NapalmAAF</EDID>
+      <REC>NPC_:FULL</REC>
+      <Source>Enclave Hellfire Trooper</Source>
+      <Dest>Höllenfeuer-Soldatin der Enklave</Dest>
     </String>
     <String List="0">
       <EDID>DLC04TribalMelee2FA</EDID>
@@ -38427,6 +38715,12 @@ Ihrem örtlichen Ausstellungsraum.
       <Source>Deathclaw Mother</Source>
       <Dest>Todeskrallen-Mutter</Dest>
     </String>
+    <String List="0" Partial="1">
+      <EDID>V34TurretCeiling01</EDID>
+      <REC>CREA:FULL</REC>
+      <Source>Vault-Tec Turret</Source>
+      <Dest>Vault-Tec-Geschützturm</Dest>
+    </String>
     <String List="0">
       <EDID>VSpawnSpecialTier4DeathclawSmallGypsum</EDID>
       <REC>CREA:FULL</REC>
@@ -41007,6 +41301,12 @@ Ihrem örtlichen Ausstellungsraum.
       <Source>Outcast Sentry Bot</Source>
       <Dest>Wachbot der Ausgestoßenen</Dest>
     </String>
+    <String List="0" Partial="1">
+      <EDID>DLC03PresMetroGhoul01DEAD</EDID>
+      <REC>CREA:FULL</REC>
+      <Source>Feral Ghoul</Source>
+      <Dest>Wilder Ghul</Dest>
+    </String>
     <String List="0">
       <EDID>DLC03PresMetroGhoul02DEAD</EDID>
       <REC>CREA:FULL</REC>
@@ -41061,8 +41361,26 @@ Ihrem örtlichen Ausstellungsraum.
       <Source>Albino Radscorpion</Source>
       <Dest>Albino-RAD-Skorpion</Dest>
     </String>
+    <String List="0" Partial="1">
+      <EDID>DLC03zCarTunnelTurretDC</EDID>
+      <REC>CREA:FULL</REC>
+      <Source>Mark VI Turret</Source>
+      <Dest>Mark VI-Geschützturm</Dest>
+    </String>
+    <String List="0" Partial="1">
+      <EDID>DLC04CrBrainDefenseTurret</EDID>
+      <REC>CREA:FULL</REC>
+      <Source>Mark I Turret</Source>
+      <Dest>Mark I-Geschützturm</Dest>
+    </String>
     <String List="0">
       <EDID>DLC04CrSwampGhoul</EDID>
+      <REC>CREA:FULL</REC>
+      <Source>Swamp Ghoul</Source>
+      <Dest>Sumpfghul</Dest>
+    </String>
+    <String List="0" Partial="1">
+      <EDID>DLC04FF06GhoulPassive</EDID>
       <REC>CREA:FULL</REC>
       <Source>Swamp Ghoul</Source>
       <Dest>Sumpfghul</Dest>
@@ -41075,6 +41393,12 @@ Ihrem örtlichen Ausstellungsraum.
     </String>
     <String List="0">
       <EDID>DLC04LabProtectron</EDID>
+      <REC>CREA:FULL</REC>
+      <Source>Protectron</Source>
+      <Dest>Protektron</Dest>
+    </String>
+    <String List="0" Partial="1">
+      <EDID>DLC04LabProtectronBrain</EDID>
       <REC>CREA:FULL</REC>
       <Source>Protectron</Source>
       <Dest>Protektron</Dest>
@@ -41114,6 +41438,12 @@ Ihrem örtlichen Ausstellungsraum.
       <REC>CREA:FULL</REC>
       <Source>Brawler</Source>
       <Dest>Raufbold</Dest>
+    </String>
+    <String List="0" Partial="1">
+      <EDID>DLC04StoreProtectron</EDID>
+      <REC>CREA:FULL</REC>
+      <Source>Protectron</Source>
+      <Dest>Protektron</Dest>
     </String>
     <String List="0">
       <EDID>DLC04BlackhallManorSwampFolk03DEAD</EDID>
@@ -41156,6 +41486,12 @@ Ihrem örtlichen Ausstellungsraum.
       <REC>CREA:FULL</REC>
       <Source>Scrapper</Source>
       <Dest>Randalierer</Dest>
+    </String>
+    <String List="0" Partial="1">
+      <EDID>DLC04BogHallucinationGhoul</EDID>
+      <REC>CREA:FULL</REC>
+      <Source>Swamp Ghoul</Source>
+      <Dest>Sumpfghul</Dest>
     </String>
     <String List="0">
       <EDID>DLC05CrRobot1MeleeTemplate</EDID>
@@ -163392,6 +163728,12 @@ PS: An alle Schreiber-Streber, die mir WIEDER wegen "Formlosigkeit" und "mangeln
       <Source>With the Cannibal perk, when you're in Sneak mode, you gain the option to eat a corpse to regain Health. But every time you feed, you lose Karma, and if the act is witnessed, it is considered a crime against nature.</Source>
       <Dest>Sie erhalten im Schleichmodus die Möglichkeit, eine Leiche zu essen, um Gesundheit zurückzugewinnen. Allerdings verlieren Sie dabei Karma. Für eventuelle Beobachter ist dies ein Verbrechen gegen die Natur.</Dest>
     </String>
+    <String List="0" Partial="1">
+      <EDID>Cannibal</EDID>
+      <REC>PERK:EPF2</REC>
+      <Source>Devour</Source>
+      <Dest>Auffressen</Dest>
+    </String>
     <String List="0">
       <EDID>GrimReaperSprint</EDID>
       <REC>PERK:FULL</REC>
@@ -163427,6 +163769,12 @@ PS: An alle Schreiber-Streber, die mir WIEDER wegen "Formlosigkeit" und "mangeln
       <REC>PERK:DESC</REC>
       <Source>With Ghastly Scavenger, when you're in Sneak mode, you gain the option to eat a Super Mutant or Feral Ghoul corpse to regain Health. Every time you feed, you lose Karma, and if the act is witnessed, it is considered a crime against nature.</Source>
       <Dest>Im Schleichmodus können Sie die Leiche eines Supermutanten oder wilden Ghuls essen, um Gesundheit zurückzugewinnen. Allerdings verlieren Sie dabei Karma. Für eventuelle Beobachter ist dies ein Verbrechen gegen die Natur.</Dest>
+    </String>
+    <String List="0" Partial="1">
+      <EDID>GhastlyScavenger</EDID>
+      <REC>PERK:EPF2</REC>
+      <Source>Devour</Source>
+      <Dest>Auffressen</Dest>
     </String>
     <String List="0">
       <EDID>DeathclawOmelet</EDID>

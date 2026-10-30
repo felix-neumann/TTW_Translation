@@ -22,6 +22,7 @@ LABEL = {
     'record_TTW': 'TTW-Uebersetzung', 'dict_TTW': 'TTW-Uebersetzung (Woerterbuch)',
     'changed_TTW': 'TTW-Uebersetzung (EN-Text vom Mod leicht geaendert)',
     'new': 'Neu uebersetzt (Claude)',
+    'fix': 'Korrektur (offiziell englisch gelassen/fehlerhaft, Claude)',
 }
 
 
@@ -94,6 +95,43 @@ def load_translations(path):
         return {nl(x['en']): x['de'] for x in json.load(f)}
 
 
+def load_fixes(path):
+    """official_fixes.json: [{en, de, record ("TYPE:FIELD"), editor_id?, override?}].
+
+    Corrections for texts the official German version left English (or got wrong). An entry
+    applies to official/dictionary matches of the same English text in the same field whose
+    German is identical to the English; with "override" it also replaces a differing official
+    text (then "editor_id" should pin it to one record)."""
+    if not path or not os.path.exists(path):
+        return {}
+    fixes = {}
+    with open(path, encoding='utf-8') as f:
+        for x in json.load(f):
+            fixes.setdefault((nl(x['en']), x['record']), []).append(x)
+    return fixes
+
+
+def female_npcs(path):
+    """FormIDs of NPC_ records with the Female flag (ACBS flags bit 0)."""
+    return {fid for t, fid, fl, data in iter_records(path) if t == 'NPC_'
+            for k, v in parse_subs(data) if k == b'ACBS' and struct.unpack('<I', v[:4])[0] & 1}
+
+
+def apply_fix(e, de, m, fixes, used, female=()):
+    """(German, mode) after official_fixes.json; mode 'fix' when a correction applied.
+    "de_female" is used instead of "de" for NPC_ records in `female`."""
+    t, o, oid, fid, edid, s, i, txt = e
+    if m == 'new' or de is None:
+        return de, m
+    for x in fixes.get((nl(txt), f'{t}:{s}'), ()):
+        if x.get('editor_id') not in (None, edid) or not (de == txt or x.get('override')):
+            continue
+        used.add((nl(x['en']), x['record'], x.get('editor_id')))
+        fixed = x['de_female'] if t == 'NPC_' and fid in female and 'de_female' in x else x['de']
+        return (nl(fixed).replace('\n', '\r\n') if '\r\n' in txt else fixed), 'fix'
+    return de, m
+
+
 def resolve(e, de, m, translations):
     """Final German text for one entry (None = keep as is) and whether it is missing."""
     t, o, oid, fid, edid, s, i, txt = e
@@ -113,11 +151,12 @@ def resolve(e, de, m, translations):
     return de, False
 
 
-def build(groups, db_dir, translations, inject=None, log=print):
+def build(groups, db_dir, translations, inject=None, log=print, fixes=None):
     """groups: [dict(results=..., src_dir=..., out_dir=..., xml_dir=..., prefix='')]
     inject: {lower-case plugin name: [(formid, edid, german, raw record)]} - GMSTs to add
     (applies to the first group only)."""
     inject = inject or {}
+    fixes, used = fixes or {}, set()
     missing = collections.OrderedDict()
     summary = {}
     os.makedirs(db_dir, exist_ok=True)
@@ -139,8 +178,13 @@ def build(groups, db_dir, translations, inject=None, log=print):
                 repl = collections.defaultdict(dict)
                 rows = []
                 count = collections.Counter((e[3], e[5]) for e, _, _ in v['res'])
+                female = set()
+                if any(e[0] == 'NPC_' and any('de_female' in x for x in fixes.get((nl(e[7]), f'NPC_:{e[5]}'), ()))
+                       for e, _, _ in v['res']):
+                    female = female_npcs(os.path.join(src_dir, fname))
                 for e, de, m in v['res']:
                     t, o, oid, fid, edid, s, i, txt = e
+                    de, m = apply_fix(e, de, m, fixes, used, female)
                     de, miss = resolve(e, de, m, translations)
                     if miss:
                         key = nl(txt)
@@ -170,7 +214,7 @@ def build(groups, db_dir, translations, inject=None, log=print):
                 c = ET.SubElement(root, 'Content')
                 for fid, edid, t, s, i, imax, en, de, m in rows:
                     node = ET.SubElement(c, 'String', List='0')
-                    if m == 'new':
+                    if m in ('new', 'fix'):
                         node.set('Partial', '1')  # shown as "incomplete" in xTranslator -> easy to review
                     ET.SubElement(node, 'EDID').text = edid if edid else '[%08X]' % fid
                     rec = ET.SubElement(node, 'REC')
@@ -185,4 +229,7 @@ def build(groups, db_dir, translations, inject=None, log=print):
                 ET.ElementTree(root).write(
                     os.path.join(xml_dir, f'{os.path.splitext(fname)[0]}_english_german.xml'),
                     encoding='UTF-8', xml_declaration=True)
+    for x in (x for v in fixes.values() for x in v):
+        if (nl(x['en']), x['record'], x.get('editor_id')) not in used:
+            log(f'  Hinweis: Korrektur ohne Treffer: {x["record"]} {x["en"]!r}')
     return summary, list(missing.values())

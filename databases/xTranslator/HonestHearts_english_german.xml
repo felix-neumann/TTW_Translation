@@ -20396,6 +20396,12 @@ Wenn sich Joshua Graham in Ihrer Gruppe befindet, hat jede automatische .45-Kali
       <Source>Datura Hide</Source>
       <Dest>Datura-Haut</Dest>
     </String>
+    <String List="0" Partial="1">
+      <EDID>NVDLC02RecipeConversionFissionBATtoSEC</EDID>
+      <REC>RCPE:FULL</REC>
+      <Source>Conversion, Fission Battery to SEC</Source>
+      <Dest>Umwandlung, Kernspaltungsbatterie zu KEZ</Dest>
+    </String>
     <String List="0">
       <EDID>NVDLC02RecipeMedicalSupplyKit</EDID>
       <REC>RCPE:FULL</REC>

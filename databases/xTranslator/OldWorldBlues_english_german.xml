@@ -763,6 +763,12 @@
       <Source>Red Mist</Source>
       <Dest>Roter Nebel</Dest>
     </String>
+    <String List="0" Partial="1">
+      <EDID>NVDLC03ReinforcedSpineStrBoostAE</EDID>
+      <REC>SPEL:FULL</REC>
+      <Source>Reinforced Spine</Source>
+      <Dest>Verstärktes Rückgrat</Dest>
+    </String>
     <String List="0">
       <EDID>NVDLC03LegendaryBloatflyDT</EDID>
       <REC>SPEL:FULL</REC>
@@ -1320,6 +1326,18 @@
 "Ihre Sicherheit ist unsere Sicherheit"
 &gt;\ Willkommen, BENUTZER
 </Dest>
+    </String>
+    <String List="0" Partial="1">
+      <EDID>NVDLC03X13DoorTerminal</EDID>
+      <REC>TERM:ITXT</REC>
+      <Source>Disengage Lock</Source>
+      <Dest>Schloss entriegeln</Dest>
+    </String>
+    <String List="0" Partial="1">
+      <EDID>NVDLC03X13DoorTerminal</EDID>
+      <REC>TERM:RNAM</REC>
+      <Source>Clearance granted, Unlocking...</Source>
+      <Dest>Freigabe erteilt. Entriegeln ...</Dest>
     </String>
     <String List="0">
       <EDID>NVDLC03X12Terminal</EDID>
@@ -3962,6 +3980,12 @@ Sind Sie sicher, dass Sie fortfahren wollen?
       <REC>CONT:FULL</REC>
       <Source>Refrigerator</Source>
       <Dest>Kühlschrank</Dest>
+    </String>
+    <String List="0" Partial="1">
+      <EDID>NVDLC03MetroGateDup</EDID>
+      <REC>DOOR:FULL</REC>
+      <Source>Gate</Source>
+      <Dest>Tor</Dest>
     </String>
     <String List="0">
       <EDID>NVDLC03InvisibleDoorDup</EDID>

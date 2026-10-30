@@ -49,6 +49,12 @@
       <Source>Dismember</Source>
       <Dest>Amputierer</Dest>
     </String>
+    <String List="0" Partial="1">
+      <EDID>DLC04ReaverGlowEffect</EDID>
+      <REC>MGEF:FULL</REC>
+      <Source>Radioactive Burning</Source>
+      <Dest>Radioaktiver Brand</Dest>
+    </String>
     <String List="0">
       <EDID>DLC04EnchBioGasCloud</EDID>
       <REC>ENCH:FULL</REC>
@@ -3083,6 +3089,48 @@ Tagesoperationsprotokolle
       <Source>Ritual Knife</Source>
       <Dest>Ritualmesser</Dest>
     </String>
+    <String List="0" Partial="1">
+      <EDID>DLC04WeapKnifeNonPlayable</EDID>
+      <REC>WEAP:FULL</REC>
+      <Source>Knife</Source>
+      <Dest>Messer</Dest>
+    </String>
+    <String List="0" Partial="1">
+      <EDID>DLC04WeapKnifeCombatNonPlayable</EDID>
+      <REC>WEAP:FULL</REC>
+      <Source>Combat Knife</Source>
+      <Dest>Kampfmesser</Dest>
+    </String>
+    <String List="0" Partial="1">
+      <EDID>DLC04WeapTireIronNonPlayable</EDID>
+      <REC>WEAP:FULL</REC>
+      <Source>Tire Iron</Source>
+      <Dest>Kreuzschlüssel</Dest>
+    </String>
+    <String List="0" Partial="1">
+      <EDID>DLC04WeapLeadPipeNonPlayable</EDID>
+      <REC>WEAP:FULL</REC>
+      <Source>Lead Pipe</Source>
+      <Dest>Bleirohr</Dest>
+    </String>
+    <String List="0" Partial="1">
+      <EDID>DLC04WeapHuntingRifleNonPlayable</EDID>
+      <REC>WEAP:FULL</REC>
+      <Source>Hunting Rifle</Source>
+      <Dest>Jagdgewehr</Dest>
+    </String>
+    <String List="0" Partial="1">
+      <EDID>DLC04WeapBaseballBatNonPlayable</EDID>
+      <REC>WEAP:FULL</REC>
+      <Source>Baseball Bat</Source>
+      <Dest>Baseballschläger</Dest>
+    </String>
+    <String List="0" Partial="1">
+      <EDID>DLC04WeapBBGunNonPlayable</EDID>
+      <REC>WEAP:FULL</REC>
+      <Source>BB Gun</Source>
+      <Dest>Luftgewehr</Dest>
+    </String>
     <String List="0">
       <EDID>DLC04AmmoSwamplurkSpit</EDID>
       <REC>AMMO:FULL</REC>
@@ -4145,6 +4193,12 @@ Tagesoperationsprotokolle
       <Source>Dead Settler</Source>
       <Dest>Toter Siedler</Dest>
     </String>
+    <String List="0" Partial="1">
+      <EDID>DLC04CrBrainDefenseTurret</EDID>
+      <REC>CREA:FULL</REC>
+      <Source>Mark I Turret</Source>
+      <Dest>Mark I-Geschützturm</Dest>
+    </String>
     <String List="0">
       <EDID>DLC04FF05Protectron</EDID>
       <REC>CREA:FULL</REC>
@@ -4177,6 +4231,12 @@ Tagesoperationsprotokolle
     </String>
     <String List="0">
       <EDID>DLC04LabProtectronActive</EDID>
+      <REC>CREA:FULL</REC>
+      <Source>Protectron</Source>
+      <Dest>Protektron</Dest>
+    </String>
+    <String List="0" Partial="1">
+      <EDID>DLC04LabProtectronBrain</EDID>
       <REC>CREA:FULL</REC>
       <Source>Protectron</Source>
       <Dest>Protektron</Dest>
@@ -4217,11 +4277,41 @@ Tagesoperationsprotokolle
       <Source>Brawler</Source>
       <Dest>Raufbold</Dest>
     </String>
+    <String List="0" Partial="1">
+      <EDID>DLC04StoreProtectron</EDID>
+      <REC>CREA:FULL</REC>
+      <Source>Protectron</Source>
+      <Dest>Protektron</Dest>
+    </String>
+    <String List="0" Partial="1">
+      <EDID>DLC04CrProtectron</EDID>
+      <REC>CREA:FULL</REC>
+      <Source>Protectron</Source>
+      <Dest>Protektron</Dest>
+    </String>
     <String List="0">
       <EDID>DLC04BlackhallManorSwampFolk03DEAD</EDID>
       <REC>CREA:FULL</REC>
       <Source>Swampfolk Creeper</Source>
       <Dest>Leisetreter</Dest>
+    </String>
+    <String List="0" Partial="1">
+      <EDID>DLC04CrDogVicious</EDID>
+      <REC>CREA:FULL</REC>
+      <Source>Vicious Dog</Source>
+      <Dest>Bissiger Hund</Dest>
+    </String>
+    <String List="0" Partial="1">
+      <EDID>DLC04CrBloatFly</EDID>
+      <REC>CREA:FULL</REC>
+      <Source>Bloatfly</Source>
+      <Dest>Blähfliege</Dest>
+    </String>
+    <String List="0" Partial="1">
+      <EDID>DLC04CrMoleRat</EDID>
+      <REC>CREA:FULL</REC>
+      <Source>Mole Rat</Source>
+      <Dest>Maulwurfsratte</Dest>
     </String>
     <String List="0">
       <EDID>DLC04CrFeralGhoul4A</EDID>
@@ -4252,6 +4342,12 @@ Tagesoperationsprotokolle
       <REC>CREA:FULL</REC>
       <Source>Tracker</Source>
       <Dest>Fährtenleser</Dest>
+    </String>
+    <String List="0" Partial="1">
+      <EDID>DLC04IntroCrDogVicious</EDID>
+      <REC>CREA:FULL</REC>
+      <Source>Vicious Dog</Source>
+      <Dest>Bissiger Hund</Dest>
     </String>
     <String List="0">
       <EDID>DLC04staticShotgunScrapper</EDID>
@@ -4306,6 +4402,12 @@ Tagesoperationsprotokolle
       <REC>CREA:FULL</REC>
       <Source>Bruiser</Source>
       <Dest>Schläger</Dest>
+    </String>
+    <String List="0" Partial="1">
+      <EDID>DLC04BogHallucinationGhoul</EDID>
+      <REC>CREA:FULL</REC>
+      <Source>Swamp Ghoul</Source>
+      <Dest>Sumpfghul</Dest>
     </String>
     <String List="0">
       <EDID>DLC04FF05LockerKey</EDID>

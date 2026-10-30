@@ -24,6 +24,7 @@ Getestet mit **TTW 3.4** und **YUPTTW 13.9.1**. Benötigt wird nur **Python 3.10
 | `scripts/check_gamedir.py` | Spielverzeichnis ohne MO2 prüfen (INIs, Invalidierung, Ladereihenfolge, Header) |
 | `scripts/pack_check.py` | Texture-Pack-Mods auf Konflikte und vermischte Mesh-/Texturquellen prüfen |
 | `translations/claude_translations.json` | Übersetzungen der Texte, die es nur in TTW/YUP gibt |
+| `translations/official_fixes.json` | Übersetzungen für Texte, die die offizielle deutsche Fassung englisch gelassen hat |
 | `databases/xTranslator/*.xml` | Übersetzung pro Plugin im xTranslator-XML-Format |
 | `databases/xTranslator/Mods/*.xml` | Dasselbe für zusätzliche Mod-Plugins |
 | `databases/TTW_Deutsch_alle_Texte.tsv` | Alle Texte in einer Tabelle (Englisch, Deutsch, Quelle) |
@@ -87,6 +88,8 @@ Für jedes Textfeld gilt diese Reihenfolge:
 3. **Leicht geänderter Text:** Hat TTW/YUP den englischen Text nur korrigiert (mindestens 80 % ähnlich und gleiche Zahlen), wird die deutsche Fassung des Originals verwendet. Bei umgeschriebenen oder umfunktionierten Records (z. B. Karmatitel, geänderte Prozentwerte) passiert das bewusst nicht.
 4. **Neu:** Alle anderen Texte kommen aus `translations/claude_translations.json`.
 
+**Korrekturen (`translations/official_fixes.json`):** Die offizielle deutsche Fassung hat manche sichtbaren Texte englisch gelassen, vor allem in Fallout 3 und Broken Steel (z. B. "Enclave Hellfire Trooper", "Primer Box, Shotshell", "Conversion, Fission Battery to SEC", Gegnernamen, einige Terminals). Ein Eintrag gilt für alle Felder mit genau diesem englischen Text im angegebenen Record-Typ und Feld (`record`, z. B. `NPC_:FULL`), aber nur dann, wenn der deutsche Text dort identisch mit dem englischen ist. Mit `de_female` bekommen NPCs mit Female-Flag die weibliche Form. `override` ersetzt einen falschen offiziellen Text, `editor_id` beschränkt den Eintrag auf einen Record. Beispiel: Der Kurzname von Turbo heißt im deutschen Original fälschlich "Detect Range". Quest-Titel, Eigennamen, interne Namen (Test-Objekte, Skript-Quests) und Dialogzeilen ohne deutsche Sprachausgabe bleiben bewusst englisch. In der TSV stehen die Korrekturen mit der Quelle `Korrektur (offiziell englisch gelassen/fehlerhaft, Claude)`, in xTranslator sind sie als unvollständig markiert. Wenn ein Eintrag nirgends greift, gibt `run_all.py` einen Hinweis aus.
+
 Dazu kommen **Spieleinstellungen (GMST), die es nur in den deutschen Mastern gibt**: Hauptmenü ("Neu", "Laden", "Optionen", "Abbrechen" ...), Tastenbelegung, Hacking-Bildschirm und Ähnliches. Die englische Version nimmt diese Texte direkt aus der EXE, die deutsche überschreibt sie über die ESM. Ausgewählt wird über die EditorID: alle Text-Einstellungen der deutschen `FalloutNV.esm`, ergänzt um die aus der deutschen `Fallout3.esm`, die FNV nicht hat (Dialog-Knöpfe und Tastennamen der deutschen Tastatur). Ausgenommen sind Einstellungen, die TTW oder YUP selbst setzen; die laufen über die normale Zuordnung. Sie werden als **neue GMST-Records** in die übersetzte `FalloutNV.esm` eingefügt (aktuell 1.265). Viele deutsche GMSTs nutzen FormIDs, die im englischen Master schon anderen Records gehören; diese bekommen neue FormIDs ab `0x180000`. Das ist unproblematisch, weil das Spiel Einstellungen über die EditorID sucht. In der TSV stehen sie mit der Quelle `DE-Original (nur im DE-Master, als neuer Record ergaenzt)`. In den xTranslator-XMLs fehlen sie, weil xTranslator nur vorhandene Texte übersetzt und keine Records hinzufügt.
 
 Technische Details:
@@ -119,7 +122,7 @@ Technische Details:
 - Von Claude neu übersetzte Texte sind mit `Partial="1"` markiert und erscheinen als "unvollständig". So lassen sie sich gezielt prüfen.
 - Danach kann xTranslator die Übersetzung als eigenes `.sst`-Wörterbuch speichern.
 
-In der TSV-Datei zeigt die Spalte `Quelle`, woher jeder Text stammt: `FNV-Original`, `FO3-Original`, `FNV-Woerterbuch`, `FO3-Woerterbuch`, `… (EN-Text von TTW/YUP leicht geaendert)` oder `Neu uebersetzt (Claude)`. Zeilenumbrüche stehen dort als `\n`.
+In der TSV-Datei zeigt die Spalte `Quelle`, woher jeder Text stammt: `FNV-Original`, `FO3-Original`, `FNV-Woerterbuch`, `FO3-Woerterbuch`, `… (EN-Text von TTW/YUP leicht geaendert)`, `Neu uebersetzt (Claude)` oder `Korrektur (offiziell englisch gelassen/fehlerhaft, Claude)`. Zeilenumbrüche stehen dort als `\n`.
 
 ## Deutsche Audiodateien außerhalb der Sprach-Archive
 

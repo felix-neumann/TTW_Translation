@@ -31,6 +31,12 @@
       <Source>Your Sleep Deprivation level has decreased</Source>
       <Dest>Ihr Schlafentzug hat abgenommen.</Dest>
     </String>
+    <String List="0" Partial="1">
+      <EDID>sKBCapital</EDID>
+      <REC>GMST:DATA</REC>
+      <Source>Caps Lock</Source>
+      <Dest>Feststelltaste</Dest>
+    </String>
     <String List="0">
       <EDID>sNoFastTravelScriptBlock</EDID>
       <REC>GMST:DATA</REC>
@@ -174,6 +180,12 @@
       <REC>GMST:DATA</REC>
       <Source>Your dehydration level has decreased.</Source>
       <Dest>Ihre Dehydration hat abgenommen.</Dest>
+    </String>
+    <String List="0" Partial="1">
+      <EDID>sCWheelUseStimPack</EDID>
+      <REC>GMST:DATA</REC>
+      <Source>Use StimPak</Source>
+      <Dest>Stimpak benutzen</Dest>
     </String>
     <String List="0">
       <EDID>sKarmicTitleNeutral30</EDID>
@@ -6037,6 +6049,36 @@
       <Source>Damage Luck</Source>
       <Dest>Schaden-Glück</Dest>
     </String>
+    <String List="0" Partial="1">
+      <EDID>DamageSkillGuns</EDID>
+      <REC>MGEF:FULL</REC>
+      <Source>Damage Guns</Source>
+      <Dest>Schaden-Schusswaffen</Dest>
+    </String>
+    <String List="0" Partial="1">
+      <EDID>DamageSkillExplosives</EDID>
+      <REC>MGEF:FULL</REC>
+      <Source>Damage Explosives</Source>
+      <Dest>Schaden-Sprengstoffe</Dest>
+    </String>
+    <String List="0" Partial="1">
+      <EDID>DamageSkillEnergyWeapons</EDID>
+      <REC>MGEF:FULL</REC>
+      <Source>Damage Energy Weapons</Source>
+      <Dest>Schaden-Energiewaffen</Dest>
+    </String>
+    <String List="0" Partial="1">
+      <EDID>DamageSkillMeleeWeapons</EDID>
+      <REC>MGEF:FULL</REC>
+      <Source>Damage Melee Weapons</Source>
+      <Dest>Schaden-Nahkampfwaffen</Dest>
+    </String>
+    <String List="0" Partial="1">
+      <EDID>DamageSkillUnarmed</EDID>
+      <REC>MGEF:FULL</REC>
+      <Source>Damage Unarmed</Source>
+      <Dest>Schaden-Waffenlos</Dest>
+    </String>
     <String List="0">
       <EDID>CalmHeartAbilityEffect</EDID>
       <REC>MGEF:FULL</REC>
@@ -8316,6 +8358,12 @@
       <REC>SPEL:FULL</REC>
       <Source>Rex's Rat Sonar</Source>
       <Dest>Rex' Rattensonar</Dest>
+    </String>
+    <String List="0" Partial="1">
+      <EDID>DoctorLimbRestoration</EDID>
+      <REC>SPEL:FULL</REC>
+      <Source>Limb Restoration</Source>
+      <Dest>Gliedmaßen-Wiederherstellung</Dest>
     </String>
     <String List="0">
       <EDID>PreordVault13CanteenHeal</EDID>
@@ -15973,6 +16021,18 @@ Aktueller Administrator: keiner
       <REC id="1" idMax="2">TERM:RNAM</REC>
       <Source>Warning: Turret target priorities reset!</Source>
       <Dest>Abriegelungsprotokoll in Kraft.</Dest>
+    </String>
+    <String List="0" Partial="1">
+      <EDID>NCRPrisonTerminal</EDID>
+      <REC id="2" idMax="2">TERM:ITXT</REC>
+      <Source>Activate lockdown protocol.</Source>
+      <Dest>Abriegelungsprotokoll aktivieren.</Dest>
+    </String>
+    <String List="0" Partial="1">
+      <EDID>NCRPrisonTerminal</EDID>
+      <REC id="2" idMax="2">TERM:RNAM</REC>
+      <Source>Lockdown protocol in effect.</Source>
+      <Dest>Abriegelungsprotokoll ist aktiv.</Dest>
     </String>
     <String List="0">
       <EDID>REPCONSabotageTerminal</EDID>
@@ -25152,6 +25212,18 @@ Willkommen, Benutzer.
       <REC id="10" idMax="11">TERM:RNAM</REC>
       <Source>Isolation confirmed.</Source>
       <Dest>Partition bestätigt.</Dest>
+    </String>
+    <String List="0" Partial="1">
+      <EDID>HVDatastoreWallTerminal</EDID>
+      <REC id="11" idMax="11">TERM:ITXT</REC>
+      <Source>Check partition</Source>
+      <Dest>Auf Datenspeicher zugreifen</Dest>
+    </String>
+    <String List="0" Partial="1">
+      <EDID>HVDatastoreWallTerminal</EDID>
+      <REC id="11" idMax="11">TERM:RNAM</REC>
+      <Source>Partition confirmed.</Source>
+      <Dest>Datenzugriff ...</Dest>
     </String>
     <String List="0">
       <EDID>HVDatastoreVirusScreen01</EDID>
@@ -42931,6 +43003,12 @@ Sind Sie sicher, dass Sie dies tun möchten?</Dest>
       <Dest>Aktenschränke</Dest>
     </String>
     <String List="0" Partial="1">
+      <EDID>NVGSCrateContainerEmpty</EDID>
+      <REC>CONT:FULL</REC>
+      <Source>Crate</Source>
+      <Dest>Kiste</Dest>
+    </String>
+    <String List="0" Partial="1">
       <EDID>LootFirstAidKitFoAPO4</EDID>
       <REC>CONT:FULL</REC>
       <Source>Followers First Aid Box</Source>
@@ -47700,6 +47778,12 @@ Sind Sie sicher, dass Sie dies tun möchten?</Dest>
       <Source>Vault 13 Canteen</Source>
       <Dest>Vault 13 Kantine</Dest>
     </String>
+    <String List="0" Partial="1">
+      <EDID>BoxPrimersShotshell</EDID>
+      <REC>MISC:FULL</REC>
+      <Source>Primer Box, Shotshell</Source>
+      <Dest>Zündhütchenkiste, Schrotflinte</Dest>
+    </String>
     <String List="0">
       <EDID>BoxHull12Ga</EDID>
       <REC>MISC:FULL</REC>
@@ -49475,6 +49559,12 @@ Sind Sie sicher, dass Sie dies tun möchten?</Dest>
       <REC>WEAP:FULL</REC>
       <Source>Caravan Shotgun</Source>
       <Dest>Karawanenschrotflinte</Dest>
+    </String>
+    <String List="0" Partial="1">
+      <EDID>HVWeapPlasmaRifleWeak</EDID>
+      <REC>WEAP:FULL</REC>
+      <Source>Plasma Rifle</Source>
+      <Dest>Plasmagewehr</Dest>
     </String>
     <String List="0">
       <EDID>WeapBooneSniperRifle</EDID>
@@ -68634,6 +68724,84 @@ Sind Sie sicher, dass Sie dies tun möchten?</Dest>
       <Source>NCR Heavy Trooper</Source>
       <Dest>RNK-Sturmsoldat</Dest>
     </String>
+    <String List="0" Partial="1">
+      <EDID>VHDNCRTrooper3aHeavy</EDID>
+      <REC>NPC_:FULL</REC>
+      <Source>NCR Heavy Trooper</Source>
+      <Dest>Schwerer RNK-Soldat</Dest>
+    </String>
+    <String List="0" Partial="1">
+      <EDID>VHDNCRTrooper4Heavy</EDID>
+      <REC>NPC_:FULL</REC>
+      <Source>NCR Heavy Trooper</Source>
+      <Dest>Schwerer RNK-Soldat</Dest>
+    </String>
+    <String List="0" Partial="1">
+      <EDID>VHDNCRTrooper4aHeavy</EDID>
+      <REC>NPC_:FULL</REC>
+      <Source>NCR Heavy Trooper</Source>
+      <Dest>Schwerer RNK-Soldat</Dest>
+    </String>
+    <String List="0" Partial="1">
+      <EDID>VHDNCRTrooper5Heavy</EDID>
+      <REC>NPC_:FULL</REC>
+      <Source>NCR Heavy Trooper</Source>
+      <Dest>Schwerer RNK-Soldat</Dest>
+    </String>
+    <String List="0" Partial="1">
+      <EDID>VHDNCRTrooper5aHeavy</EDID>
+      <REC>NPC_:FULL</REC>
+      <Source>NCR Heavy Trooper</Source>
+      <Dest>Schwerer RNK-Soldat</Dest>
+    </String>
+    <String List="0" Partial="1">
+      <EDID>VHDNCRTrooper6Heavy</EDID>
+      <REC>NPC_:FULL</REC>
+      <Source>NCR Heavy Trooper</Source>
+      <Dest>Schwerer RNK-Soldat</Dest>
+    </String>
+    <String List="0" Partial="1">
+      <EDID>VHDNCRTrooper6aHeavy</EDID>
+      <REC>NPC_:FULL</REC>
+      <Source>NCR Heavy Trooper</Source>
+      <Dest>Schwerer RNK-Soldat</Dest>
+    </String>
+    <String List="0" Partial="1">
+      <EDID>VHDNCRTrooper7Heavy</EDID>
+      <REC>NPC_:FULL</REC>
+      <Source>NCR Heavy Trooper</Source>
+      <Dest>Schwerer RNK-Soldat</Dest>
+    </String>
+    <String List="0" Partial="1">
+      <EDID>VHDNCRTrooper7aHeavy</EDID>
+      <REC>NPC_:FULL</REC>
+      <Source>NCR Heavy Trooper</Source>
+      <Dest>Schwerer RNK-Soldat</Dest>
+    </String>
+    <String List="0" Partial="1">
+      <EDID>VHDNCRTrooper8Heavy</EDID>
+      <REC>NPC_:FULL</REC>
+      <Source>NCR Heavy Trooper</Source>
+      <Dest>Schwerer RNK-Soldat</Dest>
+    </String>
+    <String List="0" Partial="1">
+      <EDID>VHDNCRTrooper8aHeavy</EDID>
+      <REC>NPC_:FULL</REC>
+      <Source>NCR Heavy Trooper</Source>
+      <Dest>Schwerer RNK-Soldat</Dest>
+    </String>
+    <String List="0" Partial="1">
+      <EDID>VHDNCRTrooper9Heavy</EDID>
+      <REC>NPC_:FULL</REC>
+      <Source>NCR Heavy Trooper</Source>
+      <Dest>Schwerer RNK-Soldat</Dest>
+    </String>
+    <String List="0" Partial="1">
+      <EDID>VHDNCRTrooper9aHeavy</EDID>
+      <REC>NPC_:FULL</REC>
+      <Source>NCR Heavy Trooper</Source>
+      <Dest>Schwerer RNK-Soldat</Dest>
+    </String>
     <String List="0">
       <EDID>VHDNCRRanger1Veteran</EDID>
       <REC>NPC_:FULL</REC>
@@ -68672,6 +68840,72 @@ Sind Sie sicher, dass Sie dies tun möchten?</Dest>
     </String>
     <String List="0">
       <EDID>VHDNCRRanger4Veteran</EDID>
+      <REC>NPC_:FULL</REC>
+      <Source>NCR Veteran Ranger</Source>
+      <Dest>RNK-Ranger-Veteran</Dest>
+    </String>
+    <String List="0" Partial="1">
+      <EDID>VHDNCRRanger4aVeteran</EDID>
+      <REC>NPC_:FULL</REC>
+      <Source>NCR Veteran Ranger</Source>
+      <Dest>RNK-Ranger-Veteran</Dest>
+    </String>
+    <String List="0" Partial="1">
+      <EDID>VHDNCRRanger5Veteran</EDID>
+      <REC>NPC_:FULL</REC>
+      <Source>NCR Veteran Ranger</Source>
+      <Dest>RNK-Ranger-Veteran</Dest>
+    </String>
+    <String List="0" Partial="1">
+      <EDID>VHDNCRRanger5aVeteran</EDID>
+      <REC>NPC_:FULL</REC>
+      <Source>NCR Veteran Ranger</Source>
+      <Dest>RNK-Ranger-Veteran</Dest>
+    </String>
+    <String List="0" Partial="1">
+      <EDID>VHDNCRRanger6Veteran</EDID>
+      <REC>NPC_:FULL</REC>
+      <Source>NCR Veteran Ranger</Source>
+      <Dest>RNK-Ranger-Veteran</Dest>
+    </String>
+    <String List="0" Partial="1">
+      <EDID>VHDNCRRanger6aVeteran</EDID>
+      <REC>NPC_:FULL</REC>
+      <Source>NCR Veteran Ranger</Source>
+      <Dest>RNK-Ranger-Veteran</Dest>
+    </String>
+    <String List="0" Partial="1">
+      <EDID>VHDNCRRanger7Veteran</EDID>
+      <REC>NPC_:FULL</REC>
+      <Source>NCR Veteran Ranger</Source>
+      <Dest>RNK-Ranger-Veteran</Dest>
+    </String>
+    <String List="0" Partial="1">
+      <EDID>VHDNCRRanger7aVeteran</EDID>
+      <REC>NPC_:FULL</REC>
+      <Source>NCR Veteran Ranger</Source>
+      <Dest>RNK-Ranger-Veteran</Dest>
+    </String>
+    <String List="0" Partial="1">
+      <EDID>VHDNCRRanger8Veteran</EDID>
+      <REC>NPC_:FULL</REC>
+      <Source>NCR Veteran Ranger</Source>
+      <Dest>RNK-Ranger-Veteran</Dest>
+    </String>
+    <String List="0" Partial="1">
+      <EDID>VHDNCRRanger8aVeteran</EDID>
+      <REC>NPC_:FULL</REC>
+      <Source>NCR Veteran Ranger</Source>
+      <Dest>RNK-Ranger-Veteran</Dest>
+    </String>
+    <String List="0" Partial="1">
+      <EDID>VHDNCRRanger9Veteran</EDID>
+      <REC>NPC_:FULL</REC>
+      <Source>NCR Veteran Ranger</Source>
+      <Dest>RNK-Ranger-Veteran</Dest>
+    </String>
+    <String List="0" Partial="1">
+      <EDID>VHDNCRRanger9aVeteran</EDID>
       <REC>NPC_:FULL</REC>
       <Source>NCR Veteran Ranger</Source>
       <Dest>RNK-Ranger-Veteran</Dest>
@@ -74298,6 +74532,12 @@ Sind Sie sicher, dass Sie dies tun möchten?</Dest>
       <Source>Deathclaw Mother</Source>
       <Dest>Todeskrallen-Mutter</Dest>
     </String>
+    <String List="0" Partial="1">
+      <EDID>V34TurretCeiling01</EDID>
+      <REC>CREA:FULL</REC>
+      <Source>Vault-Tec Turret</Source>
+      <Dest>Vault-Tec-Geschützturm</Dest>
+    </String>
     <String List="0">
       <EDID>VSpawnSpecialTier4DeathclawMedGypsum</EDID>
       <REC>CREA:FULL</REC>
@@ -74376,11 +74616,29 @@ Sind Sie sicher, dass Sie dies tun möchten?</Dest>
       <Source>Glowing One</Source>
       <Dest>Leuchtender</Dest>
     </String>
+    <String List="0" Partial="1">
+      <EDID>HVCollarKey</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Slave Collar Key</Source>
+      <Dest>Sklavenhalsband-Schlüssel</Dest>
+    </String>
     <String List="0">
       <EDID>vHouseVIPKeycard</EDID>
       <REC>KEYM:FULL</REC>
       <Source>Lucky 38 VIP Keycard</Source>
       <Dest>House VIP Key Card</Dest>
+    </String>
+    <String List="0" Partial="1">
+      <EDID>VFSVanGraffKey</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Van Graff Key</Source>
+      <Dest>Van-Graff-Schlüssel</Dest>
+    </String>
+    <String List="0" Partial="1">
+      <EDID>VFSSupplyKey</EDID>
+      <REC>KEYM:FULL</REC>
+      <Source>Freeside House Key</Source>
+      <Dest>Freeside-Hausschlüssel</Dest>
     </String>
     <String List="0">
       <EDID>VOVHostetlerKey</EDID>
@@ -77139,6 +77397,12 @@ IV. Um die Ressourcen der Enklave zu schonen, sollten Häftlinge nur dann durch 
       <Dest>Feldbericht – Erstellt von Unteroffizier J. Tuckman mittels Tondiktat für den Obergefreiten Matthew Scott. Die Stimme des Obergefreiten Scott ist die einzige im folgenden Text aufgezeichnete Quelle.
 
 &gt; Sir, bei meiner Patrouille sind mir drei Wilde begegnet. Das war etwa um 0300 Uhr, glaube ich, und es war dunkel, daher sahen sie mich zuerst. Ich habe meine Waffe vier Mal abgefeuert, und zwei der drei Wilden tödlich getroffen. Meine Waffe klemmte, bevor ich das dritte Ziel unter Beschuss nehmen konnte, und erst da erkannte ich, dass es nicht kämpfte. Ich wusste, dass wir Befehl hatten, ungewöhnliche Vorkommnisse zu berichten und nun ... ich fand das ziemlich merkwürdig. Er folgte mir von sich aus bis hierher. Wir haben ihn mit dem anderen in den Wohnwagen gesteckt, und seither ist er völlig ruhig. Ich finde das alles höchst seltsam. &gt;</Dest>
+    </String>
+    <String List="0" Partial="1">
+      <EDID>CGDadSafeNote</EDID>
+      <REC>NOTE:FULL</REC>
+      <Source>Home Sweet Home</Source>
+      <Dest>Trautes Heim, Glück allein</Dest>
     </String>
     <String List="0">
       <EDID>GameLookROOT</EDID>
@@ -93518,6 +93782,12 @@ Trent</Dest>
       <REC>NOTE:TNAM</REC>
       <Source>This recipe allows you to make Cook-Cook's Fiend Stew.</Source>
       <Dest>Mit diesem Rezept können Sie Cook-Cooks Unholde-Eintopf zubereiten.</Dest>
+    </String>
+    <String List="0" Partial="1">
+      <EDID>vYesManBunkerNote</EDID>
+      <REC>NOTE:FULL</REC>
+      <Source>About that Bunker at Fortification Hill...</Source>
+      <Dest>Zum Bunker am Fortification Hill ...</Dest>
     </String>
     <String List="0">
       <EDID>vYesManBunkerNote</EDID>
@@ -232277,6 +232547,12 @@ Ja-Sager</Dest>
       <REC id="3" idMax="3">INFO:NAM1</REC>
       <Source>But autocracy? Firm control in the hands of a technological and economic visionary? Yes, that Vegas shall have.</Source>
       <Dest>Aber Autokratie? Entschiedene Kontrolle durch die starke Hand eines technologischen und wirtschaftlichen Visionärs? Ja, das soll Vegas haben.</Dest>
+    </String>
+    <String List="0" Partial="1">
+      <EDID>[00159A15]</EDID>
+      <REC>INFO:RNAM</REC>
+      <Source>What's to keep you from abusing your power?</Source>
+      <Dest>Was hält Sie davon ab, Ihre Macht zu missbrauchen?</Dest>
     </String>
     <String List="0">
       <EDID>VDialogueMrHouseMrHouseTopic015</EDID>
@@ -381488,6 +381764,12 @@ Ja-Sager</Dest>
       <Source>With Ghastly Scavenger, when you're in Sneak mode, you gain the option to eat a Super Mutant or Feral Ghoul corpse to regain Health. Every time you feed, you lose Karma, and if the act is witnessed, it is considered a crime against nature.</Source>
       <Dest>Im Schleichmodus können Sie die Leiche eines Supermutanten oder wilden Ghuls essen, um Gesundheit zurückzugewinnen. Allerdings verlieren Sie dabei Karma. Für eventuelle Beobachter ist dies ein Verbrechen gegen die Natur.</Dest>
     </String>
+    <String List="0" Partial="1">
+      <EDID>GhastlyScavenger</EDID>
+      <REC>PERK:EPF2</REC>
+      <Source>Devour</Source>
+      <Dest>Auffressen</Dest>
+    </String>
     <String List="0">
       <EDID>TriggerDiscipline</EDID>
       <REC>PERK:FULL</REC>
@@ -381781,6 +382063,12 @@ Ja-Sager</Dest>
       <REC>PERK:DESC</REC>
       <Source>With the Cannibal perk, when you're in Sneak mode, you gain the option to eat a corpse to regain Health. But every time you feed, you lose Karma, and if the act is witnessed, it is considered a crime against nature.</Source>
       <Dest>Sie erhalten im Schleichmodus die Möglichkeit, eine Leiche zu essen, um Gesundheit zurückzugewinnen. Allerdings verlieren Sie dabei Karma. Für eventuelle Beobachter ist dies ein Verbrechen gegen die Natur.</Dest>
+    </String>
+    <String List="0" Partial="1">
+      <EDID>Cannibal</EDID>
+      <REC>PERK:EPF2</REC>
+      <Source>Devour</Source>
+      <Dest>Auffressen</Dest>
     </String>
     <String List="0">
       <EDID>Gunslinger</EDID>
@@ -382202,6 +382490,12 @@ Ja-Sager</Dest>
       <Source>With the Robotics Expert perk, you do an additional 25% damage to any robot. But, even better, sneaking up on a hostile robot undetected and activating it will put that robot into a permanent shutdown state.</Source>
       <Dest>Mit dem Extra 'Robotikexperte' fügen Sie jedem Roboter im Kampf 25% mehr Schaden zu. Außerdem können Sie einen feindlichen Roboter dauerhaft herunterfahren, sofern Sie sich unerkannt an ihn heranschleichen können.</Dest>
     </String>
+    <String List="0" Partial="1">
+      <EDID>RoboticsExpert</EDID>
+      <REC>PERK:EPF2</REC>
+      <Source>Deactivate</Source>
+      <Dest>Deaktivieren</Dest>
+    </String>
     <String List="0">
       <EDID>Tag</EDID>
       <REC>PERK:FULL</REC>
@@ -382327,6 +382621,12 @@ Ja-Sager</Dest>
       <REC>PERK:DESC</REC>
       <Source>With the Mister Sandman perk, when you're in Sneak mode, you gain the option to silently kill any human or Ghoul while they're sleeping. And, all Mister Sandman kills earn bonus XP.</Source>
       <Dest>Mit dem Extra 'Sandmann' können Sie im Schleichmodus mit einer speziellen Bewegung jeden schlafenden Menschen oder Ghul direkt töten. Dafür bringt Ihnen der Sandmann zusätzliche EP.</Dest>
+    </String>
+    <String List="0" Partial="1">
+      <EDID>MisterSandman</EDID>
+      <REC>PERK:EPF2</REC>
+      <Source>Murder</Source>
+      <Dest>Ermorden</Dest>
     </String>
     <String List="0">
       <EDID>HereandNow</EDID>
@@ -384405,12 +384705,6 @@ Ja-Sager</Dest>
       <Dest>Feuerres.</Dest>
     </String>
     <String List="0">
-      <EDID>AVDetectLifeRange</EDID>
-      <REC>AVIF:ANAM</REC>
-      <Source>Turbo</Source>
-      <Dest>Detect Range</Dest>
-    </String>
-    <String List="0">
       <EDID>AVNightEye</EDID>
       <REC>AVIF:ANAM</REC>
       <Source>Night Sight</Source>
@@ -384903,6 +385197,12 @@ Ja-Sager</Dest>
 Please remove.</Source>
       <Dest> -- VERALTET --
 Bitte entfernen.</Dest>
+    </String>
+    <String List="0" Partial="1">
+      <EDID>AVBigGuns</EDID>
+      <REC>AVIF:ANAM</REC>
+      <Source>Big Guns</Source>
+      <Dest>Große Waffen</Dest>
     </String>
     <String List="0">
       <EDID>AVBarter</EDID>
@@ -398256,6 +398556,12 @@ Sicherheitspersonal wie Wachen und Wachhunde durchschauen Ihre Verkleidung und w
       <Source>Reputation with NCR too low - Support Withdrawn</Source>
       <Dest>RNK-Ruf zu niedrig - Unterstützung wird zurückgezogen</Dest>
     </String>
+    <String List="0" Partial="1">
+      <EDID>VEFR01NCREmergencyRadioMSG</EDID>
+      <REC id="7" idMax="7">MESG:ITXT</REC>
+      <Source>Dismiss NCR Soldier</Source>
+      <Dest>RNK-Soldat entlassen</Dest>
+    </String>
     <String List="0">
       <EDID>VEFR0xDebugMessage</EDID>
       <REC>MESG:DESC</REC>
@@ -398744,6 +399050,12 @@ Diese seltenen Vorkriegsartefakte werden allgemein als wertlos betrachtet, aber 
       <Source>Lily has gone to the Lucky 38.</Source>
       <Dest>Lily ist ins Lucky 38 zurückgekehrt.</Dest>
     </String>
+    <String List="0" Partial="1">
+      <EDID>VFSOrrisThugNameMsg</EDID>
+      <REC>MESG:FULL</REC>
+      <Source>Orris's Thug</Source>
+      <Dest>Orris' Schläger</Dest>
+    </String>
     <String List="0">
       <EDID>VEndGameWarningMsgNCR</EDID>
       <REC>MESG:DESC</REC>
@@ -398925,6 +399237,12 @@ Different slot machines have different numbers of symbols and correspondingly di
       <Dest>Spielautomaten sind Spielmaschinen, die drei oder mehr Rollen zum Rotieren bringen, wenn ein Knopf gedrückt oder ein Hebel gezogen wird. Jede Rolle stoppt zufällig und zeigt dann eines von mehreren Symbolen. Je nachdem, welche Kombination von Symbolen sich ergibt, verliert der Spieler seinen Einsatz oder erhält einen Gewinn, der auf der Wahrscheinlichkeit der Kombination basiert.
 
 Unterschiedliche Spielautomaten haben unterschiedliche viele Symbole und daher auch unterschiedlich hohe Auszahlungswahrscheinlichkeiten. Diese Wahrscheinlichkeiten können jederzeit im Spiel nachgeschaut werden.</Dest>
+    </String>
+    <String List="0" Partial="1">
+      <EDID>HelpSlots</EDID>
+      <REC>MESG:FULL</REC>
+      <Source>Slots</Source>
+      <Dest>Spielautomaten</Dest>
     </String>
     <String List="0">
       <EDID>CGTutorialCrippleHardcore</EDID>
