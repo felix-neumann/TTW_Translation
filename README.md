@@ -23,6 +23,7 @@ Getestet mit **TTW 3.4** und **YUPTTW 13.9.1**. Benötigt wird nur **Python 3.10
 | `scripts/set_header_version.py` | Header-Version konvertierter Fallout-3-Plugins auf 1.34 setzen |
 | `scripts/check_gamedir.py` | Spielverzeichnis ohne MO2 prüfen (INIs, Invalidierung, Ladereihenfolge, Header) |
 | `scripts/pack_check.py` | Texture-Pack-Mods auf Konflikte und vermischte Mesh-/Texturquellen prüfen |
+| `scripts/fix_decal_quadrants.py` | Decal-Textur reparieren: oberes linkes Viertel in alle vier Viertel kopieren (behebt den Text "You're looking in the wrong place" der Schusswunden aus Enhanced Blood Textures, siehe unten) |
 | `translations/claude_translations.json` | Übersetzungen der Texte, die es nur in TTW/YUP gibt |
 | `translations/official_fixes.json` | Übersetzungen für Texte, die die offizielle deutsche Fassung englisch gelassen hat |
 | `databases/xTranslator/*.xml` | Übersetzung pro Plugin im xTranslator-XML-Format |
@@ -219,6 +220,15 @@ Die INIs aus dem MO2-Profil lassen sich übernehmen, mit einer Ausnahme: `SLocal
 **6. Kopieren aufs Deck.** Linux unterscheidet Groß- und Kleinschreibung. Kopiert man über eine bestehende Installation, können doppelte Ordner entstehen (`Meshes` neben `meshes`), außerdem bleiben alte Dateien liegen. Am sichersten kopiert man das Verzeichnis einmal in einen **leeren** Ordner.
 
 **Texture-Packs prüfen:** `scripts/pack_check.py` zeigt für eigene Pack-Mods in MO2, ob Dateien mehrfach geliefert werden, ob Meshes Texturen aus anderen Packs bekommen, ob Texturen fehlen und welche Pack-Dateien gegen `.override`-Archive verlieren.
+
+## Enhanced Blood Textures: Text "You're looking in the wrong place"
+
+In `textures\decals\impactbullet.dds` aus Enhanced Blood Textures (2.22c) liegt die Schusswunde nur im oberen linken Viertel. Der Rest der Textur ist durchsichtig und enthält den Text "You're looking in the wrong place". Das Impact-Data `BallisticOrganicImpact` hat kein Flag "NoSubtextures", deshalb behandelt das Spiel die Textur als 2×2-Atlas und wählt pro Treffer zufällig ein Viertel. Dabei kann der Text auf getroffenen Gegnern erscheinen. Das Skript `scripts/fix_decal_quadrants.py` kopiert das obere linke Viertel in alle vier Viertel. Danach zeigt jedes Viertel dieselbe Wunde. Es kopiert die DXT-Blöcke unverändert, ohne neu zu komprimieren, und arbeitet auf allen Mipmap-Stufen. Anzuwenden ist es auf `impactbullet.dds` und `impactbullet_n.dds`:
+
+```
+python scripts/fix_decal_quadrants.py <alt>/impactbullet.dds <neu>/impactbullet.dds
+python scripts/fix_decal_quadrants.py <alt>/impactbullet_n.dds <neu>/impactbullet_n.dds
+```
 
 ## Nicht abgedeckt
 
